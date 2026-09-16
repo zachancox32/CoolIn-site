@@ -28,4 +28,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://coolin.co.uk/sitemap.xml
+Sitemap: https://cool-in.netlify.app/sitemap.xml

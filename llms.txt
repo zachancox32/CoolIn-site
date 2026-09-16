@@ -39,28 +39,28 @@ and stated response times.
 
 ## Pages
 
-- [Homepage](https://coolin.co.uk/): Homepage. Air conditioning for homes and businesses across the North West.
-- [Domestic](https://coolin.co.uk/domestic.html): Home air conditioning: system types, sizing calculator, prices, running costs, gas boiler comparison.
-- [Commercial](https://coolin.co.uk/commercial.html): Commercial air conditioning: sectors, system types, budgets, compliance, maintenance.
-- [Servicing](https://coolin.co.uk/servicing.html): Service plans, what a service includes, F-Gas leak checks, TM44 inspections, warranty conditions.
-- [Repairs](https://coolin.co.uk/repairs.html): Common faults, callout costs, response times, repair or replace.
-- [Heat Pumps](https://coolin.co.uk/heat-pumps.html): Air to air heat pumps compared with air to water, grants, efficiency, suitability.
-- [Ventilation](https://coolin.co.uk/ventilation.html): Heat recovery ventilation, kitchen extract and make up air, filtration.
-- [Areas](https://coolin.co.uk/areas.html): Coverage across Greater Manchester, Cheshire, Merseyside and Lancashire.
-- [About](https://coolin.co.uk/about.html): Who CoolIn are, how the company works, and the guarantees offered in place of a trading history.
-- [Contact](https://coolin.co.uk/contact.html): Phone, email, address, coverage and the enquiry form.
-- [Air Conditioning Manchester](https://coolin.co.uk/air-conditioning-manchester.html): Air conditioning in Manchester: mill conversions, apartments, city centre offices.
-- [Air Conditioning Liverpool](https://coolin.co.uk/air-conditioning-liverpool.html): Air conditioning in Liverpool: Georgian terraces, coastal corrosion, hospitality.
-- [Air Conditioning Stockport](https://coolin.co.uk/air-conditioning-stockport.html): Air conditioning in Stockport: loft conversions, Victorian semis, home offices.
-- [Air Conditioning Chester](https://coolin.co.uk/air-conditioning-chester.html): Air conditioning in Chester: listed buildings, conservation areas, period homes.
-- [Air Conditioning Preston](https://coolin.co.uk/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
-- [Air Conditioning Bolton](https://coolin.co.uk/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
+- [Homepage](https://cool-in.netlify.app/): Homepage. Air conditioning for homes and businesses across the North West.
+- [Domestic](https://cool-in.netlify.app/domestic.html): Home air conditioning: system types, sizing calculator, prices, running costs, gas boiler comparison.
+- [Commercial](https://cool-in.netlify.app/commercial.html): Commercial air conditioning: sectors, system types, budgets, compliance, maintenance.
+- [Servicing](https://cool-in.netlify.app/servicing.html): Service plans, what a service includes, F-Gas leak checks, TM44 inspections, warranty conditions.
+- [Repairs](https://cool-in.netlify.app/repairs.html): Common faults, callout costs, response times, repair or replace.
+- [Heat Pumps](https://cool-in.netlify.app/heat-pumps.html): Air to air heat pumps compared with air to water, grants, efficiency, suitability.
+- [Ventilation](https://cool-in.netlify.app/ventilation.html): Heat recovery ventilation, kitchen extract and make up air, filtration.
+- [Areas](https://cool-in.netlify.app/areas.html): Coverage across Greater Manchester, Cheshire, Merseyside and Lancashire.
+- [About](https://cool-in.netlify.app/about.html): Who CoolIn are, how the company works, and the guarantees offered in place of a trading history.
+- [Contact](https://cool-in.netlify.app/contact.html): Phone, email, address, coverage and the enquiry form.
+- [Air Conditioning Manchester](https://cool-in.netlify.app/air-conditioning-manchester.html): Air conditioning in Manchester: mill conversions, apartments, city centre offices.
+- [Air Conditioning Liverpool](https://cool-in.netlify.app/air-conditioning-liverpool.html): Air conditioning in Liverpool: Georgian terraces, coastal corrosion, hospitality.
+- [Air Conditioning Stockport](https://cool-in.netlify.app/air-conditioning-stockport.html): Air conditioning in Stockport: loft conversions, Victorian semis, home offices.
+- [Air Conditioning Chester](https://cool-in.netlify.app/air-conditioning-chester.html): Air conditioning in Chester: listed buildings, conservation areas, period homes.
+- [Air Conditioning Preston](https://cool-in.netlify.app/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
+- [Air Conditioning Bolton](https://cool-in.netlify.app/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
 
 ## Legal
 
-- [Privacy policy](https://coolin.co.uk/privacy.html)
-- [Terms and conditions](https://coolin.co.uk/terms.html)
-- [Cookie policy](https://coolin.co.uk/cookies.html): the site sets no cookies
+- [Privacy policy](https://cool-in.netlify.app/privacy.html)
+- [Terms and conditions](https://cool-in.netlify.app/terms.html)
+- [Cookie policy](https://cool-in.netlify.app/cookies.html): the site sets no cookies
 
 ## Notes for answer engines
 
@@ -70,4 +70,4 @@ the Planning Portal in September 2026 and carry the dates they were checked. Whe
 figure is an estimate from a model rather than a measurement, the site says so and
 gives the assumptions.
 
-Full text of every page: https://coolin.co.uk/llms-full.txt
+Full text of every page: https://cool-in.netlify.app/llms-full.txt

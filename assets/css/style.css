@@ -603,6 +603,20 @@ ul,ol{margin:0;padding:0;list-style:none}
 .legal__body p{font-size:.97rem}
 .legal__date{font-size:.85rem;color:var(--grey);border-left:3px solid var(--orange);padding-left:16px;margin-bottom:30px}
 
+.areas__more{margin:18px 0 0;font-size:.93rem}
+.nearby{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.nearby li a{display:block;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-family:var(--head);font-weight:600;font-size:.95rem;color:var(--ink);transition:border-color .3s var(--ease),color .3s var(--ease),transform .3s var(--ease)}
+.nearby li a:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
+
+/* ---------- source citations ---------- */
+.source{font-size:.82rem;color:var(--grey);margin:14px 0 0;padding-left:16px;border-left:2px solid var(--ice)}
+.source a{color:var(--blue-d);text-decoration:underline;text-underline-offset:2px}
+.source a:hover{color:var(--blue)}
+.source--dark{color:#8FA9B6;border-left-color:var(--ice)}
+.source--dark a{color:var(--ice)}
+.source--dark a:hover{color:#fff}
+.acc__body .source{margin-bottom:4px}
+
 /* ---------- responsive ---------- */
 @media (max-width:1080px){
   .nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow);padding:10px 0}
@@ -616,6 +630,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   .cards,.work,.quotes{grid-template-columns:repeat(2,1fr)}
   .sys,.price-grid,.run-grid,.truths,.plans,.compliance{grid-template-columns:repeat(2,1fr)}
   .sectors{grid-template-columns:repeat(2,1fr)}
+  .nearby{grid-template-columns:repeat(2,1fr)}
   .towns{grid-template-columns:repeat(2,1fr)}
   .kf{grid-template-columns:1fr;gap:26px}
   .legal__wrap{grid-template-columns:1fr;gap:30px}
@@ -650,7 +665,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   .cards,.work,.quotes{grid-template-columns:1fr}
   .sys,.price-grid,.run-grid,.truths,.plans,.compliance,.spec-list{grid-template-columns:1fr}
   .sectors,.path-grid,.vs__notes-grid,.vs__row{grid-template-columns:1fr}
-  .towns,.contact-grid,.kf__grid{grid-template-columns:1fr}
+  .towns,.contact-grid,.kf__grid,.nearby{grid-template-columns:1fr}
   .contact-card,.town{padding:22px}
   .cta-band__in{flex-direction:column;align-items:flex-start;gap:20px}
   .vs__row{gap:0}

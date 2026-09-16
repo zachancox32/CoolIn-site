@@ -180,7 +180,7 @@ Why CoolIn
 
 Why trust a new name with the job
 
-Fair question. CoolIn is new, so we cannot point at twenty years of installs behind us. What we can do is put every detail in writing before you commit, turn up when we say we will, and stand behind the work afterwards. Here is what that means on the day.
+Fair question. CoolIn is new, so we cannot point at twenty years of installs behind us. What we can do is put every detail in writing before you commit, turn up when we say we will, and stand behind the work afterwards. Here is what that means on the day, and more about how the company works .
 
 01 One company accountable, whoever is on site
 We survey it, we specify it and we stand behind it. At busy times or on bigger jobs we bring in engineers we have worked with before, and they work to our specification under our guarantee.
@@ -313,6 +313,7 @@ We work within roughly an hour of our base in Manchester. That keeps callouts qu
 Outside these towns, give us a call. If we cannot get to you, we will point you at someone who can.
 
 Check your postcode
+Every town we cover, and how far out we go
 
 Manchester
 Liverpool
@@ -656,6 +657,8 @@ Since May 2023, energy saving materials fitted in homes carry no VAT, and HMRC t
 
 From 1 April 2027 the rate is set to return to 5%. Commercial work is charged at the standard rate, although businesses can usually reclaim it and may be able to claim capital allowances on the equipment.
 
+Source: HMRC VAT Notice 708/6 , checked September 2026.
+
 Tax treatment depends on your circumstances. We put the VAT position in writing on your quote, and your accountant should confirm anything you plan to reclaim.
 
 Against the gas boiler
@@ -826,6 +829,8 @@ There are limits. It cannot go on a pitched roof, it cannot sit on a wall above 
 
 We check every one of those at survey and tell you before you commit. Where an application is needed, we prepare it.
 
+Source: Planning Portal, air source heat pumps , checked September 2026.
+
 How much mess is involved?
 
 One core hole per indoor unit, drilled wet so the dust goes into a bucket rather than your carpet. Everything is sheeted, the pipework is boxed in neatly, and we hoover before we leave.
@@ -835,6 +840,8 @@ Is there really no VAT on domestic air conditioning?
 Yes, and it is an HMRC rule rather than a discount from us. Energy saving materials installed in homes are zero rated from 1 May 2023 until 31 March 2027, and HMRC's position is that most air conditioning units count as air source heat pumps because they heat as well as cool.
 
 The catch is that the same business has to supply and install it. Buy a unit online and pay someone to fit it and the relief is lost. From April 2027 the rate is expected to go back to 5%. Commercial work is charged at the standard rate.
+
+Source: HMRC VAT Notice 708/6 , checked September 2026.
 
 Will it actually heat the house in winter?
 
@@ -1466,6 +1473,8 @@ Systems are measured by how much refrigerant they hold, converted into tonnes of
 
 | 500 tonnes CO2e and over | At least every 3 months
 
+Source: gov.uk, checking F gas equipment for leaks , checked September 2026.
+
 With R32 that 5 tonne line sits at roughly 7.4kg of refrigerant. A home split holds one to two kilos, so no checks are due. A commercial VRF usually sits well over the line, and hermetically sealed units under 10 tonnes are exempt either way.
 
 TM44 inspections
@@ -1473,6 +1482,8 @@ TM44 inspections
 If you own or manage a building with air conditioning over 12kW of effective rated output, an accredited energy assessor has to inspect it at least every five years, with the first inspection within five years of the system going into service.
 
 Four 3.5kW cassettes in an office already cross that threshold. The report goes on the national register and the duty sits with the building owner or the person controlling the system.
+
+Source: gov.uk, air conditioning inspections for buildings , checked September 2026.
 
 We flag systems over the threshold during servicing and track the renewal date so it never creeps up on you.
 
@@ -1785,6 +1796,8 @@ Can I get the £7,500 Boiler Upgrade Scheme grant?
 
 Not for air to air. The Boiler Upgrade Scheme covers air to water heat pumps, ground source heat pumps and biomass boilers, and the installation has to be carried out by an MCS certified installer. Air conditioning in heating mode is outside the scheme.
 
+Source: gov.uk, Boiler Upgrade Scheme , checked September 2026.
+
 What air to air does get is zero rated VAT until 31 March 2027, which takes 20% off the installed price and needs no application, no paperwork and no waiting list.
 
 Will a heat pump work in a British winter?
@@ -1804,6 +1817,8 @@ A current wall unit has a SCOP of around 4.5, which means four and a half units 
 Do heat pumps need planning permission?
 
 Usually not. Since 29 May 2025 permitted development in England covers outdoor units up to 1.5 cubic metres, two units on a detached house and one elsewhere, with no minimum distance from the boundary, provided the MCS 020 noise standard of 42 dB(A) at the neighbour's window is met and the system is not used solely for cooling. Flats, conservation areas and listed buildings are more restricted.
+
+Source: Planning Portal, air source heat pumps , checked September 2026.
 
 Free survey
 
@@ -2317,6 +2332,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
 
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Liverpool
+Air conditioning in Stockport
+Air conditioning in Chester
+Air conditioning in Preston
+Air conditioning in Bolton
+
 Local questions
 
 Asked most often in Manchester
@@ -2421,6 +2448,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Manchester
+Air conditioning in Stockport
+Air conditioning in Chester
+Air conditioning in Preston
+Air conditioning in Bolton
 
 Local questions
 
@@ -2527,6 +2566,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
 
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Manchester
+Air conditioning in Liverpool
+Air conditioning in Chester
+Air conditioning in Preston
+Air conditioning in Bolton
+
 Local questions
 
 Asked most often in Stockport
@@ -2631,6 +2682,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Manchester
+Air conditioning in Liverpool
+Air conditioning in Stockport
+Air conditioning in Preston
+Air conditioning in Bolton
 
 Local questions
 
@@ -2737,6 +2800,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
 
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Manchester
+Air conditioning in Liverpool
+Air conditioning in Stockport
+Air conditioning in Chester
+Air conditioning in Bolton
+
 Local questions
 
 Asked most often in Preston
@@ -2841,6 +2916,18 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Nearby
+
+We cover these too
+
+Each town has its own page, because the housing stock and the planning rules genuinely differ. The full coverage area lists everywhere else we work.
+
+Air conditioning in Manchester
+Air conditioning in Liverpool
+Air conditioning in Stockport
+Air conditioning in Chester
+Air conditioning in Preston
 
 Local questions
 
