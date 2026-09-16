@@ -627,6 +627,12 @@ ul,ol{margin:0;padding:0;list-style:none}
 .nearby li a{display:block;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-family:var(--head);font-weight:600;font-size:.95rem;color:var(--ink);transition:border-color .3s var(--ease),color .3s var(--ease),transform .3s var(--ease)}
 .nearby li a:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
 
+/* ---------- guide price labelling ---------- */
+.price-caption{font-family:var(--head);font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);margin:0 0 16px;display:flex;align-items:center;gap:10px}
+.price-caption::before{content:"";width:22px;height:2px;background:var(--orange);border-radius:2px;flex:none}
+.price-note{background:var(--orange-soft);border-left:3px solid var(--orange);border-radius:0 var(--radius) var(--radius) 0;padding:18px 22px;font-size:.92rem;color:var(--ink);margin:0 0 26px}
+.price-note strong{font-family:var(--head);font-weight:700}
+
 /* ---------- source citations ---------- */
 .source{font-size:.82rem;color:var(--grey);margin:14px 0 0;padding-left:16px;border-left:2px solid var(--ice)}
 .source a{color:var(--blue-d);text-decoration:underline;text-underline-offset:2px}

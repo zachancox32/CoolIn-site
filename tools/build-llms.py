@@ -19,8 +19,10 @@ SUMMARY = """Air conditioning installer covering the North West of England. Desi
 services and repairs air conditioning and air to air heat pumps for homes and
 businesses. Based in Manchester. Phone 07932 607335."""
 
-STANCE = """Every figure below is used consistently across the site. Prices are installed
-prices in pounds sterling including materials and labour. Regulatory statements
+STANCE = """Every figure below is used consistently across the site. Prices are guide
+prices, installed, in pounds sterling including materials and labour. They are
+starting points rather than quotations: the figure for a given property is
+confirmed at a free survey and can land either side of the guide. Regulatory statements
 carry the date they were checked against the primary source, and the pages
 themselves link to that source. Where a number is an estimate from a model
 rather than a measurement, the page says so and gives the assumptions."""

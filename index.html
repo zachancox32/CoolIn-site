@@ -25,7 +25,7 @@
 <meta name="geo.placename" content="Manchester">
 <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v=15">
+<link rel="stylesheet" href="assets/css/style.css?v=16">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
 <script type="application/ld+json">
 {
@@ -37,7 +37,7 @@
       "name": "CoolIn Cooling & Heating",
       "description": "Air conditioning design, installation, servicing and repair for homes and businesses across the North West of England.",
       "telephone": "+447932607335",
-        "url": "https://cool-in.co.uk/",
+      "url": "https://cool-in.co.uk/",
       "priceRange": "££",
       "address": {
         "@type": "PostalAddress",
@@ -133,9 +133,15 @@
               "name": "Domestic air conditioning installation",
               "url": "https://cool-in.co.uk/domestic.html"
             },
-            "price": "1850",
             "priceCurrency": "GBP",
-            "description": "Single wall mounted system fitted, zero rated for VAT until 31 March 2027"
+            "description": "Single wall mounted system fitted, zero rated for VAT until 31 March 2027",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "GBP",
+              "minPrice": "1850",
+              "valueAddedTaxIncluded": true,
+              "description": "Guide price, installed. Confirmed at survey."
+            }
           },
           {
             "@type": "Offer",
@@ -154,9 +160,15 @@
               "name": "Air conditioning servicing",
               "url": "https://cool-in.co.uk/servicing.html"
             },
-            "price": "89",
             "priceCurrency": "GBP",
-            "description": "Annual service plan, per indoor unit"
+            "description": "Annual service plan, per indoor unit",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "GBP",
+              "minPrice": "89",
+              "valueAddedTaxIncluded": true,
+              "description": "Guide price, installed. Confirmed at survey."
+            }
           },
           {
             "@type": "Offer",
@@ -165,9 +177,15 @@
               "name": "Air conditioning repair",
               "url": "https://cool-in.co.uk/repairs.html"
             },
-            "price": "95",
             "priceCurrency": "GBP",
-            "description": "First hour including travel, all makes and models"
+            "description": "First hour including travel, all makes and models",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "GBP",
+              "minPrice": "95",
+              "valueAddedTaxIncluded": true,
+              "description": "Guide price, installed. Confirmed at survey."
+            }
           },
           {
             "@type": "Offer",
@@ -176,8 +194,14 @@
               "name": "Air source heat pump installation",
               "url": "https://cool-in.co.uk/heat-pumps.html"
             },
-            "price": "1850",
-            "priceCurrency": "GBP"
+            "priceCurrency": "GBP",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "GBP",
+              "minPrice": "1850",
+              "valueAddedTaxIncluded": true,
+              "description": "Guide price, installed. Confirmed at survey."
+            }
           },
           {
             "@type": "Offer",
@@ -186,8 +210,14 @@
               "name": "Ventilation and heat recovery",
               "url": "https://cool-in.co.uk/ventilation.html"
             },
-            "price": "450",
-            "priceCurrency": "GBP"
+            "priceCurrency": "GBP",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "GBP",
+              "minPrice": "450",
+              "valueAddedTaxIncluded": true,
+              "description": "Guide price, installed. Confirmed at survey."
+            }
           }
         ]
       }
@@ -528,7 +558,7 @@
     <aside class="split__panel js-up">
       <div class="panel">
         <div class="panel__top">
-          <p class="panel__kicker">Typical home install</p>
+          <p class="panel__kicker">Typical home install, guide price</p>
           <p class="panel__price">£1,850 <span>fitted, inc VAT</span></p>
         </div>
         <ul class="panel__list">

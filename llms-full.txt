@@ -197,7 +197,7 @@ No refrigerant circuit is opened on your system by anyone without current F-Gas 
 05 Everything written down and handed over
 Commissioning readings, the manufacturer warranty registered in your name, certificates for the work carried out and a drawing of where the pipework runs. It goes in a pack rather than being promised verbally.
 
-Typical home install
+Typical home install, guide price
 
 £1,850 fitted, inc VAT
 
@@ -580,7 +580,7 @@ Points at a 2.5kW wall unit
 
 from £1,850 fitted, 0% VAT
 
-Based on a starting point of 155W per square metre, adjusted for height, aspect, occupancy and use. A survey confirms the real figure before anything is ordered.
+Based on a starting point of 155W per square metre, adjusted for height, aspect, occupancy and use. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.
 
 Book the survey that confirms it
 
@@ -588,7 +588,9 @@ Price guide
 
 What it actually costs, before you ring anyone
 
-Installed prices, not equipment only. Every figure below includes the units, the brackets, up to five metres of pipe run, the electrical connection, commissioning and the handover. Your quote confirms the number for your property.
+Installed prices, not equipment only. Every figure below includes the units, the brackets, up to five metres of pipe run, the electrical connection, commissioning and the handover. They are guide prices: only a survey fixes the number for your property.
+
+Guide prices, installed. Confirmed at survey.
 
 One room
 
@@ -625,6 +627,8 @@ Ceiling cassette, 3.5 kW £2,450
 Ducted, two rooms £3,500
 
 Commercial VRF per project
+
+These are guide prices, not quotations. Every figure is a realistic starting point for a straightforward job. The number for your property can land either side of it, because pipe runs, wall construction, access and where the outdoor unit can go all move it. The survey is free, takes under an hour, and produces a fixed written price that does not change once you accept it.
 
 What is in the price
 
@@ -1107,7 +1111,9 @@ Budget and tax
 
 What a commercial system costs, and what you get back
 
-Commercial work is priced per project because two identical floor areas can need very different systems. These are the bands most jobs land in, to help you set a budget before we visit.
+Commercial work is priced per project because two identical floor areas can need very different systems. These are guide bands to help you set a budget before we visit, not quotations.
+
+Guide prices, installed. Confirmed at site survey.
 
 Small premises
 
@@ -1144,6 +1150,8 @@ Close control, server room from £9,000
 Air handling units per project
 
 Plant replacement and strip out per project
+
+These are guide bands, not quotations. Commercial jobs vary more than domestic ones: heat load, ceiling voids, riser routes, access equipment, out of hours working and phasing all move the figure. A site survey costs nothing and produces a fixed written price with an equipment schedule and a programme.
 
 What is in a commercial quote
 
@@ -1462,7 +1470,7 @@ TM44 renewal dates tracked
 
 Talk it through
 
-Prices per indoor unit, and cheaper per unit when there are several on one site. Server rooms normally need four visits a year rather than one or two. A one off service without a plan is £129 for a single unit.
+Guide prices per indoor unit, confirmed once we know what is on site, and cheaper per unit when there are several. Server rooms normally need four visits a year rather than one or two. A one off service without a plan is £129 for a single unit.
 
 Compliance
 
@@ -1636,7 +1644,7 @@ Plus and Commercial plan holders get same day phone support and next working day
 03
 £95 for the first hour
 
-Including travel, then £45 an hour after that. Parts are priced and agreed before anything is fitted. No charge at all if you are on a Plus or Commercial plan.
+Including travel, then £45 an hour after that. Parts are priced and agreed before anything is fitted, so you approve the cost before we spend it. Rates are a guide and are confirmed when you ring. No charge at all if you are on a Plus or Commercial plan.
 
 04
 We carry the common parts
