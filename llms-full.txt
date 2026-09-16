@@ -422,7 +422,7 @@ Wall mounted split
 
 One room, one indoor unit
 
-from £1,850
+from £1,850installed
 
 The standard domestic unit and the one most people picture. A slim indoor unit high on the wall, a condenser outside, and two copper pipes plus a drain between them.
 
@@ -439,7 +439,7 @@ Multi split
 
 Two to five rooms, one outdoor unit
 
-from £3,450
+from £3,450installed
 
 Several indoor units share a single condenser, so you get three or four cooled rooms with only one box outside. Every room still sets its own temperature.
 
@@ -456,7 +456,7 @@ Ducted and concealed
 
 Nothing on show but grilles
 
-from £3,500
+from £3,500installed
 
 The indoor unit hides in a loft, bulkhead or ceiling void and feeds two or more rooms through short duct runs. All you see in the room is a slim grille.
 
@@ -473,7 +473,7 @@ Floor standing console
 
 Low level, like a radiator
 
-from £2,150
+from £2,150installed
 
 Sits at skirting level under a window or in an alcove. Because it throws warm air out at floor level it is the better choice when the system will do a lot of heating.
 
@@ -594,7 +594,7 @@ Guide prices, installed. Confirmed at survey.
 
 One room
 
-Single wall mounted split
+Single wall mounted split, installed
 
 2.5 kW, rooms to 15m² £1,850
 
@@ -606,7 +606,7 @@ Single wall mounted split
 
 Whole home
 
-Multi split, one outdoor unit
+Multi split, one outdoor unit, installed
 
 Two rooms £3,450
 
@@ -618,7 +618,7 @@ Five rooms £8,200
 
 Other formats
 
-Cassette, ducted, console
+Cassette, ducted, console, installed
 
 Floor console, 2.5 kW £2,150
 
@@ -987,7 +987,7 @@ Ceiling cassette
 
 Recessed, blows four ways
 
-from £2,450
+from £2,450installed
 
 The unit sits up in the ceiling with only a flat grille on show, pushing air out in four directions so a wide room cools evenly rather than from one end.
 
@@ -1004,7 +1004,7 @@ Ducted and concealed
 
 Nothing on show but grilles
 
-from £3,500
+from £3,500installed
 
 The indoor unit hides in a loft, bulkhead or ceiling void and feeds two or more rooms through short duct runs. All you see in the room is a slim grille.
 
@@ -1038,7 +1038,7 @@ Wall mounted split
 
 One room, one indoor unit
 
-from £1,850
+from £1,850installed
 
 The standard domestic unit and the one most people picture. A slim indoor unit high on the wall, a condenser outside, and two copper pipes plus a drain between them.
 
@@ -1055,7 +1055,7 @@ Close control
 
 Server rooms and comms cabinets
 
-from £9,000
+from £9,000installed
 
 Purpose built cooling for rooms where the load never drops and a warm weekend costs real money. Tighter temperature and humidity control than comfort cooling, built to run every hour of the year.
 
@@ -1072,7 +1072,7 @@ Ventilation and heat recovery
 
 Fresh air, extract and make up
 
-from £5,200
+from £5,200installed
 
 Cooling recirculates the air already in the room. Ventilation brings new air in and takes stale air out, which is what a packed office, a kitchen canopy or a treatment room actually needs alongside it.
 
@@ -1090,10 +1090,10 @@ Commercial air conditioning in short
 Commercial air conditioning is priced per project because two identical floor areas can need very different systems. CoolIn designs against a measured heat load, installs outside trading hours at standard labour rates, and hands over the F-Gas records, commissioning sheets and certificates that a building file needs. Systems over 12kW carry a legal TM44 inspection duty.
 
 Small premises
-From £2,280 for a single 5kW wall unit
+From £2,280 installed for a single 5kW wall unit
 
 Mid size
-From £8,500 for a four cassette system
+From £8,500 installed for a four cassette system
 
 VRF
 From around £14,000 for six units, or per project
@@ -1111,13 +1111,13 @@ Budget and tax
 
 What a commercial system costs, and what you get back
 
-Commercial work is priced per project because two identical floor areas can need very different systems. These are guide bands to help you set a budget before we visit, not quotations.
+Every figure here is an installed price covering equipment, labour, commissioning and handover, not equipment only. Commercial work is priced per project because two identical floor areas can need very different systems, so these are guide bands to help you set a budget before we visit, not quotations.
 
 Guide prices, installed. Confirmed at site survey.
 
 Small premises
 
-Shop, salon, small office, one or two rooms
+Shop, salon, small office. Installed prices
 
 Wall unit, 5kW £2,280
 
@@ -1129,7 +1129,7 @@ Slim ducted, two zones £3,500
 
 Mid size
 
-Office floor, restaurant, gym, four to eight units
+Office floor, restaurant, gym. Installed prices
 
 Four cassette system £8,500
 
@@ -1141,7 +1141,7 @@ Heat recovery ventilation £5,200
 
 Larger projects
 
-Multi floor, server rooms, phased fit outs
+Multi floor, server rooms. Installed prices
 
 VRF, whole building per project
 
@@ -1470,7 +1470,7 @@ TM44 renewal dates tracked
 
 Talk it through
 
-Guide prices per indoor unit, confirmed once we know what is on site, and cheaper per unit when there are several. Server rooms normally need four visits a year rather than one or two. A one off service without a plan is £129 for a single unit.
+Guide prices per indoor unit, confirmed once we know what is on site, and cheaper per unit when there are several. Server rooms normally need four visits a year rather than one or two. A one off service without a plan is £129 for a visit to a single unit.
 
 Compliance
 
@@ -1897,7 +1897,7 @@ Four ways to get the air moving
 Heat recovery ventilation
 MVHR
 
-from £5,200
+from £5,200installed
 
 Continuous fresh air into the occupied rooms and continuous extract from the wet rooms, with a heat exchanger between them so you keep the warmth you have already paid for. Usually specified alongside a commercial cooling system rather than on its own.
 
@@ -1910,7 +1910,7 @@ Needs duct routes planned early. Retrofitting into a finished building is possib
 Kitchen extract and make up air
 Canopies and supply
 
-from £6,500
+from £6,500installed
 
 A canopy sized to the equipment underneath it, ducted to a fan that can actually shift the volume, and a tempered supply putting the same amount of air back so the kitchen is not running as a vacuum.
 
@@ -1923,7 +1923,7 @@ Grease filters and duct cleaning are an insurance condition in most policies, no
 Extract fans and systems
 Wet rooms and workshops
 
-from £450
+from £450installed
 
 Continuous low rate extract in bathrooms, utility rooms and salons, sized properly and ducted to outside rather than into a loft where the moisture just moves somewhere else.
 

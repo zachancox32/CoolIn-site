@@ -379,7 +379,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 .sys__ico svg{width:26px;height:26px;fill:none;stroke:var(--blue-d);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .sys__head h3{margin:0 0 3px}
 .sys__tag{margin:0;font-size:.85rem;color:var(--grey)}
-.sys__price{margin:0 0 0 auto;font-family:var(--head);font-weight:800;color:var(--blue);font-size:.95rem;white-space:nowrap;padding-top:4px}
+.sys__price{margin:0 0 0 auto;font-family:var(--head);font-weight:800;color:var(--blue);font-size:.95rem;white-space:nowrap;padding-top:4px;text-align:right}
+.sys__price span{display:block;font-family:var(--text);font-weight:500;font-size:.72rem;color:var(--grey);letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
 .sys__item>p{font-size:.96rem}
 .sys__spec{margin:0;display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line);padding-top:16px}
 .sys__spec div{display:grid;grid-template-columns:118px 1fr;gap:14px}
