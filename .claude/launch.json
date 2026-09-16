@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "coolin",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "/Users/hancoxz/Documents/CoolIn site"],
+      "port": 4321
+    }
+  ]
+}
