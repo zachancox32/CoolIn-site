@@ -95,23 +95,25 @@ Built for both from the start rather than retrofitted.
 ## Copy stance
 
 The site makes no claim about history, review scores or numbers of installs, because
-CoolIn is new and none of that would be true. Trust is carried by things a new firm can
-actually commit to: a free survey, a fixed written price, a workmanship guarantee, one
-point of contact, certification for the work itself, and being straight about how the
-equipment behaves.
+none of that would be true yet. Trust is carried by things the company can actually
+commit to: a free survey, a fixed written price, a workmanship guarantee, one point of
+contact, certification for the work itself, and being straight about how the equipment
+behaves.
+
+It also no longer draws attention to the business being new. An earlier version said so
+openly; that was removed on request. The copy simply does not raise the subject either
+way, which means nothing on the site is untrue and nothing invites the question.
+
+**Our promise** stands in for testimonials without mentioning that there are none. It
+carries three commitments that go on every quote. When real reviews arrive, that section
+is where they belong: the `.quote` markup still holds a quote, a name and a location, so
+swap the `.quote__ico` block for `<div class="stars">★★★★★</div>` and drop them in.
 
 The site does not claim the work is done without subcontractors, because it will be.
 The line it takes instead is that CoolIn holds the contract and the guarantee whoever is
 on site, everyone doing refrigerant work is F-Gas certified, and the customer is told who
 is coming before the day. If that changes, the FAQ "Who will actually be doing the work?"
 on the homepage and point 01 in the Why section are the two places to edit.
-
-Two sections handle the age of the business head on:
-
-- **Why trust a new name with the job** admits the business is new, then answers it.
-- **Our promise** replaces testimonials. Swap it for real reviews once you have them.
-  The `.quote` markup still holds a quote, a name and a location, so it drops straight
-  back in. Delete the `.quote__ico` block and put `<div class="stars">★★★★★</div>` back.
 
 ## Facts on the page, and where they came from
 
