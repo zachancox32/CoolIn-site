@@ -1,4 +1,25 @@
 /* ============================================================
+   Self hosted fonts. Both are variable, so one file covers every
+   weight. Hosting them here removes two third party connections
+   (fonts.googleapis.com then fonts.gstatic.com) from the critical
+   path before any text can paint.
+   ============================================================ */
+@font-face{
+  font-family:'Archivo';
+  src:url('../fonts/archivo-latin.woff2') format('woff2');
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:'Inter';
+  src:url('../fonts/inter-latin.woff2') format('woff2');
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+
+/* ============================================================
    CoolIn Cooling & Heating
    ============================================================ */
 

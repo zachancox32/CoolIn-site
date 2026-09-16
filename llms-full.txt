@@ -17,9 +17,9 @@ DESCRIPTION: Air conditioning installed across the North West. Homes from £1,85
 
 Air conditioning across the North West
 
-Cool rooms in July.
-Warm rooms in January.
-One system, fitted properly.
+Air conditioning for the North West.
+Cool rooms in July,
+warm rooms in January.
 
 CoolIn design, install and look after air conditioning for homes and businesses across the North West. Fixed price quotes, clean installations, and one company answerable for the job from the first call to the last service.
 
@@ -34,7 +34,7 @@ Fixed price, no extras later
 
 Scroll
 
-In short
+CoolIn in short
 
 CoolIn Cooling & Heating installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
 
@@ -381,8 +381,8 @@ CoolIn / For your home
 
 Domestic air conditioning
 
-Air conditioning for
-houses and flats
+Home air conditioning
+for houses and flats
 
 One room or the whole house, fitted to a specification we survey and write down. Quiet wall units, pipework you cannot see from the road, and a price agreed before anything is ordered. It heats through winter too, usually for less than the boiler.
 
@@ -483,7 +483,7 @@ Sizes
 Worth knowing
 Keep furniture clear of the front and top. Blocking it costs you more output than people expect.
 
-In short
+Home air conditioning in short
 
 A domestic air conditioning system is an air to air heat pump: it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,850 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
 
@@ -1078,7 +1078,7 @@ Air handling units, heat recovery ventilation, kitchen extract and make up air
 Worth knowing
 Heat recovery units pull warmth out of the air leaving the building and put it into the air coming in, so you are not paying to heat the street.
 
-In short
+Commercial air conditioning in short
 
 Commercial air conditioning is priced per project because two identical floor areas can need very different systems. CoolIn designs against a measured heat load, installs outside trading hours at standard labour rates, and hands over the F-Gas records, commissioning sheets and certificates that a building file needs. Systems over 12kW carry a legal TM44 inspection duty.
 
@@ -1359,8 +1359,8 @@ CoolIn / Servicing and maintenance
 
 Servicing and maintenance
 
-Keep it working,
-keep the warranty
+Air conditioning servicing
+that keeps the warranty alive
 
 An air conditioning system that is never serviced loses efficiency every year, fails at the worst possible moment, and voids the manufacturer cover that came with it. Plans from £89 a unit, for systems we installed and systems we did not.
 
@@ -1548,8 +1548,8 @@ CoolIn / Repairs and callouts
 
 Repairs and callouts
 
-Something dripping,
-rattling or blowing warm
+Air conditioning repairs
+on all makes and models
 
 All makes, all models, whether we fitted it or not. Parts for the major brands are carried on the van, so most faults are sorted on the first visit rather than after a week of waiting for a courier.
 
@@ -1691,8 +1691,8 @@ CoolIn / Air source heat pumps
 
 Air source heat pumps
 
-The heat pump you
-can have this month
+Air source heat pumps
+you can have this month
 
 Every air conditioning unit we fit is an air source heat pump. It takes heat out of the outside air and puts it in your room, at around four and a half units of warmth per unit of electricity, and it runs backwards in summer to cool. No grant application, no cylinder, no six month wait.
 
@@ -1705,7 +1705,7 @@ Compare it to gas
 
 1 day to fit a single room
 
-In short
+Air source heat pumps in short
 
 An air to air heat pump is an air conditioning unit run in reverse: it moves heat from outside into a room rather than making heat by burning fuel. It heats and cools from the same box, costs roughly a quarter of what an air to water system costs to install, and does not qualify for the Boiler Upgrade Scheme because that scheme only covers air to water and ground source systems.
 
@@ -1841,8 +1841,8 @@ CoolIn / Ventilation and air quality
 
 Ventilation and air quality
 
-Cooling moves heat.
-Ventilation moves air.
+Ventilation and air quality
+because cooling only moves air around
 
 Air conditioning recirculates what is already in the room. If the problem is stuffiness, cooking smells, condensation or thirty people in a studio, what you need is fresh air coming in and stale air going out. We design and fit both, usually at the same time.
 
@@ -1855,7 +1855,7 @@ Make up air for kitchen canopies
 
 HEPA where it is genuinely needed
 
-In short
+Ventilation in short
 
 Ventilation and air conditioning solve different problems. Air conditioning changes the temperature of air already inside the building. Ventilation replaces that air with fresh air from outside. A room can be perfectly cool and still feel stale, because carbon dioxide, humidity and smells build up regardless of temperature.
 
@@ -1974,15 +1974,15 @@ CoolIn / Areas covered
 
 Areas covered
 
-One hour from
-Manchester
+Air conditioning across
+the North West
 
 We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a single base in Manchester. Keeping the patch tight is deliberate: it is the difference between attending a breakdown this week and attending it next month.
 
 Check your postcode
 Call 0161 000 0000
 
-In short
+Our coverage in short
 
 CoolIn covers the North West of England from a base in Manchester, working within roughly one hour of the city. That includes Greater Manchester, Cheshire, Merseyside and southern Lancashire. Surveys are free anywhere in the area and there is no travel charge inside it.
 
@@ -2117,7 +2117,7 @@ CoolIn is a new air conditioning company covering the North West. We are not goi
 Book a free survey
 See how we work
 
-In short
+CoolIn in short
 
 CoolIn Cooling & Heating Ltd is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. The company is new, which is stated plainly rather than hidden, and the guarantees on this site are offered in place of a trading history.
 
@@ -2274,7 +2274,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Manchester, in short
 
 CoolIn installs, services and repairs air conditioning throughout Manchester and the wider Greater Manchester area, covering M1 to M35, plus the city centre M1 to M4. We are based in Manchester, about 20 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -2395,7 +2395,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Liverpool, in short
 
 CoolIn installs, services and repairs air conditioning throughout Liverpool and the wider Merseyside area, covering L1 to L25, plus the Wirral by arrangement. We are based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -2516,7 +2516,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Stockport, in short
 
 CoolIn installs, services and repairs air conditioning throughout Stockport and the wider Greater Manchester area, covering SK1 to SK8, and into the Cheshire SK postcodes. We are based in Manchester, about 25 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -2637,7 +2637,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Chester, in short
 
 CoolIn installs, services and repairs air conditioning throughout Chester and the wider Cheshire area, covering CH1 to CH4, and the surrounding Cheshire villages. We are based in Manchester, about 50 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -2758,7 +2758,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Preston, in short
 
 CoolIn installs, services and repairs air conditioning throughout Preston and the wider Lancashire area, covering PR1 to PR5, and across central Lancashire. We are based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -2879,7 +2879,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Air conditioning in Bolton, in short
 
 CoolIn installs, services and repairs air conditioning throughout Bolton and the wider Greater Manchester area, covering BL1 to BL7. We are based in Manchester, about 30 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -3000,7 +3000,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Altrincham, in short
 
 CoolIn installs, services and repairs air conditioning throughout Altrincham and the wider Trafford, Greater Manchester area, covering WA14 and WA15, taking in Hale, Bowdon, Timperley and Dunham. We are about 15 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3121,7 +3121,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Wilmslow, in short
 
 CoolIn installs, services and repairs air conditioning throughout Wilmslow and the wider Cheshire East area, covering SK9, including Alderley Edge, Handforth and Styal. We are about 25 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3242,7 +3242,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Warrington, in short
 
 CoolIn installs, services and repairs air conditioning throughout Warrington and the wider Cheshire area, covering WA1 to WA5, including Birchwood, Stockton Heath and Lymm. We are about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3363,7 +3363,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Salford, in short
 
 CoolIn installs, services and repairs air conditioning throughout Salford and the wider Greater Manchester area, covering M3, M5, M6, M7 and M50, including Salford Quays and MediaCity. We are about 15 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3484,7 +3484,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Oldham, in short
 
 CoolIn installs, services and repairs air conditioning throughout Oldham and the wider Greater Manchester area, covering OL1 to OL9, including Saddleworth, Chadderton and Royton. We are about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3605,7 +3605,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Rochdale, in short
 
 CoolIn installs, services and repairs air conditioning throughout Rochdale and the wider Greater Manchester area, covering OL11 to OL16, including Heywood, Milnrow and Littleborough. We are about 35 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3726,7 +3726,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Bury, in short
 
 CoolIn installs, services and repairs air conditioning throughout Bury and the wider Greater Manchester area, covering BL8, BL9, and into Ramsbottom, Prestwich and Whitefield. We are about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3847,7 +3847,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Macclesfield, in short
 
 CoolIn installs, services and repairs air conditioning throughout Macclesfield and the wider Cheshire East area, covering SK10 and SK11, including Bollington, Prestbury and Poynton. We are about 45 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -3968,7 +3968,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Wigan, in short
 
 CoolIn installs, services and repairs air conditioning throughout Wigan and the wider Greater Manchester area, covering WN1 to WN6, including Standish, Orrell and Ashton in Makerfield. We are about 35 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4089,7 +4089,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Southport, in short
 
 CoolIn installs, services and repairs air conditioning throughout Southport and the wider Merseyside area, covering PR8 and PR9, including Birkdale, Ainsdale and Formby. We are about 60 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4210,7 +4210,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Blackburn, in short
 
 CoolIn installs, services and repairs air conditioning throughout Blackburn and the wider Lancashire area, covering BB1 and BB2, including Darwen, Great Harwood and Mellor. We are about 50 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4331,7 +4331,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Crewe, in short
 
 CoolIn installs, services and repairs air conditioning throughout Crewe and the wider Cheshire East area, covering CW1 and CW2, including Nantwich, Sandbach and Alsager. We are about 50 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4452,7 +4452,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Northwich, in short
 
 CoolIn installs, services and repairs air conditioning throughout Northwich and the wider Cheshire West and Chester area, covering CW8 and CW9, including Winsford, Middlewich and Knutsford. We are about 40 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4573,7 +4573,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Leigh, in short
 
 CoolIn installs, services and repairs air conditioning throughout Leigh and the wider Greater Manchester area, covering WN7, and into Atherton, Tyldesley and Astley. We are about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4694,7 +4694,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Ashton under Lyne, in short
 
 CoolIn installs, services and repairs air conditioning throughout Ashton under Lyne and the wider Tameside, Greater Manchester area, covering OL6 and OL7, including Droylsden, Stalybridge and Hyde. We are about 25 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4815,7 +4815,7 @@ See prices
 
 0% VAT on domestic work
 
-In short
+Air conditioning in Lancaster, in short
 
 CoolIn installs, services and repairs air conditioning throughout Lancaster and the wider Lancashire area, covering LA1, and into Morecambe, Heysham and Carnforth. We are about 75 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 

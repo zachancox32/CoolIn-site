@@ -23,10 +23,9 @@
 <meta name="twitter:description" content="CoolIn sets no cookies, runs no analytics and uses no advertising trackers. What the fonts and script CDNs see, and how to block them.">
 <meta name="geo.region" content="GB-MAN">
 <meta name="geo.placename" content="Manchester">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=14">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=15">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
 <script type="application/ld+json">
 {
@@ -134,9 +133,9 @@
       <p class="js-up">Nothing. There is no analytics, no advertising pixel, no session cookie and no consent banner, because there is nothing to consent to.</p>
       <p class="js-up">If analytics is added later, this page and a consent banner both need to go in before it goes live.</p>
       <h2 id="s2" class="js-up">What third parties might set</h2>
-      <p class="js-up">Two external services are used to render the page. Google Fonts serves the typefaces, and Cloudflare's CDN serves the animation libraries. Both see your IP address as part of delivering the file, which is unavoidable for any externally hosted resource.</p>
+      <p class="js-up">One external service is used to render the page. Cloudflare's CDN serves the animation libraries, and it sees your IP address as part of delivering the file, which is unavoidable for any externally hosted resource. The typefaces are served from this site rather than from Google, so no request for them leaves your browser.</p>
       <p class="js-up">Neither is used to identify you or to track you across sites, and neither sets a cookie in the course of serving a font or a script file.</p>
-      <p class="js-up">Self hosting the fonts and the scripts removes even that, and is worth doing if you would rather nothing left your visitors' browsers at all.</p>
+      <p class="js-up">The fonts are already self hosted. Self hosting the animation libraries too would remove the last external request, and is worth doing if you would rather nothing at all left your visitors' browsers.</p>
       <h2 id="s3" class="js-up">Local storage</h2>
       <p class="js-up">The site stores nothing in your browser. The size calculator and the running cost comparison work out their answers as you type and forget them the moment you leave the page.</p>
       <h2 id="s4" class="js-up">Changing your mind</h2>
