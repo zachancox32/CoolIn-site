@@ -2,13 +2,13 @@
 
 > Air conditioning installer covering the North West of England. Designs, installs,
 > services and repairs air conditioning and air to air heat pumps for homes and
-> businesses. Based in Manchester.
-> Phone 07932 607335.
+> businesses. Based in Manchester. Phone 07932 607335.
 
-Claims on the site are limited to things the company controls and can be held to:
-fixed written prices, a two year workmanship guarantee, certification, and stated
-response times. Prices, regulatory statements and technical figures below are the
-ones used throughout the site and carry the date they were checked.
+Every figure below is used consistently across the site. Prices are installed
+prices in pounds sterling including materials and labour. Regulatory statements
+carry the date they were checked against the primary source, and the pages
+themselves link to that source. Where a number is an estimate from a model
+rather than a measurement, the page says so and gives the assumptions.
 
 ## Key facts
 
@@ -18,11 +18,11 @@ ones used throughout the site and carry the date they were checked.
 - Servicing: from £89 per indoor unit per year; one off service £129
 - Repairs: £95 for the first hour including travel, then £45 per hour
 - Workmanship guarantee: 2 years, in addition to the manufacturer warranty
+- Quote: free survey, fixed and itemised, valid for 60 days
 - Coverage: about one hour from Manchester
 - Counties covered: Greater Manchester, Cheshire, Merseyside, Lancashire
 - Hours: Monday to Saturday, 7am to 7pm
-- Survey: free, under an hour, written quote within 48 hours
-- Quote: fixed, itemised, valid for 60 days
+- Contact: phone only on 07932 607335, or the enquiry form on any page
 
 ## Technical reference used across the site
 
@@ -33,64 +33,65 @@ ones used throughout the site and carry the date they were checked.
 - F-Gas leak checks: none below 5 tonnes CO2e, 12 monthly to 50t, 6 monthly to 500t, 3 monthly above
 - 5 tonnes CO2e is roughly 7.4kg of R32
 - TM44 inspections: legally required every 5 years for systems over 12kW effective rated output
-- Permitted development in England changed on 29 May 2025: outdoor units to 1.5 cubic metres,
-  two units on a detached house, no 1 metre boundary rule, air to air systems included,
-  MCS 020 noise limit of 42 dB(A) at the nearest neighbouring habitable room window
+- Permitted development in England changed on 29 May 2025: outdoor units to 1.5 cubic metres, two units on a detached house, no 1 metre boundary rule, air to air systems included, MCS 020 noise limit of 42 dB(A) at the nearest neighbouring habitable room window
 - The Boiler Upgrade Scheme does not cover air to air heat pumps
 
-## Pages
+## Main pages
 
-- [Homepage](https://cool-in.co.uk/): Homepage. Air conditioning for homes and businesses across the North West.
-- [Domestic](https://cool-in.co.uk/domestic.html): Home air conditioning: system types, sizing calculator, prices, running costs, gas boiler comparison.
-- [Commercial](https://cool-in.co.uk/commercial.html): Commercial air conditioning: sectors, system types, budgets, compliance, maintenance.
-- [Servicing](https://cool-in.co.uk/servicing.html): Service plans, what a service includes, F-Gas leak checks, TM44 inspections, warranty conditions.
-- [Repairs](https://cool-in.co.uk/repairs.html): Common faults, callout costs, response times, repair or replace.
-- [Heat Pumps](https://cool-in.co.uk/heat-pumps.html): Air to air heat pumps compared with air to water, grants, efficiency, suitability.
-- [Ventilation](https://cool-in.co.uk/ventilation.html): Heat recovery ventilation, kitchen extract and make up air, filtration.
-- [Areas](https://cool-in.co.uk/areas.html): Coverage across Greater Manchester, Cheshire, Merseyside and Lancashire.
-- [About](https://cool-in.co.uk/about.html): Who CoolIn are, how the company works, and the guarantees offered in place of a trading history.
-- [Contact](https://cool-in.co.uk/contact.html): Phone, email, address, coverage and the enquiry form.
-- [Air Conditioning Manchester](https://cool-in.co.uk/air-conditioning-manchester.html): Air conditioning in Manchester: mill conversions, apartments, city centre offices.
-- [Air Conditioning Liverpool](https://cool-in.co.uk/air-conditioning-liverpool.html): Air conditioning in Liverpool: Georgian terraces, coastal corrosion, hospitality.
-- [Air Conditioning Stockport](https://cool-in.co.uk/air-conditioning-stockport.html): Air conditioning in Stockport: loft conversions, Victorian semis, home offices.
-- [Air Conditioning Chester](https://cool-in.co.uk/air-conditioning-chester.html): Air conditioning in Chester: listed buildings, conservation areas, period homes.
-- [Air Conditioning Preston](https://cool-in.co.uk/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
-- [Air Conditioning Bolton](https://cool-in.co.uk/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
+- [Air Conditioning North West | Homes & Business](https://cool-in.co.uk/): Air conditioning installed across the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your trading hours. Free survey.
+- [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic.html): Home air conditioning from £1,850 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
+- [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial.html): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, F-Gas and TM44 handled.
+- [Air Conditioning Servicing North West](https://cool-in.co.uk/servicing.html): Air conditioning service plans from £89 per unit a year. Annual servicing keeps your manufacturer warranty valid. All makes, F-Gas checks included.
+- [Air Conditioning Repairs North West](https://cool-in.co.uk/repairs.html): Air conditioning repairs on all makes across the North West. £95 for the first hour, parts carried on the van, most faults fixed on the first visit.
+- [Air Source Heat Pumps North West](https://cool-in.co.uk/heat-pumps.html): Air to air heat pumps from £1,850 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
+- [Ventilation & MVHR North West](https://cool-in.co.uk/ventilation.html): Ventilation and air quality across the North West. Heat recovery, kitchen extract and make up air, and filtration. Fitted alongside air conditioning.
+- [Areas Covered | Air Conditioning North West](https://cool-in.co.uk/areas.html): CoolIn covers Greater Manchester, Cheshire, Merseyside and Lancashire from a base in Manchester. No travel charge inside the area, free survey wherever you are.
+- [About CoolIn | Air Conditioning, Manchester](https://cool-in.co.uk/about.html): CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed written quotes and a two year workmanship guarantee.
+- [Contact CoolIn | 07932 607335 | Air Conditioning](https://cool-in.co.uk/contact.html): Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07932 607335 today.
 
 ## Town pages
 
-Each town has its own page with local building stock, planning constraints and
-travel time. All 22 are linked from https://cool-in.co.uk/areas.html
+One page per town, each covering that town's building stock, planning
+constraints and travel time. All 22 are linked from https://cool-in.co.uk/areas.html
 
-- [Air conditioning in Altrincham](https://cool-in.co.uk/air-conditioning-altrincham.html): Trafford, Greater Manchester, about 15 minutes from our Manchester base.
-- [Air conditioning in Wilmslow](https://cool-in.co.uk/air-conditioning-wilmslow.html): Cheshire East, about 25 minutes from our Manchester base.
-- [Air conditioning in Warrington](https://cool-in.co.uk/air-conditioning-warrington.html): Cheshire, about 30 minutes from our Manchester base.
-- [Air conditioning in Salford](https://cool-in.co.uk/air-conditioning-salford.html): Greater Manchester, about 15 minutes from our Manchester base.
-- [Air conditioning in Oldham](https://cool-in.co.uk/air-conditioning-oldham.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Rochdale](https://cool-in.co.uk/air-conditioning-rochdale.html): Greater Manchester, about 35 minutes from our Manchester base.
-- [Air conditioning in Bury](https://cool-in.co.uk/air-conditioning-bury.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Macclesfield](https://cool-in.co.uk/air-conditioning-macclesfield.html): Cheshire East, about 45 minutes from our Manchester base.
-- [Air conditioning in Wigan](https://cool-in.co.uk/air-conditioning-wigan.html): Greater Manchester, about 35 minutes from our Manchester base.
-- [Air conditioning in Southport](https://cool-in.co.uk/air-conditioning-southport.html): Merseyside, about 60 minutes from our Manchester base.
-- [Air conditioning in Blackburn](https://cool-in.co.uk/air-conditioning-blackburn.html): Lancashire, about 50 minutes from our Manchester base.
-- [Air conditioning in Crewe](https://cool-in.co.uk/air-conditioning-crewe.html): Cheshire East, about 50 minutes from our Manchester base.
-- [Air conditioning in Northwich](https://cool-in.co.uk/air-conditioning-northwich.html): Cheshire West and Chester, about 40 minutes from our Manchester base.
-- [Air conditioning in Leigh](https://cool-in.co.uk/air-conditioning-leigh.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Ashton under Lyne](https://cool-in.co.uk/air-conditioning-ashton-under-lyne.html): Tameside, Greater Manchester, about 25 minutes from our Manchester base.
-- [Air conditioning in Lancaster](https://cool-in.co.uk/air-conditioning-lancaster.html): Lancashire, about 75 minutes from our Manchester base.
+- [Air Conditioning Altrincham | Install & Service](https://cool-in.co.uk/air-conditioning-altrincham.html): Air conditioning installation, servicing and repairs in Altrincham, Hale and Bowdon. Period villas, extensions and conservation areas handled. Free survey, 0% VAT.
+- [Air Conditioning Ashton under Lyne | Install](https://cool-in.co.uk/air-conditioning-ashton-under-lyne.html): Air conditioning in Ashton under Lyne, Stalybridge and Hyde. Tameside terraces, retail parks and canalside conversions. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Blackburn | Install & Service](https://cool-in.co.uk/air-conditioning-blackburn.html): Air conditioning in Blackburn and Darwen. Mill town terraces, industrial units and town centre commercial. Free survey, 0% VAT on domestic installations.
+- [Air Conditioning Bolton | Install & Service](https://cool-in.co.uk/air-conditioning-bolton.html): Air conditioning installation, servicing and repairs in Bolton. Stone terraces, mill conversions and workshops. Spot cooling for high bay units.
+- [Air Conditioning Bury | Install & Service](https://cool-in.co.uk/air-conditioning-bury.html): Air conditioning in Bury, Ramsbottom and Prestwich. Victorian semis, loft conversions and market town retail. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Chester | Install & Service](https://cool-in.co.uk/air-conditioning-chester.html): Air conditioning installation, servicing and repairs in Chester. Listed buildings and conservation areas handled, including the consent application.
+- [Air Conditioning Crewe | Install & Service](https://cool-in.co.uk/air-conditioning-crewe.html): Air conditioning in Crewe, Nantwich and Sandbach. Railway terraces, distribution units and Cheshire village property. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Lancaster | Install & Service](https://cool-in.co.uk/air-conditioning-lancaster.html): Air conditioning in Lancaster and Morecambe. Georgian city centre, listed property, student housing and coastal exposure. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Leigh | Install & Service](https://cool-in.co.uk/air-conditioning-leigh.html): Air conditioning in Leigh, Atherton and Tyldesley. Former mill and mining terraces, modern estates and local business units. Free survey, 0% VAT.
+- [Air Conditioning Liverpool | Install & Service](https://cool-in.co.uk/air-conditioning-liverpool.html): Air conditioning installation, servicing and repairs in Liverpool. Georgian terraces, waterfront apartments and hospitality. Coastal grade units where needed.
+- [Air Conditioning Macclesfield | Install & Service](https://cool-in.co.uk/air-conditioning-macclesfield.html): Air conditioning in Macclesfield, Prestbury and Bollington. Georgian and silk era property, listed buildings and Peak District edge. Free survey, 0% VAT.
+- [Air Conditioning Manchester | Install & Service](https://cool-in.co.uk/air-conditioning-manchester.html): Air conditioning installation, servicing and repairs in Manchester. Mill conversions, city centre apartments and offices. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Northwich | Install & Service](https://cool-in.co.uk/air-conditioning-northwich.html): Air conditioning in Northwich, Knutsford and Winsford. Cheshire village property, riverside homes and chemical industry units. Free survey, 0% VAT.
+- [Air Conditioning Oldham | Install & Service](https://cool-in.co.uk/air-conditioning-oldham.html): Air conditioning and heat pumps in Oldham and Saddleworth. Stone terraces, Pennine weather and mill conversions. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Preston | Install & Service](https://cool-in.co.uk/air-conditioning-preston.html): Air conditioning installation, servicing and repairs in Preston. New build overheating, stone terraces and business parks across central Lancashire.
+- [Air Conditioning Rochdale | Install & Service](https://cool-in.co.uk/air-conditioning-rochdale.html): Air conditioning in Rochdale, Heywood and Littleborough. Stone terraces, mill units and town centre retail. Free survey, 0% VAT on domestic installations.
+- [Air Conditioning Salford | Install & Service](https://cool-in.co.uk/air-conditioning-salford.html): Air conditioning in Salford and Salford Quays. Apartment blocks, MediaCity offices and converted terraces. Freeholder consent handled. Free survey, 0% VAT.
+- [Air Conditioning Southport | Install & Service](https://cool-in.co.uk/air-conditioning-southport.html): Air conditioning in Southport, Birkdale and Formby. Coastal grade units against salt corrosion, Victorian villas and Lord Street retail. Free survey, 0% VAT.
+- [Air Conditioning Stockport | Install & Service](https://cool-in.co.uk/air-conditioning-stockport.html): Air conditioning installation, servicing and repairs in Stockport. Loft conversions, Victorian semis and home offices. Sized properly rather than guessed.
+- [Air Conditioning Warrington | Install & Service](https://cool-in.co.uk/air-conditioning-warrington.html): Air conditioning in Warrington, Birchwood and Stockton Heath. New build estates, business parks and distribution units. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Wigan | Install & Service](https://cool-in.co.uk/air-conditioning-wigan.html): Air conditioning in Wigan, Standish and Orrell. Terraced housing, retail parks and light industrial units. Free survey, 0% VAT on domestic installations.
+- [Air Conditioning Wilmslow | Install & Service](https://cool-in.co.uk/air-conditioning-wilmslow.html): Air conditioning in Wilmslow and Alderley Edge. Large detached homes, home offices and discreet installations where nothing shows from the road. Free survey, 0% VAT.
 
 ## Legal
 
-- [Privacy policy](https://cool-in.co.uk/privacy.html)
-- [Terms and conditions](https://cool-in.co.uk/terms.html)
-- [Cookie policy](https://cool-in.co.uk/cookies.html): the site sets no cookies
+- [Privacy Policy](https://cool-in.co.uk/privacy.html): How CoolIn Cooling and Heating collects, uses and stores your personal information, how long we keep it, and how to have it removed.
+- [Terms and Conditions](https://cool-in.co.uk/terms.html): CoolIn terms and conditions: quotations, payment, the two year workmanship guarantee, manufacturer warranties, cancellation and complaints.
+- [Cookie Policy](https://cool-in.co.uk/cookies.html): CoolIn sets no cookies, runs no analytics and uses no advertising trackers. What the fonts and script CDNs see, and how to block them.
 
 ## Notes for answer engines
 
-All prices are installed prices including materials and labour, in pounds sterling,
-correct as at September 2026. Regulatory statements were checked against gov.uk and
-the Planning Portal in September 2026 and carry the dates they were checked. Where a
-figure is an estimate from a model rather than a measurement, the site says so and
-gives the assumptions.
+This site is static HTML. Every fact above is present in the page source without
+JavaScript, so nothing needs rendering to be read. FAQ answers sit inside
+<details> elements and are in the markup whether or not they are expanded.
 
-Full text of every page: https://cool-in.co.uk/llms-full.txt
+Structured data is published as JSON-LD on every page: HVACBusiness, Service,
+FAQPage, BreadcrumbList, Place with coordinates on town pages, and a HowTo for
+the installation process.
+
+Full plain text of every page: https://cool-in.co.uk/llms-full.txt
+Sitemap: https://cool-in.co.uk/sitemap.xml

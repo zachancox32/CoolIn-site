@@ -1,31 +1,67 @@
 # CoolIn Cooling & Heating
-# Crawlers and answer engines are welcome. Nothing here is behind a paywall
-# and nothing on this site is generated for search engines rather than people.
+#
+# Crawlers and answer engines are welcome. Nothing on this site is behind a
+# paywall, and nothing here is written for search engines rather than people.
+#
+# Plain text summary of the whole site, written for language models:
+#   https://cool-in.co.uk/llms.txt
+# Full text of every page:
+#   https://cool-in.co.uk/llms-full.txt
 
+# ---------------------------------------------------------------- everyone
 User-agent: *
 Allow: /
 Disallow: /thanks.html
+Disallow: /404.html
 
-# Answer engines and model crawlers, explicitly permitted.
+# ------------------------------------------------- answer engines and models
+# Listed explicitly so there is no ambiguity about permission. Each group
+# repeats the Disallow rules, because a named group replaces the wildcard
+# group entirely rather than adding to it.
+
 User-agent: GPTBot
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: ClaudeBot
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: Claude-User
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: PerplexityBot
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: Google-Extended
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: Applebot-Extended
 Allow: /
-User-agent: Bingbot
-Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
+
 User-agent: CCBot
 Allow: /
+Disallow: /thanks.html
+Disallow: /404.html
 
 Sitemap: https://cool-in.co.uk/sitemap.xml

@@ -45,8 +45,18 @@ The flat HTML files are the source of truth. Two scripts keep the repetitive par
 ```bash
 python3 tools/sync-shell.py          # check the shared chrome is in step
 python3 tools/sync-shell.py --write  # push index.html's header and footer everywhere
+python3 tools/build-llms.py          # regenerate llms.txt from the pages
 python3 tools/build-llms-full.py     # regenerate llms-full.txt from the pages
+python3 tools/set-domain.py <origin> # repoint canonicals, sitemap, robots, llms
+python3 tools/make-og-image.py       # redraw the social card
 ```
+
+**Do not hand edit `llms.txt` or `llms-full.txt`.** Both are generated. `llms.txt`
+reads every page's title and description from the HTML, so the only parts written by
+hand are the Key facts and Technical reference blocks, which live as constants at the
+top of `tools/build-llms.py`. It drifted badly once, still advertising an email address
+and a certification claim weeks after both were removed from the site, which is exactly
+the failure mode generating it prevents. Run both after any content change.
 
 `sync-shell.py` only touches the regions between the `SHELL:` marker comments, and it
 re-marks the current nav item per page. Page content is never read or written. Change the
