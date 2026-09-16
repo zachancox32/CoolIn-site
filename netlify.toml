@@ -57,6 +57,20 @@
 # Defining it here as well is what caused an apex/www redirect loop:
 # netlify.toml forced apex to www while Netlify forced www to apex.
 
+# Collapse the one chained entry point. Netlify upgrades http to https first,
+# then redirects www to the apex, which makes http://www a two hop journey.
+# This sends it straight to the canonical host in one.
+#
+# Safe against the loop that a previous version of this file caused: every rule
+# here points at the apex, the same direction Netlify's own primary domain
+# redirect points. Nothing sends anything back to www.
+
+[[redirects]]
+  from = "http://www.cool-in.co.uk/*"
+  to = "https://cool-in.co.uk/:splat"
+  status = 301
+  force = true
+
 # ---------------------------------------------------------------- not public
 
 # Everything in the publish directory is addressable by URL. These are in the
