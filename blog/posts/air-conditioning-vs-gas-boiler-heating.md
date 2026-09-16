@@ -1,6 +1,7 @@
 ---
 title: Should you heat with air conditioning instead of the gas boiler?
-description: An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
+seo_title: Air conditioning vs a gas boiler
+description: An honest comparison of heating a room with a heat pump against gas central heating, including where the boiler still wins.
 date: 2026-09-08
 author: coolin-team
 ---
@@ -39,4 +40,4 @@ For most houses the honest answer is not either/or. Keep the boiler. Put air con
 
 That is the combination that works, and it is what we fit most often.
 
-If you want to see the numbers for your own room and your own tariff, the [gas boiler comparison](/domestic.html#vs-gas) does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.
+The hour by hour figures are broken down in [what air conditioning actually costs to run](/blog/air-conditioning-running-costs.html). If you want to see the numbers for your own room and your own tariff, the [gas boiler comparison](/domestic.html#vs-gas) does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.

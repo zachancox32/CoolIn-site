@@ -1,5 +1,6 @@
 ---
 title: What does air conditioning actually cost to run?
+seo_title: Air conditioning running costs
 description: Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
 date: 2026-09-16
 author: coolin-team
@@ -43,7 +44,7 @@ The like for like comparison above understates it, because it assumes the boiler
 
 In practice, firing the central heating to warm a home office means warming the hallway, the spare room and the kitchen at the same time. Heating one room with a heat pump while the rest of the house stays cold is a completely different bill.
 
-On our own [gas boiler comparison](/domestic.html#vs-gas) you can put your room size and your tariffs in and see both numbers. On typical figures, heating one room for a six month season works out around £55 with air conditioning against roughly £291 if the boiler is warming the whole house to do it.
+There is a fuller treatment in [air conditioning against a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating.html). On our own [gas boiler comparison](/domestic.html#vs-gas) you can put your room size and your tariffs in and see both numbers. On typical figures, heating one room for a six month season works out around £55 with air conditioning against roughly £291 if the boiler is warming the whole house to do it.
 
 ## What changes these numbers
 

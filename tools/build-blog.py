@@ -110,6 +110,8 @@ def build_post(path):
     slug = fm.get('slug') or os.path.basename(path)[:-3]
     url = f'{BASE}/blog/{slug}.html'
     title, desc, date = fm['title'], fm.get('description', ''), fm.get('date', '')[:10]
+    # the <title> tag has to fit in a search result; the h1 does not.
+    seo_title = fm.get('seo_title') or title
     ab = author_block(fm)
     byline, aschema, card = (ab[0][0], ab[0][1], ab[1]) if isinstance(ab[0], tuple) else (ab[0], ab[1], '')
 
@@ -148,9 +150,13 @@ def build_post(path):
 </article>
 
 '''
-    out = head(title, desc, url, jsonld) + rootify(UTILITY) + rootify(HEADER) \
+    out = head(seo_title, desc, url, jsonld) + rootify(UTILITY) + rootify(HEADER) \
         + '\n<main id="main">\n\n' + content + '\n</main>\n\n' + rootify(FOOTER)
     open(f'blog/{slug}.html', 'w').write(out)
+    if len(seo_title) + 9 > 60:
+        print(f'    WARNING {slug}: title is {len(seo_title)+9} chars, over the 60 that fit a search result')
+    if len(desc) > 160:
+        print(f'    WARNING {slug}: description is {len(desc)} chars, over 160')
     return dict(slug=slug, title=title, desc=desc, date=date, url=url,
                 author=fm.get('author',''), words=len(re.sub(r'<[^>]+>',' ',render(body)).split()))
 
@@ -179,7 +185,7 @@ def build_index(posts):
   <div class="wrap hero__in">
     <div class="hero__copy">
       <nav class="crumbs js-hero" aria-label="Breadcrumb">
-        <a href="index.html">CoolIn</a><span aria-hidden="true">/</span><span aria-current="page">Blog</span>
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><span aria-current="page">Blog</span>
       </nav>
       <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Advice</p>
       <h1 class="js-hero">Air conditioning,<br><span class="grad">explained properly</span></h1>

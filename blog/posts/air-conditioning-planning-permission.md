@@ -1,6 +1,7 @@
 ---
 title: Do you need planning permission for air conditioning?
-description: The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are, what still needs consent, and how to check.
+seo_title: Planning permission for air conditioning
+description: The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
 date: 2026-09-12
 author: coolin-team
 ---
@@ -51,5 +52,7 @@ If an application is needed, we prepare it. If a position will not pass, we tell
 ## One thing coming down the line
 
 From 28 May 2026, MCS becomes the only certification scheme recognised for the planning standard. If you are reading this after that date and comparing quotes, it is worth asking which standard an installer is working to.
+
+If you are weighing up whether the system is worth it in the first place, [the running costs](/blog/air-conditioning-running-costs.html) are the other half of the question.
 
 Scotland, Wales and Northern Ireland have their own rules and the limits above do not apply there.
