@@ -28,8 +28,8 @@ def text_of(node):
 
 out = ["""# CoolIn Cooling & Heating, full site text
 
-Air conditioning installer covering the North West of England, based at
-Unit 14, Trafford Park, Manchester M17 1AB. Phone 0161 000 0000.
+Air conditioning installer covering the North West of England, based in
+Manchester. Phone 0161 000 0000.
 
 This file is the readable text of every page on coolin.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt

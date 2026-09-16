@@ -1,7 +1,7 @@
 # CoolIn Cooling & Heating, full site text
 
-Air conditioning installer covering the North West of England, based at
-Unit 14, Trafford Park, Manchester M17 1AB. Phone 0161 000 0000.
+Air conditioning installer covering the North West of England, based in
+Manchester. Phone 0161 000 0000.
 
 This file is the readable text of every page on coolin.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
@@ -36,7 +36,7 @@ Scroll
 
 In short
 
-CoolIn Cooling & Heating installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Trafford Park, Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
+CoolIn Cooling & Heating installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
 
 Domestic from
 £1,850 fitted, 0% VAT
@@ -51,7 +51,7 @@ Repairs
 £95 for the first hour, all makes
 
 Covers
-One hour from Trafford Park, Manchester
+One hour from Manchester
 
 Guarantee
 Two years on workmanship, plus manufacturer warranty
@@ -308,7 +308,7 @@ Areas covered
 
 Across the North West, from one depot
 
-We work within roughly an hour of our unit in Trafford Park. That keeps callouts quick, so a breakdown in August does not turn into a week of waiting in.
+We work within roughly an hour of our base in Manchester. That keeps callouts quick, so a breakdown in August does not turn into a week of waiting in.
 
 Outside these towns, give us a call. If we cannot get to you, we will point you at someone who can.
 
@@ -351,7 +351,7 @@ Yes, and the manufacturers require it to keep the warranty running. A service is
 
 Which areas do you cover?
 
-Roughly an hour from our unit in Trafford Park, which takes in Greater Manchester, most of Cheshire, Merseyside and southern Lancashire. The full list is further down this page. If you are just outside it, ring us anyway and we will either come to you or point you at someone who can.
+Roughly an hour from our base in Manchester, which takes in Greater Manchester, most of Cheshire, Merseyside and southern Lancashire. The full list is further down this page. If you are just outside it, ring us anyway and we will either come to you or point you at someone who can.
 
 Who will actually be doing the work?
 
@@ -1944,7 +1944,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/areas.html
 TITLE: Areas Covered | Air Conditioning North West
-DESCRIPTION: CoolIn covers Greater Manchester, Cheshire, Merseyside and Lancashire from Trafford Park. No travel charge inside the area, free survey wherever you are.
+DESCRIPTION: CoolIn covers Greater Manchester, Cheshire, Merseyside and Lancashire from a base in Manchester. No travel charge inside the area, free survey wherever you are.
 ================================================================================
 
 CoolIn / Areas covered
@@ -1952,19 +1952,19 @@ CoolIn / Areas covered
 Areas covered
 
 One hour from
-Trafford Park
+Manchester
 
-We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a single unit in Trafford Park. Keeping the patch tight is deliberate: it is the difference between attending a breakdown this week and attending it next month.
+We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a single base in Manchester. Keeping the patch tight is deliberate: it is the difference between attending a breakdown this week and attending it next month.
 
 Check your postcode
 Call 0161 000 0000
 
 In short
 
-CoolIn covers the North West of England from a base in Trafford Park, Manchester, working within roughly one hour of the M17 postcode. That includes Greater Manchester, Cheshire, Merseyside and southern Lancashire. Surveys are free anywhere in the area and there is no travel charge inside it.
+CoolIn covers the North West of England from a base in Manchester, working within roughly one hour of the city. That includes Greater Manchester, Cheshire, Merseyside and southern Lancashire. Surveys are free anywhere in the area and there is no travel charge inside it.
 
 Base
-Unit 14, Trafford Park, Manchester M17 1AB
+Manchester
 
 Radius
 About one hour by van
@@ -2059,7 +2059,7 @@ How far we go, and how fast
 
 What is your actual coverage area?
 
-Roughly one hour by van from Trafford Park, Manchester. That takes in all of Greater Manchester, most of Cheshire, Merseyside as far as the Wirral, and southern and central Lancashire. We will travel further for larger commercial projects where the job justifies the journey.
+Roughly one hour by van from our base in Manchester. That takes in all of Greater Manchester, most of Cheshire, Merseyside as far as the Wirral, and southern and central Lancashire. We will travel further for larger commercial projects where the job justifies the journey.
 
 Do you charge for travel?
 
@@ -2079,7 +2079,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/about.html
 TITLE: About CoolIn | Air Conditioning, Manchester
-DESCRIPTION: CoolIn is a new air conditioning installer in Trafford Park, Manchester. F-Gas certified, fully insured, two year workmanship guarantee. No invented history.
+DESCRIPTION: CoolIn is a new air conditioning installer in Manchester. F-Gas certified, fully insured, two year workmanship guarantee. No invented history.
 ================================================================================
 
 CoolIn / About CoolIn
@@ -2096,13 +2096,13 @@ See how we work
 
 In short
 
-CoolIn Cooling & Heating Ltd is an air conditioning installer based in Trafford Park, Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. The company is new, which is stated plainly rather than hidden, and the guarantees on this site are offered in place of a trading history.
+CoolIn Cooling & Heating Ltd is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. The company is new, which is stated plainly rather than hidden, and the guarantees on this site are offered in place of a trading history.
 
 Based
-Unit 14, Trafford Park, Manchester M17 1AB
+Manchester
 
 Covers
-Roughly one hour from Trafford Park across the North West
+Roughly one hour from Manchester across the North West
 
 Works on
 Homes and commercial premises, install, service and repair
@@ -2146,7 +2146,7 @@ Registered in England 00000000
 
 VAT number 000 0000 00
 
-Registered office Trafford Park
+Registered office Manchester
 
 Public liability In place
 
@@ -2211,16 +2211,16 @@ hello@coolin.co.uk
 
 Photographs of the room and the wall where the outdoor unit might go save a lot of back and forth. Include a postcode and we will tell you straight away whether you are in our patch.
 
-Address
+Where we are
 
-Unit 14, Trafford Park
-Manchester M17 1AB
+Manchester,
+working across the North West
 
-The unit is a workshop and stores rather than a showroom, so ring before coming down. Nearly all of our work happens at your property rather than ours.
+We work at your property rather than from a showroom, so there is nothing to visit. Surveys, installations and services all happen where the system is going.
 
 Coverage
 
-One hour from M17
+One hour from Manchester
 
 Greater Manchester, Cheshire, Merseyside and southern Lancashire. The full list of towns is on the areas page. Just outside it, ring anyway.
 
@@ -2253,7 +2253,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Manchester and the wider Greater Manchester area, covering M1 to M35, plus the city centre M1 to M4. We are based in Trafford Park, about 20 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Manchester and the wider Greater Manchester area, covering M1 to M35, plus the city centre M1 to M4. We are based in Manchester, about 20 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Manchester
@@ -2265,7 +2265,7 @@ Postcodes
 M1 to M35, plus the city centre M1 to M4
 
 Travel time
-About 20 minutes from Trafford Park
+About 20 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2358,7 +2358,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Liverpool and the wider Merseyside area, covering L1 to L25, plus the Wirral by arrangement. We are based in Trafford Park, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Liverpool and the wider Merseyside area, covering L1 to L25, plus the Wirral by arrangement. We are based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Liverpool
@@ -2370,7 +2370,7 @@ Postcodes
 L1 to L25, plus the Wirral by arrangement
 
 Travel time
-About 45 minutes from Trafford Park
+About 45 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2463,7 +2463,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Stockport and the wider Greater Manchester area, covering SK1 to SK8, and into the Cheshire SK postcodes. We are based in Trafford Park, about 25 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Stockport and the wider Greater Manchester area, covering SK1 to SK8, and into the Cheshire SK postcodes. We are based in Manchester, about 25 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Stockport
@@ -2475,7 +2475,7 @@ Postcodes
 SK1 to SK8, and into the Cheshire SK postcodes
 
 Travel time
-About 25 minutes from Trafford Park
+About 25 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2568,7 +2568,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Chester and the wider Cheshire area, covering CH1 to CH4, and the surrounding Cheshire villages. We are based in Trafford Park, about 50 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Chester and the wider Cheshire area, covering CH1 to CH4, and the surrounding Cheshire villages. We are based in Manchester, about 50 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Chester
@@ -2580,7 +2580,7 @@ Postcodes
 CH1 to CH4, and the surrounding Cheshire villages
 
 Travel time
-About 50 minutes from Trafford Park
+About 50 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2673,7 +2673,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Preston and the wider Lancashire area, covering PR1 to PR5, and across central Lancashire. We are based in Trafford Park, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Preston and the wider Lancashire area, covering PR1 to PR5, and across central Lancashire. We are based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Preston
@@ -2685,7 +2685,7 @@ Postcodes
 PR1 to PR5, and across central Lancashire
 
 Travel time
-About 45 minutes from Trafford Park
+About 45 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2747,7 +2747,7 @@ A lot of them do, and the reason is the glazing. Modern homes are built airtight
 
 How far out from Preston do you travel?
 
-Preston is about 45 minutes from our unit in Trafford Park, which puts it comfortably inside our normal working area along with Chorley, Leyland and central Lancashire. Further north than Lancaster starts to stretch the callout response, and we would rather say so than promise a same week visit we cannot make.
+Preston is about 45 minutes from our Manchester base, which puts it comfortably inside our normal working area along with Chorley, Leyland and central Lancashire. Further north than Lancaster starts to stretch the callout response, and we would rather say so than promise a same week visit we cannot make.
 
 Free survey
 
@@ -2778,7 +2778,7 @@ See prices
 
 In short
 
-CoolIn installs, services and repairs air conditioning throughout Bolton and the wider Greater Manchester area, covering BL1 to BL7. We are based in Trafford Park, about 30 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
+CoolIn installs, services and repairs air conditioning throughout Bolton and the wider Greater Manchester area, covering BL1 to BL7. We are based in Manchester, about 30 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
 Town
 Bolton
@@ -2790,7 +2790,7 @@ Postcodes
 BL1 to BL7
 
 Travel time
-About 30 minutes from Trafford Park
+About 30 minutes from our Manchester base
 
 Domestic from
 £1,850 fitted, zero rated for VAT until 31 March 2027
@@ -2852,6 +2852,6 @@ Yes, though the approach differs from an office. Trying to cool the entire volum
 
 How quickly can you get to Bolton for a breakdown?
 
-Bolton is around 30 minutes from Trafford Park. Service plan customers get same day phone support and next working day attendance. Without a plan you go behind contract customers, which through July and August can mean several days.
+Bolton is around 30 minutes from our Manchester base. Service plan customers get same day phone support and next working day attendance. Without a plan you go behind contract customers, which through July and August can mean several days.
 
 Free survey
