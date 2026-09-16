@@ -182,8 +182,8 @@ Why people hand us the job
 
 Most complaints in this trade are not about the equipment. They are about a system sized on a guess, a price that moves once the pipework is halfway up the wall, or a company that answers the phone in June and not in January. We put every detail in writing before you commit, turn up when we say, and stand behind the work afterwards. Here is what that means on the day, and more about how we work .
 
-01 One company accountable, whoever is on site
-We survey it, we specify it and we stand behind it. At busy times or on bigger jobs we bring in engineers we have worked with before, and they work to our specification under our guarantee.
+01 One company accountable, start to finish
+We survey it, we specify it, we install it and we come back to service it. One contract, one number to ring, and one company carrying the risk if something needs putting right.
 
 02 Fixed price, written down
 Your quote lists the units, the pipe runs, the electrical work and the making good. No day rates, no extras added halfway through.
@@ -191,7 +191,10 @@ Your quote lists the units, the pipe runs, the electrical work and the making go
 03 We leave it cleaner than we found it
 Dust sheets down, core drilling done wet, and a hoover in the van. When we pull off the drive you should not be able to tell we were ever there.
 
-04 Everything written down and handed over
+04 Certified work, and we will prove it
+No refrigerant circuit is opened on your system by anyone without current F-Gas certification, and the electrical side is certified under Part P on completion. Ask to see either certificate and you will get it.
+
+05 Everything written down and handed over
 Commissioning readings, the manufacturer warranty registered in your name, certificates for the work carried out and a drawing of where the pipework runs. It goes in a pack rather than being promised verbally.
 
 Typical home install
@@ -362,11 +365,11 @@ Which areas do you cover?
 
 Roughly an hour from our base in Manchester, which takes in Greater Manchester, most of Cheshire, Merseyside and southern Lancashire. The full list is further down this page. If you are just outside it, ring us anyway and we will either come to you or point you at someone who can.
 
-Who will actually be doing the work?
+What standard is the work held to?
 
-We survey, specify and manage every job ourselves. On larger installations, and when we are busy, we bring in engineers we have worked with before rather than push your date back. Anyone we bring in works to our specification and to the same standard we hold ourselves to.
+Nobody opens a refrigerant circuit on your system without current F-Gas certification. That is a legal requirement for handling refrigerant rather than a badge, and we will show you the certificate if you want to see it. Electrical work is notifiable under Part P and is certified on completion.
 
-Whoever holds the spanner, CoolIn holds the contract. We invoice you, our guarantee covers the work, and if something needs putting right you ring us rather than chasing anyone else. You will know who is coming before the day.
+CoolIn holds the contract throughout. We invoice you, our own workmanship is guaranteed for two years on top of the manufacturer warranty, and if something needs putting right you ring us rather than chasing anyone else.
 
 Free survey
 
@@ -635,7 +638,7 @@ Core drilling, made good, and condensate drain
 
 Electrical connection, isolator and test
 
-Vacuum test, commissioning and F-Gas paperwork
+Vacuum test, commissioning and handover documentation
 
 Warranty registered with the manufacturer in your name
 
@@ -2156,7 +2159,7 @@ A room by room heat gain at survey, with the working shown on the quote. It take
 Fixed, itemised and valid for 60 days. If we measure something wrong, that is our problem to absorb rather than a line added to your invoice.
 
 03 One company accountable
-We survey it, specify it and manage it. At busy times we bring in engineers we have worked with before, working to our specification and covered by our guarantee.
+We survey it, specify it, install it and come back to service it. One contract and one number to ring, with no refrigerant circuit opened by anyone without current F-Gas certification.
 
 04 We say the awkward bits out loud
 Heat pumps blow cool air during a defrost cycle. Outdoor units drip in winter. Tall rooms heat slowly. You will read all of that on this site before you speak to us.

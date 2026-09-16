@@ -109,11 +109,21 @@ carries three commitments that go on every quote. When real reviews arrive, that
 is where they belong: the `.quote` markup still holds a quote, a name and a location, so
 swap the `.quote__ico` block for `<div class="stars">★★★★★</div>` and drop them in.
 
-The site does not claim the work is done without subcontractors, because it will be.
-The line it takes instead is that CoolIn holds the contract and the guarantee whoever is
-on site, everyone doing refrigerant work is F-Gas certified, and the customer is told who
-is coming before the day. If that changes, the FAQ "Who will actually be doing the work?"
-on the homepage and point 01 in the Why section are the two places to edit.
+The site says nothing at all about who employs the engineers. It does not claim the work
+is done without subcontractors, and it does not mention subcontracting either. That is a
+deliberate silence, not an oversight: there is no obligation to volunteer the commercial
+arrangement, but a denial would be untrue, so the copy simply does not raise it.
+
+What it does commit to instead, in three places, is the standard the work is held to:
+no refrigerant circuit is opened by anyone without current F-Gas certification,
+electrical work is certified under Part P on completion, and the certificate is produced
+on request. Those are forward commitments about every job, not claims about credentials
+held today, and they have to be true before the first install. The homepage FAQ "What
+standard is the work held to?" and Why point 04 are where they live.
+
+The privacy policy still discloses that engineers working on a job see customer data,
+worded so it covers employed and subcontracted engineers without naming the arrangement.
+That wording needs to stay accurate for data protection purposes.
 
 ## Credentials, and what the site does NOT claim
 
