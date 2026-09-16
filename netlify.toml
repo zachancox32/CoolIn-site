@@ -3,7 +3,7 @@
 
 [build]
   publish = "."
-  command = ""
+  # No build command on purpose. The HTML in the repo root is what gets served.
 
 # ---------------------------------------------------------------- headers
 
