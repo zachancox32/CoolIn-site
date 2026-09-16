@@ -467,7 +467,7 @@ Sizes
 3.5kW upwards, often serving two or three rooms from one unit
 
 Worth knowing
-Far easier during building work than afterwards. It can also be paired with a fresh air supply, which wall units cannot do.
+Far easier during building work than afterwards. It can also be paired with a fresh air supply , which wall units cannot do.
 
 Floor standing console
 
@@ -488,7 +488,7 @@ Keep furniture clear of the front and top. Blocking it costs you more output tha
 
 Home air conditioning in short
 
-A domestic air conditioning system is an air to air heat pump: it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,850 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
+A domestic air conditioning system is an air to air heat pump : it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,850 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
 
 One room
 From £1,850 fitted, 2.5kW, rooms to 15m²
@@ -642,7 +642,7 @@ Vacuum test, commissioning and handover documentation
 
 Warranty registered with the manufacturer in your name
 
-Your first annual service, free
+Your first annual service , free
 
 What pushes it up
 
@@ -1229,7 +1229,7 @@ Annual condition report for your files
 
 Talk it through
 
-Prices per indoor unit. Multiple units on one site are cheaper per unit, and server rooms normally need four visits a year rather than one or two.
+Prices per indoor unit. Multiple units on one site are cheaper per unit, and server rooms normally need four visits a year rather than one or two. What each visit covers is set out in full on the servicing page .
 
 F-Gas leak checks
 
@@ -1404,7 +1404,7 @@ Service plans
 
 Three levels, priced per indoor unit
 
-Every plan puts you ahead of non contract customers when something breaks, which in the middle of a heatwave is the part that matters most.
+Every plan puts you ahead of non contract customers when something breaks, which in the middle of a heatwave is the part that matters most. We cover the whole of the North West .
 
 Essential
 
@@ -1532,7 +1532,7 @@ Yes, and a lot of our service work is exactly that. The first visit takes a litt
 
 How often does a system need servicing?
 
-Once a year for a home. Twice a year for most commercial systems, which is what the manufacturers specify in a working environment. Four times a year for server rooms, where the kit runs at full load every hour and nobody is in the room to notice a problem.
+Once a year for a home . Twice a year for most commercial systems , which is what the manufacturers specify in a working environment. Four times a year for server rooms, where the kit runs at full load every hour and nobody is in the room to notice a problem.
 
 Do I have to take a contract?
 
@@ -1569,7 +1569,7 @@ What goes wrong
 
 Six faults that account for most of our callouts
 
-Two of these you can check yourself in five minutes. We would rather tell you that than charge you to come out and press a button on a remote.
+We attend breakdowns across the North West . Two of these you can check yourself in five minutes. We would rather tell you that than charge you to come out and press a button on a remote.
 
 Blowing warm air
 Check the mode first
@@ -1677,7 +1677,7 @@ Yes, and most of our repair work is exactly that. Daikin, Mitsubishi Electric, P
 
 The system is 12 years old. Repair or replace?
 
-Depends on what has failed and what gas it uses. A fan motor or a control board on a ten year old unit is worth fixing. A failed compressor usually is not, because the part and the labour together get close to a new system.
+Depends on what has failed and what gas it uses. A fan motor or a control board on a ten year old unit is worth fixing. A failed compressor usually is not, because the part and the labour together get close to a new system .
 
 The other factor is the refrigerant. Older systems running R22 cannot legally be topped up at all, and R410A is being phased down, which pushes the price of a regas up every year. A current R32 system will also use roughly a third less electricity, which changes the sums.
 
@@ -1767,7 +1767,7 @@ Where it works well, and where it does not
 
 Works well
 
-Rooms you actually spend time in, rather than the whole house at once
+Rooms you actually spend time in, rather than the whole house at once, which is how most home systems are designed
 
 Homes where the boiler currently heats nine rooms to warm two
 
@@ -1782,6 +1782,8 @@ Flats on electric only heating, where the saving against panel heaters is enormo
 Think twice
 
 If you need hot water from it, because it cannot provide any
+
+If nobody will service it annually , because the warranty lapses without it
 
 If you want the gas meter gone, which needs air to water
 
@@ -1889,7 +1891,7 @@ MVHR
 
 from £5,200
 
-Continuous fresh air into the occupied rooms and continuous extract from the wet rooms, with a heat exchanger between them so you keep the warmth you have already paid for.
+Continuous fresh air into the occupied rooms and continuous extract from the wet rooms, with a heat exchanger between them so you keep the warmth you have already paid for. Usually specified alongside a commercial cooling system rather than on its own.
 
 Best for
 Airtight new builds, deep retrofits, offices with sealed windows
@@ -1905,7 +1907,7 @@ from £6,500
 A canopy sized to the equipment underneath it, ducted to a fan that can actually shift the volume, and a tempered supply putting the same amount of air back so the kitchen is not running as a vacuum.
 
 Best for
-Restaurants, pubs, takeaways, staff canteens, dark kitchens
+Restaurants, pubs, takeaways , staff canteens, dark kitchens
 
 Worth knowing
 Grease filters and duct cleaning are an insurance condition in most policies, not an optional extra.
