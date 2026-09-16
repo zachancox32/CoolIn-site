@@ -9,7 +9,15 @@ ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repair
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html',
          'air-conditioning-manchester.html','air-conditioning-liverpool.html',
          'air-conditioning-stockport.html','air-conditioning-chester.html',
-         'air-conditioning-preston.html','air-conditioning-bolton.html']
+         'air-conditioning-preston.html','air-conditioning-bolton.html',
+         'air-conditioning-altrincham.html','air-conditioning-wilmslow.html',
+         'air-conditioning-warrington.html','air-conditioning-salford.html',
+         'air-conditioning-oldham.html','air-conditioning-rochdale.html',
+         'air-conditioning-bury.html','air-conditioning-macclesfield.html',
+         'air-conditioning-wigan.html','air-conditioning-southport.html',
+         'air-conditioning-blackburn.html','air-conditioning-crewe.html',
+         'air-conditioning-northwich.html','air-conditioning-leigh.html',
+         'air-conditioning-ashton-under-lyne.html','air-conditioning-lancaster.html']
 
 def text_of(node):
     node = re.sub(r'<(script|style|svg|canvas|noscript)\b.*?</\1>', ' ', node, flags=re.S|re.I)

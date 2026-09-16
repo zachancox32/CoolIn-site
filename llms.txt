@@ -56,6 +56,28 @@ and stated response times.
 - [Air Conditioning Preston](https://www.cool-in.co.uk/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
 - [Air Conditioning Bolton](https://www.cool-in.co.uk/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
 
+## Town pages
+
+Each town has its own page with local building stock, planning constraints and
+travel time. All 22 are linked from https://www.cool-in.co.uk/areas.html
+
+- [Air conditioning in Altrincham](https://www.cool-in.co.uk/air-conditioning-altrincham.html): Trafford, Greater Manchester, about 15 minutes from our Manchester base.
+- [Air conditioning in Wilmslow](https://www.cool-in.co.uk/air-conditioning-wilmslow.html): Cheshire East, about 25 minutes from our Manchester base.
+- [Air conditioning in Warrington](https://www.cool-in.co.uk/air-conditioning-warrington.html): Cheshire, about 30 minutes from our Manchester base.
+- [Air conditioning in Salford](https://www.cool-in.co.uk/air-conditioning-salford.html): Greater Manchester, about 15 minutes from our Manchester base.
+- [Air conditioning in Oldham](https://www.cool-in.co.uk/air-conditioning-oldham.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Rochdale](https://www.cool-in.co.uk/air-conditioning-rochdale.html): Greater Manchester, about 35 minutes from our Manchester base.
+- [Air conditioning in Bury](https://www.cool-in.co.uk/air-conditioning-bury.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Macclesfield](https://www.cool-in.co.uk/air-conditioning-macclesfield.html): Cheshire East, about 45 minutes from our Manchester base.
+- [Air conditioning in Wigan](https://www.cool-in.co.uk/air-conditioning-wigan.html): Greater Manchester, about 35 minutes from our Manchester base.
+- [Air conditioning in Southport](https://www.cool-in.co.uk/air-conditioning-southport.html): Merseyside, about 60 minutes from our Manchester base.
+- [Air conditioning in Blackburn](https://www.cool-in.co.uk/air-conditioning-blackburn.html): Lancashire, about 50 minutes from our Manchester base.
+- [Air conditioning in Crewe](https://www.cool-in.co.uk/air-conditioning-crewe.html): Cheshire East, about 50 minutes from our Manchester base.
+- [Air conditioning in Northwich](https://www.cool-in.co.uk/air-conditioning-northwich.html): Cheshire West and Chester, about 40 minutes from our Manchester base.
+- [Air conditioning in Leigh](https://www.cool-in.co.uk/air-conditioning-leigh.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Ashton under Lyne](https://www.cool-in.co.uk/air-conditioning-ashton-under-lyne.html): Tameside, Greater Manchester, about 25 minutes from our Manchester base.
+- [Air conditioning in Lancaster](https://www.cool-in.co.uk/air-conditioning-lancaster.html): Lancashire, about 75 minutes from our Manchester base.
+
 ## Legal
 
 - [Privacy policy](https://www.cool-in.co.uk/privacy.html)
