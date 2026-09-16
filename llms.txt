@@ -21,7 +21,8 @@ ones used throughout the site and carry the date they were checked.
 - Coverage: about one hour from Manchester
 - Counties covered: Greater Manchester, Cheshire, Merseyside, Lancashire
 - Hours: Monday to Saturday, 7am to 7pm
-- Certification: F-Gas certified, Part P for electrical work, fully insured
+- Survey: free, under an hour, written quote within 48 hours
+- Quote: fixed, itemised, valid for 60 days
 
 ## Technical reference used across the site
 

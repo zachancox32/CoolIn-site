@@ -115,6 +115,39 @@ on site, everyone doing refrigerant work is F-Gas certified, and the customer is
 is coming before the day. If that changes, the FAQ "Who will actually be doing the work?"
 on the homepage and point 01 in the Why section are the two places to edit.
 
+## Credentials, and what the site does NOT claim
+
+The site makes **no claim to hold any certification, registration or insurance**, because
+none are held yet. Every such claim was removed. If you look for a trust badge saying
+F-Gas certified or fully insured, there isn't one, by design.
+
+What the badges say instead: Free survey, Fixed price quotes, 2 year guarantee. All three
+are commitments the business controls and can keep from day one.
+
+**Once the credentials are actually in place**, here is every spot to update:
+
+| Where | What to put back |
+|---|---|
+| Footer badge row in `index.html`, then `python3 tools/sync-shell.py --write` | F-Gas certified, Fully insured, Part P electrics |
+| `index.html` Why section, point 04 | The certification and insurance wording |
+| `index.html` FAQ "Who will actually be doing the work?" | That subcontracted engineers are F-Gas certified and insured |
+| `about.html` hero lede, key facts, and the company details panel | Certification rows |
+| `about.html` meta description | F-Gas certified, insured |
+| `domestic.html` FAQ on electrical circuits | That Part P work is done in house |
+| `repairs.html` JSON-LD description | Regassing by F-Gas certified engineers |
+| `llms.txt` key facts | A Certification line |
+
+**Services already described that require certification to deliver.** These were left in
+place because they describe the offering rather than claiming a credential, but the
+certification has to exist before enquiries for them can be accepted:
+
+- Any refrigerant work at all, which means every installation and every regas. Handling
+  F-gases without certification is an offence, not a technicality
+- F-Gas leak checking and log keeping, sold on `servicing.html` and `commercial.html`
+- Part P notifiable electrical work, unless it is subcontracted to a registered electrician
+- Public liability cover, which most commercial clients and landlords will ask to see
+  before letting anyone on site
+
 ## Facts on the page, and where they came from
 
 These were checked against primary sources rather than copied from competitors. They do

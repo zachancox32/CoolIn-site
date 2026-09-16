@@ -191,8 +191,8 @@ Your quote lists the units, the pipe runs, the electrical work and the making go
 03 We leave it cleaner than we found it
 Dust sheets down, core drilling done wet, and a hoover in the van. When we pull off the drive you should not be able to tell we were ever there.
 
-04 Certified and insured properly
-F-Gas certified for the refrigerant work, Part P for the electrics and public liability cover in place. Copies of all of it go in your handover pack.
+04 Everything written down and handed over
+Commissioning readings, the manufacturer warranty registered in your name, certificates for the work carried out and a drawing of where the pipework runs. It goes in a pack rather than being promised verbally.
 
 Typical home install
 
@@ -214,7 +214,7 @@ Prices vary with room size, wall construction and pipe run. Your survey confirms
 
 Get your exact price
 
-F-Gas certified Fully insured Part P electrics
+Free survey Fixed price quotes 2 year guarantee
 
 48hr From survey to written quote
 
@@ -290,7 +290,7 @@ Our promise
 
 Three commitments on every quote we send
 
-Not sales lines. These are written into the paperwork, they are what we are held to, and they are the reason most of our work comes back to us.
+Not sales lines. These go into the paperwork you sign, which means you can hold us to every one of them.
 
 The number on the quote is the number on the invoice.
 
@@ -364,7 +364,7 @@ Roughly an hour from our base in Manchester, which takes in Greater Manchester, 
 
 Who will actually be doing the work?
 
-We survey, specify and manage every job ourselves. On larger installations, and when we are busy, we bring in engineers we have worked with before rather than push your date back. Everyone who touches the refrigerant is F-Gas certified and everyone on site is insured, the same as our own team.
+We survey, specify and manage every job ourselves. On larger installations, and when we are busy, we bring in engineers we have worked with before rather than push your date back. Anyone we bring in works to our specification and to the same standard we hold ourselves to.
 
 Whoever holds the spanner, CoolIn holds the contract. We invoice you, our guarantee covers the work, and if something needs putting right you ring us rather than chasing anyone else. You will know who is coming before the day.
 
@@ -879,7 +879,7 @@ Does it need its own electrical circuit?
 
 Usually yes. A single wall unit normally runs on a dedicated circuit from the consumer unit through an isolator next to the outdoor unit. Multi splits and larger systems need a bigger circuit again.
 
-That work is notifiable under Part P of the building regulations. We take care of it as part of the job and the certificate goes in your handover pack, so there is no separate electrician for you to arrange or pay for.
+That work is notifiable under Part P of the building regulations. It is arranged as part of the job and the certificate goes in your handover pack, so there is no separate electrician for you to find or pay separately.
 
 Can you fit air conditioning in a flat?
 
@@ -2102,7 +2102,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/about.html
 TITLE: About CoolIn | Air Conditioning, Manchester
-DESCRIPTION: CoolIn Cooling and Heating install air conditioning across the North West from Manchester. F-Gas certified, insured, two year workmanship guarantee.
+DESCRIPTION: CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed written quotes and a two year workmanship guarantee.
 ================================================================================
 
 CoolIn / About CoolIn
@@ -2119,7 +2119,7 @@ See how we work
 
 CoolIn in short
 
-CoolIn Cooling & Heating Ltd is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. F-Gas certified for the refrigerant work, Part P for the electrics, fully insured, and every quote fixed in writing before anything is ordered.
+CoolIn Cooling & Heating Ltd is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. Every quote is fixed in writing before anything is ordered, the survey costs nothing, and our own workmanship is guaranteed for two years.
 
 Based
 Manchester
@@ -2130,8 +2130,8 @@ Roughly one hour from Manchester across the North West
 Works on
 Homes and commercial premises, install, service and repair
 
-Certification
-F-Gas certified, Part P for electrical work, fully insured
+Survey
+Free, under an hour, with a written quote inside 48 hours
 
 Guarantee
 Two years on our workmanship, plus the manufacturer warranty
@@ -2171,17 +2171,17 @@ VAT number 000 0000 00
 
 Registered office Manchester
 
-Public liability In place
+Free survey and quote Always
 
-F-Gas certification Held
+Quote valid for 60 days
 
-Part P electrical Held
+Workmanship guarantee 2 years
 
-Certificates are issued with every job in the handover pack, and we will send copies before you commit if you would like to see them first.
+Every job is handed over with its commissioning readings, warranty registration and the certificates for the work carried out.
 
 Get in touch
 
-F-Gas certified Fully insured Part P electrics
+Free survey Fixed price quotes 2 year guarantee
 
 Our promise
 
@@ -2554,7 +2554,7 @@ High ceilings mean you are cooling volume rather than floor area. Multi split sy
 
 Home offices
 
-The single most common domestic job since 2020. A small unit in a box room pays for itself in comfort within one summer and costs pennies an hour to run.
+A job that barely existed before home working became normal and is now one of the most requested. A small unit in a box room pays for itself in comfort within one summer and costs pennies an hour to run.
 
 Town centre retail and salons
 
