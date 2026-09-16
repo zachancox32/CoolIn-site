@@ -630,7 +630,11 @@ ul,ol{margin:0;padding:0;list-style:none}
 
 /* ---------- blog listing ---------- */
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.post-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:30px;display:flex;flex-direction:column;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease)}
+.post-card{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:30px;display:flex;flex-direction:column;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease)}
+/* the title link is stretched over the whole card, so "Read it" and the card
+   body are clickable without adding a second link to the same URL */
+.post-card h2 a::after{content:"";position:absolute;inset:0}
+.post-card:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,124,164,.18)}
 .post-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:transparent}
 .post-card__date{font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);margin-bottom:12px}
 .post-card h2{font-size:1.2rem;margin-bottom:10px;letter-spacing:-.015em}
