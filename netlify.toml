@@ -29,6 +29,8 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+    # fetched to render the page, but never a search result in its own right
+    X-Robots-Tag = "noindex"
 
 # Pages must revalidate, or a price change sits in caches for a year.
 [[headers]]
@@ -54,3 +56,27 @@
 # Host canonicalisation is left to Netlify's primary domain setting.
 # Defining it here as well is what caused an apex/www redirect loop:
 # netlify.toml forced apex to www while Netlify forced www to apex.
+
+# ---------------------------------------------------------------- not public
+
+# Everything in the publish directory is addressable by URL. These are in the
+# repo for maintenance and have no business being served. force = true makes
+# the rule win over the file that is actually sitting there.
+
+[[redirects]]
+  from = "/tools/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/.claude/*"
+  to = "/404.html"
+  status = 404
+  force = true
