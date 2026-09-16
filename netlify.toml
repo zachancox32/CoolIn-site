@@ -1,0 +1,99 @@
+# Netlify configuration for the CoolIn site.
+# There is no build step: the HTML in the repo root is what gets served.
+
+[build]
+  publish = "."
+  command = ""
+
+# ---------------------------------------------------------------- headers
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), payment=()"
+
+# CSS and JS are versioned with a ?v= query string, so they can cache hard.
+# Bump the version in the HTML when you change them and browsers pick it up.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Pages must revalidate, or a price change sits in caches for a year.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Answer engines expect these as plain text, not as a download.
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+# ---------------------------------------------------------------- redirects
+
+# Serve /domestic as well as /domestic.html, so links never break either way.
+[[redirects]]
+  from = "/domestic"
+  to = "/domestic.html"
+  status = 301
+
+[[redirects]]
+  from = "/commercial"
+  to = "/commercial.html"
+  status = 301
+
+[[redirects]]
+  from = "/servicing"
+  to = "/servicing.html"
+  status = 301
+
+[[redirects]]
+  from = "/repairs"
+  to = "/repairs.html"
+  status = 301
+
+[[redirects]]
+  from = "/heat-pumps"
+  to = "/heat-pumps.html"
+  status = 301
+
+[[redirects]]
+  from = "/ventilation"
+  to = "/ventilation.html"
+  status = 301
+
+[[redirects]]
+  from = "/areas"
+  to = "/areas.html"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+# Once the custom domain is live, decide on www or bare and force one of them,
+# so Google never sees two versions of the same page. Uncomment the pair you want.
+#
+# [[redirects]]
+#   from = "https://coolin.co.uk/*"
+#   to = "https://www.coolin.co.uk/:splat"
+#   status = 301
+#   force = true
