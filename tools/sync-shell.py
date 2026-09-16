@@ -24,6 +24,7 @@ CURRENT = {
     'ventilation.html': 'servicing.html',
     'about.html': 'about.html',
     'contact.html': 'contact.html',
+    'blog.html': 'blog.html',
 }
 
 BLOCKS = ['UTILITY', 'HEADER', 'FOOTER']

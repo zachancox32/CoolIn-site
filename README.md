@@ -63,6 +63,38 @@ re-marks the current nav item per page. Page content is never read or written. C
 phone number or a nav item in `index.html`, run it with `--write`, and all 20 other pages
 follow. Run `build-llms-full.py` after any content edit.
 
+## The blog
+
+Posts are markdown in `blog/posts/`, authors are JSON in `blog/authors/`, and
+`tools/build-blog.py` turns them into `blog/<slug>.html` plus the `blog.html`
+listing. Netlify runs that generator on every deploy, so publishing is just a
+commit.
+
+```bash
+python3 tools/build-blog.py     # rebuild locally to check a post before pushing
+```
+
+**Writing a post.** Either add a markdown file to `blog/posts/` yourself, or use
+the CMS at `/admin/`. Sveltia signs in with GitHub, writes the markdown into the
+repo, and Netlify rebuilds. Same flow as the Inboxx site; the engine underneath is
+Python rather than Eleventy, because there is no Node on this machine and an 11ty
+build could never be tested locally.
+
+**Frontmatter** is title, description, date, author. The `author` value is the `id`
+from a file in `blog/authors/`. Leave it out and the byline falls back to the team.
+
+**Markdown supported**: `##` to `####` headings, paragraphs, `**bold**`, `*italic*`,
+links, bullet and numbered lists, `>` blockquotes, `---` rules, pipe tables and
+inline code. It is a deliberate subset in `tools/_md.py` using only the standard
+library, so there is nothing to install in the Netlify build. Do not add an `#` h1:
+the title becomes the h1.
+
+**Authors and E-E-A-T.** This is the reason author records exist. Google weighs
+named, credentialed authors heavily for anything touching money or safety, and air
+conditioning is both. `blog/authors/coolin-team.json` is a placeholder with an empty
+credentials list. Replacing it with a real named engineer, their role and their
+actual certifications is worth more than another article.
+
 ## Search and answer engines
 
 Built for both from the start rather than retrofitted.
