@@ -5,6 +5,8 @@ that would rather ingest text than parse HTML. Re-run after editing page content
 import re, html, os, sys
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
+import glob as _g
+BLOG = sorted(_g.glob('blog/*.html'))
 ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html',
          'air-conditioning-manchester.html','air-conditioning-liverpool.html',
@@ -17,7 +19,7 @@ ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repair
          'air-conditioning-wigan.html','air-conditioning-southport.html',
          'air-conditioning-blackburn.html','air-conditioning-crewe.html',
          'air-conditioning-northwich.html','air-conditioning-leigh.html',
-         'air-conditioning-ashton-under-lyne.html','air-conditioning-lancaster.html']
+         'air-conditioning-ashton-under-lyne.html','air-conditioning-lancaster.html'] + BLOG
 
 def text_of(node):
     node = re.sub(r'<(script|style|svg|canvas|noscript)\b.*?</\1>', ' ', node, flags=re.S|re.I)

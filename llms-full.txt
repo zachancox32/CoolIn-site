@@ -4931,3 +4931,203 @@ Does Morecambe need the coastal specification too?
 Yes. Anywhere within roughly a mile of open water, salt in the air corrodes the aluminium fins on a standard outdoor coil and can take years off the condenser. Coated coil versions of the same units cost a modest premium and are what we fit as standard on those addresses.
 
 Free survey
+
+
+================================================================================
+URL: https://coolin.co.uk/blog/air-conditioning-planning-permission.html
+TITLE: Do you need planning permission for air conditioning?
+DESCRIPTION: The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are, what still needs consent, and how to check.
+================================================================================
+
+CoolIn / Blog / Do you need planning permission for air conditioning?
+
+Do you need planning permission for air conditioning?
+
+12 September 2026 · By The CoolIn team, Air conditioning engineers, North West
+
+For most houses in England, no. The rules changed on 29 May 2025 and they got considerably more generous, including for systems that cool as well as heat.
+
+That last part matters. Before the change, permitted development covered air source heat pumps used for heating. Systems that also cooled sat in a grey area that made some councils awkward. They are now explicitly in scope.
+
+What permitted development allows
+
+For a house in England, an outdoor unit is permitted development if it meets all of these:
+
+The unit is no more than 1.5 cubic metres , including its housing
+Two units on a detached house, one on anything else
+It meets the MCS 020 noise standard , which is 42 dB(A) measured at the nearest neighbouring habitable room window
+It is not used solely for cooling , so a heat and cool system qualifies where a cooling only one does not
+It is not on a pitched roof . On a flat roof it must sit at least a metre from the edge
+It is not on a wall above ground floor level where that wall faces a highway
+
+The old requirement to keep the unit a metre from the boundary has gone entirely. That single change made a great many small terraced yards viable that previously were not.
+
+Where it does not apply
+
+Listed buildings have no permitted development rights at all. Anything fixed to the structure needs listed building consent, and that is a real application with a real timescale rather than a formality.
+
+Conservation areas keep permitted development but add a restriction: the outdoor unit must not sit nearer to a highway bounding the property than any part of the building. In practice that pushes it to a rear or side elevation, which is usually where you would want it anyway.
+
+Flats are covered but with tighter limits, and your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is a separate question from planning and it catches people out far more often than the planning rules do.
+
+Scheduled monuments are out entirely.
+
+The noise limit is the one people trip over
+
+42 dB(A) sounds restrictive until you understand where it is measured: at the neighbour's window, not at the unit.
+
+A typical domestic condenser produces somewhere in the high 40s to low 50s at one metre. Sound falls away with distance, and a fence or a wall between the unit and the boundary helps further. Most positions pass comfortably. A unit bolted to a party wall directly below a neighbour's bedroom window may not.
+
+This is a calculation, not a guess, and it is part of a proper survey.
+
+What we do about it
+
+We check the designation of your property at survey, before quoting. That means looking at whether you are in a conservation area, whether the building is listed, and working the noise assessment for the position we are proposing.
+
+If an application is needed, we prepare it. If a position will not pass, we tell you before you have paid for anything rather than after.
+
+Source: Planning Portal, planning permission for air source heat pumps , checked September 2026.
+
+One thing coming down the line
+
+From 28 May 2026, MCS becomes the only certification scheme recognised for the planning standard. If you are reading this after that date and comparing quotes, it is worth asking which standard an installer is working to.
+
+Scotland, Wales and Northern Ireland have their own rules and the limits above do not apply there.
+
+The CoolIn team
+
+Air conditioning engineers, North West
+
+We install, service and repair air conditioning across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything here is what we would tell you on the phone.
+
+All articles
+
+
+================================================================================
+URL: https://coolin.co.uk/blog/air-conditioning-running-costs.html
+TITLE: What does air conditioning actually cost to run?
+DESCRIPTION: Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
+================================================================================
+
+CoolIn / Blog / What does air conditioning actually cost to run?
+
+What does air conditioning actually cost to run?
+
+16 September 2026 · By The CoolIn team, Air conditioning engineers, North West
+
+Everyone asks this second, right after the installed price. The honest answer is that it costs less than most people expect to cool a room, and considerably less than most people expect to heat one.
+
+Here are the actual figures, with the arithmetic shown so you can put your own tariff in.
+
+Cooling a bedroom
+
+A 2.5kW wall unit is the standard size for a room up to about 15m². It does not draw 2.5kW of electricity. That number is how much heat it moves, not how much power it uses.
+
+Once the room is down to temperature the unit throttles back and draws roughly 0.3kW. Working hard on a hot afternoon it might pull 0.65kW.
+
+At 25p per unit of electricity:
+
+| | Running state | Power drawn | Cost per hour
+| Ticking over, holding temperature | 0.3 kW | 7p
+| Working hard, pulling the room down | 0.65 kW | 16p
+
+So a full night of cooling, eight hours with most of it spent ticking over, lands around 60p to 80p.
+
+Heating the same room
+
+This is where it gets more interesting, and where most of the value sits for a British climate.
+
+Air conditioning in heating mode is an air to air heat pump. It moves heat from outside into the room rather than making it. A current unit has a seasonal efficiency of around 4.5, which means one unit of electricity delivers about four and a half units of heat.
+
+That gives you heat at roughly 5.6p per kWh , against:
+
+7.4p per kWh from a gas boiler running at 88% efficiency, with gas at 6.5p
+25p per kWh from any plug in electric heater, because they are all exactly 100% efficient and no better
+
+A fan heater and an oil filled radiator cost the same to run as each other. Neither can beat a heat pump, because they can only ever give you one unit of heat per unit of electricity.
+
+The number that actually matters
+
+The like for like comparison above understates it, because it assumes the boiler is only heating the one room you are sitting in.
+
+In practice, firing the central heating to warm a home office means warming the hallway, the spare room and the kitchen at the same time. Heating one room with a heat pump while the rest of the house stays cold is a completely different bill.
+
+On our own gas boiler comparison you can put your room size and your tariffs in and see both numbers. On typical figures, heating one room for a six month season works out around £55 with air conditioning against roughly £291 if the boiler is warming the whole house to do it.
+
+What changes these numbers
+
+Your tariff. Everything above assumes 25p per kWh for electricity and 6.5p for gas. Both move, and the ratio between them is what matters, not the pennies.
+How well the room holds heat. A solid wall Victorian room loses heat far faster than a modern insulated one, so the unit runs longer.
+What size unit you have. An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
+Whether it has been serviced. A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you will ever buy back, and it is why annual servicing pays for itself.
+
+The short version
+
+Cooling costs pennies an hour. Heating one room costs less than any other electric option and usually beats running the whole central heating system to warm the same room.
+
+If you want the figures for your specific rooms rather than a worked example, the survey is free and we will put the running costs in the quote.
+
+The CoolIn team
+
+Air conditioning engineers, North West
+
+We install, service and repair air conditioning across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything here is what we would tell you on the phone.
+
+All articles
+
+
+================================================================================
+URL: https://coolin.co.uk/blog/air-conditioning-vs-gas-boiler-heating.html
+TITLE: Should you heat with air conditioning instead of the gas boiler?
+DESCRIPTION: An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
+================================================================================
+
+CoolIn / Blog / Should you heat with air conditioning instead of the gas boiler?
+
+Should you heat with air conditioning instead of the gas boiler?
+
+8 September 2026 · By The CoolIn team, Air conditioning engineers, North West
+
+Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That is true, and it is also the part of the sales pitch that gets oversold.
+
+Here is the version with the caveats left in.
+
+Where it wins clearly
+
+Heating one room rather than the house. This is the whole argument, and it is a strong one. If you work in a home office from nine until five, firing the central heating warms nine rooms to keep one comfortable. A single unit in that room, at around 5.6p per kWh of heat, is a fraction of the cost.
+
+Against any electric heater. A fan heater, an oil filled radiator and a panel heater all deliver exactly one unit of heat per unit of electricity. A heat pump delivers about four and a half. If a room currently runs on electric heating, the saving is immediate and large.
+
+Shoulder seasons. Through October, and again in March and April, outside temperatures sit in the range where a heat pump is at its most efficient. That is a big chunk of the heating year where it is simply the cheaper way to warm a room.
+
+Where the boiler still wins
+
+The coldest weeks. Output falls as the outside temperature drops, because there is less heat in the air to move. Below about 5°C you notice longer warm up times. It keeps working down to around minus 15°C, it just works harder for less.
+
+Hot water. It cannot produce any. None. If you are hoping to remove the gas meter, that is an air to water heat pump conversation and a much bigger job.
+
+Whole house heating. It only warms rooms with an indoor unit in them. Putting a unit in every room to replace a boiler gets expensive quickly, and at that point the sums usually favour air to water.
+
+The things nobody mentions before you buy
+
+It will blow cool air at you occasionally. Frost builds on the outdoor coil in cold damp weather. Every so often the system reverses for a few minutes to melt it, and the indoor unit goes cool while that happens. It is the defrost cycle, it is normal, and there is no way to switch it off.
+
+The outdoor unit drips in winter. Melted frost has to go somewhere. We fit a drain and run it to a suitable outlet, but in a hard frost that drain can freeze and water can spill onto the ground below. Worth deciding at survey whether that matters where your unit is going.
+
+Heat rises, so tall rooms are slow. In a vaulted lounge the warm air collects above your head while the floor stays cool. That is physics rather than the equipment, and destratification fans are the answer.
+
+So what should you actually do
+
+For most houses the honest answer is not either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it is genuinely freezing, and get cooling in July as the part you did not have before.
+
+That is the combination that works, and it is what we fit most often.
+
+If you want to see the numbers for your own room and your own tariff, the gas boiler comparison does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.
+
+The CoolIn team
+
+Air conditioning engineers, North West
+
+We install, service and repair air conditioning across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything here is what we would tell you on the phone.
+
+All articles

@@ -13,6 +13,7 @@ User-agent: *
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 # ------------------------------------------------- answer engines and models
 # Listed explicitly so there is no ambiguity about permission. Each group
@@ -23,45 +24,54 @@ User-agent: GPTBot
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: Claude-User
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 User-agent: CCBot
 Allow: /
 Disallow: /thanks.html
 Disallow: /404.html
+Disallow: /admin/
 
 Sitemap: https://cool-in.co.uk/sitemap.xml

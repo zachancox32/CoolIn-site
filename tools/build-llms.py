@@ -85,6 +85,16 @@ for f in ORDER:
     out.append(f"- [{t}]({url(f)}): {d}")
 out.append("")
 
+posts = sorted(glob.glob('blog/*.html'))
+if posts:
+    out.append("## Articles\n")
+    out.append("Written to answer the questions customers actually ask. Each carries\n"
+               "BlogPosting structured data with a named author and a publication date.\n")
+    for f in posts:
+        t, d = meta(f)
+        out.append(f"- [{t}]({BASE}/{f}): {d}")
+    out.append("")
+
 towns = sorted(glob.glob('air-conditioning-*.html'))
 out.append(f"## Town pages\n")
 out.append(f"One page per town, each covering that town's building stock, planning\n"

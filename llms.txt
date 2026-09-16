@@ -51,6 +51,15 @@ rather than a measurement, the page says so and gives the assumptions.
 - [About CoolIn | Air Conditioning, Manchester](https://cool-in.co.uk/about.html): CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
 - [Contact CoolIn | 07932 607335 | Air Conditioning](https://cool-in.co.uk/contact.html): Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07932 607335 today.
 
+## Articles
+
+Written to answer the questions customers actually ask. Each carries
+BlogPosting structured data with a named author and a publication date.
+
+- [Do you need planning permission for air conditioning?](https://cool-in.co.uk/blog/air-conditioning-planning-permission.html): The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are, what still needs consent, and how to check.
+- [What does air conditioning actually cost to run?](https://cool-in.co.uk/blog/air-conditioning-running-costs.html): Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
+- [Should you heat with air conditioning instead of the gas boiler?](https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating.html): An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
+
 ## Town pages
 
 One page per town, each covering that town's building stock, planning
