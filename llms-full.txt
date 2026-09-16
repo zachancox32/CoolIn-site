@@ -1,7 +1,7 @@
 # CoolIn Cooling & Heating, full site text
 
 Air conditioning installer covering the North West of England, based in
-Manchester. Phone 0161 000 0000.
+Manchester. Phone 07932 607335.
 
 This file is the readable text of every page on coolin.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
@@ -1557,7 +1557,7 @@ on all makes and models
 All makes, all models, whether we fitted it or not. Parts for the major brands are carried on the van, so most faults are sorted on the first visit rather than after a week of waiting for a courier.
 
 Report a fault
-Call 0161 000 0000
+Call 07932 607335
 
 £95 first hour, including travel
 
@@ -1983,7 +1983,7 @@ the North West
 We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a single base in Manchester. Keeping the patch tight is deliberate: it is the difference between attending a breakdown this week and attending it next month.
 
 Check your postcode
-Call 0161 000 0000
+Call 07932 607335
 
 Our coverage in short
 
@@ -2209,8 +2209,8 @@ Free survey
 
 ================================================================================
 URL: https://coolin.co.uk/contact.html
-TITLE: Contact CoolIn | 0161 000 0000 | Air Conditioning
-DESCRIPTION: Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 0161 000 0000 or email us.
+TITLE: Contact CoolIn | 07932 607335 | Air Conditioning
+DESCRIPTION: Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07932 607335 or email us.
 ================================================================================
 
 CoolIn / Contact
@@ -2220,22 +2220,22 @@ Contact
 Tell us about the space
 and we will do the rest
 
-Ring, email or fill the form in. An engineer calls you back the same working day, the survey is free and takes under an hour, and the written quote follows within 48 hours. There is no sales visit in between.
+Ring us or fill the form in. An engineer calls you back the same working day, the survey is free and takes under an hour, and the written quote follows within 48 hours. There is no sales visit in between.
 
-Call 0161 000 0000
-Email us
+Call 07932 607335
+Send us the details
 
 Phone
 
-0161 000 0000
+07932 607335
 
 Monday to Saturday, 7am to 7pm. Outside those hours leave a message and we ring back first thing. Service contract customers have a direct number for breakdowns.
 
-Email
+Send us the details
 
-hello@coolin.co.uk
+Use the form below
 
-Photographs of the room and the wall where the outdoor unit might go save a lot of back and forth. Include a postcode and we will tell you straight away whether you are in our patch.
+Give us the rooms, the postcode and anything you already know about the property. An engineer rings you back the same working day, and it saves a lot of back and forth on the first call.
 
 Where we are
 
