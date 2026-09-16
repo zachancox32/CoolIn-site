@@ -2115,7 +2115,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/about.html
 TITLE: About CoolIn | Air Conditioning, Manchester
-DESCRIPTION: CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed written quotes and a two year workmanship guarantee.
+DESCRIPTION: CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
 ================================================================================
 
 CoolIn / About CoolIn
@@ -2988,7 +2988,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/air-conditioning-altrincham.html
 TITLE: Air Conditioning Altrincham | Install & Service
-DESCRIPTION: Air conditioning installation, servicing and repairs in Altrincham, Hale and Bowdon. Period villas, extensions and conservation areas handled. Free survey, 0% VAT.
+DESCRIPTION: Air conditioning installation and servicing in Altrincham, Hale and Bowdon. Period villas, extensions and conservation areas handled. Free survey, 0% VAT.
 ================================================================================
 
 CoolIn / Areas covered / Altrincham
@@ -3109,7 +3109,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/air-conditioning-wilmslow.html
 TITLE: Air Conditioning Wilmslow | Install & Service
-DESCRIPTION: Air conditioning in Wilmslow and Alderley Edge. Large detached homes, home offices and discreet installations where nothing shows from the road. Free survey, 0% VAT.
+DESCRIPTION: Air conditioning in Wilmslow and Alderley Edge. Large detached homes and discreet installations where nothing shows from the road. Free survey, 0% VAT.
 ================================================================================
 
 CoolIn / Areas covered / Wilmslow

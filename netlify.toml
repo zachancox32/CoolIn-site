@@ -71,6 +71,16 @@
   status = 301
   force = true
 
+# /index.html and / served the same page at two URLs, and every internal link
+# pointed at the first while the canonical tag pointed at the second. The links
+# are fixed; this stops the duplicate URL being reachable at all.
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
 # ---------------------------------------------------------------- not public
 
 # Everything in the publish directory is addressable by URL. These are in the

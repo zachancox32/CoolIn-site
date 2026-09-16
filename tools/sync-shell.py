@@ -50,7 +50,9 @@ for f in sorted(glob.glob('*.html')):
         block = shell[n]
         if n == 'HEADER':
             # point the logo at the homepage and mark the current nav item
-            block = block.replace('<a class="logo" href="#top"', '<a class="logo" href="index.html"')
+            # point at the canonical homepage URL, not /index.html, which is a
+            # duplicate that all internal links used to flow to by mistake
+            block = block.replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
             block = re.sub(r' class="is-current" aria-current="page"', '', block)
             cur = CURRENT.get(f)
             if cur:
