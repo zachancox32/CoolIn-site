@@ -5,6 +5,14 @@
   publish = "."
   # No build command on purpose. The HTML in the repo root is what gets served.
 
+[build.processing]
+  skip_processing = false
+
+# Keep .html on the URL rather than letting Netlify strip it, so the canonical
+# tag, the internal links and the served URL are all the same string.
+[build.processing.html]
+  pretty_urls = false
+
 # ---------------------------------------------------------------- headers
 
 [[headers]]
@@ -43,63 +51,6 @@
 
 # ---------------------------------------------------------------- redirects
 
-# Serve /domestic as well as /domestic.html, so links never break either way.
-[[redirects]]
-  from = "/domestic"
-  to = "/domestic.html"
-  status = 301
-
-[[redirects]]
-  from = "/commercial"
-  to = "/commercial.html"
-  status = 301
-
-[[redirects]]
-  from = "/servicing"
-  to = "/servicing.html"
-  status = 301
-
-[[redirects]]
-  from = "/repairs"
-  to = "/repairs.html"
-  status = 301
-
-[[redirects]]
-  from = "/heat-pumps"
-  to = "/heat-pumps.html"
-  status = 301
-
-[[redirects]]
-  from = "/ventilation"
-  to = "/ventilation.html"
-  status = 301
-
-[[redirects]]
-  from = "/areas"
-  to = "/areas.html"
-  status = 301
-
-[[redirects]]
-  from = "/about"
-  to = "/about.html"
-  status = 301
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact.html"
-  status = 301
-
-# One canonical host. Everything else 301s to www.cool-in.co.uk so Google
-# never sees the same page at three addresses.
-
-[[redirects]]
-  from = "https://cool-in.co.uk/*"
-  to = "https://www.cool-in.co.uk/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://cool-in.netlify.app/*"
-  to = "https://www.cool-in.co.uk/:splat"
-  status = 301
-  force = true
+# Host canonicalisation is left to Netlify's primary domain setting.
+# Defining it here as well is what caused an apex/www redirect loop:
+# netlify.toml forced apex to www while Netlify forced www to apex.

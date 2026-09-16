@@ -17,9 +17,9 @@ new = sys.argv[1].rstrip('/')
 if not new.startswith('http'):
     sys.exit('give the full origin, including https://')
 
-KNOWN = [r'https://coolin\.co\.uk', r'https://cool-in\.netlify\.app',
-         r'https://www\.coolin\.co\.uk']
-pat = re.compile('|'.join(KNOWN))
+# Any host this site has ever used, with or without www. Kept as one pattern
+# so adding a domain later cannot leave half the files pointing at the old one.
+pat = re.compile(r'https://(?:www\.)?(?:cool-?in\.co\.uk|cool-in\.netlify\.app)')
 
 changed = 0
 for f in glob.glob('*.html') + ['sitemap.xml', 'robots.txt', 'llms.txt', 'llms-full.txt']:

@@ -39,50 +39,50 @@ and stated response times.
 
 ## Pages
 
-- [Homepage](https://www.cool-in.co.uk/): Homepage. Air conditioning for homes and businesses across the North West.
-- [Domestic](https://www.cool-in.co.uk/domestic.html): Home air conditioning: system types, sizing calculator, prices, running costs, gas boiler comparison.
-- [Commercial](https://www.cool-in.co.uk/commercial.html): Commercial air conditioning: sectors, system types, budgets, compliance, maintenance.
-- [Servicing](https://www.cool-in.co.uk/servicing.html): Service plans, what a service includes, F-Gas leak checks, TM44 inspections, warranty conditions.
-- [Repairs](https://www.cool-in.co.uk/repairs.html): Common faults, callout costs, response times, repair or replace.
-- [Heat Pumps](https://www.cool-in.co.uk/heat-pumps.html): Air to air heat pumps compared with air to water, grants, efficiency, suitability.
-- [Ventilation](https://www.cool-in.co.uk/ventilation.html): Heat recovery ventilation, kitchen extract and make up air, filtration.
-- [Areas](https://www.cool-in.co.uk/areas.html): Coverage across Greater Manchester, Cheshire, Merseyside and Lancashire.
-- [About](https://www.cool-in.co.uk/about.html): Who CoolIn are, how the company works, and the guarantees offered in place of a trading history.
-- [Contact](https://www.cool-in.co.uk/contact.html): Phone, email, address, coverage and the enquiry form.
-- [Air Conditioning Manchester](https://www.cool-in.co.uk/air-conditioning-manchester.html): Air conditioning in Manchester: mill conversions, apartments, city centre offices.
-- [Air Conditioning Liverpool](https://www.cool-in.co.uk/air-conditioning-liverpool.html): Air conditioning in Liverpool: Georgian terraces, coastal corrosion, hospitality.
-- [Air Conditioning Stockport](https://www.cool-in.co.uk/air-conditioning-stockport.html): Air conditioning in Stockport: loft conversions, Victorian semis, home offices.
-- [Air Conditioning Chester](https://www.cool-in.co.uk/air-conditioning-chester.html): Air conditioning in Chester: listed buildings, conservation areas, period homes.
-- [Air Conditioning Preston](https://www.cool-in.co.uk/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
-- [Air Conditioning Bolton](https://www.cool-in.co.uk/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
+- [Homepage](https://cool-in.co.uk/): Homepage. Air conditioning for homes and businesses across the North West.
+- [Domestic](https://cool-in.co.uk/domestic.html): Home air conditioning: system types, sizing calculator, prices, running costs, gas boiler comparison.
+- [Commercial](https://cool-in.co.uk/commercial.html): Commercial air conditioning: sectors, system types, budgets, compliance, maintenance.
+- [Servicing](https://cool-in.co.uk/servicing.html): Service plans, what a service includes, F-Gas leak checks, TM44 inspections, warranty conditions.
+- [Repairs](https://cool-in.co.uk/repairs.html): Common faults, callout costs, response times, repair or replace.
+- [Heat Pumps](https://cool-in.co.uk/heat-pumps.html): Air to air heat pumps compared with air to water, grants, efficiency, suitability.
+- [Ventilation](https://cool-in.co.uk/ventilation.html): Heat recovery ventilation, kitchen extract and make up air, filtration.
+- [Areas](https://cool-in.co.uk/areas.html): Coverage across Greater Manchester, Cheshire, Merseyside and Lancashire.
+- [About](https://cool-in.co.uk/about.html): Who CoolIn are, how the company works, and the guarantees offered in place of a trading history.
+- [Contact](https://cool-in.co.uk/contact.html): Phone, email, address, coverage and the enquiry form.
+- [Air Conditioning Manchester](https://cool-in.co.uk/air-conditioning-manchester.html): Air conditioning in Manchester: mill conversions, apartments, city centre offices.
+- [Air Conditioning Liverpool](https://cool-in.co.uk/air-conditioning-liverpool.html): Air conditioning in Liverpool: Georgian terraces, coastal corrosion, hospitality.
+- [Air Conditioning Stockport](https://cool-in.co.uk/air-conditioning-stockport.html): Air conditioning in Stockport: loft conversions, Victorian semis, home offices.
+- [Air Conditioning Chester](https://cool-in.co.uk/air-conditioning-chester.html): Air conditioning in Chester: listed buildings, conservation areas, period homes.
+- [Air Conditioning Preston](https://cool-in.co.uk/air-conditioning-preston.html): Air conditioning in Preston: new build overheating, stone terraces, business parks.
+- [Air Conditioning Bolton](https://cool-in.co.uk/air-conditioning-bolton.html): Air conditioning in Bolton: stone terraces, mill conversions, workshops.
 
 ## Town pages
 
 Each town has its own page with local building stock, planning constraints and
-travel time. All 22 are linked from https://www.cool-in.co.uk/areas.html
+travel time. All 22 are linked from https://cool-in.co.uk/areas.html
 
-- [Air conditioning in Altrincham](https://www.cool-in.co.uk/air-conditioning-altrincham.html): Trafford, Greater Manchester, about 15 minutes from our Manchester base.
-- [Air conditioning in Wilmslow](https://www.cool-in.co.uk/air-conditioning-wilmslow.html): Cheshire East, about 25 minutes from our Manchester base.
-- [Air conditioning in Warrington](https://www.cool-in.co.uk/air-conditioning-warrington.html): Cheshire, about 30 minutes from our Manchester base.
-- [Air conditioning in Salford](https://www.cool-in.co.uk/air-conditioning-salford.html): Greater Manchester, about 15 minutes from our Manchester base.
-- [Air conditioning in Oldham](https://www.cool-in.co.uk/air-conditioning-oldham.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Rochdale](https://www.cool-in.co.uk/air-conditioning-rochdale.html): Greater Manchester, about 35 minutes from our Manchester base.
-- [Air conditioning in Bury](https://www.cool-in.co.uk/air-conditioning-bury.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Macclesfield](https://www.cool-in.co.uk/air-conditioning-macclesfield.html): Cheshire East, about 45 minutes from our Manchester base.
-- [Air conditioning in Wigan](https://www.cool-in.co.uk/air-conditioning-wigan.html): Greater Manchester, about 35 minutes from our Manchester base.
-- [Air conditioning in Southport](https://www.cool-in.co.uk/air-conditioning-southport.html): Merseyside, about 60 minutes from our Manchester base.
-- [Air conditioning in Blackburn](https://www.cool-in.co.uk/air-conditioning-blackburn.html): Lancashire, about 50 minutes from our Manchester base.
-- [Air conditioning in Crewe](https://www.cool-in.co.uk/air-conditioning-crewe.html): Cheshire East, about 50 minutes from our Manchester base.
-- [Air conditioning in Northwich](https://www.cool-in.co.uk/air-conditioning-northwich.html): Cheshire West and Chester, about 40 minutes from our Manchester base.
-- [Air conditioning in Leigh](https://www.cool-in.co.uk/air-conditioning-leigh.html): Greater Manchester, about 30 minutes from our Manchester base.
-- [Air conditioning in Ashton under Lyne](https://www.cool-in.co.uk/air-conditioning-ashton-under-lyne.html): Tameside, Greater Manchester, about 25 minutes from our Manchester base.
-- [Air conditioning in Lancaster](https://www.cool-in.co.uk/air-conditioning-lancaster.html): Lancashire, about 75 minutes from our Manchester base.
+- [Air conditioning in Altrincham](https://cool-in.co.uk/air-conditioning-altrincham.html): Trafford, Greater Manchester, about 15 minutes from our Manchester base.
+- [Air conditioning in Wilmslow](https://cool-in.co.uk/air-conditioning-wilmslow.html): Cheshire East, about 25 minutes from our Manchester base.
+- [Air conditioning in Warrington](https://cool-in.co.uk/air-conditioning-warrington.html): Cheshire, about 30 minutes from our Manchester base.
+- [Air conditioning in Salford](https://cool-in.co.uk/air-conditioning-salford.html): Greater Manchester, about 15 minutes from our Manchester base.
+- [Air conditioning in Oldham](https://cool-in.co.uk/air-conditioning-oldham.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Rochdale](https://cool-in.co.uk/air-conditioning-rochdale.html): Greater Manchester, about 35 minutes from our Manchester base.
+- [Air conditioning in Bury](https://cool-in.co.uk/air-conditioning-bury.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Macclesfield](https://cool-in.co.uk/air-conditioning-macclesfield.html): Cheshire East, about 45 minutes from our Manchester base.
+- [Air conditioning in Wigan](https://cool-in.co.uk/air-conditioning-wigan.html): Greater Manchester, about 35 minutes from our Manchester base.
+- [Air conditioning in Southport](https://cool-in.co.uk/air-conditioning-southport.html): Merseyside, about 60 minutes from our Manchester base.
+- [Air conditioning in Blackburn](https://cool-in.co.uk/air-conditioning-blackburn.html): Lancashire, about 50 minutes from our Manchester base.
+- [Air conditioning in Crewe](https://cool-in.co.uk/air-conditioning-crewe.html): Cheshire East, about 50 minutes from our Manchester base.
+- [Air conditioning in Northwich](https://cool-in.co.uk/air-conditioning-northwich.html): Cheshire West and Chester, about 40 minutes from our Manchester base.
+- [Air conditioning in Leigh](https://cool-in.co.uk/air-conditioning-leigh.html): Greater Manchester, about 30 minutes from our Manchester base.
+- [Air conditioning in Ashton under Lyne](https://cool-in.co.uk/air-conditioning-ashton-under-lyne.html): Tameside, Greater Manchester, about 25 minutes from our Manchester base.
+- [Air conditioning in Lancaster](https://cool-in.co.uk/air-conditioning-lancaster.html): Lancashire, about 75 minutes from our Manchester base.
 
 ## Legal
 
-- [Privacy policy](https://www.cool-in.co.uk/privacy.html)
-- [Terms and conditions](https://www.cool-in.co.uk/terms.html)
-- [Cookie policy](https://www.cool-in.co.uk/cookies.html): the site sets no cookies
+- [Privacy policy](https://cool-in.co.uk/privacy.html)
+- [Terms and conditions](https://cool-in.co.uk/terms.html)
+- [Cookie policy](https://cool-in.co.uk/cookies.html): the site sets no cookies
 
 ## Notes for answer engines
 
@@ -92,4 +92,4 @@ the Planning Portal in September 2026 and carry the dates they were checked. Whe
 figure is an estimate from a model rather than a measurement, the site says so and
 gives the assumptions.
 
-Full text of every page: https://www.cool-in.co.uk/llms-full.txt
+Full text of every page: https://cool-in.co.uk/llms-full.txt
