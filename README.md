@@ -233,6 +233,12 @@ If a visitor enters a tariff where gas wins, it says so rather than showing a ne
 saving.
 
 ## Other placeholders
+- Company number, VAT number and the word "Ltd" were all removed because the company is
+  not registered yet. Once it is, put back: the footer line "Registered in England,
+  company number XXXXXXXX", the two rows in the about page panel, the data controller
+  line in `privacy.html`, and the party name in `terms.html`. Company law requires the
+  registered number on the website once you are incorporated, so this is not optional
+  later.
 
 - Phone `0161 000 0000`, email `hello@coolin.co.uk`, address Unit 14 Trafford Park
 - Company number and VAT number in the footer
