@@ -46,9 +46,9 @@ author: coolin-team
 
 </ul>
 
-<p>    \*   Some systems offer up to 65% lower costs compared to electric heaters, depending on insulation levels, outdoor temperatures, and usage patterns.</p>
+<p>Some systems offer up to 65% lower costs compared to electric heaters, depending on insulation levels, outdoor temperatures, and usage patterns.</p>
 
-<p>    \*   They can also provide around 30% savings compared to gas boilers under optimal conditions and specific energy tariffs [Source: Energy Saving Trust, &#39;Comparing Heating Costs&#39; (latest edition)].</p>
+<p>They can also provide around 30% savings compared to gas boilers under optimal conditions and specific energy tariffs [Source: Energy Saving Trust, &#39;Comparing Heating Costs&#39; (latest edition)].</p>
 
 <ul>
 

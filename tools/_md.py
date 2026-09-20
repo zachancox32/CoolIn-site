@@ -7,6 +7,10 @@ Netlify and the build cannot break because a package moved.
 
 Supports: # headings, paragraphs, **bold**, *italic*, `code`, [links](url),
 bullet and numbered lists, > blockquotes, --- rules, and pipe tables.
+
+A block that starts with an HTML tag is passed through untouched, so a post
+can be authored as raw HTML instead of markdown. Posts come from the CMS,
+which only repo collaborators can write to, so the HTML is trusted.
 """
 import re, html as _html
 
@@ -18,6 +22,8 @@ def _inline(t):
     t = re.sub(r'(?<!\*)\*([^*\n]+)\*(?!\*)', r'<em>\1</em>', t)
     return t
 
+_RAW_HTML = re.compile(r'^</?[A-Za-z][A-Za-z0-9-]*(\s|/?>|$)')
+
 def render(md):
     lines = md.replace('\r\n', '\n').split('\n')
     out, i = [], 0
@@ -27,6 +33,12 @@ def render(md):
 
         if not s:
             i += 1; continue
+
+        if _RAW_HTML.match(s):                          # raw HTML block, verbatim
+            buf = []
+            while i < len(lines) and lines[i].strip():
+                buf.append(lines[i].rstrip()); i += 1
+            out.append('\n'.join(buf)); continue
 
         if s.startswith('---') and set(s) == {'-'} and len(s) >= 3:
             out.append('<hr>'); i += 1; continue
