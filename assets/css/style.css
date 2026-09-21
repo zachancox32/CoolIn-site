@@ -827,3 +827,33 @@ ul,ol{margin:0;padding:0;list-style:none}
   .ribbon{padding:20px 0}
   .ribbon__form{grid-template-columns:1fr;gap:13px;padding:20px}
 }
+
+/* ---------- system diagrams ---------- */
+.sys__dia{margin:18px 0 20px;display:flex;flex-direction:column;gap:9px}
+.sys__dia svg{
+  width:100%;height:auto;display:block;background:var(--paper-2);
+  border:1px solid var(--line);border-radius:var(--radius);padding:10px;
+}
+.sys__dia figcaption{
+  font-family:var(--head);font-weight:700;font-size:.74rem;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--grey);
+}
+/* shared drawing language: the house is quiet, the kit is the subject */
+.d-ground{stroke:var(--line);stroke-width:2;fill:none}
+.d-shell{fill:var(--ice-soft);stroke:none;opacity:.55}
+.d-room,.d-floor,.d-void{fill:none;stroke:#fff;stroke-width:1.5}
+.d-void{fill:#fff;opacity:.55;stroke:none}
+.d-unit{fill:var(--navy)}
+.d-grille{fill:var(--blue)}
+.d-pipe{fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.d-out{fill:none;stroke:var(--navy);stroke-width:2}
+.d-out rect{fill:#fff}
+.d-hub{fill:var(--navy);stroke:none}
+.d-air{fill:none;stroke:var(--ice);stroke-width:2;stroke-linecap:round;stroke-dasharray:5 7}
+@media (prefers-reduced-motion:no-preference){
+  .d-air{animation:d-drift 2.4s linear infinite}
+  .sys__dia:nth-of-type(2) .d-air{animation-duration:2.7s}
+  .d-air:nth-of-type(2){animation-delay:-.8s}
+  .d-air:nth-of-type(3){animation-delay:-1.6s}
+}
+@keyframes d-drift{to{stroke-dashoffset:-24}}
