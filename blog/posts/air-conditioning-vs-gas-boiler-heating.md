@@ -39,4 +39,4 @@ For most houses the honest answer is not either/or. Keep the boiler. Put air con
 
 That is the combination that works, and it is what we fit most often.
 
-If you want to see the numbers for your own room and your own tariff, the [gas boiler comparison](/domestic.html#vs-gas) does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.
+If you want to see the numbers for your own room and your own tariff, the [gas boiler comparison](/domestic#vs-gas) does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.

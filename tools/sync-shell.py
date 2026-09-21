@@ -23,7 +23,7 @@ CURRENT = {
     'heat-pumps.html': 'servicing.html',
     'ventilation.html': 'servicing.html',
     'about.html': 'about.html',
-    'contact.html': 'contact.html',
+    'contact.html': 'contact',
     'blog.html': 'blog.html',
 }
 
@@ -61,7 +61,7 @@ for f in sorted(glob.glob('*.html')):
                                       f'<a href="{cur}" class="is-current" aria-current="page">', 1)
             # pages with no enquiry form send the header CTA to the contact page
             if 'id="quote"' not in s:
-                block = block.replace('href="#quote">Free survey', 'href="contact.html#quote">Free survey')
+                block = block.replace('href="#quote">Free survey', 'href="contact#quote">Free survey')
         out = re.sub(r'<!-- SHELL:%s:START -->.*?<!-- SHELL:%s:END -->' % (n, n),
                      lambda m: block, out, flags=re.S)
     if out != s:

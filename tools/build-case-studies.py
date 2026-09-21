@@ -49,7 +49,9 @@ def town_link(name):
     return f'/{f}' if f else ''
 
 def rootify(block):
-    block = re.sub(r'href="(?!https?:|tel:|mailto:|/|#)([a-z0-9\-]+\.html)', r'href="/\1', block)
+    # shell links are now extensionless, so match the bare slug up to the
+    # closing quote or a fragment
+    block = re.sub(r'href="(?!https?:|tel:|mailto:|/|#)([a-z0-9\-]+)(?=["#])', r'href="/\1', block)
     block = block.replace('src="assets/', 'src="/assets/').replace('href="assets/', 'href="/assets/')
     return block
 
@@ -104,7 +106,7 @@ def section(heading, md):
 def build_one(path):
     fm, body = frontmatter(open(path).read())
     slug = fm.get('slug') or os.path.basename(path)[:-3]
-    url = f'{BASE}/case-studies/{slug}.html'
+    url = f'{BASE}/case-studies/{slug}'
     title = fm['title']
     desc  = fm.get('description', '')
     date  = (fm.get('date', '') or '')[:10]
@@ -156,7 +158,7 @@ def build_one(path):
     ld = {"@context": "https://schema.org", "@graph": [article,
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "CoolIn", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Case studies", "item": f"{BASE}/case-studies.html"},
+            {"@type": "ListItem", "position": 2, "name": "Case studies", "item": f"{BASE}/case-studies"},
             {"@type": "ListItem", "position": 3, "name": title, "item": url}]}]}
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
@@ -165,7 +167,7 @@ def build_one(path):
   <header class="post__head">
     <div class="wrap post__wrap">
       <nav class="crumbs crumbs--light js-up" aria-label="Breadcrumb">
-        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="/case-studies.html">Case studies</a><span aria-hidden="true">/</span><span aria-current="page">{html.escape(title)}</span>
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="/case-studies">Case studies</a><span aria-hidden="true">/</span><span aria-current="page">{html.escape(title)}</span>
       </nav>
       <h1 class="js-up">{html.escape(title)}</h1>
       {f'<p class="lede js-up">{html.escape(desc)}</p>' if desc else ''}
@@ -184,7 +186,7 @@ def build_one(path):
     {gal_html}
     {quote_html}
     {nearby}
-    <p class="post__back"><a href="/case-studies.html">All case studies</a></p>
+    <p class="post__back"><a href="/case-studies">All case studies</a></p>
   </div>
 </article>
 
@@ -205,7 +207,7 @@ def build_index(items):
     if True:
         cards = '\n'.join(f'''      <article class="post-card js-card">
         <p class="post-card__date">{html.escape(' / '.join(x for x in [i['town'], i['ptype']] if x)) or '&nbsp;'}</p>
-        <h2><a href="/case-studies/{i['slug']}.html">{html.escape(i['title'])}</a></h2>
+        <h2><a href="/case-studies/{i['slug']}">{html.escape(i['title'])}</a></h2>
         <p>{html.escape(i['desc'])}</p>
         <span class="post-card__go">See the job</span>
       </article>''' for i in items)
@@ -215,13 +217,13 @@ def build_index(items):
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": "CoolIn case studies",
          "description": "Air conditioning installations across the North West, with the system, the property and what the job involved.",
-         "url": f"{BASE}/case-studies.html",
+         "url": f"{BASE}/case-studies",
          "isPartOf": {"@id": f"{BASE}/#business"},
          "hasPart": [{"@type": "Article", "headline": i['title'], "url": i['url'],
                       "datePublished": i['date']} for i in items]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "CoolIn", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Case studies", "item": f"{BASE}/case-studies.html"}]}]}
+            {"@type": "ListItem", "position": 2, "name": "Case studies", "item": f"{BASE}/case-studies"}]}]}
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
     body = f'''<!-- ============ HERO ============ -->

@@ -54,6 +54,6 @@ If an application is needed, we prepare it. If a position will not pass, we tell
 
 From 28 May 2026, MCS becomes the only certification scheme recognised for the planning standard. If you are reading this after that date and comparing quotes, it is worth asking which standard an installer is working to.
 
-If you are weighing up whether the system is worth it in the first place, [the running costs](/blog/air-conditioning-running-costs.html) are the other half of the question.
+If you are weighing up whether the system is worth it in the first place, [the running costs](/blog/air-conditioning-running-costs) are the other half of the question.
 
 Scotland, Wales and Northern Ireland have their own rules and the limits above do not apply there.

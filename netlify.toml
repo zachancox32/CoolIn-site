@@ -15,11 +15,11 @@
 
 [build.processing]
   skip_processing = false
-
-# Keep .html on the URL rather than letting Netlify strip it, so the canonical
-# tag, the internal links and the served URL are all the same string.
-[build.processing.html]
-  pretty_urls = false
+  # Serve clean URLs and 301 the .html form to them. The canonical tag, the
+  # sitemap, the model files and every internal link use the clean form, so
+  # there is exactly one address for each page.
+  [build.processing.html]
+    pretty_urls = true
 
 # ---------------------------------------------------------------- headers
 

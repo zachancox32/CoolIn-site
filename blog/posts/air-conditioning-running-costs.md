@@ -45,14 +45,14 @@ The like for like comparison above understates it, because it assumes the boiler
 
 In practice, firing the central heating to warm a home office means warming the hallway, the spare room and the kitchen at the same time. Heating one room with a heat pump while the rest of the house stays cold is a completely different bill.
 
-There is a fuller treatment in [air conditioning against a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating.html). On our own [gas boiler comparison](/domestic.html#vs-gas) you can put your room size and your tariffs in and see both numbers. On typical figures, heating one room for a six month season works out around £55 with air conditioning against roughly £291 if the boiler is warming the whole house to do it.
+There is a fuller treatment in [air conditioning against a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating). On our own [gas boiler comparison](/domestic#vs-gas) you can put your room size and your tariffs in and see both numbers. On typical figures, heating one room for a six month season works out around £55 with air conditioning against roughly £291 if the boiler is warming the whole house to do it.
 
 ## What changes these numbers
 
 - **Your tariff.** Everything above assumes 25p per kWh for electricity and 6.5p for gas. Both move, and the ratio between them is what matters, not the pennies.
 - **How well the room holds heat.** A solid wall Victorian room loses heat far faster than a modern insulated one, so the unit runs longer.
 - **What size unit you have.** An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
-- **Whether it has been serviced.** A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you will ever buy back, and it is why [annual servicing](/servicing.html) pays for itself.
+- **Whether it has been serviced.** A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you will ever buy back, and it is why [annual servicing](/servicing) pays for itself.
 
 ## The short version
 

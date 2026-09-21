@@ -35,6 +35,8 @@ for p in pages:
     loc = m.group(1)
     if loc.endswith('/index.html'):
         loc = loc[:-len('index.html')]
+    elif loc.endswith('.html'):
+        loc = loc[:-5]
     d = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
     lastmod = d.group(1) if d else time.strftime('%Y-%m-%d', time.localtime(os.path.getmtime(p)))
     pr, cf = priority(p)

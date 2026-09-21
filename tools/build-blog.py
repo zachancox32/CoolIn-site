@@ -29,7 +29,7 @@ UTILITY = shell('UTILITY')
 HEADER  = (shell('HEADER')
            .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
            .replace(' class="is-current" aria-current="page"', '')
-           .replace('<a href="blog.html">', '<a href="blog.html" class="is-current" aria-current="page">'))
+           .replace('<a href="blog">', '<a href="blog" class="is-current" aria-current="page">'))
 FOOTER  = shell('FOOTER') + '\n</body>\n</html>\n'
 
 MONTHS = ['January','February','March','April','May','June','July','August',
@@ -82,8 +82,10 @@ def head(title, desc, url, jsonld, extra=''):
 '''
 
 def rootify(block):
-    """Posts live at /blog/<slug>.html, so shell links need a leading slash."""
-    block = re.sub(r'href="(?!https?:|tel:|mailto:|/|#)([a-z0-9\-]+\.html)', r'href="/\1', block)
+    """Posts live at /blog/<slug>, so shell links need a leading slash."""
+    # shell links are now extensionless, so match the bare slug up to the
+    # closing quote or a fragment
+    block = re.sub(r'href="(?!https?:|tel:|mailto:|/|#)([a-z0-9\-]+)(?=["#])', r'href="/\1', block)
     block = block.replace('src="assets/', 'src="/assets/').replace('href="assets/', 'href="/assets/')
     block = block.replace('src="/assets/js/', 'src="/assets/js/')
     return block
@@ -132,7 +134,7 @@ def related(me, all_posts, n=3):
 def build_post(path, siblings=()):
     fm, body = frontmatter(open(path).read())
     slug = fm.get('slug') or os.path.basename(path)[:-3]
-    url = f'{BASE}/blog/{slug}.html'
+    url = f'{BASE}/blog/{slug}'
     title, desc, date = fm['title'], fm.get('description', ''), fm.get('date', '')[:10]
     # the <title> tag has to fit in a search result; the h1 does not.
     seo_title = fm.get('seo_title') or title
@@ -151,7 +153,7 @@ def build_post(path, siblings=()):
          "inLanguage": "en-GB"},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "CoolIn", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog.html"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog"},
             {"@type": "ListItem", "position": 3, "name": title, "item": url}]}]}
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
@@ -162,7 +164,7 @@ def build_post(path, siblings=()):
         cards = '\n'.join(f'''        <article class="post-card js-card">
           <div class="post-card__panel">
             <span class="post-card__cat">{html.escape(o['category'])}</span>
-            <h2><a href="/blog/{o['slug']}.html">{html.escape(o['title'])}</a></h2>
+            <h2><a href="/blog/{o['slug']}">{html.escape(o['title'])}</a></h2>
           </div>
           <div class="post-card__body">
             <p>{html.escape(o['desc'])}</p>
@@ -188,7 +190,7 @@ def build_post(path, siblings=()):
     {CRYSTAL}
     <div class="wrap post__wrap">
       <nav class="crumbs crumbs--light js-up" aria-label="Breadcrumb">
-        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="/blog.html">Blog</a><span aria-hidden="true">/</span><span aria-current="page">{html.escape(title)}</span>
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="/blog">Blog</a><span aria-hidden="true">/</span><span aria-current="page">{html.escape(title)}</span>
       </nav>
       <p class="post__cat js-up">{html.escape(fm.get('category') or 'Advice')}</p>
       <h1 class="js-up">{html.escape(title)}</h1>
@@ -207,11 +209,11 @@ def build_post(path, siblings=()):
         <p>Free survey, a written price within 48 hours, and no sales visit. Tell us the rooms and we will do the rest.</p>
       </div>
       <div class="post-cta__act">
-        <a class="btn btn--primary" href="/contact.html">Book a free survey</a>
+        <a class="btn btn--primary" href="/contact">Book a free survey</a>
         <a class="post-cta__tel" href="tel:+447391523255">or call 07391 523255</a>
       </div>
     </aside>
-    <p class="post__back"><a href="/blog.html">All articles</a></p>
+    <p class="post__back"><a href="/blog">All articles</a></p>
   </div>
 </article>
 {more}
@@ -233,7 +235,7 @@ def build_index(posts):
     cards = '\n'.join(f'''      <article class="post-card js-card">
         <div class="post-card__panel">
           <span class="post-card__cat">{html.escape(p['category'])}</span>
-          <h2><a href="/blog/{p['slug']}.html">{html.escape(p['title'])}</a></h2>
+          <h2><a href="/blog/{p['slug']}">{html.escape(p['title'])}</a></h2>
         </div>
         <div class="post-card__body">
           <p>{html.escape(p['desc'])}</p>
@@ -248,12 +250,12 @@ def build_index(posts):
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Blog", "name": "CoolIn air conditioning advice",
          "description": "Straight answers to the questions people actually ask about air conditioning: what it costs, what the rules are, and what the equipment really does.",
-         "publisher": {"@id": f"{BASE}/#business"}, "url": f"{BASE}/blog.html",
+         "publisher": {"@id": f"{BASE}/#business"}, "url": f"{BASE}/blog",
          "blogPost": [{"@type": "BlogPosting", "headline": p['title'],
                        "url": p['url'], "datePublished": p['date']} for p in posts]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "CoolIn", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog.html"}]}]}
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog"}]}]}
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
     body = f'''<!-- ============ HERO ============ -->
@@ -285,7 +287,7 @@ def build_index(posts):
                       open('domestic.html').read(), re.S).group(0)
     out = head('Air conditioning advice',
                'Straight answers on air conditioning: running costs, planning permission, heating with a heat pump, and what the equipment actually does.',
-               f'{BASE}/blog.html', jsonld)
+               f'{BASE}/blog', jsonld)
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + quote + '\n</main>\n\n' + FOOTER
     open('blog.html', 'w').write(out)
 

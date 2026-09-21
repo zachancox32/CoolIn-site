@@ -55,6 +55,11 @@ TECHNICAL = [
  "The Boiler Upgrade Scheme does not cover air to air heat pumps",
 ]
 
+def clean_url(f):
+    """Pages are served without the extension, so link them that way."""
+    return '' if f == 'index.html' else f[:-5] if f.endswith('.html') else f
+
+
 ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html']
 LEGAL  = ['privacy.html','terms.html','cookies.html']
@@ -66,7 +71,10 @@ def meta(f):
     return re.sub(r'\s*\|\s*CoolIn.*$', '', t).strip(), d
 
 def url(f):
-    return BASE + '/' + ('' if f == 'index.html' else f)
+    """Pages are served without the extension, so link them that way."""
+    if f == 'index.html':
+        return f'{BASE}/'
+    return f'{BASE}/{f[:-5]}' if f.endswith('.html') else f'{BASE}/{f}'
 
 out = [f"# CoolIn Air Conditioning Specialists\n"]
 out.append('\n'.join('> ' + l for l in SUMMARY.split('\n')) + '\n')
@@ -92,13 +100,13 @@ if posts:
                "BlogPosting structured data with a named author and a publication date.\n")
     for f in posts:
         t, d = meta(f)
-        out.append(f"- [{t}]({BASE}/{f}): {d}")
+        out.append(f"- [{t}]({BASE}/{clean_url(f)}): {d}")
     out.append("")
 
 towns = sorted(glob.glob('air-conditioning-*.html'))
 out.append(f"## Town pages\n")
 out.append(f"One page per town, each covering that town's building stock, planning\n"
-           f"constraints and travel time. All {len(towns)} are linked from {BASE}/areas.html\n")
+           f"constraints and travel time. All {len(towns)} are linked from {BASE}/areas\n")
 for f in towns:
     t, d = meta(f)
     out.append(f"- [{t}]({url(f)}): {d}")
