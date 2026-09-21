@@ -202,7 +202,7 @@ def build_one(path):
                 ptype=ptype, image=fm.get('image', ''))
 
 def build_index(items):
-    if items:
+    if True:
         cards = '\n'.join(f'''      <article class="post-card js-card">
         <p class="post-card__date">{html.escape(' / '.join(x for x in [i['town'], i['ptype']] if x)) or '&nbsp;'}</p>
         <h2><a href="/case-studies/{i['slug']}.html">{html.escape(i['title'])}</a></h2>
@@ -211,11 +211,6 @@ def build_index(items):
       </article>''' for i in items)
         grid = f'<div class="post-grid">\n{cards}\n    </div>'
         robots = ''
-    else:
-        grid = ('<p class="lede">The first jobs are being written up now. '
-                'In the meantime, <a href="/domestic.html">see what a home installation involves</a> '
-                'or <a href="/contact.html">ask us about a property like yours</a>.</p>')
-        robots = '<meta name="robots" content="noindex, follow">\n'
 
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "name": "CoolIn case studies",
@@ -260,10 +255,32 @@ def build_index(items):
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + quote + '\n</main>\n\n' + FOOTER
     open('case-studies.html', 'w').write(out)
 
+MARKER = '<!-- CASE-STUDIES-LINK -->'
+
+def set_footer_link(show):
+    """The footer link only exists while there is something to link to."""
+    changed = 0
+    for f in glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html'):
+        s = open(f, encoding='utf-8').read()
+        href = '/case-studies.html' if '/' in f else 'case-studies.html'
+        link = f'<li><a href="{href}">Case studies</a></li>'
+        n = s.replace(link, MARKER) if not show else s.replace(MARKER, link)
+        if n != s:
+            open(f, 'w', encoding='utf-8').write(n); changed += 1
+    return changed
+
 items = sorted((build_one(p) for p in glob.glob('case-studies/projects/*.md')),
                key=lambda i: i['date'], reverse=True)
-build_index(items)
-for i in items:
-    print(f"  case-studies/{i['slug']+'.html':44s} {i['town']}")
-print(f"  case-studies.html  listing {len(items)} case stud{'y' if len(items)==1 else 'ies'}"
-      + ('  (noindex while empty)' if not items else ''))
+
+if items:
+    build_index(items)
+    set_footer_link(True)
+    for i in items:
+        print(f"  case-studies/{i['slug']+'.html':44s} {i['town']}")
+    print(f"  case-studies.html  listing {len(items)} case stud{'y' if len(items)==1 else 'ies'}")
+else:
+    # Nothing to show yet, so the page is not built and nothing links to it.
+    if os.path.exists('case-studies.html'):
+        os.remove('case-studies.html')
+    set_footer_link(False)
+    print('  case-studies: none yet, page not built and footer link hidden')

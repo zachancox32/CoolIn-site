@@ -1,11 +1,17 @@
 # Netlify configuration for the CoolIn site.
-# There is no build step: the HTML in the repo root is what gets served.
+# The HTML in the repo root is what gets served. The build only regenerates
+# the pages that come from markdown, plus the sitemap and the model files.
 
 [build]
   publish = "."
-  # Regenerate the blog, then the two model files, from the markdown in the repo.
-  # python3 is in the Netlify build image by default, so there is nothing to install.
+  # Blog and case studies from markdown, then the sitemap and model files from
+  # whatever those produced. python3 is in the Netlify build image by default,
+  # so there is nothing to install.
   command = "python3 tools/build-blog.py && python3 tools/build-case-studies.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 [build.processing]
   skip_processing = false
