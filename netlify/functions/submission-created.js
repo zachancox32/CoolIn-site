@@ -19,6 +19,38 @@
 
 const PHONE = '07932 607335';
 const SITE = 'https://cool-in.co.uk';
+const NAVY = '#0C2A39';
+const BLUE = '#1A7CA4';
+const ICE = '#5CB8DC';
+const GREY = '#6E8592';
+
+/** Signature block. The mark is a PNG because Gmail and Outlook strip SVG;
+ *  the wordmark is real text so it still reads when images are blocked. */
+const SIGNATURE = `
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:36px 0 0">
+    <tr>
+      <td width="64" height="3" style="background:${BLUE};font-size:0;line-height:0">&nbsp;</td>
+      <td height="3" style="background:#E1EAEF;font-size:0;line-height:0">&nbsp;</td>
+    </tr>
+  </table>
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:22px 0 0">
+    <tr>
+      <td width="40" style="padding-right:14px;vertical-align:middle">
+        <img src="${SITE}/assets/img/logo-email.png" width="40" height="40" alt=""
+             style="display:block;border:0;width:40px;height:40px">
+      </td>
+      <td style="vertical-align:middle">
+        <div style="font-family:Archivo,Helvetica,Arial,sans-serif;font-size:21px;font-weight:800;color:${NAVY};line-height:1">COOL<span style="color:${BLUE}">IN</span></div>
+        <div style="font-size:10px;color:${GREY};letter-spacing:.16em;text-transform:uppercase;padding-top:5px">Cooling &amp; Heating</div>
+      </td>
+    </tr>
+  </table>
+  <p style="margin:18px 0 0;color:${GREY};font-size:13px;line-height:1.7">
+    Lloyds House, 18-22 Lloyd Street, Manchester M2 5WA<br>
+    <a href="${SITE}" style="color:${BLUE};text-decoration:none">cool-in.co.uk</a>
+    <span style="color:#C7D5DD">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+    <a href="tel:+447932607335" style="color:${BLUE};text-decoration:none">${PHONE}</a>
+  </p>`;
 
 const esc = (v) =>
   String(v == null ? '' : v)
@@ -44,7 +76,7 @@ function leadEmail(d, meta) {
   <p style="margin:0 0 18px;color:#667">${esc(meta)}</p>
   <table style="border-collapse:collapse">${rows}</table>
   <p style="margin:22px 0 0"><a href="tel:${esc(String(d.phone || '').replace(/\s+/g, ''))}"
-     style="background:#0b5fd0;color:#fff;text-decoration:none;padding:11px 20px;border-radius:6px;display:inline-block">Call ${esc(d.name || 'them')} back</a></p>
+     style="background:${BLUE};color:#fff;text-decoration:none;padding:11px 20px;border-radius:6px;display:inline-block">Call ${esc(d.name || 'them')} back</a></p>
 </div>`;
 }
 
@@ -59,10 +91,8 @@ function confirmEmail(d) {
     <li style="margin-bottom:6px">Free survey at the property, usually under an hour. Measurements, wall construction, pipe routes and where the outdoor unit can legally go.</li>
     <li>A written quote, itemised and fixed, valid for 60 days. No sales visit.</li>
   </ol>
-  <p style="margin:0 0 16px">If it is urgent, ring <a href="tel:+447932607335" style="color:#0b5fd0">${PHONE}</a> and you will get someone rather than a machine.</p>
-  <p style="margin:0 0 4px">CoolIn Cooling &amp; Heating</p>
-  <p style="margin:0 0 4px;color:#667">Lloyds House, 18-22 Lloyd Street, Manchester M2 5WA</p>
-  <p style="margin:0;color:#667"><a href="${SITE}" style="color:#0b5fd0">cool-in.co.uk</a> &middot; ${PHONE}</p>
+  <p style="margin:0 0 16px">If it is urgent, ring <a href="tel:+447932607335" style="color:${BLUE}">${PHONE}</a> and you will get someone rather than a machine.</p>
+  ${SIGNATURE}
 </div>`;
 }
 
