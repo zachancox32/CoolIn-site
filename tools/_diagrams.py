@@ -10,7 +10,8 @@ shell, same unit shapes, only the arrangement changes, so the cards read as a
 set rather than four unrelated drawings."""
 
 SHELL = ('<path class="d-ground" d="M4 128h232"/>'
-         '<path class="d-shell" d="M120 22 30 62v66h180V62z"/>')
+         '<path class="d-shell" d="M90 14 20 54v74h140V54z"/>'
+         '<path class="d-floor" d="M20 90h140"/>')
 
 def air(paths):
     return ''.join(f'<path class="d-air" d="{p}"/>' for p in paths)
@@ -19,49 +20,49 @@ IN_UNIT  = '<rect class="d-unit" x="{x}" y="{y}" width="26" height="9" rx="3"/>'
 GRILLE   = '<rect class="d-grille" x="{x}" y="{y}" width="20" height="4" rx="2"/>'
 OUT_UNIT = ('<g class="d-out"><rect x="{x}" y="{y}" width="34" height="26" rx="4"/>'
             '<circle cx="{cx}" cy="{cy}" r="7"/><circle class="d-hub" cx="{cx}" cy="{cy}" r="1.8"/></g>')
+CONDENSER = OUT_UNIT.format(x=180, y=98, cx=197, cy=111)
 
 DIAGRAMS = {
  'wall': dict(
    caption='One indoor unit, one outdoor unit, surface trunking',
    body = SHELL
-     + '<rect class="d-room" x="44" y="72" width="60" height="48" rx="2"/>'
-     + '<rect class="d-room" x="132" y="72" width="60" height="48" rx="2"/>'
-     + IN_UNIT.format(x=52, y=78)
-     + '<path class="d-pipe" d="M78 87h62v28"/>'
-     + OUT_UNIT.format(x=192, y=98, cx=209, cy=111)
-     + '<path class="d-pipe" d="M140 111h52"/>'
-     + air(['M56 92q10 7 2 15', 'M64 92q10 7 2 15', 'M72 92q10 7 2 15'])),
+     + '<rect class="d-room" x="32" y="60" width="52" height="26" rx="2"/>'
+     + IN_UNIT.format(x=38, y=64)
+     + '<path class="d-pipe" d="M64 69h76v42h40"/>'
+     + CONDENSER
+     + air(['M42 78q9 7 1 13', 'M50 78q9 7 1 13', 'M58 78q9 7 1 13'])),
 
  'multi': dict(
    caption='Two to five indoor units sharing one outdoor unit',
    body = SHELL
-     + '<path class="d-floor" d="M30 94h180"/>'
-     + IN_UNIT.format(x=46, y=70) + IN_UNIT.format(x=104, y=70)
-     + IN_UNIT.format(x=46, y=102)
-     + '<path class="d-pipe" d="M72 74h58M130 74h28v38M72 106h86"/>'
-     + '<path class="d-pipe" d="M158 112h34"/>'
-     + OUT_UNIT.format(x=192, y=99, cx=209, cy=112)
-     + air(['M50 84q8 6 1 11', 'M108 84q8 6 1 11', 'M50 116q8 6 1 9'])),
+     + '<rect class="d-room" x="32" y="60" width="44" height="26" rx="2"/>'
+     + '<rect class="d-room" x="88" y="60" width="44" height="26" rx="2"/>'
+     + IN_UNIT.format(x=36, y=64) + IN_UNIT.format(x=92, y=64)
+     + IN_UNIT.format(x=36, y=100)
+     + '<path class="d-pipe" d="M62 69h80M118 69h24v42M62 105h80"/>'
+     + '<path class="d-pipe" d="M142 111h38"/>'
+     + CONDENSER
+     + air(['M40 78q8 6 1 11', 'M96 78q8 6 1 11', 'M40 114q8 6 1 9'])),
 
  'ducted': dict(
-   caption='Unit hidden in the ceiling void, only grilles on show',
+   caption='Unit in the loft, ducted down to grilles in each room',
    body = SHELL
-     + '<path class="d-void" d="M30 62h180v14H30z"/>'
-     + '<rect class="d-unit" x="98" y="64" width="30" height="10" rx="3"/>'
-     + '<path class="d-pipe" d="M98 69H62v7M128 69h36v7"/>'
-     + GRILLE.format(x=52, y=76) + GRILLE.format(x=104, y=76) + GRILLE.format(x=154, y=76)
-     + '<path class="d-pipe" d="M128 69h50v44h14"/>'
-     + OUT_UNIT.format(x=192, y=100, cx=209, cy=113)
-     + air(['M58 84q6 8 0 14', 'M110 84q6 8 0 14', 'M160 84q6 8 0 14'])),
+     + '<path class="d-void" d="M20 54h140v13H20z"/>'
+     + '<rect class="d-unit" x="74" y="56" width="30" height="9" rx="3"/>'
+     + '<path class="d-pipe" d="M74 60H44v7M104 60h32v7"/>'
+     + GRILLE.format(x=34, y=67) + GRILLE.format(x=126, y=67)
+     + '<path class="d-pipe" d="M136 60h14v51h30"/>'
+     + CONDENSER
+     + air(['M40 74q6 9 0 15', 'M132 74q6 9 0 15'])),
 
  'console': dict(
-   caption='Low level unit, sits where a radiator would',
+   caption='Low level unit downstairs, sits where a radiator would',
    body = SHELL
-     + '<rect class="d-room" x="52" y="66" width="52" height="30" rx="2"/>'
-     + '<rect class="d-unit" x="60" y="108" width="34" height="12" rx="3"/>'
-     + '<path class="d-pipe" d="M94 114h98"/>'
-     + OUT_UNIT.format(x=192, y=99, cx=209, cy=112)
-     + air(['M66 104q4-10 12-14', 'M76 104q4-10 12-14', 'M86 104q4-10 12-14'])),
+     + '<rect class="d-room" x="34" y="96" width="46" height="20" rx="2"/>'
+     + '<rect class="d-unit" x="38" y="114" width="32" height="11" rx="3"/>'
+     + '<path class="d-pipe" d="M70 119h72v-8h38"/>'
+     + CONDENSER
+     + air(['M44 110q4-9 12-12', 'M54 110q4-9 12-12', 'M64 110q4-9 12-12'])),
 }
 
 def svg(key):
@@ -70,10 +71,6 @@ def svg(key):
             f'<svg viewBox="0 0 240 136" role="img" aria-label="{d["caption"]}">{d["body"]}</svg>'
             f'<figcaption>{d["caption"]}</figcaption></figure>')
 
-
-# ---------- commercial ----------
-# Same language, different shell: a flat ceiling with a service void instead of
-# a pitched roof, because that is what the kit actually sits in.
 
 ROOM = ('<path class="d-ground" d="M4 128h232"/>'
         '<path class="d-shell" d="M24 34h150v94H24z"/>'
