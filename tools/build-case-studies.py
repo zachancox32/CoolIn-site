@@ -17,7 +17,7 @@ from _md import render, frontmatter
 
 IDX = open('index.html').read()
 BASE = re.search(r'rel="canonical" href="(https://[^/]+)', IDX).group(1)
-CSS_V = re.search(r'style\.css\?v=(\d+)', IDX).group(1)
+CSS_V = re.search(r'style\.css\?v=([A-Za-z0-9]+)', IDX).group(1)
 
 def shell(name):
     m = re.search(r'<!-- SHELL:%s:START -->.*?<!-- SHELL:%s:END -->' % (name, name), IDX, re.S)

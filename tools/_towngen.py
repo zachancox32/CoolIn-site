@@ -8,7 +8,7 @@ os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 IDX = open('index.html').read()
 SRC = open('air-conditioning-manchester.html').read()
 BASE = 'https://www.cool-in.co.uk'
-CSS_V = re.search(r'style\.css\?v=(\d+)', IDX).group(1)
+CSS_V = re.search(r'style\.css\?v=([A-Za-z0-9]+)', IDX).group(1)
 JS_V  = re.search(r'main\.js\?v=(\d+)', IDX).group(1)
 SCENE_V = re.search(r'scene\.js\?v=(\d+)', IDX).group(1)
 

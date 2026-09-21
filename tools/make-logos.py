@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Resizes the brand PNGs down to the sizes the site actually uses.
+"""Prepares the brand logo files for the web.
 
 The brand pack ships 1200px and 4000px rasters of every lockup, already
 rendered from the vector with real Archivo, so nothing here needs a font or a
@@ -13,16 +13,36 @@ kept in assets/img/brand/print. Standard library only.
 
     python3 tools/make-logos.py
 """
-import os, struct, sys, zlib
+import io, os, struct, sys, zlib
 
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 SRC = 'assets/img/brand/print'
-JOBS = [
-    ('coolin-logo-18b-primary-4000w.png', 'assets/img/logo.png',         440),
-    ('coolin-logo-18b-reverse-4000w.png', 'assets/img/logo-reverse.png', 440),
-    ('coolin-logo-18b-primary-4000w.png', 'assets/img/logo-email.png',   520),
+BRAND = 'assets/img/brand'
+FONT = 'assets/fonts/archivo-latin.woff2'
+
+# svg name -> output, and whether to drop the ground rect so it sits on any colour
+SVG_JOBS = [
+    ('coolin-logo-18b-primary.svg', 'assets/img/logo.svg',         False),
+    ('coolin-logo-18b-reverse.svg', 'assets/img/logo-reverse.svg', True),
 ]
+PNG_JOBS = [
+    ('coolin-logo-18b-primary-4000w.png', 'assets/img/logo-email.png', 520),
+]
+
+def build_svgs():
+    import base64, re
+    font = base64.b64encode(open(FONT, 'rb').read()).decode()
+    face = ("<style>@font-face{font-family:'Archivo';"
+            f"src:url(data:font/woff2;base64,{font}) format('woff2');"
+            "font-weight:100 900;font-style:normal}</style>")
+    for name, out, drop_ground in SVG_JOBS:
+        art = io.open(os.path.join(BRAND, name), encoding='utf-8').read()
+        if drop_ground:
+            art = re.sub(r'<rect width="320" height="140"[^>]*></rect>\s*', '', art)
+        i = art.index('>') + 1
+        io.open(out, 'w', encoding='utf-8').write(art[:i] + face + art[i:])
+        print(f'  {out:34s} {os.path.getsize(out)//1024}kb  vector, font embedded')
 
 def read_png(path):
     d = open(path, 'rb').read()
@@ -105,7 +125,9 @@ def resize(w, h, rows, ch, out_w):
         out.append(line)
     return out_w, out_h, out
 
-for name, out, width in JOBS:
+build_svgs()
+
+for name, out, width in PNG_JOBS:
     path = os.path.join(SRC, name)
     if not os.path.exists(path):
         sys.exit(f'missing master: {path}')
