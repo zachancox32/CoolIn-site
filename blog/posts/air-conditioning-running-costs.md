@@ -3,6 +3,7 @@ title: What does air conditioning actually cost to run?
 seo_title: Air conditioning running costs
 description: Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
 date: 2026-09-16
+category: Running costs
 author: coolin-team
 ---
 

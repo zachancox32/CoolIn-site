@@ -25,6 +25,12 @@ collections:
       - { name: seo_title, label: Search result title, widget: string, required: false, hint: "Optional. Use a shorter version if the title above is long. Keep it under 50 characters, because CoolIn is appended." }
       - { name: description, label: Meta description, widget: text, hint: "120 to 160 characters. This is the line that appears under the title in search results." }
       - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - name: category
+        label: Category
+        widget: select
+        default: Installation
+        hint: "Shows on the card. Keep the list short so the blog stays scannable."
+        options: [Running costs, Installation, Heating, Servicing, Regulations, Commercial]
       - { name: author, label: Author, widget: relation, collection: authors, search_fields: [name], value_field: id, display_fields: [name], required: false }
       - { name: body, label: Article, widget: markdown, hint: "Use ## for section headings. The page title is the h1, so do not add another." }
 

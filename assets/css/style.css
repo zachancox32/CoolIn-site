@@ -625,19 +625,55 @@ ul,ol{margin:0;padding:0;list-style:none}
 
 /* ---------- blog listing ---------- */
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.post-card{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:30px;display:flex;flex-direction:column;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease)}
-/* the title link is stretched over the whole card, so "Read it" and the card
-   body are clickable without adding a second link to the same URL */
+.post-card{
+  position:relative;background:var(--paper);border:1px solid var(--line);
+  border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease);
+}
 .post-card h2 a::after{content:"";position:absolute;inset:0}
 .post-card:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px rgba(14,110,150,.18)}
 .post-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:transparent}
-.post-card__date{font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);margin-bottom:12px}
-.post-card h2{font-size:1.2rem;margin-bottom:10px;letter-spacing:-.015em}
-.post-card h2 a{color:var(--ink)}
-.post-card h2 a:hover{color:var(--blue)}
-.post-card p{font-size:.95rem;margin-bottom:20px}
-.post-card__go{margin-top:auto;font-family:var(--head);font-weight:700;font-size:.9rem;color:var(--blue);display:inline-flex;align-items:center;gap:8px}
-.post-card__go::after{content:"";width:14px;height:8px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg) translateX(-2px);transition:transform .3s var(--ease)}
+
+/* the panel does the work the old flat card could not: it gives every post a
+   face on the index, without needing a photograph for each one */
+.post-card__panel{
+  position:relative;overflow:hidden;padding:26px 26px 28px;min-height:186px;
+  display:flex;flex-direction:column;justify-content:flex-end;gap:13px;
+  background:linear-gradient(142deg,var(--navy) 0%,var(--navy-3) 55%,var(--blue) 100%);
+}
+.post-card__mark{
+  position:absolute;right:-26px;bottom:-30px;width:150px;height:150px;
+  color:#fff;opacity:.09;pointer-events:none;
+}
+.post-card__cat{
+  align-self:flex-start;position:relative;
+  font-family:var(--head);font-weight:700;font-size:.66rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ice);
+  border:1px solid rgba(94,195,224,.42);border-radius:60px;padding:5px 12px;
+}
+.post-card__panel h2{
+  position:relative;font-size:1.22rem;line-height:1.22;letter-spacing:-.018em;
+  margin:0;text-wrap:balance;
+}
+.post-card__panel h2 a{color:#fff}
+.post-card:hover .post-card__panel h2 a{color:var(--ice)}
+
+.post-card__body{padding:22px 26px 26px;display:flex;flex-direction:column;flex:1}
+.post-card__body p{font-size:.94rem;margin:0 0 16px}
+.post-card__meta{
+  font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--grey);
+  display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px;
+}
+.post-card__go{
+  margin-top:auto;font-family:var(--head);font-weight:700;font-size:.9rem;
+  color:var(--blue);display:inline-flex;align-items:center;gap:8px;
+}
+.post-card__go::after{
+  content:"";width:14px;height:8px;border-top:2px solid currentColor;
+  border-right:2px solid currentColor;transform:rotate(45deg) translateX(-2px);
+  transition:transform .3s var(--ease);
+}
 .post-card:hover .post-card__go::after{transform:rotate(45deg) translateX(3px)}
 
 /* ---------- article ---------- */
@@ -742,7 +778,9 @@ ul,ol{margin:0;padding:0;list-style:none}
   .sys,.price-grid,.run-grid,.truths,.plans,.compliance,.spec-list{grid-template-columns:1fr}
   .sectors,.path-grid,.vs__notes-grid,.vs__row{grid-template-columns:1fr}
   .towns,.contact-grid,.kf__grid,.nearby,.post-grid{grid-template-columns:1fr}
-  .post-card,.author-card{padding:22px}
+  .post-card__panel{padding:20px 20px 22px;min-height:150px}
+  .post-card__body{padding:18px 20px 22px}
+  .author-card{padding:22px}
   .contact-card,.town{padding:22px}
   .cta-band__in{flex-direction:column;align-items:flex-start;gap:20px}
   .vs__row{gap:0}

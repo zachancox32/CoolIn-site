@@ -3,6 +3,7 @@ title: Do you need planning permission for air conditioning?
 seo_title: Planning permission for air conditioning
 description: The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
 date: 2026-09-12
+category: Regulations
 author: coolin-team
 ---
 

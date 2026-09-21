@@ -2,6 +2,7 @@
 title: Why Should You Install Air Conditioning in Manchester During Winter?
 description: Discover the benefits of installing domestic air conditioning in winter, including shorter waits, better availability, and efficient heating for your Manchester home.
 date: 2026-09-20
+category: Installation
 author: coolin-team
 ---
 <p>Installing air conditioning systems in winter offers significant benefits, primarily due to reduced demand, shorter installation times, and the ability to utilise units for efficient heating, ensuring readiness for summer. This proactive approach avoids peak-season delays and ensures year-round comfort for domestic properties.</p>

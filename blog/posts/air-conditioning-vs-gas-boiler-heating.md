@@ -2,6 +2,7 @@
 title: Should you heat with air conditioning instead of the gas boiler?
 description: An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
 date: 2026-09-08
+category: Heating
 author: coolin-team
 ---
 Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That is true, and it is also the part of the sales pitch that gets oversold.

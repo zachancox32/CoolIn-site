@@ -158,15 +158,34 @@ def build_post(path):
         print(f'    WARNING {slug}: title is {len(seo_title)+9} chars, over the 60 that fit a search result')
     if len(desc) > 160:
         print(f'    WARNING {slug}: description is {len(desc)} chars, over 160')
+    words = len(re.sub(r'<[^>]+>', ' ', render(body)).split())
     return dict(slug=slug, title=title, desc=desc, date=date, url=url,
-                author=fm.get('author',''), words=len(re.sub(r'<[^>]+>',' ',render(body)).split()))
+                author=fm.get('author', ''), words=words,
+                category=fm.get('category') or 'Advice',
+                mins=max(1, round(words / 200)))
 
 def build_index(posts):
     cards = '\n'.join(f'''      <article class="post-card js-card">
-        <p class="post-card__date"><time datetime="{p['date']}">{pretty(p['date'])}</time></p>
-        <h2><a href="/blog/{p['slug']}.html">{html.escape(p['title'])}</a></h2>
-        <p>{html.escape(p['desc'])}</p>
-        <span class="post-card__go">Read it</span>
+        <div class="post-card__panel">
+          <svg class="post-card__mark" viewBox="0 0 24 24" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+              <path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/>
+              <path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/>
+              <path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/>
+              <path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/>
+            </g>
+          </svg>
+          <span class="post-card__cat">{html.escape(p['category'])}</span>
+          <h2><a href="/blog/{p['slug']}.html">{html.escape(p['title'])}</a></h2>
+        </div>
+        <div class="post-card__body">
+          <p>{html.escape(p['desc'])}</p>
+          <p class="post-card__meta">
+            <time datetime="{p['date']}">{pretty(p['date'])}</time>
+            <span aria-hidden="true">&middot;</span>{p['mins']} min read
+          </p>
+          <span class="post-card__go">Read it</span>
+        </div>
       </article>''' for p in posts)
 
     ld = {"@context": "https://schema.org", "@graph": [
