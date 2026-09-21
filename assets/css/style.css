@@ -850,8 +850,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .d-out rect{fill:#fff}
 .d-hub{fill:var(--navy);stroke:none}
 .d-air{fill:none;stroke:var(--ice);stroke-width:2;stroke-linecap:round;stroke-dasharray:6 9;opacity:.9}
-/* refrigerant travelling the circuit, drawn over the solid run */
-.d-flow{fill:none;stroke:var(--ice);stroke-width:2;stroke-linecap:round;stroke-dasharray:3 17}
 /* extract and heat recovery: the warm stream leaving the building */
 .d-warm{fill:none;stroke:var(--orange);stroke-width:2;stroke-linecap:round}
 .d-warm.d-air{stroke-dasharray:5 7}
@@ -859,7 +857,5 @@ ul,ol{margin:0;padding:0;list-style:none}
   .d-air{animation:d-drift 2.6s linear infinite}
   .d-air:nth-of-type(2){animation-delay:-.85s}
   .d-air:nth-of-type(3){animation-delay:-1.7s}
-  .d-flow{animation:d-run 3.4s linear infinite}
 }
 @keyframes d-drift{to{stroke-dashoffset:-30}}
-@keyframes d-run{to{stroke-dashoffset:-40}}

@@ -17,16 +17,12 @@ def air(paths):
     return ''.join(f'<path class="d-air" d="{p}"/>' for p in paths)
 
 def pipe(*runs):
-    """Solid run plus a dashed overlay that travels it, so the circuit reads as
-    connected rather than merely drawn. Paths are authored indoor to outdoor,
-    which is the direction the dashes move."""
-    return (''.join(f'<path class="d-pipe" d="{d}"/>' for d in runs)
-            + ''.join(f'<path class="d-flow" d="{d}"/>' for d in runs))
+    return ''.join(f'<path class="d-pipe" d="{d}"/>' for d in runs)
 
-def fan(x, y, n=3, spread=8):
-    """A fan of airflow arcs leaving an indoor unit, long enough that the dashes
-    visibly travel rather than sitting as stubs."""
-    return air([f'M{x + i*spread} {y}q9 15 -2 27' for i in range(n)])
+def fan(x, y, n=3, spread=8, drop=13):
+    """A fan of airflow arcs leaving an indoor unit. The drop is capped by the
+    storey: air must not fall through a floor."""
+    return air([f'M{x + i*spread} {y}q6 {drop*0.6:.0f} -1 {drop}' for i in range(n)])
 
 IN_UNIT  = '<rect class="d-unit" x="{x}" y="{y}" width="26" height="9" rx="3"/>'
 GRILLE   = '<rect class="d-grille" x="{x}" y="{y}" width="20" height="4" rx="2"/>'
@@ -42,7 +38,7 @@ DIAGRAMS = {
      + IN_UNIT.format(x=38, y=64)
      + pipe('M64 69h76v42h40')
      + CONDENSER
-     + fan(42, 76)),
+     + fan(42, 76, drop=12)),
 
  'multi': dict(
    caption='Two to five indoor units sharing one outdoor unit',
@@ -53,7 +49,8 @@ DIAGRAMS = {
      + IN_UNIT.format(x=36, y=100)
      + pipe('M62 69h80M118 69h24v42M62 105h80', 'M142 111h38')
      + CONDENSER
-     + fan(40, 76, n=2) + fan(96, 76, n=2) + fan(40, 112, n=2)),
+     + fan(40, 76, n=2, drop=12) + fan(96, 76, n=2, drop=12)
+     + fan(40, 112, n=2, drop=14)),
 
  'ducted': dict(
    caption='Unit in the loft, ducted down to grilles in each room',
@@ -63,7 +60,7 @@ DIAGRAMS = {
      + pipe('M74 60H44v7M104 60h32v7', 'M136 60h14v51h30')
      + GRILLE.format(x=34, y=67) + GRILLE.format(x=126, y=67)
      + CONDENSER
-     + fan(38, 72, n=2, spread=7) + fan(130, 72, n=2, spread=7)),
+     + fan(38, 72, n=2, spread=7, drop=15) + fan(130, 72, n=2, spread=7, drop=15)),
 
  'console': dict(
    caption='Low level unit downstairs, sits where a radiator would',
