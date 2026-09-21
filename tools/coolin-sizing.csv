@@ -1,0 +1,44 @@
+CoolIn rough sizing
+"Same formula as the calculator on cool-in.co.uk. Rough only, the survey decides."
+
+ONE ROOM,,change the middle column
+Width m,3.6
+Length m,4.2
+Ceiling,Standard,Standard / High / Vaulted
+Glazing,Average,Average / Shaded / Sunny / Bifolds
+Roof room,n,y or n
+People,2
+Room use,Bedroom,Bedroom / Kitchen / Office / Gym / Server
+Load kW,"=ROUND(((B5)*(B6)*0.155)*IFS(B7=""High"",1.12,B7=""Vaulted"",1.26,TRUE,1)*IFS(B8=""Shaded"",0.95,B8=""Sunny"",1.2,B8=""Bifolds"",1.35,TRUE,1)*IF(LOWER(B9)=""y"",1.2,1)+MAX(0,B10-2)*0.1+IFS(B11=""Kitchen"",0.5,B11=""Office"",0.4,B11=""Gym"",0.9,B11=""Server"",1.4,TRUE,0),2)"
+FIT THIS UNIT,"=IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=B12),1),""over 7.1, two units"")",kW
+Guide price,"=IFERROR(""GBP ""&INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=B12),1),""priced after survey"")","installed, one room"
+
+WHOLE HOUSE
+Room,Width m,Length m,Ceiling,Glazing,Roof room,People,Room use,Area m2,Load kW,Unit kW,Guide GBP
+Main bedroom,3.6,4.2,Standard,Average,n,2,Bedroom,"=IF(B18="""","""",ROUND(B18*C18,1))","=IF(B18="""","""",ROUND(((B18)*(C18)*0.155)*IFS(D18=""High"",1.12,D18=""Vaulted"",1.26,TRUE,1)*IFS(E18=""Shaded"",0.95,E18=""Sunny"",1.2,E18=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F18)=""y"",1.2,1)+MAX(0,G18-2)*0.1+IFS(H18=""Kitchen"",0.5,H18=""Office"",0.4,H18=""Gym"",0.9,H18=""Server"",1.4,TRUE,0),2))","=IF(J18="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J18),1),""over 7.1, two units""))","=IF(J18="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J18),1),""""))"
+Lounge,4.2,5.4,High,Sunny,n,4,Bedroom,"=IF(B19="""","""",ROUND(B19*C19,1))","=IF(B19="""","""",ROUND(((B19)*(C19)*0.155)*IFS(D19=""High"",1.12,D19=""Vaulted"",1.26,TRUE,1)*IFS(E19=""Shaded"",0.95,E19=""Sunny"",1.2,E19=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F19)=""y"",1.2,1)+MAX(0,G19-2)*0.1+IFS(H19=""Kitchen"",0.5,H19=""Office"",0.4,H19=""Gym"",0.9,H19=""Server"",1.4,TRUE,0),2))","=IF(J19="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J19),1),""over 7.1, two units""))","=IF(J19="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J19),1),""""))"
+Loft office,3.0,3.8,Vaulted,Average,y,1,Office,"=IF(B20="""","""",ROUND(B20*C20,1))","=IF(B20="""","""",ROUND(((B20)*(C20)*0.155)*IFS(D20=""High"",1.12,D20=""Vaulted"",1.26,TRUE,1)*IFS(E20=""Shaded"",0.95,E20=""Sunny"",1.2,E20=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F20)=""y"",1.2,1)+MAX(0,G20-2)*0.1+IFS(H20=""Kitchen"",0.5,H20=""Office"",0.4,H20=""Gym"",0.9,H20=""Server"",1.4,TRUE,0),2))","=IF(J20="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J20),1),""over 7.1, two units""))","=IF(J20="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J20),1),""""))"
+,,,,,,,,"=IF(B21="""","""",ROUND(B21*C21,1))","=IF(B21="""","""",ROUND(((B21)*(C21)*0.155)*IFS(D21=""High"",1.12,D21=""Vaulted"",1.26,TRUE,1)*IFS(E21=""Shaded"",0.95,E21=""Sunny"",1.2,E21=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F21)=""y"",1.2,1)+MAX(0,G21-2)*0.1+IFS(H21=""Kitchen"",0.5,H21=""Office"",0.4,H21=""Gym"",0.9,H21=""Server"",1.4,TRUE,0),2))","=IF(J21="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J21),1),""over 7.1, two units""))","=IF(J21="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J21),1),""""))"
+,,,,,,,,"=IF(B22="""","""",ROUND(B22*C22,1))","=IF(B22="""","""",ROUND(((B22)*(C22)*0.155)*IFS(D22=""High"",1.12,D22=""Vaulted"",1.26,TRUE,1)*IFS(E22=""Shaded"",0.95,E22=""Sunny"",1.2,E22=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F22)=""y"",1.2,1)+MAX(0,G22-2)*0.1+IFS(H22=""Kitchen"",0.5,H22=""Office"",0.4,H22=""Gym"",0.9,H22=""Server"",1.4,TRUE,0),2))","=IF(J22="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J22),1),""over 7.1, two units""))","=IF(J22="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J22),1),""""))"
+,,,,,,,,"=IF(B23="""","""",ROUND(B23*C23,1))","=IF(B23="""","""",ROUND(((B23)*(C23)*0.155)*IFS(D23=""High"",1.12,D23=""Vaulted"",1.26,TRUE,1)*IFS(E23=""Shaded"",0.95,E23=""Sunny"",1.2,E23=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F23)=""y"",1.2,1)+MAX(0,G23-2)*0.1+IFS(H23=""Kitchen"",0.5,H23=""Office"",0.4,H23=""Gym"",0.9,H23=""Server"",1.4,TRUE,0),2))","=IF(J23="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J23),1),""over 7.1, two units""))","=IF(J23="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J23),1),""""))"
+,,,,,,,,"=IF(B24="""","""",ROUND(B24*C24,1))","=IF(B24="""","""",ROUND(((B24)*(C24)*0.155)*IFS(D24=""High"",1.12,D24=""Vaulted"",1.26,TRUE,1)*IFS(E24=""Shaded"",0.95,E24=""Sunny"",1.2,E24=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F24)=""y"",1.2,1)+MAX(0,G24-2)*0.1+IFS(H24=""Kitchen"",0.5,H24=""Office"",0.4,H24=""Gym"",0.9,H24=""Server"",1.4,TRUE,0),2))","=IF(J24="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J24),1),""over 7.1, two units""))","=IF(J24="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J24),1),""""))"
+,,,,,,,,"=IF(B25="""","""",ROUND(B25*C25,1))","=IF(B25="""","""",ROUND(((B25)*(C25)*0.155)*IFS(D25=""High"",1.12,D25=""Vaulted"",1.26,TRUE,1)*IFS(E25=""Shaded"",0.95,E25=""Sunny"",1.2,E25=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F25)=""y"",1.2,1)+MAX(0,G25-2)*0.1+IFS(H25=""Kitchen"",0.5,H25=""Office"",0.4,H25=""Gym"",0.9,H25=""Server"",1.4,TRUE,0),2))","=IF(J25="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J25),1),""over 7.1, two units""))","=IF(J25="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J25),1),""""))"
+,,,,,,,,"=IF(B26="""","""",ROUND(B26*C26,1))","=IF(B26="""","""",ROUND(((B26)*(C26)*0.155)*IFS(D26=""High"",1.12,D26=""Vaulted"",1.26,TRUE,1)*IFS(E26=""Shaded"",0.95,E26=""Sunny"",1.2,E26=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F26)=""y"",1.2,1)+MAX(0,G26-2)*0.1+IFS(H26=""Kitchen"",0.5,H26=""Office"",0.4,H26=""Gym"",0.9,H26=""Server"",1.4,TRUE,0),2))","=IF(J26="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J26),1),""over 7.1, two units""))","=IF(J26="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J26),1),""""))"
+,,,,,,,,"=IF(B27="""","""",ROUND(B27*C27,1))","=IF(B27="""","""",ROUND(((B27)*(C27)*0.155)*IFS(D27=""High"",1.12,D27=""Vaulted"",1.26,TRUE,1)*IFS(E27=""Shaded"",0.95,E27=""Sunny"",1.2,E27=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F27)=""y"",1.2,1)+MAX(0,G27-2)*0.1+IFS(H27=""Kitchen"",0.5,H27=""Office"",0.4,H27=""Gym"",0.9,H27=""Server"",1.4,TRUE,0),2))","=IF(J27="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J27),1),""over 7.1, two units""))","=IF(J27="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J27),1),""""))"
+,,,,,,,,"=IF(B28="""","""",ROUND(B28*C28,1))","=IF(B28="""","""",ROUND(((B28)*(C28)*0.155)*IFS(D28=""High"",1.12,D28=""Vaulted"",1.26,TRUE,1)*IFS(E28=""Shaded"",0.95,E28=""Sunny"",1.2,E28=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F28)=""y"",1.2,1)+MAX(0,G28-2)*0.1+IFS(H28=""Kitchen"",0.5,H28=""Office"",0.4,H28=""Gym"",0.9,H28=""Server"",1.4,TRUE,0),2))","=IF(J28="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J28),1),""over 7.1, two units""))","=IF(J28="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J28),1),""""))"
+,,,,,,,,"=IF(B29="""","""",ROUND(B29*C29,1))","=IF(B29="""","""",ROUND(((B29)*(C29)*0.155)*IFS(D29=""High"",1.12,D29=""Vaulted"",1.26,TRUE,1)*IFS(E29=""Shaded"",0.95,E29=""Sunny"",1.2,E29=""Bifolds"",1.35,TRUE,1)*IF(LOWER(F29)=""y"",1.2,1)+MAX(0,G29-2)*0.1+IFS(H29=""Kitchen"",0.5,H29=""Office"",0.4,H29=""Gym"",0.9,H29=""Server"",1.4,TRUE,0),2))","=IF(J29="""","""",IFERROR(INDEX(FILTER($B$33:$B$38,$B$33:$B$38>=J29),1),""over 7.1, two units""))","=IF(J29="""","""",IFERROR(INDEX(FILTER($C$33:$C$38,$B$33:$B$38>=J29),1),""""))"
+,,,,,,,Total load,"=IF(COUNT(J18:J29)=0,"""",ROUND(SUM(J18:J29),1))",kW
+
+"Unit sizes and installed guide prices, single wall unit"
+,2.0,1850
+,2.5,1850
+,3.5,1995
+,5.0,2280
+,6.0,2650
+,7.1,2950
+
+Careful with the money column
+Guide prices are one wall unit installed in one room.
+Do not add them up for a house. Several rooms on one outdoor unit is a
+"multi split, which starts at 3450 and is priced after a survey."
+"Total load is the number that matters there, for sizing the condenser."
