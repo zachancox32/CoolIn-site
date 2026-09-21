@@ -56,6 +56,8 @@ def head(title, desc, url, jsonld, extra=''):
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{url}">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="article">
