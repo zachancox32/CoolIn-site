@@ -1,3 +1,33 @@
+HIGH RESOLUTION RASTER — png-hires/
+  Every logo, icon and crystal rendered at 1200px and 4000px wide, rasterised
+  from the SVG so the edges stay sharp. 4000px covers large-format print,
+  vehicle wrap proofs and exhibition panels; 1200px suits slides, web and social.
+  Transparent background except the mono-white and reverse-icon files, which are
+  padded with navy #0D2B38 so the white artwork is visible.
+
+  For anything printed, give your supplier the SVG files instead — they are
+  vector and scale to any size with no loss at all.
+
+COOLIN — 18A centred lockup (no rule)
+  coolin-logo-18a-primary.svg     full colour, light backgrounds
+  coolin-logo-18a-reverse.svg     full colour on navy, strapline in white
+  coolin-logo-18a-mono-navy.svg   single colour
+  coolin-logo-18a-mono-white.svg  single colour on dark or photography
+
+  Wordmark, crystal, strapline on one centred axis. Use where a rule would
+  compete — over photography, embroidery, small print.
+
+COOLIN — 18B centred lockup (current primary)
+  coolin-logo-18b-primary.svg     full colour, light backgrounds
+  coolin-logo-18b-reverse.svg     full colour on navy, strapline in white
+  coolin-logo-18b-mono-navy.svg   single colour
+  coolin-logo-18b-mono-white.svg  single colour on dark or photography
+  png/coolin-logo-18b-*.png       raster versions
+
+  Centred: wordmark, blue-to-terracotta rule, strapline on one axis.
+  Strapline: AIR CONDITIONING SPECIALISTS, Archivo Bold, 5.2% tracking.
+  On dark grounds the strapline is always #FFFFFF.
+
 COOLIN — brand assets (lockup 16B · icon 14A)
 =============================================
 

@@ -71,21 +71,12 @@ ul,ol{margin:0;padding:0;list-style:none}
 :focus-visible{outline:3px solid var(--ice);outline-offset:3px;border-radius:4px}
 
 /* ---------- logo ---------- */
+/* Both lockups are transparent PNGs from the brand pack, so they sit on the
+   translucent header and on the footer navy without carrying a ground. */
 .logo{display:inline-flex;align-items:center;line-height:0}
-.lg{width:182px;height:68px;display:block;overflow:visible}
-.lg__w{font-family:var(--head);font-weight:800;font-size:54px;letter-spacing:.27px;fill:var(--navy)}
-.lg__in{fill:var(--blue)}
-.lg__x{stroke:var(--blue);stroke-width:4;stroke-linecap:round;fill:none}
-.lg__cool{stroke:var(--blue);stroke-width:3.6;stroke-linecap:round;fill:none}
-.lg__warm{stroke:var(--orange);stroke-width:3.6;stroke-linecap:round;fill:none}
-.lg__t{font-family:var(--head);font-weight:700;font-size:11px;letter-spacing:1.32px;fill:#3D5D6E}
-.logo--dark .lg__w{fill:#fff}
-.logo--dark .lg__in,.logo--dark .lg__x,.logo--dark .lg__cool{stroke:var(--ice);fill:var(--ice)}
-.logo--dark .lg__in{fill:var(--ice)}
-.logo--dark .lg__warm{stroke:#F0845A}
-.logo--dark .lg__t{fill:#9EBDCA}
-.footer .lg{width:216px;height:80px}
-.footer img.lg{display:block}
+.lg{width:176px;height:77px;display:block}
+.footer .lg{width:200px;height:87px}
+
 /* ---------- buttons ---------- */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
@@ -342,7 +333,9 @@ ul,ol{margin:0;padding:0;list-style:none}
 .form__done span{color:var(--grey);max-width:320px}
 
 /* ---------- footer ---------- */
-.footer{background:#08222F;color:#8FA9B6;padding:64px 0 0;font-size:.93rem}
+/* Brand navy, so the reverse lockup (which ships on #0D2B38) sits on it
+   seamlessly instead of reading as a lighter box. */
+.footer{background:var(--navy);color:#9EBDCA;padding:64px 0 0;font-size:.93rem}
 .footer__top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.1fr;gap:44px;padding-bottom:48px}
 .footer__brand p{margin:20px 0 0;max-width:330px;font-size:.92rem}
 .footer__col h4{color:#fff;margin-bottom:18px}
@@ -737,7 +730,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 }
 @media (max-width:720px){
   body{font-size:16px}
-  .lg{width:148px;height:55px}
+  .lg{width:148px;height:65px}
   .header__in{gap:14px;padding-top:12px;padding-bottom:12px}
   .btn{padding:11px 16px;font-size:.86rem}
   .wrap{padding-left:20px;padding-right:20px}

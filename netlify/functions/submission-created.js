@@ -34,9 +34,9 @@ const SIGNATURE = `
     </tr>
   </table>
   <p style="margin:22px 0 0">
-    <img src="${SITE}/assets/img/logo-email.png" width="180" height="64"
+    <img src="${SITE}/assets/img/logo-email.png" width="190" height="83"
          alt="CoolIn Cooling and Heating"
-         style="display:block;border:0;width:180px;height:64px">
+         style="display:block;border:0;width:190px;height:83px">
   </p>
   <p style="margin:16px 0 0;color:${GREY};font-size:13px;line-height:1.7">
     Lloyds House, 18-22 Lloyd Street, Manchester M2 5WA<br>
