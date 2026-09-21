@@ -28,6 +28,8 @@ SVG_JOBS = [
 ]
 PNG_JOBS = [
     ('coolin-logo-18b-primary-4000w.png', 'assets/img/logo-email.png', 520),
+    # Google picks one favicon and wants a square that is a multiple of 48
+    ('coolin-icon-14a-4000w.png',         'assets/img/favicon.png',    192),
 ]
 
 def build_svgs():
