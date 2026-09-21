@@ -14,6 +14,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 from _md import render, frontmatter
 
+CRYSTAL = '<svg class="post__mark" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/><path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/><path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/><path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/></g></svg>'
+CRYSTAL_CARD = CRYSTAL.replace('post__mark', 'post-card__mark')
+
 IDX = open('index.html').read()
 BASE = re.search(r'rel="canonical" href="(https://[^/]+)', IDX).group(1)
 CSS_V = re.search(r'style\.css\?v=([A-Za-z0-9]+)', IDX).group(1)
@@ -106,13 +109,35 @@ def author_block(post):
         schema['sameAs'] = [a['linkedin']]
     return (f'<p class="post__by">By {html.escape(a.get("name",""))}, {html.escape(a.get("role",""))}</p>', schema), card
 
-def build_post(path):
+def scan(path):
+    """Frontmatter and length only, so related links can be worked out before
+    any page is written."""
+    fm, body = frontmatter(open(path).read())
+    words = len(re.sub(r'<[^>]+>', ' ', render(body)).split())
+    return dict(slug=fm.get('slug') or os.path.basename(path)[:-3],
+                title=fm['title'], desc=fm.get('description', ''),
+                date=(fm.get('date', '') or '')[:10],
+                category=fm.get('category') or 'Advice',
+                mins=max(1, round(words / 200)))
+
+
+def related(me, all_posts, n=3):
+    """Same category first, then most recent. Never the post you are reading."""
+    others = [p for p in all_posts if p['slug'] != me['slug']]
+    same = [p for p in others if p['category'] == me['category']]
+    rest = [p for p in others if p['category'] != me['category']]
+    return (same + rest)[:n]
+
+
+def build_post(path, siblings=()):
     fm, body = frontmatter(open(path).read())
     slug = fm.get('slug') or os.path.basename(path)[:-3]
     url = f'{BASE}/blog/{slug}.html'
     title, desc, date = fm['title'], fm.get('description', ''), fm.get('date', '')[:10]
     # the <title> tag has to fit in a search result; the h1 does not.
     seo_title = fm.get('seo_title') or title
+    words = len(re.sub(r'<[^>]+>', ' ', render(body)).split())
+    mins = max(1, round(words / 200))
     ab = author_block(fm)
     byline, aschema, card = (ab[0][0], ab[0][1], ab[1]) if isinstance(ab[0], tuple) else (ab[0], ab[1], '')
 
@@ -130,15 +155,46 @@ def build_post(path):
             {"@type": "ListItem", "position": 3, "name": title, "item": url}]}]}
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
+    me = dict(slug=slug, title=title, category=fm.get('category') or 'Advice')
+    near = related(me, siblings)
+    more = ''
+    if near:
+        cards = '\n'.join(f'''        <article class="post-card js-card">
+          <div class="post-card__panel">
+            {CRYSTAL_CARD}
+            <span class="post-card__cat">{html.escape(o['category'])}</span>
+            <h2><a href="/blog/{o['slug']}.html">{html.escape(o['title'])}</a></h2>
+          </div>
+          <div class="post-card__body">
+            <p>{html.escape(o['desc'])}</p>
+            <p class="post-card__meta"><time datetime="{o['date']}">{pretty(o['date'])}</time>
+              <span aria-hidden="true">&middot;</span>{o['mins']} min read</p>
+            <span class="post-card__go">Read it</span>
+          </div>
+        </article>''' for o in near)
+        more = f'''
+  <section class="post-more">
+    <div class="wrap">
+      <h2 class="post-more__title js-up">Keep reading</h2>
+      <div class="post-grid">
+{cards}
+      </div>
+    </div>
+  </section>
+'''
+
     content = f'''<!-- ============ POST ============ -->
 <article class="post">
   <header class="post__head">
+    {CRYSTAL}
     <div class="wrap post__wrap">
       <nav class="crumbs crumbs--light js-up" aria-label="Breadcrumb">
         <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="/blog.html">Blog</a><span aria-hidden="true">/</span><span aria-current="page">{html.escape(title)}</span>
       </nav>
+      <p class="post__cat js-up">{html.escape(fm.get('category') or 'Advice')}</p>
       <h1 class="js-up">{html.escape(title)}</h1>
-      <p class="post__meta js-up"><time datetime="{date}">{pretty(date)}</time>{byline.replace('<p class="post__by">', ' &middot; ').replace('</p>','')}</p>
+      <p class="post__meta js-up"><time datetime="{date}">{pretty(date)}</time>
+        <span aria-hidden="true">&middot;</span> {mins} min read{byline.replace('<p class="post__by">', ' &middot; ').replace('</p>','')}</p>
     </div>
   </header>
   <div class="wrap post__wrap">
@@ -146,11 +202,22 @@ def build_post(path):
 {render(body)}
     </div>
 {card}
+    <aside class="post-cta js-up">
+      <div>
+        <h2>Thinking about it for your own place?</h2>
+        <p>Free survey, a written price within 48 hours, and no sales visit. Tell us the rooms and we will do the rest.</p>
+      </div>
+      <div class="post-cta__act">
+        <a class="btn btn--primary" href="/contact.html">Book a free survey</a>
+        <a class="post-cta__tel" href="tel:+447391523255">or call 07391 523255</a>
+      </div>
+    </aside>
     <p class="post__back"><a href="/blog.html">All articles</a></p>
   </div>
 </article>
-
+{more}
 '''
+
     out = head(seo_title, desc, url, jsonld) + rootify(UTILITY) + rootify(HEADER) \
         + '\n<main id="main">\n\n' + content + '\n</main>\n\n' + rootify(FOOTER)
     open(f'blog/{slug}.html', 'w').write(out)
@@ -158,7 +225,6 @@ def build_post(path):
         print(f'    WARNING {slug}: title is {len(seo_title)+9} chars, over the 60 that fit a search result')
     if len(desc) > 160:
         print(f'    WARNING {slug}: description is {len(desc)} chars, over 160')
-    words = len(re.sub(r'<[^>]+>', ' ', render(body)).split())
     return dict(slug=slug, title=title, desc=desc, date=date, url=url,
                 author=fm.get('author', ''), words=words,
                 category=fm.get('category') or 'Advice',
@@ -232,8 +298,9 @@ def build_index(posts):
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + quote + '\n</main>\n\n' + FOOTER
     open('blog.html', 'w').write(out)
 
-posts = sorted((build_post(p) for p in glob.glob('blog/posts/*.md')),
-               key=lambda p: p['date'], reverse=True)
+paths = sorted(glob.glob('blog/posts/*.md'))
+siblings = sorted((scan(p) for p in paths), key=lambda p: p['date'], reverse=True)
+posts = sorted((build_post(p, siblings) for p in paths), key=lambda p: p['date'], reverse=True)
 if posts:
     build_index(posts)
 for p in posts:
