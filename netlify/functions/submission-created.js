@@ -35,7 +35,7 @@ const SIGNATURE = `
   </table>
   <p style="margin:22px 0 0">
     <img src="${SITE}/assets/img/logo-email.png" width="190" height="69"
-         alt="CoolIn Cooling and Heating"
+         alt="CoolIn Air Conditioning Specialists"
          style="display:block;border:0;width:190px;height:69px">
   </p>
   <p style="margin:16px 0 0;color:${GREY};font-size:13px;line-height:1.7">

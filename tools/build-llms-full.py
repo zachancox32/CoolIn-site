@@ -36,7 +36,7 @@ def text_of(node):
     node = re.sub(r'\n{3,}', '\n\n', node)
     return node.strip()
 
-out = ["""# CoolIn Cooling & Heating, full site text
+out = ["""# CoolIn Air Conditioning Specialists, full site text
 
 Air conditioning installer covering the North West of England, based in
 Manchester. Phone 07391 523255.

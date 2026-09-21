@@ -1,4 +1,4 @@
-# CoolIn Cooling & Heating, full site text
+# CoolIn Air Conditioning Specialists, full site text
 
 Air conditioning installer covering the North West of England, based in
 Manchester. Phone 07391 523255.
@@ -34,9 +34,20 @@ Fixed price, no extras later
 
 Scroll
 
+Leave this empty
+
+Get in touch
+
+Leave your details and an engineer rings you back the same working day.
+
+Name
+Postcode
+Phone
+Get in touch
+
 CoolIn in short
 
-CoolIn Cooling & Heating installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
+CoolIn Air Conditioning Specialists installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
 
 Domestic from
 £1,850 fitted, 0% VAT
@@ -2127,7 +2138,7 @@ Free survey
 ================================================================================
 URL: https://coolin.co.uk/about.html
 TITLE: About CoolIn | Air Conditioning, Manchester
-DESCRIPTION: CoolIn Cooling and Heating install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
+DESCRIPTION: CoolIn Air Conditioning Specialists install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
 ================================================================================
 
 CoolIn / About CoolIn
@@ -2144,7 +2155,7 @@ See how we work
 
 CoolIn in short
 
-CoolIn Cooling & Heating is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. Every quote is fixed in writing before anything is ordered, the survey costs nothing, and our own workmanship is guaranteed for two years.
+CoolIn Air Conditioning Specialists is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. Every quote is fixed in writing before anything is ordered, the survey costs nothing, and our own workmanship is guaranteed for two years.
 
 Based
 Manchester
@@ -2188,7 +2199,7 @@ Heat pumps blow cool air during a defrost cycle. Outdoor units drip in winter. T
 
 What you get, in writing
 
-CoolIn Cooling & Heating
+CoolIn Air Conditioning Specialists
 
 Based in Manchester
 

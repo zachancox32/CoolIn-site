@@ -1,4 +1,4 @@
-# CoolIn Cooling & Heating, website
+# CoolIn Air Conditioning Specialists, website
 
 Static site, 21 pages. No build step and no dependencies to install.
 

@@ -68,7 +68,7 @@ def meta(f):
 def url(f):
     return BASE + '/' + ('' if f == 'index.html' else f)
 
-out = [f"# CoolIn Cooling & Heating\n"]
+out = [f"# CoolIn Air Conditioning Specialists\n"]
 out.append('\n'.join('> ' + l for l in SUMMARY.split('\n')) + '\n')
 out.append(STANCE + '\n')
 
