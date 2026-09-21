@@ -850,6 +850,9 @@ ul,ol{margin:0;padding:0;list-style:none}
 .d-out rect{fill:#fff}
 .d-hub{fill:var(--navy);stroke:none}
 .d-air{fill:none;stroke:var(--ice);stroke-width:2;stroke-linecap:round;stroke-dasharray:5 7}
+/* extract and heat recovery: the warm stream leaving the building */
+.d-warm{fill:none;stroke:var(--orange);stroke-width:2;stroke-linecap:round}
+.d-warm.d-air{stroke-dasharray:5 7}
 @media (prefers-reduced-motion:no-preference){
   .d-air{animation:d-drift 2.4s linear infinite}
   .sys__dia:nth-of-type(2) .d-air{animation-duration:2.7s}

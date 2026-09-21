@@ -69,3 +69,88 @@ def svg(key):
     return (f'<figure class="sys__dia">'
             f'<svg viewBox="0 0 240 136" role="img" aria-label="{d["caption"]}">{d["body"]}</svg>'
             f'<figcaption>{d["caption"]}</figcaption></figure>')
+
+
+# ---------- commercial ----------
+# Same language, different shell: a flat ceiling with a service void instead of
+# a pitched roof, because that is what the kit actually sits in.
+
+ROOM = ('<path class="d-ground" d="M4 128h232"/>'
+        '<path class="d-shell" d="M24 34h150v94H24z"/>'
+        '<path class="d-void" d="M24 34h150v15H24z"/>')
+
+BLD  = ('<path class="d-ground" d="M4 128h232"/>'
+        '<path class="d-shell" d="M24 24h150v104H24z"/>'
+        '<path class="d-floor" d="M24 58h150M24 92h150"/>')
+
+CASSETTE = '<rect class="d-unit" x="{x}" y="{y}" width="38" height="8" rx="2"/>'
+RACK     = ('<g class="d-out"><rect x="{x}" y="{y}" width="24" height="46" rx="2"/>'
+            '<path d="M{x1} {y1}h14M{x1} {y2}h14M{x1} {y3}h14"/></g>')
+
+COMMERCIAL = {
+ 'cassette': dict(
+   caption='Recessed flush in the ceiling, blows four ways',
+   body = ROOM
+     + CASSETTE.format(x=80, y=42)
+     + '<path class="d-pipe" d="M118 46h48v58h26"/>'
+     + OUT_UNIT.format(x=192, y=91, cx=209, cy=104)
+     + air(['M84 52q-12 10-16 24', 'M94 52v26', 'M110 52v26', 'M118 52q12 10 16 24'])),
+
+ 'ducted-c': dict(
+   caption='Unit in the service void, ducted to grilles',
+   body = ROOM
+     + '<rect class="d-unit" x="86" y="37" width="30" height="10" rx="3"/>'
+     + '<path class="d-pipe" d="M86 42H50v7M116 42h34v7"/>'
+     + GRILLE.format(x=40, y=49) + GRILLE.format(x=92, y=49) + GRILLE.format(x=140, y=49)
+     + '<path class="d-pipe" d="M150 42h22v62h20"/>'
+     + OUT_UNIT.format(x=192, y=91, cx=209, cy=104)
+     + air(['M46 56q6 10 0 18', 'M98 56q6 10 0 18', 'M146 56q6 10 0 18'])),
+
+ 'vrf': dict(
+   caption='Mixed unit types on one riser, modular plant on the roof',
+   body = BLD
+     + CASSETTE.format(x=44, y=28)
+     + IN_UNIT.format(x=48, y=64) + GRILLE.format(x=48, y=98)
+     + '<path class="d-pipe" d="M82 32h44M74 68h52M68 100h58M126 32v76"/>'
+     + '<path class="d-pipe" d="M126 20v12M126 20h30"/>'
+     + OUT_UNIT.format(x=156, y=8, cx=173, cy=21)
+     + OUT_UNIT.format(x=194, y=8, cx=211, cy=21)
+     + '<path class="d-pipe" d="M190 21h4"/>'
+     + air(['M50 38v14', 'M74 38v14', 'M52 76v12', 'M52 108v10'])),
+
+ 'wall-c': dict(
+   caption='One unit, one condenser, the same as a home install',
+   body = ROOM
+     + IN_UNIT.format(x=44, y=56)
+     + '<path class="d-pipe" d="M70 61h96v43h26"/>'
+     + OUT_UNIT.format(x=192, y=91, cx=209, cy=104)
+     + air(['M48 70q9 7 1 14', 'M56 70q9 7 1 14', 'M64 70q9 7 1 14'])),
+
+ 'close': dict(
+   caption='Precision cooling aimed at the racks, not the room',
+   body = ROOM
+     + RACK.format(x=52, y=66, x1=57, y1=78, y2=88, y3=98)
+     + RACK.format(x=84, y=66, x1=89, y1=78, y2=88, y3=98)
+     + '<rect class="d-unit" x=" 124" y="62" width="22" height="50" rx="3"/>'
+     + '<path class="d-pipe" d="M146 70h20v34h26"/>'
+     + OUT_UNIT.format(x=192, y=91, cx=209, cy=104)
+     + air(['M124 74q-14 0-20 8', 'M124 88q-14 0-20 6', 'M124 100q-14 2-20 6'])),
+
+ 'hrv': dict(
+   caption='Stale air out, fresh air in, heat kept back',
+   body = ROOM
+     + '<rect class="d-unit" x="96" y="36" width="34" height="12" rx="3"/>'
+     + '<path class="d-pipe" d="M96 42H54v8M130 42h40"/>'
+     + GRILLE.format(x=44, y=50) + GRILLE.format(x=104, y=50)
+     + '<path class="d-pipe" d="M113 48v2"/>'
+     + '<path class="d-warm" d="M170 42h22"/>'
+     + OUT_UNIT.format(x=192, y=30, cx=209, cy=43)
+     + air(['M50 58q6 10 0 18', 'M110 58q6 10 0 18'])
+     + '<path class="d-warm d-air" d="M140 36q14-8 28-4"/>'),
+}
+
+def commercial_svg(key):
+    d = COMMERCIAL[key]
+    return (f'<figure class="sys__dia">'
+            f'<svg viewBox="0 0 240 136" role="img" aria-label="{d["caption"]}">{d["body"]}</svg>'
+            f'<figcaption>{d["caption"]}</figcaption></figure>')
