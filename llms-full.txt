@@ -1,7 +1,7 @@
 # CoolIn Cooling & Heating, full site text
 
 Air conditioning installer covering the North West of England, based in
-Manchester. Phone 07932 607335.
+Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on coolin.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
@@ -1571,7 +1571,7 @@ on all makes and models
 All makes, all models, whether we fitted it or not. Parts for the major brands are carried on the van, so most faults are sorted on the first visit rather than after a week of waiting for a courier.
 
 Report a fault
-Call 07932 607335
+Call 07391 523255
 
 £95 first hour, including travel
 
@@ -2005,7 +2005,7 @@ the North West
 We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a single base in Manchester. Keeping the patch tight is deliberate: it is the difference between attending a breakdown this week and attending it next month.
 
 Check your postcode
-Call 07932 607335
+Call 07391 523255
 
 Our coverage in short
 
@@ -2227,8 +2227,8 @@ Free survey
 
 ================================================================================
 URL: https://coolin.co.uk/contact.html
-TITLE: Contact CoolIn | 07932 607335 | Air Conditioning
-DESCRIPTION: Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07932 607335 today.
+TITLE: Contact CoolIn | 07391 523255 | Air Conditioning
+DESCRIPTION: Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07391 523255 today.
 ================================================================================
 
 CoolIn / Contact
@@ -2240,14 +2240,16 @@ and we will do the rest
 
 Ring us or fill the form in. An engineer calls you back the same working day, the survey is free and takes under an hour, and the written quote follows within 48 hours. There is no sales visit in between.
 
-Call 07932 607335
+Call 07391 523255
 Send us the details
 
-Phone
+Phone or WhatsApp
 
-07932 607335
+07391 523255
 
 Monday to Saturday, 7am to 7pm. Outside those hours leave a message and we ring back first thing. Service contract customers have a direct number for breakdowns.
+
+Rather type than talk? Message us on WhatsApp . A photo of the room and the wall outside tells us more than any description.
 
 Send us the details
 

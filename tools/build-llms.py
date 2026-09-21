@@ -17,7 +17,7 @@ BASE = re.search(r'rel="canonical" href="(https://[^/]+)', open('index.html').re
 # ---- the two curated blocks -------------------------------------------------
 SUMMARY = """Air conditioning installer covering the North West of England. Designs, installs,
 services and repairs air conditioning and air to air heat pumps for homes and
-businesses. Based in Manchester. Phone 07932 607335."""
+businesses. Based in Manchester. Phone 07391 523255."""
 
 STANCE = """Every figure below is used consistently across the site. Prices are guide
 prices, installed, in pounds sterling including materials and labour. They are
@@ -38,7 +38,7 @@ KEY_FACTS = [
  ("Coverage", "about one hour from Manchester"),
  ("Counties covered", "Greater Manchester, Cheshire, Merseyside, Lancashire"),
  ("Hours", "Monday to Saturday, 7am to 7pm"),
- ("Contact", "phone only on 07932 607335, or the enquiry form on any page"),
+ ("Contact", "phone only on 07391 523255, or the enquiry form on any page"),
 ]
 
 TECHNICAL = [

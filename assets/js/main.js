@@ -325,5 +325,30 @@
     });
   })();
 
+  /* WhatsApp deep link, prefilled with what the page is about so the
+     enquiry arrives with context instead of a bare "hi". */
+  (function () {
+    var links = document.querySelectorAll('[data-wa]');
+    if (!links.length) return;
+    var SMALL = { under: 1, upon: 1, on: 1, in: 1 };
+    var page = location.pathname.replace(/^\//, '').replace(/\.html$/, '') || 'index';
+    var town = page.match(/^air-conditioning-(.+)$/);
+    var ctx = 'air conditioning';
+    if (town) {
+      ctx = 'air conditioning in ' + town[1].split('-').map(function (w, i) {
+        return (i && SMALL[w]) ? w : w.charAt(0).toUpperCase() + w.slice(1);
+      }).join(' ');
+    } else if (page === 'domestic') ctx = 'air conditioning at home';
+    else if (page === 'commercial') ctx = 'commercial air conditioning';
+    else if (page === 'servicing') ctx = 'a service';
+    else if (page === 'repairs') ctx = 'a repair';
+    else if (page === 'heat-pumps') ctx = 'an air source heat pump';
+    else if (page === 'ventilation') ctx = 'ventilation';
+    var text = '?text=' + encodeURIComponent('Hi CoolIn, I would like a quote for ' + ctx + '.');
+    Array.prototype.forEach.call(links, function (a) {
+      a.href = a.href.split('?')[0] + text;
+    });
+  })();
+
   ScrollTrigger.refresh();
 })();
