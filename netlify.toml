@@ -7,7 +7,7 @@
   # Blog and case studies from markdown, then the sitemap and model files from
   # whatever those produced. python3 is in the Netlify build image by default,
   # so there is nothing to install.
-  command = "python3 tools/build-blog.py && python3 tools/build-case-studies.py && python3 tools/bust-cache.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py && python3 tools/indexnow.py"
+  command = "python3 tools/build-blog.py && python3 tools/build-case-studies.py && python3 tools/bust-cache.py && python3 tools/build-redirects.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py && python3 tools/indexnow.py"
 
 [functions]
   directory = "netlify/functions"
@@ -15,11 +15,11 @@
 
 [build.processing]
   skip_processing = false
-  # Serve clean URLs and 301 the .html form to them. The canonical tag, the
-  # sitemap, the model files and every internal link use the clean form, so
-  # there is exactly one address for each page.
+  # Netlify serves the extensionless form regardless. The .html to clean 301s
+  # are written explicitly into _redirects by tools/build-redirects.py, because
+  # pretty_urls did not actually issue them.
   [build.processing.html]
-    pretty_urls = true
+    pretty_urls = false
 
 # ---------------------------------------------------------------- headers
 
