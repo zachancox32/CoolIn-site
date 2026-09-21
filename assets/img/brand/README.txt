@@ -1,3 +1,11 @@
+Crystal spacing — IMPORTANT
+  The crystal sits 4px from the end of COOLIN at 54px type (0.074 em).
+  The SVG files reference Archivo by name. On a machine without Archivo
+  installed the word renders narrower and the crystal drifts away from it.
+  The PNGs in png-hires/ are rendered with Archivo loaded, so their spacing is
+  correct — use those, or install Archivo before opening the SVGs. For print
+  suppliers, ask me for an outlined version (letters converted to paths).
+
 HIGH RESOLUTION RASTER — png-hires/
   Every logo, icon and crystal rendered at 1200px and 4000px wide, rasterised
   from the SVG so the edges stay sharp. 4000px covers large-format print,

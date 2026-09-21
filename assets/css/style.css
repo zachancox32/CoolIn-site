@@ -74,8 +74,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 /* Both lockups are transparent PNGs from the brand pack, so they sit on the
    translucent header and on the footer navy without carrying a ground. */
 .logo{display:inline-flex;align-items:center;line-height:0}
-.lg{width:176px;height:77px;display:block;overflow:visible}
-.footer .lg{width:200px;height:87px}
+.lg{width:184px;height:80px;display:block;overflow:visible}
+.footer .lg{width:212px;height:93px}
 
 /* ---------- buttons ---------- */
 .btn{
@@ -730,7 +730,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 }
 @media (max-width:720px){
   body{font-size:16px}
-  .lg{width:148px;height:65px}
+  .lg{width:152px;height:66px}
   .header__in{gap:14px;padding-top:12px;padding-bottom:12px}
   .btn{padding:11px 16px;font-size:.86rem}
   .wrap{padding-left:20px;padding-right:20px}
