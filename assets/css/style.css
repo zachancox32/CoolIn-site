@@ -794,3 +794,33 @@ ul,ol{margin:0;padding:0;list-style:none}
 .cs-quote p{font-size:1.06rem;color:var(--ink);margin:0}
 .cs-quote cite{display:block;margin-top:12px;font-style:normal;font-family:var(--head);font-weight:700;font-size:.85rem;color:var(--blue)}
 .cs-next{margin:34px 0 0;font-size:.98rem}
+
+/* ---------- ribbon: the short form high on the homepage ---------- */
+.ribbon{background:var(--paper-2);border-bottom:1px solid var(--line);padding:26px 0}
+.ribbon__form{
+  display:grid;grid-template-columns:minmax(190px,1.3fr) repeat(3,minmax(104px,1fr)) auto;
+  gap:16px;align-items:end;background:var(--paper);border:1px solid var(--line);
+  border-radius:var(--radius-lg);padding:22px 24px;box-shadow:var(--shadow);
+}
+.ribbon__lead{padding-bottom:2px}
+.ribbon__lead h2{font-family:var(--head);font-weight:800;font-size:1.06rem;color:var(--ink);margin:0 0 4px;line-height:1.2}
+.ribbon__lead p{font-size:.86rem;color:var(--grey);margin:0;line-height:1.45}
+.ribbon__field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.ribbon__field span{font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue-d)}
+.ribbon__field input{
+  font-family:var(--text);font-size:.94rem;color:var(--ink);background:var(--paper-2);
+  border:1.5px solid var(--line);border-radius:10px;padding:12px 13px;width:100%;
+}
+.ribbon__field input::placeholder{color:#9FB3BD}
+.ribbon__field input:focus{outline:none;border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(14,110,150,.12)}
+.ribbon__field input:user-invalid{border-color:var(--orange)}
+.ribbon .btn{height:47px;white-space:nowrap}
+@media (max-width:860px){
+  .ribbon__form{grid-template-columns:repeat(3,1fr)}
+  .ribbon__lead{grid-column:1/-1}
+  .ribbon .btn{grid-column:1/-1;height:auto;padding-top:14px;padding-bottom:14px}
+}
+@media (max-width:620px){
+  .ribbon{padding:20px 0}
+  .ribbon__form{grid-template-columns:1fr;gap:13px;padding:20px}
+}
