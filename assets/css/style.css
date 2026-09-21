@@ -74,7 +74,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 /* Both lockups are transparent PNGs from the brand pack, so they sit on the
    translucent header and on the footer navy without carrying a ground. */
 .logo{display:inline-flex;align-items:center;line-height:0}
-.lg{width:176px;height:77px;display:block}
+.lg{width:176px;height:77px;display:block;overflow:visible}
 .footer .lg{width:200px;height:87px}
 
 /* ---------- buttons ---------- */
