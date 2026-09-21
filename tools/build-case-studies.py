@@ -67,7 +67,7 @@ def head(title, desc, url, jsonld, robots=''):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{url}">
-<meta property="og:site_name" content="CoolIn Air Conditioning Specialists">
+<meta property="og:site_name" content="CoolIn">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="{BASE}/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">

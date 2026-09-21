@@ -37,12 +37,12 @@ def head(title, desc, slug):
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{BASE}/{slug}">
-<meta property="og:site_name" content="CoolIn Air Conditioning Specialists">
+<meta property="og:site_name" content="CoolIn">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="{BASE}/assets/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="CoolIn Air Conditioning Specialists, air conditioning across the North West">
+<meta property="og:image:alt" content="CoolIn, air conditioning across the North West">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">

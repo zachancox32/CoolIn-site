@@ -57,7 +57,7 @@ def head(title, desc, url, jsonld, extra=''):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{url}">
-<meta property="og:site_name" content="CoolIn Air Conditioning Specialists">
+<meta property="og:site_name" content="CoolIn">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="{BASE}/assets/img/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -88,7 +88,8 @@ def rootify(block):
 def author_block(post):
     a = AUTHORS.get(post.get('author', ''), None)
     if not a:
-        return ('<p class="post__by">By the CoolIn team</p>', {"@type": "Organization", "name": "CoolIn Air Conditioning Specialists"})
+        return ('<p class="post__by">By the CoolIn team</p>', {"@type": "Organization", "name": "CoolIn",
+      "alternateName": "CoolIn Air Conditioning Specialists"})
     creds = a.get('credentials') or []
     cred_html = ''.join(f'<li>{html.escape(c)}</li>' for c in creds)
     card = f'''
