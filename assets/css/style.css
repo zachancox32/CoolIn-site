@@ -797,8 +797,11 @@ ul,ol{margin:0;padding:0;list-style:none}
 
 /* ---------- ribbon: the short form high on the homepage ---------- */
 .ribbon{background:var(--paper-2);border-bottom:1px solid var(--line);padding:26px 0}
+/* Deliberately wider than the 1200px content column, so the ribbon reads
+   as a band across the page rather than another stacked section. */
+.ribbon .wrap{max-width:1360px}
 .ribbon__form{
-  display:grid;grid-template-columns:minmax(190px,1.3fr) repeat(3,minmax(104px,1fr)) auto;
+  display:grid;grid-template-columns:minmax(190px,1.15fr) repeat(3,minmax(104px,1fr)) auto;
   gap:16px;align-items:end;background:var(--paper);border:1px solid var(--line);
   border-radius:var(--radius-lg);padding:22px 24px;box-shadow:var(--shadow);
 }
