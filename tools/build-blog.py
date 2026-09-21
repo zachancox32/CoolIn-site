@@ -161,7 +161,6 @@ def build_post(path, siblings=()):
     if near:
         cards = '\n'.join(f'''        <article class="post-card js-card">
           <div class="post-card__panel">
-            {CRYSTAL_CARD}
             <span class="post-card__cat">{html.escape(o['category'])}</span>
             <h2><a href="/blog/{o['slug']}.html">{html.escape(o['title'])}</a></h2>
           </div>
@@ -233,14 +232,6 @@ def build_post(path, siblings=()):
 def build_index(posts):
     cards = '\n'.join(f'''      <article class="post-card js-card">
         <div class="post-card__panel">
-          <svg class="post-card__mark" viewBox="0 0 24 24" aria-hidden="true">
-            <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-              <path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/>
-              <path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/>
-              <path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/>
-              <path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/>
-            </g>
-          </svg>
           <span class="post-card__cat">{html.escape(p['category'])}</span>
           <h2><a href="/blog/{p['slug']}.html">{html.escape(p['title'])}</a></h2>
         </div>

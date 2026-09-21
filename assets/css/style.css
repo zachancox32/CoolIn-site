@@ -637,23 +637,24 @@ ul,ol{margin:0;padding:0;list-style:none}
 
 /* the panel does the work the old flat card could not: it gives every post a
    face on the index, without needing a photograph for each one */
+/* The crystal is a background rather than an element on purpose: a positioned
+   ancestor here would trap the title link's overlay inside the panel and the
+   rest of the card would stop being clickable. */
 .post-card__panel{
-  position:relative;overflow:hidden;padding:26px 26px 28px;min-height:186px;
+  padding:26px 26px 28px;min-height:186px;
   display:flex;flex-direction:column;justify-content:flex-end;gap:13px;
-  background:linear-gradient(142deg,var(--navy) 0%,var(--navy-3) 55%,var(--blue) 100%);
-}
-.post-card__mark{
-  position:absolute;right:-26px;bottom:-30px;width:150px;height:150px;
-  color:#fff;opacity:.09;pointer-events:none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.10' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M12 2v20'/%3E%3Cpath d='M3.3 7 20.7 17'/%3E%3Cpath d='M20.7 7 3.3 17'/%3E%3Cpath d='M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6'/%3E%3Cpath d='m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8'/%3E%3Cpath d='m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2'/%3E%3C/g%3E%3C/svg%3E") no-repeat right -26px bottom -34px / 150px 150px,
+    linear-gradient(142deg,var(--navy) 0%,var(--navy-3) 55%,var(--blue) 100%);
 }
 .post-card__cat{
-  align-self:flex-start;position:relative;
+  align-self:flex-start;
   font-family:var(--head);font-weight:700;font-size:.66rem;letter-spacing:.12em;
   text-transform:uppercase;color:var(--ice);
   border:1px solid rgba(94,195,224,.42);border-radius:60px;padding:5px 12px;
 }
 .post-card__panel h2{
-  position:relative;font-size:1.22rem;line-height:1.22;letter-spacing:-.018em;
+  font-size:1.22rem;line-height:1.22;letter-spacing:-.018em;
   margin:0;text-wrap:balance;
 }
 .post-card__panel h2 a{color:#fff}
