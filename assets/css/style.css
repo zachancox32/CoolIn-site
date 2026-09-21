@@ -474,6 +474,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .comp__table thead th{font-family:var(--head);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--grey)}
 .comp__table td:last-child{font-weight:500;color:var(--ink)}
 .comp p.comp__note{font-size:.86rem;color:var(--grey);margin:0;border-left:3px solid var(--ice);padding-left:14px}
+.comp__note--spaced{margin-top:16px}
 
 /* ---------- current nav item ---------- */
 .nav a.is-current{color:var(--blue);background:var(--ice-soft)}
