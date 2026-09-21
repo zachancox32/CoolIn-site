@@ -6,8 +6,12 @@
  *
  * Config, all set in Netlify under Site configuration > Environment variables:
  *   RESEND_API_KEY   required, from resend.com
- *   MAIL_FROM        e.g. CoolIn <hello@cool-in.co.uk>   must be a verified Resend domain
+ *   MAIL_FROM        the sender, as "Name <address>", on a verified Resend domain
  *   LEAD_TO          where the lead lands, comma separated for more than one
+ *
+ * No address is hardcoded here on purpose. Netlify scans the repo for the
+ * values of its own environment variables and fails the build if it finds
+ * them, which is the correct behaviour, so the values live only in Netlify.
  *
  * If the key is missing this does nothing and returns 200, so a
  * misconfiguration can never stop a form submission being saved.
@@ -88,7 +92,11 @@ exports.handler = async (event) => {
   }
 
   const d = payload.data || {};
-  const from = process.env.MAIL_FROM || 'CoolIn <hello@cool-in.co.uk>';
+  const from = process.env.MAIL_FROM;
+  if (!from) {
+    console.log('MAIL_FROM not set, no email sent');
+    return { statusCode: 200, body: 'no sender' };
+  }
   const leadTo = (process.env.LEAD_TO || '').split(',').map((s) => s.trim()).filter(Boolean);
   const meta = [payload.form_name || 'quote', payload.created_at || new Date().toISOString()].join(' · ');
   const where = String(d.postcode || '').trim();
