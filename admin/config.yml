@@ -18,7 +18,7 @@ collections:
     slug: "{{slug}}"
     extension: md
     format: frontmatter
-    summary: "{{title}} — {{date}}"
+    summary: "{{title}} ({{date}})"
     sortable_fields: [date, title]
     fields:
       - { name: title, label: Title, widget: string, hint: "Lead with the question someone would type into Google" }
@@ -27,6 +27,63 @@ collections:
       - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { name: author, label: Author, widget: relation, collection: authors, search_fields: [name], value_field: id, display_fields: [name], required: false }
       - { name: body, label: Article, widget: markdown, hint: "Use ## for section headings. The page title is the h1, so do not add another." }
+
+  - name: case_studies
+    label: Case studies
+    label_singular: Case study
+    folder: case-studies/projects
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    media_folder: /assets/case-studies
+    public_folder: /assets/case-studies
+    summary: "{{title}} ({{town}})"
+    sortable_fields: [date, title, town]
+    fields:
+      - { name: title, label: Title, widget: string, hint: "What it was, in plain words. For example: Three bedroom semi in Didsbury" }
+      - { name: seo_title, label: Search result title, widget: string, required: false, hint: "Optional. A shorter version for Google, under 50 characters, because CoolIn is added on the end." }
+      - { name: description, label: Short summary, widget: text, hint: "120 to 160 characters. Shows on the case studies page and under the title in Google." }
+      - { name: date, label: Date completed, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - name: town
+        label: Town
+        widget: select
+        hint: "Links the case study to that town page, which is what makes it useful for local search."
+        options:
+            - Altrincham
+            - Ashton under Lyne
+            - Blackburn
+            - Bolton
+            - Bury
+            - Chester
+            - Crewe
+            - Lancaster
+            - Leigh
+            - Liverpool
+            - Macclesfield
+            - Manchester
+            - Northwich
+            - Oldham
+            - Preston
+            - Rochdale
+            - Salford
+            - Southport
+            - Stockport
+            - Warrington
+            - Wigan
+            - Wilmslow
+      - { name: property_type, label: Property type, widget: select, options: [Home, Commercial] }
+      - { name: system, label: System fitted, widget: string, required: false, hint: "For example: Daikin Perfera multi split, three indoor units" }
+      - { name: rooms, label: Rooms covered, widget: string, required: false, hint: "For example: Two bedrooms and a home office" }
+      - { name: duration, label: Time on site, widget: string, required: false, hint: "For example: Two days" }
+      - { name: guide_price, label: Guide price, widget: string, required: false, hint: "Optional. Always say guide price, installed. For example: Guide price 4,200 installed" }
+      - { name: image, label: Main photo, widget: image, required: false, choose_url: false }
+      - { name: brief, label: The brief, widget: markdown, hint: "What the customer wanted and what the property was like." }
+      - { name: work, label: What we did, widget: markdown, hint: "The system, where the units went, anything awkward and how it was solved." }
+      - { name: result, label: The result, widget: markdown, required: false, hint: "What it is like to live with. Running costs, noise, how the rooms feel." }
+      - { name: gallery, label: More photos, widget: list, required: false, field: { name: image, label: Photo, widget: image } }
+      - { name: customer_quote, label: Customer quote, widget: text, required: false, hint: "Only if the customer actually said it and is happy for it to be used." }
+      - { name: customer_name, label: Customer name, widget: string, required: false, hint: "First name and area is plenty, for example: Sarah, Didsbury" }
 
   - name: authors
     label: Authors

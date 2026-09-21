@@ -4,8 +4,14 @@
     {
       "name": "coolin",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "/Users/hancoxz/Documents/CoolIn site"],
-      "port": 4321
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4732",
+        "--directory",
+        "/Users/hancoxz/Documents/CoolIn site"
+      ],
+      "port": 4732
     }
   ]
 }

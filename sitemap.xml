@@ -2,223 +2,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cool-in.co.uk/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/domestic.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://cool-in.co.uk/commercial.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/servicing.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://cool-in.co.uk/domestic.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-altrincham.html</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/repairs.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://cool-in.co.uk/air-conditioning-ashton-under-lyne.html</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/heat-pumps.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/ventilation.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/areas.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/about.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/contact.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-manchester.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-liverpool.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-stockport.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-chester.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-preston.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://cool-in.co.uk/air-conditioning-blackburn.html</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cool-in.co.uk/air-conditioning-bolton.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/privacy.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/terms.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/cookies.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-altrincham.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-wilmslow.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-warrington.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-salford.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-oldham.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-rochdale.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://cool-in.co.uk/air-conditioning-bury.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cool-in.co.uk/air-conditioning-macclesfield.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <loc>https://cool-in.co.uk/air-conditioning-chester.html</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-wigan.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-southport.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-blackburn.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cool-in.co.uk/air-conditioning-crewe.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-northwich.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-leigh.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cool-in.co.uk/air-conditioning-ashton-under-lyne.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cool-in.co.uk/air-conditioning-lancaster.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-leigh.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-liverpool.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-macclesfield.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-manchester.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-northwich.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-oldham.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-preston.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-rochdale.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-salford.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-southport.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-stockport.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-warrington.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-wigan.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/air-conditioning-wilmslow.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/heat-pumps.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/repairs.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/servicing.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/ventilation.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/about.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/areas.html</loc>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cool-in.co.uk/blog.html</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cool-in.co.uk/blog/air-conditioning-planning-permission.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -230,8 +206,38 @@
   </url>
   <url>
     <loc>https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/contact.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/cookies.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://cool-in.co.uk/terms.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

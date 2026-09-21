@@ -80,23 +80,59 @@ def render(md):
         buf = []
         while i < len(lines) and lines[i].strip() and not re.match(r'^(#{2,4}\s|[-*]\s|\d+[.)]\s|>|\||---)', lines[i].strip()):
             buf.append(lines[i].strip()); i += 1
+        if not buf:
+            # A line no branch above claimed, e.g. a stray '|' that is not a
+            # table. Take it as plain text. Without this the index never moves
+            # and the build hangs instead of failing.
+            buf.append(s); i += 1
         out.append('<p>' + _inline(' '.join(buf)) + '</p>')
     return '\n'.join(out)
 
 def frontmatter(text):
-    """Parse the --- block at the top. Handles key: value and key: [a, b]."""
+    """Parse the --- block at the top.
+
+    Handles `key: value`, inline `key: [a, b]`, block lists, and the `|` and
+    `>` block scalars the CMS writes for any multi-line field.
+    """
     if not text.startswith('---'):
         return {}, text
     end = text.index('\n---', 3)
     raw, body = text[3:end], text[end + 4:]
-    data = {}
-    for line in raw.split('\n'):
-        line = line.strip()
-        if not line or line.startswith('#') or ':' not in line:
-            continue
+    lines = raw.split('\n')
+    data, i = {}, 0
+
+    def indent(ln):
+        return len(ln) - len(ln.lstrip(' '))
+
+    while i < len(lines):
+        line = lines[i]
+        if not line.strip() or line.lstrip().startswith('#') or ':' not in line.split('#')[0]:
+            i += 1; continue
+        base = indent(line)
         k, v = line.split(':', 1)
-        v = v.strip().strip('"').strip("'")
+        k, v = k.strip(), v.strip()
+        i += 1
+
+        if v in ('|', '|-', '>', '>-'):                     # block scalar
+            buf = []
+            while i < len(lines) and (not lines[i].strip() or indent(lines[i]) > base):
+                buf.append(lines[i][base + 2:] if len(lines[i]) > base + 2 else '')
+                i += 1
+            while buf and not buf[-1].strip():
+                buf.pop()
+            sep = '\n' if v.startswith('|') else ' '
+            data[k] = sep.join(buf)
+            continue
+
+        if v == '':                                          # maybe a block list
+            items = []
+            while i < len(lines) and lines[i].strip().startswith('- ') and indent(lines[i]) > base:
+                items.append(lines[i].strip()[2:].strip().strip('"').strip("'")); i += 1
+            data[k] = items if items else ''
+            continue
+
+        v = v.strip('"').strip("'")
         if v.startswith('[') and v.endswith(']'):
             v = [x.strip().strip('"').strip("'") for x in v[1:-1].split(',') if x.strip()]
-        data[k.strip()] = v
+        data[k] = v
     return data, body.lstrip('\n')

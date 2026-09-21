@@ -5,7 +5,7 @@
   publish = "."
   # Regenerate the blog, then the two model files, from the markdown in the repo.
   # python3 is in the Netlify build image by default, so there is nothing to install.
-  command = "python3 tools/build-blog.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py"
+  command = "python3 tools/build-blog.py && python3 tools/build-case-studies.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py"
 
 [build.processing]
   skip_processing = false

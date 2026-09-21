@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Regenerates sitemap.xml from whatever is actually on disk.
+
+Before this existed the sitemap was hand maintained, so anything published
+through the CMS never reached it. Now every build rewrites it, and a page
+that says noindex is left out automatically.
+
+    python3 tools/build-sitemap.py
+"""
+import os, re, sys, glob, time
+
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+BASE = re.search(r'rel="canonical" href="(https://[^/]+)', open('index.html').read()).group(1)
+
+def priority(path):
+    if path == 'index.html':                       return '1.0', 'weekly'
+    if path in ('domestic.html', 'commercial.html'): return '0.9', 'monthly'
+    if path.startswith('air-conditioning-'):       return '0.8', 'monthly'
+    if path in ('servicing.html','repairs.html','heat-pumps.html','ventilation.html'): return '0.8', 'monthly'
+    if path in ('areas.html','about.html','contact.html','blog.html','case-studies.html'): return '0.7', 'monthly'
+    if path.startswith(('blog/','case-studies/')):  return '0.7', 'monthly'
+    if path in ('privacy.html','terms.html','cookies.html'): return '0.3', 'yearly'
+    return '0.5', 'monthly'
+
+pages = sorted(glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html'))
+rows, skipped = [], []
+for p in pages:
+    s = open(p, encoding='utf-8').read()
+    if re.search(r'<meta\s+name="robots"\s+content="[^"]*noindex', s, re.I):
+        skipped.append(p); continue
+    m = re.search(r'rel="canonical" href="([^"]+)"', s)
+    if not m:
+        skipped.append(p); continue
+    loc = m.group(1)
+    if loc.endswith('/index.html'):
+        loc = loc[:-len('index.html')]
+    d = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
+    lastmod = d.group(1) if d else time.strftime('%Y-%m-%d', time.localtime(os.path.getmtime(p)))
+    pr, cf = priority(p)
+    rows.append((loc, lastmod, cf, pr))
+
+rows.sort(key=lambda r: (-float(r[3]), r[0]))
+out = ['<?xml version="1.0" encoding="UTF-8"?>',
+       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+for loc, lastmod, cf, pr in rows:
+    out += ['  <url>', f'    <loc>{loc}</loc>', f'    <lastmod>{lastmod}</lastmod>',
+            f'    <changefreq>{cf}</changefreq>', f'    <priority>{pr}</priority>', '  </url>']
+out.append('</urlset>')
+open('sitemap.xml', 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+print(f'  sitemap.xml  {len(rows)} url(s)' + (f', skipped {len(skipped)} noindex' if skipped else ''))

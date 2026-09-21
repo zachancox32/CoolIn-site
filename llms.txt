@@ -58,7 +58,8 @@ BlogPosting structured data with a named author and a publication date.
 
 - [Planning permission for air conditioning](https://cool-in.co.uk/blog/air-conditioning-planning-permission.html): The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
 - [Air conditioning running costs](https://cool-in.co.uk/blog/air-conditioning-running-costs.html): Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
-- [Air conditioning vs a gas boiler](https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating.html): An honest comparison of heating a room with a heat pump against gas central heating, including where the boiler still wins.
+- [Should you heat with air conditioning instead of the gas boiler?](https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating.html): An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
+- [Why Should You Install Air Conditioning in Manchester During Winter?](https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter.html): Discover the benefits of installing domestic air conditioning in winter, including shorter waits, better availability, and efficient heating for your Manchester home.
 
 ## Town pages
 
