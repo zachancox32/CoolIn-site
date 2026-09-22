@@ -60,6 +60,16 @@
   [headers.values]
     X-Robots-Tag = "noindex"
 
+# Brand source files: the 4000px print masters and the vector originals that
+# make-logos.py builds the web assets from. They are published because Netlify
+# serves the whole repo, but they are not web images and should not turn up in
+# image search. Narrowing the /assets noindex made them indexable, so this puts
+# them back where they were.
+[[headers]]
+  for = "/assets/img/brand/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
 # The root favicon, which is what Google falls back to and what browsers and
 # most directory sites request without reading any HTML. Cached for a week
 # rather than a year, so a brand change is not stuck in caches.
