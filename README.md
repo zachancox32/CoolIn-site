@@ -91,9 +91,14 @@ the title becomes the h1.
 
 **Authors and E-E-A-T.** This is the reason author records exist. Google weighs
 named, credentialed authors heavily for anything touching money or safety, and air
-conditioning is both. `blog/authors/coolin-team.json` is a placeholder with an empty
-credentials list. Replacing it with a real named engineer, their role and their
-actual certifications is worth more than another article.
+conditioning is both. Posts are attributed to `blog/authors/zac-hancox.json`, which
+replaced the anonymous team placeholder.
+
+The `credentials` list is deliberately empty. Only put something in it that is
+actually held, because it renders on the page and goes into the Person schema, and
+a certification claimed and not held is worse than none. The `linkedin` field is
+empty too; filling it gives the schema a `sameAs` to corroborate the person against,
+which is the cheapest credibility signal available.
 
 ## Search and answer engines
 
