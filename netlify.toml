@@ -37,8 +37,36 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-    # fetched to render the page, but never a search result in its own right
+
+# Stylesheets, scripts and fonts are fetched to render a page and are never a
+# search result in their own right, so they are told not to index.
+#
+# Images are deliberately NOT in this list. The rule used to cover the whole of
+# /assets, which put X-Robots-Tag: noindex on the favicon, so Google refused to
+# show it and every result carried a generic globe instead. It also suppressed
+# the og-image and the logos, which are worth having in image search.
+[[headers]]
+  for = "/assets/css/*"
+  [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# The root favicon, which is what Google falls back to and what browsers and
+# most directory sites request without reading any HTML. Cached for a week
+# rather than a year, so a brand change is not stuck in caches.
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 
 # Pages must revalidate, or a price change sits in caches for a year.
 [[headers]]
