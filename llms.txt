@@ -42,7 +42,7 @@ rather than a measurement, the page says so and gives the assumptions.
 
 - [Air Conditioning North West | Homes & Business](https://cool-in.co.uk/): Air conditioning installed across the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your trading hours. Free survey.
 - [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,850 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
-- [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, F-Gas and TM44 handled.
+- [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, with your F-Gas and TM44 duties set out.
 - [Air Conditioning Servicing North West](https://cool-in.co.uk/servicing): Air conditioning service plans from £89 per unit a year. Annual servicing keeps your manufacturer warranty valid. All makes, F-Gas checks included.
 - [Air Conditioning Repairs North West](https://cool-in.co.uk/repairs): Air conditioning repairs on all makes across the North West. £95 for the first hour, parts carried on the van, most faults fixed on the first visit.
 - [Air Source Heat Pumps North West](https://cool-in.co.uk/heat-pumps): Air to air heat pumps from £1,850 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
@@ -50,6 +50,19 @@ rather than a measurement, the page says so and gives the assumptions.
 - [Areas Covered | Air Conditioning North West](https://cool-in.co.uk/areas): CoolIn covers Greater Manchester, Cheshire, Merseyside and Lancashire from a base in Manchester. No travel charge inside the area, free survey wherever you are.
 - [About CoolIn | Air Conditioning, Manchester](https://cool-in.co.uk/about): CoolIn Air Conditioning Specialists install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
 - [Contact CoolIn | 07391 523255 | Air Conditioning](https://cool-in.co.uk/contact): Contact CoolIn for air conditioning across the North West. Free survey, written quote within 48 hours, no sales visit. Call 07391 523255 today.
+
+## Commercial, by building type
+
+One page per kind of building, because an office, a commercial kitchen
+and a server room are different engineering problems. Each carries its
+own guide prices, system options and compliance duties.
+
+- [Office Air Conditioning Manchester](https://cool-in.co.uk/office-air-conditioning): Office air conditioning designed, fitted and serviced across Manchester and the North West. Cassettes, slim ducted and VRF, zoned room by room.
+- [Shop and Retail Air Conditioning Manchester](https://cool-in.co.uk/retail-air-conditioning): Air conditioning for shops, salons and showrooms across Manchester and the North West. Sized for a propped open door, and fitted overnight.
+- [Restaurant and Kitchen Air Conditioning Manchester](https://cool-in.co.uk/restaurant-air-conditioning): Kitchen extract, make up air and front of house cooling for restaurants and bars in Manchester and the North West. Gas interlock and DW/172 ductwork.
+- [Gym and Studio Air Conditioning Manchester](https://cool-in.co.uk/gym-air-conditioning): Cooling and ventilation for gyms and studios across Manchester and the North West. Sized on peak class size rather than floor area, with real air change.
+- [Server Room Cooling Manchester](https://cool-in.co.uk/server-room-cooling): Close control cooling for server and comms rooms across Manchester and the North West. Runs year round, with redundancy and alarms where it matters.
+- [Warehouse Air Conditioning Manchester](https://cool-in.co.uk/warehouse-air-conditioning): Spot cooling, destratification and ventilation for warehouses and industrial units across Manchester and the North West. Cooling where people work.
 
 ## Articles
 

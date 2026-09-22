@@ -7,7 +7,11 @@ os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 import glob as _g
 BLOG = sorted(_g.glob('blog/*.html'))
-ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repairs.html',
+ORDER = ['index.html','domestic.html','commercial.html',
+         'office-air-conditioning.html','retail-air-conditioning.html',
+         'restaurant-air-conditioning.html','gym-air-conditioning.html',
+         'server-room-cooling.html','warehouse-air-conditioning.html',
+         'servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html',
          'air-conditioning-manchester.html','air-conditioning-liverpool.html',
          'air-conditioning-stockport.html','air-conditioning-chester.html',

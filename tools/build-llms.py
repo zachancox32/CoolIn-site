@@ -62,6 +62,11 @@ def clean_url(f):
 
 ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html']
+# Commercial sector pages, one per building type. Listed as their own group so
+# an answer engine can see they are siblings rather than unrelated pages.
+SECTORS = ['office-air-conditioning.html','retail-air-conditioning.html',
+           'restaurant-air-conditioning.html','gym-air-conditioning.html',
+           'server-room-cooling.html','warehouse-air-conditioning.html']
 LEGAL  = ['privacy.html','terms.html','cookies.html']
 
 def meta(f):
@@ -92,6 +97,17 @@ for f in ORDER:
     t, d = meta(f)
     out.append(f"- [{t}]({url(f)}): {d}")
 out.append("")
+
+sectors = [f for f in SECTORS if os.path.exists(f)]
+if sectors:
+    out.append("## Commercial, by building type\n")
+    out.append("One page per kind of building, because an office, a commercial kitchen\n"
+               "and a server room are different engineering problems. Each carries its\n"
+               "own guide prices, system options and compliance duties.\n")
+    for f in sectors:
+        t, d = meta(f)
+        out.append(f"- [{t}]({url(f)}): {d}")
+    out.append("")
 
 posts = sorted(glob.glob('blog/*.html'))
 if posts:

@@ -537,6 +537,13 @@ ul,ol{margin:0;padding:0;list-style:none}
 .sector{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:28px;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
 .sector:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
 .sector h3{margin-bottom:10px}
+/* A sector heading that links to its own page. The whole card is deliberately
+   not a stretched link: two of these cards carry an inline link in the body,
+   and an overlay across the card would swallow it. */
+.sector h3 a{color:inherit;display:inline-flex;align-items:baseline;gap:8px}
+.sector h3 a::after{content:"\2192";font-size:.86em;color:var(--blue);transition:transform .3s var(--ease)}
+.sector:hover h3 a{color:var(--blue)}
+.sector:hover h3 a::after{transform:translateX(4px)}
 .sector p{font-size:.95rem;margin-bottom:16px}
 .sector__meta{font-family:var(--head);font-weight:700;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--orange)}
 
