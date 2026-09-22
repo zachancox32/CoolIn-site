@@ -31,6 +31,9 @@ def shell(name):
 
 UTILITY = shell('UTILITY')
 HEADER  = (shell('HEADER')
+           # The shell comes from the homepage, where the logo is a self anchor.
+           # On an inner page it has to be a link back to the homepage.
+           .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
            .replace(' class="is-current" aria-current="page"', '')
            .replace('<li><a href="commercial">', '<li><a class="is-current" href="commercial">'))
 TAIL    = shell('FOOTER') + '\n</body>\n</html>\n'

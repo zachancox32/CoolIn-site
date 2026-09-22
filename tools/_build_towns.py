@@ -7,12 +7,12 @@ import _towns_data, _towns_data2
 ALL = _towns_data.TOWNS + _towns_data2.TOWNS
 
 # the six that already exist, so neighbours can point at them too
-EXISTING = [('Manchester','air-conditioning-manchester.html'),
-            ('Liverpool','air-conditioning-liverpool.html'),
-            ('Stockport','air-conditioning-stockport.html'),
-            ('Chester','air-conditioning-chester.html'),
-            ('Preston','air-conditioning-preston.html'),
-            ('Bolton','air-conditioning-bolton.html')]
+EXISTING = [('Manchester','air-conditioning-manchester'),
+            ('Liverpool','air-conditioning-liverpool'),
+            ('Stockport','air-conditioning-stockport'),
+            ('Chester','air-conditioning-chester'),
+            ('Preston','air-conditioning-preston'),
+            ('Bolton','air-conditioning-bolton')]
 
 # geographic neighbours, so the cross links are useful rather than arbitrary
 NEAR = {
@@ -36,7 +36,7 @@ NEAR = {
 
 LOOKUP = dict(EXISTING)
 for t in ALL:
-    LOOKUP[t['town']] = t['slug'] + '.html'
+    LOOKUP[t['town']] = t['slug']
 
 total = 0
 for t in ALL:

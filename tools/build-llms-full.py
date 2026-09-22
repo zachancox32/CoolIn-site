@@ -5,7 +5,8 @@ that would rather ingest text than parse HTML. Re-run after editing page content
 import re, html, os, sys
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
-import glob as _g
+import glob as _g, time
+BASE = re.search(r'rel="canonical" href="(https://[^/]+)', open('index.html').read()).group(1)
 BLOG = sorted(_g.glob('blog/*.html'))
 ORDER = ['index.html','domestic.html','commercial.html',
          'office-air-conditioning.html','retail-air-conditioning.html',
@@ -24,6 +25,16 @@ ORDER = ['index.html','domestic.html','commercial.html',
          'air-conditioning-blackburn.html','air-conditioning-crewe.html',
          'air-conditioning-northwich.html','air-conditioning-leigh.html',
          'air-conditioning-ashton-under-lyne.html','air-conditioning-lancaster.html'] + BLOG
+
+# Pages with no place in a text dump for answer engines: legal boilerplate, the
+# error page, the thank you page and the blog index, whose content is the posts.
+SKIP = {'404.html', 'thanks.html', 'privacy.html', 'terms.html', 'cookies.html',
+        'blog.html', 'case-studies.html'}
+
+# Anything published since this list was last touched. Without it a new page is
+# silently missing from llms-full.txt until somebody remembers to add it here.
+ORDER += [f for f in sorted(_g.glob('*.html') + _g.glob('case-studies/*.html'))
+          if f not in ORDER and f not in SKIP]
 
 def text_of(node):
     node = re.sub(r'<(script|style|svg|canvas|noscript)\b.*?</\1>', ' ', node, flags=re.S|re.I)
@@ -45,10 +56,10 @@ out = ["""# CoolIn Air Conditioning Specialists, full site text
 Air conditioning installer covering the North West of England, based in
 Manchester. Phone 07391 523255.
 
-This file is the readable text of every page on coolin.co.uk, concatenated in
+This file is the readable text of every page on __HOST__, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 16 September 2026.
-"""]
+Generated __DATE__.
+""".replace('__HOST__', BASE.split('//')[1]).replace('__DATE__', time.strftime('%-d %B %Y'))]
 
 for f in ORDER:
     if not os.path.exists(f):
@@ -60,7 +71,8 @@ for f in ORDER:
     body = text_of(main.group(1)) if main else ''
     # drop the repeated enquiry form boilerplate from every page
     body = body.split('Tell us about the space and we will do the rest')[0].strip()
-    url = 'https://coolin.co.uk/' + ('' if f == 'index.html' else f)
+    # Pages are served without the extension, so state the clean address.
+    url = BASE + '/' + ('' if f == 'index.html' else f[:-5])
     out.append(f"""
 
 ================================================================================

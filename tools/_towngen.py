@@ -7,23 +7,25 @@ os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 IDX = open('index.html').read()
 SRC = open('air-conditioning-manchester.html').read()
-BASE = 'https://www.cool-in.co.uk'
+BASE = re.search(r'rel="canonical" href="(https://[^/]+)', IDX).group(1)
 CSS_V = re.search(r'style\.css\?v=([A-Za-z0-9]+)', IDX).group(1)
-JS_V  = re.search(r'main\.js\?v=(\d+)', IDX).group(1)
-SCENE_V = re.search(r'scene\.js\?v=(\d+)', IDX).group(1)
 
 def shell(name):
     return re.search(r'<!-- SHELL:%s:START -->.*?<!-- SHELL:%s:END -->' % (name, name), IDX, re.S).group(0)
 
 UTILITY = shell('UTILITY')
 HEADER  = (shell('HEADER')
-           .replace('<a class="logo" href="#top"', '<a class="logo" href="index.html"')
+           .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
            .replace(' class="is-current" aria-current="page"', ''))
 FOOTER_BLOCK = shell('FOOTER')
 TAIL = FOOTER_BLOCK + '\n</body>\n</html>\n'
 QUOTE = re.search(r'<!-- ============ QUOTE / CONTACT ============ -->.*?\n</section>\n', SRC, re.S).group(0)
 
 def head(title, desc, slug):
+    """The whole <head>, kept identical to commercial.html and the sector pages so
+    the favicon block, the self hosted fonts and the clean canonical never drift
+    apart between page families again."""
+    url = f'{BASE}/{slug}'
     return f'''<!doctype html>
 <html lang="en-GB">
 <head>
@@ -31,12 +33,14 @@ def head(title, desc, slug):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<link rel="canonical" href="{BASE}/{slug}">
-<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="canonical" href="{url}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="{BASE}/{slug}">
+<meta property="og:url" content="{url}">
 <meta property="og:site_name" content="CoolIn">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="{BASE}/assets/img/og-image.png">
@@ -49,9 +53,8 @@ def head(title, desc, slug):
 <meta name="twitter:image" content="{BASE}/assets/img/og-image.png">
 <meta name="geo.region" content="GB-MAN">
 <meta name="geo.placename" content="Manchester">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css?v={CSS_V}">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{{opacity:1!important}}</style></noscript>
 __JSONLD__
@@ -71,7 +74,11 @@ def faq_entities(markup):
     return out
 
 def build(t, neighbours):
-    slug = t['slug'] + '.html'
+    # The file on disk keeps its extension. Every URL the page states about
+    # itself is the clean form, because that is what Netlify serves and what
+    # the .html address 301s to.
+    slug = t['slug']
+    filename = slug + '.html'
     town, county = t['town'], t['county']
 
     cards = '\n'.join(f'''      <article class="sector js-card">
@@ -113,14 +120,14 @@ def build(t, neighbours):
   <div class="wrap hero__in">
     <div class="hero__copy">
       <nav class="crumbs js-hero" aria-label="Breadcrumb">
-        <a href="index.html">CoolIn</a><span aria-hidden="true">/</span><a href="areas.html">Areas covered</a><span aria-hidden="true">/</span><span aria-current="page">{town}</span>
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="areas">Areas covered</a><span aria-hidden="true">/</span><span aria-current="page">{town}</span>
       </nav>
       <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>{town} and {county}</p>
       <h1 class="js-hero">Air conditioning in<br><span class="grad">{town}</span></h1>
       <p class="lede js-hero">{t['intro']}</p>
       <div class="hero__btns js-hero">
         <a class="btn btn--primary btn--lg" href="#quote">Book a free survey</a>
-        <a class="btn btn--line btn--lg" href="domestic.html#prices">See prices</a>
+        <a class="btn btn--line btn--lg" href="domestic#prices">See prices</a>
       </div>
       <ul class="hero__trust js-hero">
         <li><strong>{t['drive']}</strong><span>from our base</span></li>
@@ -136,7 +143,7 @@ def build(t, neighbours):
   <div class="wrap">
     <div class="kf">
       <div class="kf__lead">
-        <h2 id="kf-title">In short</h2>
+        <h2 id="kf-title">Air conditioning in {town}, in short</h2>
         <p>CoolIn installs, services and repairs air conditioning throughout {town} and the wider {county} area, covering {t['postcodes']}. We are about {t['drive']} away, which is close enough to attend a breakdown in the same week rather than the same month.</p>
       </div>
       <dl class="kf__grid">
@@ -168,12 +175,12 @@ def build(t, neighbours):
       <h2 class="js-up">Everything from one bedroom unit to a full fit out</h2>
     </header>
     <div class="truths">
-      <article class="truth js-card"><span class="truth__n">01</span><h3><a href="domestic.html">Home air conditioning</a></h3><p>Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.</p></article>
-      <article class="truth js-card"><span class="truth__n">02</span><h3><a href="commercial.html">Commercial installation</a></h3><p>Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.</p></article>
-      <article class="truth js-card"><span class="truth__n">03</span><h3><a href="servicing.html">Servicing and maintenance</a></h3><p>Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.</p></article>
-      <article class="truth js-card"><span class="truth__n">04</span><h3><a href="repairs.html">Repairs and callouts</a></h3><p>All makes and models, £95 for the first hour, with the common parts carried on the van.</p></article>
-      <article class="truth js-card"><span class="truth__n">05</span><h3><a href="heat-pumps.html">Air source heat pumps</a></h3><p>Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit.</p></article>
-      <article class="truth js-card"><span class="truth__n">06</span><h3><a href="ventilation.html">Ventilation</a></h3><p>Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.</p></article>
+      <article class="truth js-card"><span class="truth__n">01</span><h3><a href="domestic">Home air conditioning</a></h3><p>Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.</p></article>
+      <article class="truth js-card"><span class="truth__n">02</span><h3><a href="commercial">Commercial installation</a></h3><p>Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.</p></article>
+      <article class="truth js-card"><span class="truth__n">03</span><h3><a href="servicing">Servicing and maintenance</a></h3><p>Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.</p></article>
+      <article class="truth js-card"><span class="truth__n">04</span><h3><a href="repairs">Repairs and callouts</a></h3><p>All makes and models, £95 for the first hour, with the common parts carried on the van.</p></article>
+      <article class="truth js-card"><span class="truth__n">05</span><h3><a href="heat-pumps">Air source heat pumps</a></h3><p>Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit.</p></article>
+      <article class="truth js-card"><span class="truth__n">06</span><h3><a href="ventilation">Ventilation</a></h3><p>Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.</p></article>
     </div>
   </div>
 </section>
@@ -184,7 +191,7 @@ def build(t, neighbours):
     <header class="sec-head">
       <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Nearby</p>
       <h2 class="js-up">We cover these too</h2>
-      <p class="sec-head__sub js-up">Each town has its own page, because the housing stock and the planning rules genuinely differ. The <a href="areas.html">full coverage area</a> lists everywhere else we work.</p>
+      <p class="sec-head__sub js-up">Each town has its own page, because the housing stock and the planning rules genuinely differ. The <a href="areas">full coverage area</a> lists everywhere else we work.</p>
     </header>
     <ul class="nearby js-up">{near}</ul>
   </div>
@@ -202,7 +209,7 @@ def build(t, neighbours):
        "geo":{"@type":"GeoCoordinates","latitude":t['lat'],"longitude":t['lon']}},
       {"@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"CoolIn","item":f"{BASE}/"},
-        {"@type":"ListItem","position":2,"name":"Areas covered","item":f"{BASE}/areas.html"},
+        {"@type":"ListItem","position":2,"name":"Areas covered","item":f"{BASE}/areas"},
         {"@type":"ListItem","position":3,"name":f"Air conditioning in {town}","item":f"{BASE}/{slug}"}]},
       {"@type":"FAQPage","mainEntity":faq_entities(faq_block)},
     ]
@@ -211,5 +218,5 @@ def build(t, neighbours):
 
     out = head(t['title'], t['desc'], slug).replace('__JSONLD__', jsonld)
     out += UTILITY + '\n' + HEADER + '\n\n<main id="main">\n\n' + body + '\n</main>\n\n' + TAIL
-    open(slug, 'w').write(out)
-    return slug, len(re.sub(r'<[^>]+>', ' ', body).split())
+    open(filename, 'w').write(out)
+    return filename, len(re.sub(r'<[^>]+>', ' ', body).split())
