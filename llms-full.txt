@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 22 September 2026.
+Generated 23 September 2026.
 
 
 

@@ -25,6 +25,13 @@ CURRENT = {
     'about.html': 'about.html',
     'contact.html': 'contact',
     'blog.html': 'blog.html',
+    # The commercial sector pages sit under "For your business".
+    'office-air-conditioning.html': 'commercial',
+    'retail-air-conditioning.html': 'commercial',
+    'restaurant-air-conditioning.html': 'commercial',
+    'gym-air-conditioning.html': 'commercial',
+    'server-room-cooling.html': 'commercial',
+    'warehouse-air-conditioning.html': 'commercial',
 }
 
 BLOCKS = ['UTILITY', 'HEADER', 'FOOTER']
