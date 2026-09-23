@@ -16,15 +16,15 @@ WRITE = '--write' in sys.argv
 
 # which nav item is current on which page
 CURRENT = {
-    'domestic.html': 'domestic.html',
-    'commercial.html': 'commercial.html',
-    'servicing.html': 'servicing.html',
-    'repairs.html': 'servicing.html',
-    'heat-pumps.html': 'servicing.html',
-    'ventilation.html': 'servicing.html',
-    'about.html': 'about.html',
+    'domestic.html': 'domestic',
+    'commercial.html': 'commercial',
+    'servicing.html': 'servicing',
+    'repairs.html': 'servicing',
+    'heat-pumps.html': 'servicing',
+    'ventilation.html': 'servicing',
+    'about.html': 'about',
     'contact.html': 'contact',
-    'blog.html': 'blog.html',
+    'blog.html': 'blog',
     # The commercial sector pages sit under "For your business".
     'office-air-conditioning.html': 'commercial',
     'retail-air-conditioning.html': 'commercial',

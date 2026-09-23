@@ -35,7 +35,9 @@ HEADER  = (shell('HEADER')
            # On an inner page it has to be a link back to the homepage.
            .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
            .replace(' class="is-current" aria-current="page"', '')
-           .replace('<li><a href="commercial">', '<li><a class="is-current" href="commercial">'))
+           # Same shape sync-shell.py writes, so the two never disagree.
+           .replace('<a href="commercial">',
+                    '<a href="commercial" class="is-current" aria-current="page">', 1))
 TAIL    = shell('FOOTER') + '\n</body>\n</html>\n'
 QUOTE   = re.search(r'<section class="quote-sec" id="quote">.*?\n</section>\n', COMM, re.S).group(0)
 
