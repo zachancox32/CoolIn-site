@@ -21,7 +21,9 @@
       pp: document.getElementById('cP'), t: document.getElementById('cT'),
       roof: document.getElementById('cR'),
       kw: document.getElementById('calcKw'), unit: document.getElementById('calcUnit'),
-      price: document.getElementById('calcPrice')
+      price: document.getElementById('calcPrice'),
+      // optional: only the standalone calculator page has these two
+      btu: document.getElementById('calcBtu'), steps: document.getElementById('calcWork')
     };
     if (!els.w || !els.kw) return;
 
@@ -36,15 +38,49 @@
       return isNaN(v) || v <= 0 ? fallback : v;
     }
 
+    // Each step is recorded as it is applied, so a page can show the working.
+    // The arithmetic is unchanged from when this only returned the total.
+    var trail = [];
+    function picked(el) { return el.options[el.selectedIndex].text; }
+
     function work() {
-      var area = num(els.w, 3.5) * num(els.l, 4.5);
+      var w = num(els.w, 3.5), l = num(els.l, 4.5), area = w * l;
       var load = area * 0.155;                       // 155W per m2, matching the sizing table
+      trail = [['Floor area', w + 'm \u00d7 ' + l + 'm = ' + area.toFixed(1) + ' m\u00b2', null],
+               ['Starting load at 155W per m\u00b2', area.toFixed(1) + ' \u00d7 0.155', load]];
       load *= parseFloat(els.h.value);               // ceiling height
+      trail.push(['Ceiling: ' + picked(els.h), '\u00d7 ' + parseFloat(els.h.value).toFixed(2), load]);
       load *= parseFloat(els.g.value);               // aspect and glazing
-      if (els.roof.checked) load *= 1.2;             // roof rooms gain from above all day
-      load += Math.max(0, num(els.pp, 2) - 2) * 0.1; // bodies in the room
+      trail.push(['Windows: ' + picked(els.g), '\u00d7 ' + parseFloat(els.g.value).toFixed(2), load]);
+      if (els.roof.checked) {
+        load *= 1.2;                                 // roof rooms gain from above all day
+        trail.push(['Room in the roof', '\u00d7 1.20', load]);
+      }
+      var extra = Math.max(0, num(els.pp, 2) - 2);
+      load += extra * 0.1;                           // bodies in the room
+      trail.push(['People beyond the first two', extra + ' \u00d7 0.1 kW', load]);
       load += parseFloat(els.t.value);               // appliances and kit
+      trail.push(['Room use: ' + picked(els.t), '+ ' + parseFloat(els.t.value).toFixed(1) + ' kW', load]);
       return load;
+    }
+
+    function showWorking(load, pick) {
+      if (els.btu) {
+        els.btu.textContent = (Math.round(load * 3412.14 / 100) * 100).toLocaleString('en-GB') + ' BTU/h';
+      }
+      if (!els.steps) return;
+      els.steps.textContent = '';
+      trail.concat([['Next standard size up', pick ? pick.kw.toFixed(1) + ' kW unit' : 'More than one unit', null]])
+        .forEach(function (row) {
+          var li = document.createElement('li');
+          [row[0], row[1], row[2] === null ? '' : row[2].toFixed(2) + ' kW'].forEach(function (t, i) {
+            var span = document.createElement('span');
+            span.className = 'working__' + ['label', 'op', 'total'][i];
+            span.textContent = t;
+            li.appendChild(span);
+          });
+          els.steps.appendChild(li);
+        });
     }
 
     function render(animate) {
@@ -72,6 +108,7 @@
         els.unit.textContent = 'Points at a ' + pick.kw.toFixed(1).replace('.0', '') + 'kW wall unit';
         els.price.textContent = 'from £' + pick.price.toLocaleString('en-GB') + ' fitted, 0% VAT';
       }
+      showWorking(load, pick);
     }
 
     ['input', 'change'].forEach(function (ev) {

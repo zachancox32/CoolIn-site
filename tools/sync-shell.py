@@ -25,6 +25,8 @@ CURRENT = {
     'about.html': 'about',
     'contact.html': 'contact',
     'blog.html': 'blog',
+    # A domestic sizing tool, so it sits under "For your home".
+    'air-conditioning-size-calculator.html': 'domestic',
     # The commercial sector pages sit under "For your business".
     'office-air-conditioning.html': 'commercial',
     'retail-air-conditioning.html': 'commercial',

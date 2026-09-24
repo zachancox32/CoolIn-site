@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 23 September 2026.
+Generated 24 September 2026.
 
 
 
@@ -602,6 +602,7 @@ from £1,850 fitted, 0% VAT
 Based on a starting point of 155W per square metre, adjusted for height, aspect, occupancy and use. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.
 
 Book the survey that confirms it
+Open the full calculator, with the working shown and BTU
 
 Price guide
 
@@ -7019,3 +7020,214 @@ The permitted development rules changed on 29 May 2025 and now cover cooling as 
 · 3 min read
 
 Read it
+
+
+================================================================================
+URL: https://cool-in.co.uk/air-conditioning-size-calculator
+TITLE: Air Conditioning Size Calculator (kW and BTU)
+DESCRIPTION: Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.
+================================================================================
+
+CoolIn / For your home / Size calculator
+
+Free sizing tool
+
+Air conditioning
+size calculator
+
+Put in the room and it tells you the unit size in kW and BTU, with every step of the sum shown so you can check it. It runs on the same starting figures we use before a survey.
+
+Size a room
+Typical room sizes
+
+kW and BTU both shown, side by side
+Working shown every step, not a black box
+No sign up no email needed for the answer
+
+Calculator
+
+Size a room in under a minute
+
+Measure the floor, not the walls, and rough is fine. Change any figure and the answer and the working update together.
+
+Room details
+
+Two measurements and a few clicks. It is a guide, not a quote.
+
+Room width (m)
+Room length (m)
+
+Ceiling height
+
+Standard, around 2.4m
+High, around 2.7m
+Very high or vaulted, 3m plus
+
+Windows and aspect
+
+North facing or shaded
+Average windows
+South or west facing, large windows
+Bifolds, conservatory or roof lights
+
+People in the room
+Room type
+
+Bedroom or lounge
+Kitchen or kitchen diner
+Home office with kit
+Gym or studio
+Server or comms room
+
+Loft conversion or room in the roof
+
+2.4 kW
+
+8,300 BTU/h
+
+Points at a 2.5kW wall unit
+
+from £1,850 fitted, 0% VAT
+
+Guide prices, installed, for a single wall mounted split. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.
+
+Book the survey that confirms it
+
+How your answer is worked out
+
+Floor area 3.5m × 4.5m = 15.8 m²
+
+Starting load at 155W per m² 15.8 × 0.155 2.44 kW
+
+Ceiling: Standard, around 2.4m × 1.00 2.44 kW
+
+Windows: Average windows × 1.00 2.44 kW
+
+People beyond the first two 0 × 0.1 kW 2.44 kW
+
+Room use: Bedroom or lounge + 0.0 kW 2.44 kW
+
+Next standard size up 2.5 kW unit
+
+The starting figure of 155W per square metre is a cooling load for a typical UK room with average glazing and insulation. The adjustments move it for the things that genuinely change how much heat a room gains: ceiling height, glass, a roof overhead, people, and equipment. The answer is rounded up to the next standard size, because units come in fixed steps rather than any figure you like.
+
+If it comes out above 7.1kW, one wall unit is the wrong answer. Two units, a multi split or a ducted system will do the job better, and the domestic price list covers those.
+
+Rule of thumb
+
+What size air conditioner do you need? Typical sizes by room
+
+If you only want the rule of thumb, this is it. It assumes a standard ceiling and average windows. Anything in the list alongside pushes the size up.
+
+Typical air conditioning unit size by room and floor area
+| | Room | Floor area | Unit size | BTU/h
+
+| Study, small bedroom, box room | up to 15 m² | 2.0 to 2.5 kW | 6,800 to 8,500
+
+| Double bedroom, small lounge | 15 to 22 m² | 3.5 kW | 11,900
+
+| Large lounge, kitchen diner | 22 to 32 m² | 5.0 kW | 17,100
+
+| Open plan ground floor | 32 to 45 m² | 6.0 to 7.1 kW | 20,500 to 24,200
+
+| Anything larger | 45 m² and up | two or more units | n/a
+
+What pushes the size up
+
+South or west facing glass, especially bifolds and roof lights
+
+Loft conversions and rooms in the roof, which take heat from above all day
+
+Ceilings over 2.4m, because you are cooling volume rather than floor
+
+Conservatories and garden rooms, which are effectively greenhouses
+
+Kitchens, server cabinets, gym kit, and rooms full of people
+
+Solid brick walls with no insulation
+
+Converting
+
+Standard unit sizes in kW and BTU
+
+UK and European units are rated in kilowatts. Portable units and American listings use BTU per hour. One kilowatt is 3,412 BTU/h, so the standard sizes convert like this.
+
+Standard air conditioning unit sizes converted from kW to BTU per hour
+| | Unit size | BTU per hour | Usually suits
+
+| 2.0 kW | 6,800 | Box room, study, small bedroom
+
+| 2.5 kW | 8,500 | Bedroom up to about 15 m²
+
+| 3.5 kW | 11,900 | Double bedroom or small lounge, about 15 to 22 m²
+
+| 5.0 kW | 17,100 | Large lounge or kitchen diner, about 22 to 32 m²
+
+| 6.0 kW | 20,500 | Large open plan room
+
+| 7.1 kW | 24,200 | Open plan ground floor, about 32 to 45 m²
+
+A 12,000 BTU portable and a 3.5kW split look like the same size on paper. They are not the same in the room: a single hose portable pushes room air out through the window hose and pulls warm air back in through the gaps to replace it, so it cools noticeably less than its label suggests.
+
+Why it matters
+
+Why a bigger unit is not the safe choice
+
+Most people round up to be safe. With air conditioning, going too big causes problems of its own.
+
+Too small
+
+Runs flat out on the hottest afternoons and still does not reach the setpoint. It is the louder of the two, and it wears faster because it never gets a rest.
+
+Never quite gets there
+
+About right
+
+Runs steadily at part load most of the time, which is where an inverter unit is quietest and most efficient. It holds the temperature without swinging either side of it.
+
+Quiet, steady, cheapest to run
+
+Too big
+
+Reaches the setpoint in minutes, then switches on and off. Short runs do not pull much moisture out of the air, so the room can feel cold and clammy at the same time, and all that starting is harder on the compressor.
+
+Cold, clammy, short cycling
+
+Questions
+
+Sizing questions we get asked
+
+What size air conditioner do I need for a bedroom?
+
+Most UK bedrooms need 2.0 to 2.5kW. A double bedroom over about 15 square metres, or any bedroom in a loft conversion or with a big south facing window, usually needs 3.5kW. Bedrooms are also where noise matters most, so a correctly sized unit running gently beats a small one running flat out.
+
+How many BTU is 3.5kW?
+
+About 11,900 BTU per hour, which is usually rounded to 12,000. To convert any size, multiply kilowatts by 3,412 to get BTU/h, or divide BTU/h by 3,412 to get kilowatts.
+
+What size air conditioner do I need for a 20m² room?
+
+About 3.1kW at the starting figure of 155W per square metre, because 20 × 0.155 = 3.1, which rounds up to a 3.5kW unit. Large south or west facing windows, a vaulted ceiling or a room in the roof would push that towards 5.0kW.
+
+Is it better to oversize an air conditioner?
+
+No. An oversized unit reaches the temperature quickly and then keeps switching on and off, which leaves the air clammy and puts more wear on the compressor. Rounding up to the next standard size is right. Jumping two sizes is not.
+
+Does the calculator work for heating as well?
+
+It sizes for cooling. Air to air units heat as well, and most have a heating output a little above their cooling rating. If heating is the main reason for fitting one, for example to replace storage heaters, the figure that matters is the room’s heat loss on a cold day, which depends on insulation and outside walls rather than floor area, so we work that out at survey.
+
+How accurate is this calculator?
+
+Close enough to set a budget and to spot someone selling you the wrong size, not close enough to order equipment from. It works from floor area and a handful of adjustments. A survey measures the real heat gain room by room, including walls, insulation and exactly which way the glass faces, and that is where the final size comes from.
+
+Writing about air conditioning?
+
+You are welcome to link to this calculator from an article, a forum answer or a guide. The address below always points at the current version.
+
+https://cool-in.co.uk/air-conditioning-size-calculator
+Or as a ready made link:
+
+<a href="https://cool-in.co.uk/air-conditioning-size-calculator">Air conditioning size calculator</a>
+
+Free survey

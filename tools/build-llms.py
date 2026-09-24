@@ -9,7 +9,7 @@ site rather than any one page. Re-run after any content change:
 
     python3 tools/build-llms.py
 """
-import re, glob, os, html
+import re, glob, os, html, sys
 
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 BASE = re.search(r'rel="canonical" href="(https://[^/]+)', open('index.html').read()).group(1)
@@ -60,7 +60,7 @@ def clean_url(f):
     return '' if f == 'index.html' else f[:-5] if f.endswith('.html') else f
 
 
-ORDER = ['index.html','domestic.html','commercial.html','servicing.html','repairs.html',
+ORDER = ['index.html','domestic.html','air-conditioning-size-calculator.html','commercial.html','servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html']
 # Commercial sector pages, one per building type. Listed as their own group so
 # an answer engine can see they are siblings rather than unrelated pages.
@@ -119,7 +119,9 @@ if posts:
         out.append(f"- [{t}]({BASE}/{clean_url(f)}): {d}")
     out.append("")
 
-towns = sorted(glob.glob('air-conditioning-*.html'))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _pages import town_pages
+towns = town_pages()
 out.append(f"## Town pages\n")
 out.append(f"One page per town, each covering that town's building stock, planning\n"
            f"constraints and travel time. All {len(towns)} are linked from {BASE}/areas\n")

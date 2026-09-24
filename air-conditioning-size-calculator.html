@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Air Conditioning Size Calculator (kW and BTU) | CoolIn</title>
+<meta name="description" content="Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="canonical" href="https://cool-in.co.uk/air-conditioning-size-calculator">
+<meta property="og:title" content="Air Conditioning Size Calculator (kW and BTU) | CoolIn">
+<meta property="og:description" content="Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cool-in.co.uk/air-conditioning-size-calculator">
+<meta property="og:site_name" content="CoolIn">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://cool-in.co.uk/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CoolIn, air conditioning across the North West">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cool-in.co.uk/assets/img/og-image.png">
+<meta name="twitter:title" content="Air Conditioning Size Calculator (kW and BTU) | CoolIn">
+<meta name="twitter:description" content="Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.">
+<meta name="geo.region" content="GB-MAN">
+<meta name="geo.placename" content="Manchester">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=9086a154">
+<noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Air conditioning size calculator",
+      "url": "https://cool-in.co.uk/air-conditioning-size-calculator",
+      "description": "Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "isAccessibleForFree": true,
+      "inLanguage": "en-GB",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      },
+      "provider": {
+        "@id": "https://cool-in.co.uk/#business"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CoolIn",
+          "item": "https://cool-in.co.uk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "For your home",
+          "item": "https://cool-in.co.uk/domestic"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Size calculator",
+          "item": "https://cool-in.co.uk/air-conditioning-size-calculator"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What size air conditioner do I need for a bedroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most UK bedrooms need 2.0 to 2.5kW. A double bedroom over about 15 square metres, or any bedroom in a loft conversion or with a big south facing window, usually needs 3.5kW. Bedrooms are also where noise matters most, so a correctly sized unit running gently beats a small one running flat out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many BTU is 3.5kW?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About 11,900 BTU per hour, which is usually rounded to 12,000. To convert any size, multiply kilowatts by 3,412 to get BTU/h, or divide BTU/h by 3,412 to get kilowatts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size air conditioner do I need for a 20m² room?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About 3.1kW at the starting figure of 155W per square metre, because 20 × 0.155 = 3.1, which rounds up to a 3.5kW unit. Large south or west facing windows, a vaulted ceiling or a room in the roof would push that towards 5.0kW."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it better to oversize an air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An oversized unit reaches the temperature quickly and then keeps switching on and off, which leaves the air clammy and puts more wear on the compressor. Rounding up to the next standard size is right. Jumping two sizes is not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the calculator work for heating as well?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It sizes for cooling. Air to air units heat as well, and most have a heating output a little above their cooling rating. If heating is the main reason for fitting one, for example to replace storage heaters, the figure that matters is the room’s heat loss on a cold day, which depends on insulation and outside walls rather than floor area, so we work that out at survey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is this calculator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Close enough to set a budget and to spot someone selling you the wrong size, not close enough to order equipment from. It works from floor area and a handful of adjustments. A survey measures the real heat gain room by room, including walls, insulation and exactly which way the glass faces, and that is where the final size comes from."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body id="top">
+
+<a class="skip" href="#main">Skip to content</a>
+<!-- SHELL:UTILITY:START -->
+<div class="utility">
+  <div class="wrap utility__in">
+    <p class="utility__note"><span class="dot"></span> Booking surveys for next week across Greater Manchester, Cheshire and Lancashire</p>
+    <ul class="utility__links">
+      <li><a href="tel:+447391523255">07391 523255</a></li>
+      <li class="hide-sm">Mon to Sat, 7am to 7pm</li>
+    </ul>
+  </div>
+</div>
+<!-- SHELL:UTILITY:END -->
+<!-- SHELL:HEADER:START -->
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a class="logo" href="/" aria-label="CoolIn, air conditioning specialists, home">
+      <img class="lg" src="assets/img/logo.svg" width="184" height="80" alt="CoolIn, air conditioning specialists">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul>
+        <li><a href="domestic" class="is-current" aria-current="page">For your home</a></li>
+        <li><a href="commercial">For your business</a></li>
+        <li><a href="servicing">Servicing</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__cta">
+      <a class="btn btn--ghost hide-md" href="tel:+447391523255">07391 523255</a>
+      <a class="btn btn--primary" href="#quote">Free survey</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<!-- SHELL:HEADER:END -->
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero hero--inner" id="hero">
+  <canvas id="scene" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <div class="hero__copy">
+      <nav class="crumbs js-hero" aria-label="Breadcrumb">
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="domestic">For your home</a><span aria-hidden="true">/</span><span aria-current="page">Size calculator</span>
+      </nav>
+      <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Free sizing tool</p>
+      <h1 class="js-hero">Air conditioning<br><span class="grad">size calculator</span></h1>
+      <p class="lede js-hero">Put in the room and it tells you the unit size in kW and BTU, with every step of the sum shown so you can check it. It runs on the same starting figures we use before a survey.</p>
+      <div class="hero__btns js-hero">
+        <a class="btn btn--primary btn--lg" href="#calculator">Size a room</a>
+        <a class="btn btn--line btn--lg" href="#sizes">Typical room sizes</a>
+      </div>
+      <ul class="hero__trust js-hero"><li><strong>kW and BTU</strong><span>both shown, side by side</span></li><li><strong>Working shown</strong><span>every step, not a black box</span></li><li><strong>No sign up</strong><span>no email needed for the answer</span></li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR ============ -->
+<section class="section" id="calculator">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Calculator</p>
+      <h2 class="js-up">Size a room in under a minute</h2>
+      <p class="sec-head__sub js-up">Measure the floor, not the walls, and rough is fine. Change any figure and the answer and the working update together.</p>
+    </header>
+
+    <div class="sizing sizing--tool">
+      <aside class="calc" id="calc">
+        <h3 class="calc__title">Room details</h3>
+        <p class="calc__intro">Two measurements and a few clicks. It is a guide, not a quote.</p>
+        <div class="calc__row">
+          <label class="field"><span>Room width (m)</span><input type="number" id="cW" value="3.5" min="1" max="30" step="0.1"></label>
+          <label class="field"><span>Room length (m)</span><input type="number" id="cL" value="4.5" min="1" max="30" step="0.1"></label>
+        </div>
+        <label class="field"><span>Ceiling height</span>
+          <select id="cH">
+            <option value="1">Standard, around 2.4m</option>
+            <option value="1.12">High, around 2.7m</option>
+            <option value="1.26">Very high or vaulted, 3m plus</option>
+          </select>
+        </label>
+        <label class="field"><span>Windows and aspect</span>
+          <select id="cG">
+            <option value="0.95">North facing or shaded</option>
+            <option value="1" selected>Average windows</option>
+            <option value="1.2">South or west facing, large windows</option>
+            <option value="1.35">Bifolds, conservatory or roof lights</option>
+          </select>
+        </label>
+        <div class="calc__row">
+          <label class="field"><span>People in the room</span><input type="number" id="cP" value="2" min="1" max="30" step="1"></label>
+          <label class="field"><span>Room type</span>
+            <select id="cT">
+              <option value="0">Bedroom or lounge</option>
+              <option value="0.5">Kitchen or kitchen diner</option>
+              <option value="0.4">Home office with kit</option>
+              <option value="0.9">Gym or studio</option>
+              <option value="1.4">Server or comms room</option>
+            </select>
+          </label>
+        </div>
+        <label class="check"><input type="checkbox" id="cR"><span>Loft conversion or room in the roof</span></label>
+
+        <div class="calc__out" id="calcOut" aria-live="polite">
+          <p class="calc__kw"><span id="calcKw">2.4</span> kW</p>
+          <p class="calc__btu" id="calcBtu">8,300 BTU/h</p>
+          <p class="calc__unit" id="calcUnit">Points at a 2.5kW wall unit</p>
+          <p class="calc__price" id="calcPrice">from £1,850 fitted, 0% VAT</p>
+        </div>
+        <p class="calc__small">Guide prices, installed, for a single wall mounted split. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.</p>
+        <a class="btn btn--primary btn--full" href="#quote">Book the survey that confirms it</a>
+      </aside>
+
+      <div class="js-up">
+        <h3>How your answer is worked out</h3>
+        <ol class="working" id="calcWork" aria-live="polite">
+          <li><span class="working__label">Floor area</span><span class="working__op">3.5m × 4.5m = 15.8 m²</span><span class="working__total"></span></li>
+          <li><span class="working__label">Starting load at 155W per m²</span><span class="working__op">15.8 × 0.155</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">Ceiling: Standard, around 2.4m</span><span class="working__op">× 1.00</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">Windows: Average windows</span><span class="working__op">× 1.00</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">People beyond the first two</span><span class="working__op">0 × 0.1 kW</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">Room use: Bedroom or lounge</span><span class="working__op">+ 0.0 kW</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">Next standard size up</span><span class="working__op">2.5 kW unit</span><span class="working__total"></span></li>
+        </ol>
+        <p>The starting figure of 155W per square metre is a cooling load for a typical UK room with average glazing and insulation. The adjustments move it for the things that genuinely change how much heat a room gains: ceiling height, glass, a roof overhead, people, and equipment. The answer is rounded up to the next standard size, because units come in fixed steps rather than any figure you like.</p>
+        <p class="sizing__foot">If it comes out above 7.1kW, one wall unit is the wrong answer. Two units, a multi split or a ducted system will do the job better, and the <a href="domestic#prices">domestic price list</a> covers those.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TYPICAL SIZES ============ -->
+<section class="section section--tint" id="sizes">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Rule of thumb</p>
+      <h2 class="js-up">What size air conditioner do you need? Typical sizes by room</h2>
+      <p class="sec-head__sub js-up">If you only want the rule of thumb, this is it. It assumes a standard ceiling and average windows. Anything in the list alongside pushes the size up.</p>
+    </header>
+    <div class="sizing">
+      <div class="sizing__table js-up">
+        <table class="t-plain">
+          <caption class="sr-only">Typical air conditioning unit size by room and floor area</caption>
+          <thead><tr><th scope="col">Room</th><th scope="col">Floor area</th><th scope="col">Unit size</th><th scope="col">BTU/h</th></tr></thead>
+          <tbody>
+            <tr><td>Study, small bedroom, box room</td><td>up to 15 m²</td><td class="t-key">2.0 to 2.5 kW</td><td>6,800 to 8,500</td></tr>
+            <tr><td>Double bedroom, small lounge</td><td>15 to 22 m²</td><td class="t-key">3.5 kW</td><td>11,900</td></tr>
+            <tr><td>Large lounge, kitchen diner</td><td>22 to 32 m²</td><td class="t-key">5.0 kW</td><td>17,100</td></tr>
+            <tr><td>Open plan ground floor</td><td>32 to 45 m²</td><td class="t-key">6.0 to 7.1 kW</td><td>20,500 to 24,200</td></tr>
+            <tr><td>Anything larger</td><td>45 m² and up</td><td class="t-key">two or more units</td><td>n/a</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sizing__notes js-up">
+        <h3>What pushes the size up</h3>
+        <ul class="ticks ticks--tight">
+          <li>South or west facing glass, especially bifolds and roof lights</li>
+          <li>Loft conversions and rooms in the roof, which take heat from above all day</li>
+          <li>Ceilings over 2.4m, because you are cooling volume rather than floor</li>
+          <li>Conservatories and garden rooms, which are effectively greenhouses</li>
+          <li>Kitchens, server cabinets, gym kit, and rooms full of people</li>
+          <li>Solid brick walls with no insulation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KW AND BTU ============ -->
+<section class="section" id="units">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Converting</p>
+      <h2 class="js-up">Standard unit sizes in kW and BTU</h2>
+      <p class="sec-head__sub js-up">UK and European units are rated in kilowatts. Portable units and American listings use BTU per hour. One kilowatt is 3,412 BTU/h, so the standard sizes convert like this.</p>
+    </header>
+    <div class="sizing sizing--one">
+      <div class="sizing__table js-up">
+        <table class="t-plain">
+          <caption class="sr-only">Standard air conditioning unit sizes converted from kW to BTU per hour</caption>
+          <thead><tr><th scope="col">Unit size</th><th scope="col">BTU per hour</th><th scope="col">Usually suits</th></tr></thead>
+          <tbody>
+            <tr><td class="t-key">2.0 kW</td><td>6,800</td><td>Box room, study, small bedroom</td></tr>
+            <tr><td class="t-key">2.5 kW</td><td>8,500</td><td>Bedroom up to about 15 m²</td></tr>
+            <tr><td class="t-key">3.5 kW</td><td>11,900</td><td>Double bedroom or small lounge, about 15 to 22 m²</td></tr>
+            <tr><td class="t-key">5.0 kW</td><td>17,100</td><td>Large lounge or kitchen diner, about 22 to 32 m²</td></tr>
+            <tr><td class="t-key">6.0 kW</td><td>20,500</td><td>Large open plan room</td></tr>
+            <tr><td class="t-key">7.1 kW</td><td>24,200</td><td>Open plan ground floor, about 32 to 45 m²</td></tr>
+          </tbody>
+        </table>
+        <p class="sizing__foot">A 12,000 BTU portable and a 3.5kW split look like the same size on paper. They are not the same in the room: a single hose portable pushes room air out through the window hose and pulls warm air back in through the gaps to replace it, so it cools noticeably less than its label suggests.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GETTING IT WRONG ============ -->
+<section class="section section--tint" id="getting-it-wrong">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Why it matters</p>
+      <h2 class="js-up">Why a bigger unit is not the safe choice</h2>
+      <p class="sec-head__sub js-up">Most people round up to be safe. With air conditioning, going too big causes problems of its own.</p>
+    </header>
+    <div class="sectors">
+      <article class="sector js-card">
+        <h3>Too small</h3>
+        <p>Runs flat out on the hottest afternoons and still does not reach the setpoint. It is the louder of the two, and it wears faster because it never gets a rest.</p>
+        <span class="sector__meta">Never quite gets there</span>
+      </article>
+      <article class="sector js-card">
+        <h3>About right</h3>
+        <p>Runs steadily at part load most of the time, which is where an inverter unit is quietest and most efficient. It holds the temperature without swinging either side of it.</p>
+        <span class="sector__meta">Quiet, steady, cheapest to run</span>
+      </article>
+      <article class="sector js-card">
+        <h3>Too big</h3>
+        <p>Reaches the setpoint in minutes, then switches on and off. Short runs do not pull much moisture out of the air, so the room can feel cold and clammy at the same time, and all that starting is harder on the compressor.</p>
+        <span class="sector__meta">Cold, clammy, short cycling</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="wrap faq">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Questions</p>
+      <h2 class="js-up">Sizing questions we get asked</h2>
+    </header>
+    <div class="acc">
+      <details class="acc__item js-up">
+        <summary>What size air conditioner do I need for a bedroom?</summary>
+        <div class="acc__body"><p>Most UK bedrooms need 2.0 to 2.5kW. A double bedroom over about 15 square metres, or any bedroom in a loft conversion or with a big south facing window, usually needs 3.5kW. Bedrooms are also where noise matters most, so a correctly sized unit running gently beats a small one running flat out.</p></div>
+      </details>
+      <details class="acc__item js-up">
+        <summary>How many BTU is 3.5kW?</summary>
+        <div class="acc__body"><p>About 11,900 BTU per hour, which is usually rounded to 12,000. To convert any size, multiply kilowatts by 3,412 to get BTU/h, or divide BTU/h by 3,412 to get kilowatts.</p></div>
+      </details>
+      <details class="acc__item js-up">
+        <summary>What size air conditioner do I need for a 20m² room?</summary>
+        <div class="acc__body"><p>About 3.1kW at the starting figure of 155W per square metre, because 20 × 0.155 = 3.1, which rounds up to a 3.5kW unit. Large south or west facing windows, a vaulted ceiling or a room in the roof would push that towards 5.0kW.</p></div>
+      </details>
+      <details class="acc__item js-up">
+        <summary>Is it better to oversize an air conditioner?</summary>
+        <div class="acc__body"><p>No. An oversized unit reaches the temperature quickly and then keeps switching on and off, which leaves the air clammy and puts more wear on the compressor. Rounding up to the next standard size is right. Jumping two sizes is not.</p></div>
+      </details>
+      <details class="acc__item js-up">
+        <summary>Does the calculator work for heating as well?</summary>
+        <div class="acc__body"><p>It sizes for cooling. Air to air units heat as well, and most have a heating output a little above their cooling rating. If heating is the main reason for fitting one, for example to replace storage heaters, the figure that matters is the room’s heat loss on a cold day, which depends on insulation and outside walls rather than floor area, so we work that out at survey.</p></div>
+      </details>
+      <details class="acc__item js-up">
+        <summary>How accurate is this calculator?</summary>
+        <div class="acc__body"><p>Close enough to set a budget and to spot someone selling you the wrong size, not close enough to order equipment from. It works from floor area and a handful of adjustments. A survey measures the real heat gain room by room, including walls, insulation and exactly which way the glass faces, and that is where the final size comes from.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LINK TO THIS ============ -->
+<section class="section section--tint" id="link">
+  <div class="wrap">
+    <div class="cite js-up">
+      <h2>Writing about air conditioning?</h2>
+      <p>You are welcome to link to this calculator from an article, a forum answer or a guide. The address below always points at the current version.</p>
+      <code>https://cool-in.co.uk/air-conditioning-size-calculator</code>
+      <p>Or as a ready made link:</p>
+      <code>&lt;a href=&quot;https://cool-in.co.uk/air-conditioning-size-calculator&quot;&gt;Air conditioning size calculator&lt;/a&gt;</code>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE / CONTACT ============ -->
+<section class="quote-sec" id="quote">
+  <div class="wrap quote-grid">
+    <div class="quote-copy">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Free survey</p>
+      <h2 class="js-up">Tell us about the space and we will do the rest</h2>
+      <p class="js-up">Fill this in and an engineer will call you back the same working day. No sales visit, no pressure, and a written quote within 48 hours of the survey.</p>
+      <ul class="quote-list js-up">
+        <li>Survey and quote at no cost</li>
+        <li>Fixed price, valid for 60 days</li>
+        <li>Nothing to pay until the job is finished</li>
+        <li>Two year guarantee on our workmanship</li>
+      </ul>
+      <div class="quote-call js-up">
+        <p>Prefer to talk it through</p>
+        <a href="tel:+447391523255">07391 523255</a>
+      </div>
+    </div>
+
+    <form class="form js-up" id="quoteForm" name="quote" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="quote">
+      <p class="hide-always"><label>Leave this empty <input name="bot-field"></label></p>
+      <div class="form__row">
+        <label class="field"><span>Your name</span><input type="text" name="name" required placeholder="Jane Whitaker"></label>
+        <label class="field"><span>Phone</span><input type="tel" name="phone" required placeholder="07700 900000"></label>
+      </div>
+      <div class="form__row">
+        <label class="field"><span>Email</span><input type="email" name="email" required placeholder="jane@example.co.uk"></label>
+        <label class="field"><span>Postcode</span><input type="text" name="postcode" required placeholder="Your postcode"></label>
+      </div>
+      <div class="form__row">
+        <label class="field"><span>Property type</span>
+          <select name="type">
+            <option>House</option><option>Flat or apartment</option><option>Office</option><option>Shop or salon</option>
+            <option>Restaurant or bar</option><option>Gym or studio</option><option>Warehouse or unit</option><option>Something else</option>
+          </select>
+        </label>
+        <label class="field"><span>Rooms to cover</span>
+          <select name="rooms"><option>1 room</option><option>2 rooms</option><option>3 to 4 rooms</option><option>5 or more</option><option>Not sure yet</option></select>
+        </label>
+      </div>
+      <label class="field"><span>Anything we should know</span><textarea name="message" rows="4" placeholder="South facing bedroom that gets unbearable in summer, solid brick walls, would rather the outdoor unit went round the back."></textarea></label>
+      <button class="btn btn--primary btn--lg btn--full" type="submit">Request my free survey</button>
+      <p class="form__small">We use your details to quote for this job and nothing else. No lists, no third parties.</p>
+      <div class="form__done" id="formDone" hidden>
+        <strong>Thanks, that is with us.</strong>
+        <span>An engineer will call you back today. This is a mockup, so nothing was actually sent.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- SHELL:FOOTER:START -->
+<footer class="footer">
+  <div class="wrap footer__top">
+    <div class="footer__brand">
+      <a class="logo logo--dark" href="/">
+        <img class="lg" src="assets/img/logo-reverse.svg" width="212" height="93" alt="CoolIn, air conditioning specialists">
+      </a>
+      <p>Air conditioning, heat pumps and ventilation for homes and businesses across the North West. Based in Manchester, covering an hour in every direction.</p>
+      <div class="badges badges--dark"><span>Free survey</span><span>Fixed price quotes</span><span>2 year guarantee</span></div>
+    </div>
+
+    <nav class="footer__col" aria-label="Services">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="domestic">Home air conditioning</a></li>
+        <li><a href="commercial">Commercial installation</a></li>
+        <li><a href="servicing">Servicing and maintenance</a></li>
+        <li><a href="repairs">Repairs and callouts</a></li>
+        <li><a href="heat-pumps">Air source heat pumps</a></li>
+        <li><a href="ventilation">Ventilation and air quality</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer__col" aria-label="Company">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about">About CoolIn</a></li>
+        <li><a href="areas">Areas covered</a></li>
+        <!-- CASE-STUDIES-LINK -->
+        <li><a href="/#process">How it works</a></li>
+        <li><a href="domestic#prices">Prices</a></li>
+        <li><a href="air-conditioning-size-calculator">Size calculator</a></li>
+        <li><a href="domestic#faq">FAQs</a></li>
+        <li><a href="blog">Advice and articles</a></li>
+        <li><a href="contact">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer__col">
+      <h4>Get in touch</h4>
+      <ul>
+        <li><a href="tel:+447391523255">07391 523255</a></li>
+        <li>Lloyds House, 18-22 Lloyd Street, <br>Manchester M2 5WA</li>
+        <li>Mon to Sat, 7am to 7pm</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer__base">
+    <p>&copy; 2026 CoolIn. Air conditioning installation, servicing and repair across the North West.</p>
+    <ul><li><a href="privacy">Privacy</a></li><li><a href="terms">Terms</a></li><li><a href="cookies">Cookies</a></li></ul>
+  </div>
+</footer>
+
+<div class="fabs">
+  <a class="fab fab--wa" href="https://wa.me/447391523255" data-wa aria-label="Message CoolIn on WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2A9.9 9.9 0 0 0 2.1 11.9a9.8 9.8 0 0 0 1.35 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.74 1.2A9.9 9.9 0 0 0 22 11.92 9.9 9.9 0 0 0 12.04 2zm0 1.8a8.1 8.1 0 0 1 8.13 8.11 8.1 8.1 0 0 1-8.13 8.11 8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.81.83-3.04-.2-.31a8 8 0 0 1-1.25-4.3A8.1 8.1 0 0 1 12.04 3.8zm-3.2 4.3c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.68 2.66 4.12 3.62 2.03.8 2.44.64 2.88.6.44-.04 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.46-.39-.4-.54-.41h-.46z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a class="fab fab--call" href="tel:+447391523255" aria-label="Call CoolIn on 07391 523255">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+    <span>Call us</span>
+  </a>
+</div>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="assets/js/scene.js?v=c4abd447"></script>
+<script defer src="assets/js/main.js?v=8dc0401d"></script>
+<!-- SHELL:FOOTER:END -->
+</body>
+</html>

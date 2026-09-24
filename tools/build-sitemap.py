@@ -23,6 +23,7 @@ def priority(path):
     if path == 'index.html':                       return '1.0', 'weekly'
     if path in ('domestic.html', 'commercial.html'): return '0.9', 'monthly'
     if path in SECTOR_PAGES:                       return '0.8', 'monthly'
+    if path == 'air-conditioning-size-calculator.html': return '0.8', 'monthly'
     if path.startswith('air-conditioning-'):       return '0.8', 'monthly'
     if path in ('servicing.html','repairs.html','heat-pumps.html','ventilation.html'): return '0.8', 'monthly'
     if path in ('areas.html','about.html','contact.html','blog.html','case-studies.html'): return '0.7', 'monthly'

@@ -36,8 +36,10 @@ def pretty(d):
     return f'{int(dd)} {MONTHS[int(m)-1]} {y}'
 
 # town name -> town page, built from the pages that actually exist
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _pages import town_pages
 TOWNS = {}
-for f in glob.glob('air-conditioning-*.html'):
+for f in town_pages():
     slug = os.path.basename(f)[len('air-conditioning-'):-5]
     TOWNS[slug.replace('-', ' ').title()] = f
     TOWNS[slug] = f
@@ -46,7 +48,7 @@ def town_link(name):
     if not name:
         return ''
     f = TOWNS.get(name) or TOWNS.get(name.strip().lower().replace(' ', '-'))
-    return f'/{f}' if f else ''
+    return f'/{f[:-5]}' if f else ''
 
 def rootify(block):
     # shell links are now extensionless, so match the bare slug up to the
