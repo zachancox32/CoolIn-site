@@ -28,10 +28,12 @@ def priority(path):
     if path in ('servicing.html','repairs.html','heat-pumps.html','ventilation.html'): return '0.8', 'monthly'
     if path in ('areas.html','about.html','contact.html','blog.html','case-studies.html'): return '0.7', 'monthly'
     if path.startswith(('blog/','case-studies/')):  return '0.7', 'monthly'
+    if path.startswith('guides/'):                 return '0.8', 'monthly'
+    if path == 'guides.html':                      return '0.7', 'monthly'
     if path in ('privacy.html','terms.html','cookies.html'): return '0.3', 'yearly'
     return '0.5', 'monthly'
 
-pages = sorted(glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html'))
+pages = sorted(glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html') + glob.glob('guides/*.html'))
 rows, skipped = [], []
 for p in pages:
     s = open(p, encoding='utf-8').read()
@@ -45,7 +47,9 @@ for p in pages:
         loc = loc[:-len('index.html')]
     elif loc.endswith('.html'):
         loc = loc[:-5]
-    d = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
+    # when the content last changed if the page says so, else when it appeared
+    d = (re.search(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})', s)
+         or re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', s))
     lastmod = d.group(1) if d else time.strftime('%Y-%m-%d', time.localtime(os.path.getmtime(p)))
     pr, cf = priority(p)
     rows.append((loc, lastmod, cf, pr))

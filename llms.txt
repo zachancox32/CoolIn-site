@@ -65,6 +65,14 @@ own guide prices, system options and compliance duties.
 - [Server Room Cooling Manchester](https://cool-in.co.uk/server-room-cooling): Close control cooling for server and comms rooms across Manchester and the North West. Runs year round, with redundancy and alarms where it matters.
 - [Warehouse Air Conditioning Manchester](https://cool-in.co.uk/warehouse-air-conditioning): Spot cooling, destratification and ventilation for warehouses and industrial units across Manchester and the North West. Cooling where people work.
 
+## Guides: questions answered
+
+Each page answers one question people ask before buying, with the short
+answer first and Article plus FAQPage markup. These are kept current in
+place rather than dated.
+
+- [Air conditioning in a terraced house](https://cool-in.co.uk/guides/air-conditioning-terraced-house): Yes, most terraced houses can have air conditioning, usually without planning permission. Where the outdoor unit goes, the one unit rule, and what it costs.
+
 ## Articles
 
 Written to answer the questions customers actually ask. Each carries

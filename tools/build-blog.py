@@ -293,11 +293,14 @@ def build_index(posts):
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + quote + '\n</main>\n\n' + FOOTER
     open('blog.html', 'w').write(out)
 
-paths = sorted(glob.glob('blog/posts/*.md'))
-siblings = sorted((scan(p) for p in paths), key=lambda p: p['date'], reverse=True)
-posts = sorted((build_post(p, siblings) for p in paths), key=lambda p: p['date'], reverse=True)
-if posts:
-    build_index(posts)
-for p in posts:
-    print(f"  blog/{p['slug']+'.html':44s} {p['words']:5d} words  {p['date']}")
-print(f"  blog.html  listing {len(posts)} post(s)")
+# Guarded so build-guides.py can import head, rootify and author_block from
+# here without rebuilding the blog as a side effect.
+if __name__ == '__main__':
+    paths = sorted(glob.glob('blog/posts/*.md'))
+    siblings = sorted((scan(p) for p in paths), key=lambda p: p['date'], reverse=True)
+    posts = sorted((build_post(p, siblings) for p in paths), key=lambda p: p['date'], reverse=True)
+    if posts:
+        build_index(posts)
+    for p in posts:
+        print(f"  blog/{p['slug']+'.html':44s} {p['words']:5d} words  {p['date']}")
+    print(f"  blog.html  listing {len(posts)} post(s)")

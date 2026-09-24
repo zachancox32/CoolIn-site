@@ -88,6 +88,10 @@ def render(md):
         out.append('<p>' + _inline(' '.join(buf)) + '</p>')
     return '\n'.join(out)
 
+# `- question: ...` opens a mapping item; `- a plain string` does not. A string
+# item containing ': ' has to be quoted in YAML, and the CMS quotes it.
+_MAP_ITEM = re.compile(r'^[A-Za-z_][\w-]*:(\s|$)')
+
 def frontmatter(text):
     """Parse the --- block at the top.
 
@@ -127,7 +131,21 @@ def frontmatter(text):
         if v == '':                                          # maybe a block list
             items = []
             while i < len(lines) and lines[i].strip().startswith('- ') and indent(lines[i]) > base:
-                items.append(lines[i].strip()[2:].strip().strip('"').strip("'")); i += 1
+                item_at = indent(lines[i])
+                first = lines[i].strip()[2:]
+                i += 1
+                if not _MAP_ITEM.match(first):              # a plain string item
+                    items.append(first.strip().strip('"').strip("'"))
+                    continue
+                # A mapping item, which the CMS writes for a list widget with
+                # sub fields, e.g. a question and its answer. Everything indented
+                # past the dash belongs to this item.
+                block = [' ' * (item_at + 2) + first]
+                while i < len(lines) and (not lines[i].strip() or indent(lines[i]) > item_at):
+                    block.append(lines[i]); i += 1
+                obj, _ = frontmatter('---\n' + '\n'.join(
+                    ln[item_at + 2:] if len(ln) > item_at + 2 else '' for ln in block) + '\n---\n')
+                items.append(obj)
             data[k] = items if items else ''
             continue
 

@@ -109,6 +109,17 @@ if sectors:
         out.append(f"- [{t}]({url(f)}): {d}")
     out.append("")
 
+guides = sorted(glob.glob('guides/*.html'))
+if guides:
+    out.append("## Guides: questions answered\n")
+    out.append("Each page answers one question people ask before buying, with the short\n"
+               "answer first and Article plus FAQPage markup. These are kept current in\n"
+               "place rather than dated.\n")
+    for f in guides:
+        t, d = meta(f)
+        out.append(f"- [{t}]({BASE}/{clean_url(f)}): {d}")
+    out.append("")
+
 posts = sorted(glob.glob('blog/*.html'))
 if posts:
     out.append("## Articles\n")

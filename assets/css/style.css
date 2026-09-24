@@ -795,6 +795,20 @@ ul,ol{margin:0;padding:0;list-style:none}
 .post__back{margin:40px 0 0;padding-top:24px;border-top:1px solid var(--line)}
 .post__back a{font-family:var(--head);font-weight:700}
 
+/* ---------- guides: the short answer comes before everything else ----------
+   This panel is the passage search and AI assistants lift, so it is the first
+   thing under the question and it reads on its own. */
+.answer{margin:clamp(30px,4vw,44px) 0 0;padding:28px;border-radius:var(--radius-lg);background:var(--ice-soft);border:1px solid var(--line)}
+.answer__label{font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--blue-d);margin:0 0 10px}
+.answer__text{font-size:1.16rem;line-height:1.6;color:var(--ink);margin:0}
+.answer__facts{list-style:none;margin:20px 0 0;padding:18px 0 0;border-top:1px solid rgba(14,110,150,.18);display:grid;grid-template-columns:1fr 1fr;gap:10px 28px}
+.answer__facts li{position:relative;padding-left:20px;font-size:.95rem;line-height:1.5}
+.answer__facts li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--blue)}
+.guide-faq{margin:48px 0 0}
+.guide-faq h2{font-size:1.5rem;margin:0 0 14px;letter-spacing:-.02em}
+.guides-list .nearby li a{line-height:1.4}
+@media (max-width:720px){.answer{padding:22px}.answer__facts{grid-template-columns:1fr}}
+
 /* ---------- areas strip on service pages ---------- */
 .areas-strip{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0}
 .areas-strip p{margin:0;text-align:center;font-size:.95rem;color:var(--body)}

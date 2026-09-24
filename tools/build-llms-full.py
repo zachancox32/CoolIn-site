@@ -29,11 +29,11 @@ ORDER = ['index.html','domestic.html','commercial.html',
 # Pages with no place in a text dump for answer engines: legal boilerplate, the
 # error page, the thank you page and the blog index, whose content is the posts.
 SKIP = {'404.html', 'thanks.html', 'privacy.html', 'terms.html', 'cookies.html',
-        'blog.html', 'case-studies.html'}
+        'blog.html', 'case-studies.html', 'guides.html'}
 
 # Anything published since this list was last touched. Without it a new page is
 # silently missing from llms-full.txt until somebody remembers to add it here.
-ORDER += [f for f in sorted(_g.glob('*.html') + _g.glob('case-studies/*.html'))
+ORDER += [f for f in sorted(_g.glob('*.html') + _g.glob('guides/*.html') + _g.glob('case-studies/*.html'))
           if f not in ORDER and f not in SKIP]
 
 def text_of(node):

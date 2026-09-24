@@ -18,7 +18,7 @@ os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 #   admin/index.html  the CMS entry point, which is not a site page
 ALLOW = ('admin/index.html', '/admin/index.html')
 
-PAGES = sorted(glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html'))
+PAGES = sorted(glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html') + glob.glob('guides/*.html'))
 
 # href/src pointing at a .html address, relative or root relative but not external.
 LINK = re.compile(r'(?:href|src)="(?!https?:|//|tel:|mailto:|data:)([^"]*\.html(?:[#?][^"]*)?)"')

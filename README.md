@@ -100,6 +100,35 @@ a certification claimed and not held is worse than none. The `linkedin` field is
 empty too; filling it gives the schema a `sameAs` to corroborate the person against,
 which is the cheapest credibility signal available.
 
+## Guides
+
+Permanent answers to one question each, written for Google and AI assistants.
+In the CMS, under **Guides**. Built by `tools/build-guides.py` into
+`/guides/<slug>`, with a hub at `/guides`.
+
+**Guide or article?** If the answer holds for years and someone asks it before
+buying ("Can I install air conditioning in a terraced house?"), it is a guide.
+If it is tied to a season, a date or a change in the news, it is an article.
+Guides carry no date on the page, so they never look stale, and each is listed
+on its service page, which gives it far more internal links than a blog post.
+
+**How to write one.** The CMS fields are in the order a good answer is read:
+
+- **Question**, word for word as people ask it. It becomes the h1.
+- **Short answer**, 40 to 60 words, answering it in the first sentence. This is
+  the passage search and AI assistants quote, so it must stand on its own.
+- **Key facts**, three to six lines with real numbers.
+- **Full answer**, with a `##` heading per part, phrased as a question.
+- **Follow up questions**, the two to five people ask next.
+
+Every question goes into FAQPage markup, the page into Article markup with the
+named author, and the guide into the sitemap and `llms.txt` automatically.
+Update **Last reviewed** whenever you check a guide; it feeds the sitemap and
+the markup, never the page.
+
+With no guides the hub is not built and the footer link hides itself, the
+same as case studies. Deleting a guide in the CMS removes its page.
+
 ## Search and answer engines
 
 Built for both from the start rather than retrofitted.

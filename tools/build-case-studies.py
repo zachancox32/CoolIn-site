@@ -268,7 +268,9 @@ def set_footer_link(show):
     changed = 0
     for f in glob.glob('*.html') + glob.glob('blog/*.html') + glob.glob('case-studies/*.html'):
         s = open(f, encoding='utf-8').read()
-        href = '/case-studies.html' if '/' in f else 'case-studies.html'
+        # clean, like every other link: a .html here fails check-urls.py on the
+        # day the first case study is published
+        href = '/case-studies' if '/' in f else 'case-studies'
         link = f'<li><a href="{href}">Case studies</a></li>'
         n = s.replace(link, MARKER) if not show else s.replace(MARKER, link)
         if n != s:

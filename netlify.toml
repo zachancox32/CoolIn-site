@@ -7,7 +7,7 @@
   # Blog and case studies from markdown, then the sitemap and model files from
   # whatever those produced. python3 is in the Netlify build image by default,
   # so there is nothing to install.
-  command = "python3 tools/build-blog.py && python3 tools/build-case-studies.py && python3 tools/build-sectors.py && python3 tools/bust-cache.py && python3 tools/build-redirects.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py && python3 tools/check-urls.py && python3 tools/indexnow.py"
+  command = "python3 tools/build-blog.py && python3 tools/build-sectors.py && python3 tools/build-case-studies.py && python3 tools/build-guides.py && python3 tools/bust-cache.py && python3 tools/build-redirects.py && python3 tools/build-sitemap.py && python3 tools/build-llms.py && python3 tools/build-llms-full.py && python3 tools/check-urls.py && python3 tools/indexnow.py"
 
 [functions]
   directory = "netlify/functions"
@@ -67,6 +67,24 @@
 # them back where they were.
 [[headers]]
   for = "/assets/img/brand/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# CMS source files. Netlify publishes the whole repo, so the markdown behind
+# every post, case study and guide is reachable at its own address, a duplicate
+# of the real page. They are build inputs, never a result.
+[[headers]]
+  for = "/blog/posts/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/case-studies/projects/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/guides/source/*"
   [headers.values]
     X-Robots-Tag = "noindex"
 

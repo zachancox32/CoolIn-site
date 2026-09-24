@@ -3,36 +3,52 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms and Conditions | CoolIn</title>
-<meta name="description" content="CoolIn terms and conditions: quotations, payment, the two year workmanship guarantee, manufacturer warranties, cancellation and complaints.">
+<title>Air conditioning questions answered | CoolIn</title>
+<meta name="description" content="Straight answers to the questions people ask about air conditioning: where it can go, what it costs, what the rules say, and what it needs to keep working.">
+<link rel="canonical" href="https://cool-in.co.uk/guides">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/img/favicon.png">
-<link rel="canonical" href="https://cool-in.co.uk/terms">
-<meta property="og:title" content="Terms and Conditions | CoolIn">
-<meta property="og:description" content="CoolIn terms and conditions: quotations, payment, the two year workmanship guarantee, manufacturer warranties, cancellation and complaints.">
+<meta property="og:title" content="Air conditioning questions answered">
+<meta property="og:description" content="Straight answers to the questions people ask about air conditioning: where it can go, what it costs, what the rules say, and what it needs to keep working.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://cool-in.co.uk/terms">
+<meta property="og:url" content="https://cool-in.co.uk/guides">
 <meta property="og:site_name" content="CoolIn">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="https://cool-in.co.uk/assets/img/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="CoolIn, air conditioning across the North West">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Air conditioning questions answered">
+<meta name="twitter:description" content="Straight answers to the questions people ask about air conditioning: where it can go, what it costs, what the rules say, and what it needs to keep working.">
 <meta name="twitter:image" content="https://cool-in.co.uk/assets/img/og-image.png">
-<meta name="twitter:title" content="Terms and Conditions | CoolIn">
-<meta name="twitter:description" content="CoolIn terms and conditions: quotations, payment, the two year workmanship guarantee, manufacturer warranties, cancellation and complaints.">
 <meta name="geo.region" content="GB-MAN">
 <meta name="geo.placename" content="Manchester">
-<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v=214108f5">
+<link rel="preload" href="/assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css?v=214108f5">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "CollectionPage",
+      "name": "Air conditioning guides",
+      "url": "https://cool-in.co.uk/guides",
+      "publisher": {
+        "@id": "https://cool-in.co.uk/#business"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Can I install air conditioning in a terraced house?",
+            "url": "https://cool-in.co.uk/guides/air-conditioning-terraced-house"
+          }
+        ]
+      }
+    },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -45,8 +61,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Terms and conditions",
-          "item": "https://cool-in.co.uk/terms"
+          "name": "Guides",
+          "item": "https://cool-in.co.uk/guides"
         }
       ]
     }
@@ -68,8 +84,7 @@
     </ul>
   </div>
 </div>
-<!-- SHELL:UTILITY:END -->
-<!-- SHELL:HEADER:START -->
+<!-- SHELL:UTILITY:END --><!-- SHELL:HEADER:START -->
 <header class="header" id="header">
   <div class="wrap header__in">
     <a class="logo" href="/" aria-label="CoolIn, air conditioning specialists, home">
@@ -89,79 +104,99 @@
 
     <div class="header__cta">
       <a class="btn btn--ghost hide-md" href="tel:+447391523255">07391 523255</a>
-      <a class="btn btn--primary" href="contact#quote">Free survey</a>
+      <a class="btn btn--primary" href="#quote">Free survey</a>
       <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 <!-- SHELL:HEADER:END -->
-
 <main id="main">
 
 <!-- ============ HERO ============ -->
 <section class="hero hero--inner" id="hero">
+  <canvas id="scene" class="hero__canvas" aria-hidden="true"></canvas>
   <div class="hero__veil" aria-hidden="true"></div>
   <div class="wrap hero__in">
     <div class="hero__copy">
       <nav class="crumbs js-hero" aria-label="Breadcrumb">
-        <a href="/">CoolIn</a><span aria-hidden="true">/</span><span aria-current="page">Terms and conditions</span>
+        <a href="/">CoolIn</a><span aria-hidden="true">/</span><span aria-current="page">Guides</span>
       </nav>
-      <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Terms and conditions</p>
-      <h1 class="js-hero">Terms and<br><span class="grad">conditions</span></h1>
-      <p class="lede js-hero">The terms we work to: what a quotation covers, when payment is due, what the guarantee includes and what it does not, and how to cancel.</p>
-      <div class="hero__btns js-hero">
-        <a class="btn btn--primary btn--lg" href="contact">Contact us</a>
+      <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Guides</p>
+      <h1 class="js-hero">Air conditioning questions,<br><span class="grad">answered straight</span></h1>
+      <p class="lede js-hero">The questions people ask before they get in touch, each answered on its own page: the short answer first, then the detail, the rules and the figures.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUIDES ============ -->
+<section class="section" id="guides">
+  <div class="wrap">
+    <div class="post-grid">
+        <article class="post-card js-card">
+          <div class="post-card__panel">
+            <span class="post-card__cat">Home air conditioning</span>
+            <h2><a href="/guides/air-conditioning-terraced-house">Can I install air conditioning in a terraced house?</a></h2>
+          </div>
+          <div class="post-card__body">
+            <p>Yes. Most terraced houses can have air conditioning, and in England it is usually permitted development, so there is no planning application. The.</p>
+            <span class="post-card__go">Read the answer</span>
+          </div>
+        </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE / CONTACT ============ -->
+<section class="quote-sec" id="quote">
+  <div class="wrap quote-grid">
+    <div class="quote-copy">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Free survey</p>
+      <h2 class="js-up">Tell us about the space and we will do the rest</h2>
+      <p class="js-up">Fill this in and an engineer will call you back the same working day. No sales visit, no pressure, and a written quote within 48 hours of the survey.</p>
+      <ul class="quote-list js-up">
+        <li>Survey and quote at no cost</li>
+        <li>Fixed price, valid for 60 days</li>
+        <li>Nothing to pay until the job is finished</li>
+        <li>Two year guarantee on our workmanship</li>
+      </ul>
+      <div class="quote-call js-up">
+        <p>Prefer to talk it through</p>
+        <a href="tel:+447391523255">07391 523255</a>
       </div>
     </div>
+
+    <form class="form js-up" id="quoteForm" name="quote" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="quote">
+      <p class="hide-always"><label>Leave this empty <input name="bot-field"></label></p>
+      <div class="form__row">
+        <label class="field"><span>Your name</span><input type="text" name="name" required placeholder="Jane Whitaker"></label>
+        <label class="field"><span>Phone</span><input type="tel" name="phone" required placeholder="07700 900000"></label>
+      </div>
+      <div class="form__row">
+        <label class="field"><span>Email</span><input type="email" name="email" required placeholder="jane@example.co.uk"></label>
+        <label class="field"><span>Postcode</span><input type="text" name="postcode" required placeholder="Your postcode"></label>
+      </div>
+      <div class="form__row">
+        <label class="field"><span>Property type</span>
+          <select name="type">
+            <option>House</option><option>Flat or apartment</option><option>Office</option><option>Shop or salon</option>
+            <option>Restaurant or bar</option><option>Gym or studio</option><option>Warehouse or unit</option><option>Something else</option>
+          </select>
+        </label>
+        <label class="field"><span>Rooms to cover</span>
+          <select name="rooms"><option>1 room</option><option>2 rooms</option><option>3 to 4 rooms</option><option>5 or more</option><option>Not sure yet</option></select>
+        </label>
+      </div>
+      <label class="field"><span>Anything we should know</span><textarea name="message" rows="4" placeholder="South facing bedroom that gets unbearable in summer, solid brick walls, would rather the outdoor unit went round the back."></textarea></label>
+      <button class="btn btn--primary btn--lg btn--full" type="submit">Request my free survey</button>
+      <p class="form__small">We use your details to quote for this job and nothing else. No lists, no third parties.</p>
+      <div class="form__done" id="formDone" hidden>
+        <strong>Thanks, that is with us.</strong>
+        <span>An engineer will call you back today. This is a mockup, so nothing was actually sent.</span>
+      </div>
+    </form>
   </div>
 </section>
-
-<section class="section legal" id="content">
-  <div class="wrap legal__wrap">
-    <aside class="legal__toc js-up"><h2>On this page</h2><ol>
-      <li><a href="#s1">These terms</a></li>
-      <li><a href="#s2">Quotations</a></li>
-      <li><a href="#s3">Payment</a></li>
-      <li><a href="#s4">Our guarantee</a></li>
-      <li><a href="#s5">What the guarantee does not cover</a></li>
-      <li><a href="#s6">Cancellation</a></li>
-      <li><a href="#s7">Access and delays</a></li>
-      <li><a href="#s8">Complaints</a></li>
-    </ol></aside>
-    <div class="legal__body">
-      <p class="legal__date js-up">Last updated 16 September 2026. This is a template and has not been reviewed by a solicitor.</p>
-      <h2 id="s1" class="js-up">These terms</h2>
-      <p class="js-up">These terms apply to work carried out by CoolIn Air Conditioning Specialists. They sit alongside your quotation, and where the quotation says something different about a specific job, the quotation wins.</p>
-      <h2 id="s2" class="js-up">Quotations</h2>
-      <p class="js-up">Quotations are fixed, itemised and valid for 60 days from the date of issue.</p>
-      <p class="js-up">The price covers the work described in the quotation. If you ask for something additional once we are on site, we price it and you approve it before we carry it out.</p>
-      <p class="js-up">If we get a measurement or an assessment wrong at survey, correcting it is at our cost and not yours. If the property turns out to contain something that could not reasonably have been seen at survey, such as hidden asbestos or unsafe existing wiring, we stop, tell you, and agree the way forward before continuing.</p>
-      <h2 id="s3" class="js-up">Payment</h2>
-      <p class="js-up">For domestic work, payment is due on completion unless the quotation says otherwise. We do not take deposits on standard domestic installations.</p>
-      <p class="js-up">For commercial work and larger projects, the payment schedule is set out in the quotation and may include a stage payment on delivery of equipment.</p>
-      <p class="js-up">Invoices are payable within 14 days. Domestic installations are zero rated for VAT under the energy saving materials relief until 31 March 2027. Commercial work is charged at the standard rate.</p>
-      <h2 id="s4" class="js-up">Our guarantee</h2>
-      <p class="js-up">We guarantee our workmanship for two years from the date of completion. If something fails because of how we installed it, we return and put it right at no charge.</p>
-      <p class="js-up">Equipment is covered by the manufacturer warranty, which is parts only and which we register in your name. Warranty length depends on the manufacturer and on our accreditation level with them.</p>
-      <p class="js-up">Manufacturer warranties require the system to be serviced annually. If servicing is missed, the manufacturer may decline a claim and we cannot override that.</p>
-      <p class="js-up">Refrigerant is treated as a consumable by every manufacturer and is not covered by any warranty, ours included.</p>
-      <h2 id="s5" class="js-up">What the guarantee does not cover</h2>
-      <p class="js-up">Damage caused by misuse, by other trades, or by alteration of the system by anyone other than us.</p>
-      <p class="js-up">Blocked filters, blocked condensate drains and other consequences of the system not being cleaned or serviced.</p>
-      <p class="js-up">Failures caused by the electrical supply, by water ingress from the building fabric, or by anything outside the installation itself.</p>
-      <p class="js-up">Normal wear, and the gradual reduction in efficiency that every system shows as it ages.</p>
-      <h2 id="s6" class="js-up">Cancellation</h2>
-      <p class="js-up">If you are a consumer and you agreed to the work away from our premises, you have 14 days to cancel without giving a reason. If you asked us to start within that period and we did, you pay for what has been done up to the point you cancel.</p>
-      <p class="js-up">Once equipment has been ordered specifically for your job and cannot be returned, the cost of that equipment becomes payable. We will tell you before we place the order.</p>
-      <h2 id="s7" class="js-up">Access and delays</h2>
-      <p class="js-up">We need access to the property at the agreed times, a working electrical supply, and clear space around the installation areas. Where access is not available and we cannot work, we may charge for the visit.</p>
-      <p class="js-up">If we are delayed, you hear from us the same day with a new date. Where a delay is caused by a supplier or by something outside our control, we are not liable for consequential losses.</p>
-      <h2 id="s8" class="js-up">Complaints</h2>
-      <p class="js-up">Ring <a href="tel:+447391523255">07391 523255</a>. We acknowledge complaints within one working day and aim to resolve them within ten. Nothing in these terms affects your statutory rights.</p>
-    </div>
-  </div>
-</section>
-
 
 </main>
 
