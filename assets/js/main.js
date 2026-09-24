@@ -13,6 +13,32 @@
     document.querySelectorAll('.step').forEach(function (el) { el.classList.add('is-on'); });
   }
 
+  /* ---------- in page links without the #fragment in the address ----------
+     A plain <a href="#calculator"> leaves /page#calculator in the address bar,
+     which then gets copied and shared. This does the same jump, keeps the
+     address clean, and moves focus to the target the way the browser would, so
+     keyboard and screen reader users land in the same place. The scroll itself
+     is unchanged: scrollIntoView follows the CSS smooth setting, and that
+     already drops to instant under reduced motion. Links into another page,
+     such as contact#quote, are left alone. */
+  document.addEventListener('click', function (e) {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var id = decodeURIComponent(a.getAttribute('href').slice(1));
+    var target = id && document.getElementById(id);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ block: 'start' });
+    if (!target.hasAttribute('tabindex') && !/^(A|BUTTON|INPUT|SELECT|TEXTAREA)$/.test(target.tagName)) {
+      target.setAttribute('tabindex', '-1');
+    }
+    target.focus({ preventScroll: true });
+    // arriving on a shared /page#section and then jumping elsewhere should not
+    // leave the old fragment sitting there either
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+  });
+
   /* ---------- rough size calculator ---------- */
   (function () {
     var els = {

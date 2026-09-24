@@ -69,6 +69,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .skip{position:absolute;left:-9999px;top:0;background:var(--navy);color:#fff;padding:12px 18px;z-index:200}
 .skip:focus{left:12px;top:12px}
 :focus-visible{outline:3px solid var(--ice);outline-offset:3px;border-radius:4px}
+[tabindex="-1"]:focus{outline:none}
 
 /* ---------- logo ---------- */
 /* Both lockups are transparent PNGs from the brand pack, so they sit on the
