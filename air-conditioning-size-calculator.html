@@ -27,7 +27,7 @@
 <meta name="geo.placename" content="Manchester">
 <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v=9086a154">
+<link rel="stylesheet" href="assets/css/style.css?v=30fdde96">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
 <script type="application/ld+json">
 {
@@ -197,73 +197,80 @@
 </section>
 
 <!-- ============ CALCULATOR ============ -->
-<section class="section" id="calculator">
+<section class="section section--tool" id="calculator">
   <div class="wrap">
-    <header class="sec-head">
+    <header class="sec-head sec-head--tight">
       <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Calculator</p>
       <h2 class="js-up">Size a room in under a minute</h2>
       <p class="sec-head__sub js-up">Measure the floor, not the walls, and rough is fine. Change any figure and the answer and the working update together.</p>
     </header>
 
-    <div class="sizing sizing--tool">
-      <aside class="calc" id="calc">
+    <!-- Laid out wide rather than tall, so inputs and answer fit on one laptop
+         screen. Same IDs and option values as /domestic, so main.js gives the
+         same result; only the option labels are shorter, to fit three across. -->
+    <div class="calc calc--wide" id="calc">
+      <div class="calc__inputs">
         <h3 class="calc__title">Room details</h3>
-        <p class="calc__intro">Two measurements and a few clicks. It is a guide, not a quote.</p>
-        <div class="calc__row">
+        <div class="calc__grid">
           <label class="field"><span>Room width (m)</span><input type="number" id="cW" value="3.5" min="1" max="30" step="0.1"></label>
           <label class="field"><span>Room length (m)</span><input type="number" id="cL" value="4.5" min="1" max="30" step="0.1"></label>
-        </div>
-        <label class="field"><span>Ceiling height</span>
-          <select id="cH">
-            <option value="1">Standard, around 2.4m</option>
-            <option value="1.12">High, around 2.7m</option>
-            <option value="1.26">Very high or vaulted, 3m plus</option>
-          </select>
-        </label>
-        <label class="field"><span>Windows and aspect</span>
-          <select id="cG">
-            <option value="0.95">North facing or shaded</option>
-            <option value="1" selected>Average windows</option>
-            <option value="1.2">South or west facing, large windows</option>
-            <option value="1.35">Bifolds, conservatory or roof lights</option>
-          </select>
-        </label>
-        <div class="calc__row">
           <label class="field"><span>People in the room</span><input type="number" id="cP" value="2" min="1" max="30" step="1"></label>
+          <label class="field"><span>Ceiling height</span>
+            <select id="cH">
+              <option value="1">Standard, 2.4m</option>
+              <option value="1.12">High, 2.7m</option>
+              <option value="1.26">Vaulted, 3m plus</option>
+            </select>
+          </label>
+          <label class="field"><span>Windows and aspect</span>
+            <select id="cG">
+              <option value="0.95">North facing or shaded</option>
+              <option value="1" selected>Average windows</option>
+              <option value="1.2">Large, south or west</option>
+              <option value="1.35">Bifolds or conservatory</option>
+            </select>
+          </label>
           <label class="field"><span>Room type</span>
             <select id="cT">
               <option value="0">Bedroom or lounge</option>
-              <option value="0.5">Kitchen or kitchen diner</option>
-              <option value="0.4">Home office with kit</option>
+              <option value="0.5">Kitchen or diner</option>
+              <option value="0.4">Office with kit</option>
               <option value="0.9">Gym or studio</option>
-              <option value="1.4">Server or comms room</option>
+              <option value="1.4">Server room</option>
             </select>
           </label>
         </div>
         <label class="check"><input type="checkbox" id="cR"><span>Loft conversion or room in the roof</span></label>
+      </div>
 
+      <div class="calc__side">
         <div class="calc__out" id="calcOut" aria-live="polite">
           <p class="calc__kw"><span id="calcKw">2.4</span> kW</p>
           <p class="calc__btu" id="calcBtu">8,300 BTU/h</p>
           <p class="calc__unit" id="calcUnit">Points at a 2.5kW wall unit</p>
           <p class="calc__price" id="calcPrice">from £1,850 fitted, 0% VAT</p>
         </div>
-        <p class="calc__small">Guide prices, installed, for a single wall mounted split. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.</p>
         <a class="btn btn--primary btn--full" href="#quote">Book the survey that confirms it</a>
-      </aside>
+        <p class="calc__small">Guide prices, installed, for a single wall unit. A survey confirms the size and price before anything is ordered.</p>
+      </div>
+    </div>
 
+    <div class="tool-working">
       <div class="js-up">
         <h3>How your answer is worked out</h3>
         <ol class="working" id="calcWork" aria-live="polite">
           <li><span class="working__label">Floor area</span><span class="working__op">3.5m × 4.5m = 15.8 m²</span><span class="working__total"></span></li>
           <li><span class="working__label">Starting load at 155W per m²</span><span class="working__op">15.8 × 0.155</span><span class="working__total">2.44 kW</span></li>
-          <li><span class="working__label">Ceiling: Standard, around 2.4m</span><span class="working__op">× 1.00</span><span class="working__total">2.44 kW</span></li>
+          <li><span class="working__label">Ceiling: Standard, 2.4m</span><span class="working__op">× 1.00</span><span class="working__total">2.44 kW</span></li>
           <li><span class="working__label">Windows: Average windows</span><span class="working__op">× 1.00</span><span class="working__total">2.44 kW</span></li>
           <li><span class="working__label">People beyond the first two</span><span class="working__op">0 × 0.1 kW</span><span class="working__total">2.44 kW</span></li>
           <li><span class="working__label">Room use: Bedroom or lounge</span><span class="working__op">+ 0.0 kW</span><span class="working__total">2.44 kW</span></li>
           <li><span class="working__label">Next standard size up</span><span class="working__op">2.5 kW unit</span><span class="working__total"></span></li>
         </ol>
-        <p>The starting figure of 155W per square metre is a cooling load for a typical UK room with average glazing and insulation. The adjustments move it for the things that genuinely change how much heat a room gains: ceiling height, glass, a roof overhead, people, and equipment. The answer is rounded up to the next standard size, because units come in fixed steps rather than any figure you like.</p>
+      </div>
+      <div class="js-up">
+        <p>The starting figure of 155W per square metre is a cooling load for a typical UK room with average glazing and insulation. The adjustments move it for the things that genuinely change how much heat a room gains: ceiling height, glass, a roof overhead, people, and equipment.</p>
+        <p>The answer is rounded up to the next standard size, because units come in fixed steps rather than any figure you like.</p>
         <p class="sizing__foot">If it comes out above 7.1kW, one wall unit is the wrong answer. Two units, a multi split or a ducted system will do the job better, and the <a href="domestic#prices">domestic price list</a> covers those.</p>
       </div>
     </div>
