@@ -13,6 +13,42 @@
     document.querySelectorAll('.step').forEach(function (el) { el.classList.add('is-on'); });
   }
 
+  /* ---------- copy buttons ----------
+     Any <button data-copy="..."> copies its text, says so on the button for a
+     moment, and announces it through the nearest role="status" for screen
+     readers. Falls back to a hidden textarea where the clipboard API is not
+     available, such as an http preview. */
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('button[data-copy]');
+    if (!b) return;
+    var text = b.getAttribute('data-copy');
+    var status = b.closest('.cite, section, body').querySelector('[role="status"]');
+    function done() {
+      if (!b.dataset.label) b.dataset.label = b.textContent;
+      b.textContent = 'Copied';
+      b.classList.add('is-copied');
+      if (status) status.textContent = b.getAttribute('data-done') || 'Copied to your clipboard';
+      clearTimeout(b._t);
+      b._t = setTimeout(function () {
+        b.textContent = b.dataset.label;
+        b.classList.remove('is-copied');
+        if (status) status.textContent = '';
+      }, 2200);
+    }
+    function fallback() {
+      var t = document.createElement('textarea');
+      t.value = text; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0';
+      document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); done(); } catch (err) {}
+      document.body.removeChild(t);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else {
+      fallback();
+    }
+  });
+
   /* ---------- in page links without the #fragment in the address ----------
      A plain <a href="#calculator"> leaves /page#calculator in the address bar,
      which then gets copied and shared. This does the same jump, keeps the

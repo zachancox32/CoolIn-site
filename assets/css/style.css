@@ -448,10 +448,25 @@ ul,ol{margin:0;padding:0;list-style:none}
 .working__total{font-family:var(--head);font-weight:700;color:var(--blue);text-align:right;white-space:nowrap}
 .working li:last-child{border-bottom:2px solid var(--line);font-weight:600}
 .working li:last-child .working__label{font-family:var(--head)}
-.cite{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius-lg);padding:28px;display:grid;gap:14px;max-width:760px}
-.cite h2{font-size:1.25rem;margin:0}
-.cite p{margin:0;font-size:.95rem}
-.cite code{display:block;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;font-size:.84rem;overflow-x:auto;white-space:nowrap;user-select:all;color:var(--ink)}
+/* "Link to this" card on the calculator page: the invitation on the left, the
+   address and copy buttons on the right, and the brand crystal behind. */
+.cite{position:relative;overflow:hidden;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:clamp(28px,4vw,46px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,56px);align-items:center}
+.cite__mark{position:absolute;right:-64px;bottom:-78px;width:270px;height:270px;color:var(--ice);opacity:.18;pointer-events:none}
+.cite__intro,.cite__tools{position:relative}
+.cite h2{font-size:clamp(1.4rem,2.4vw,1.8rem);margin:0 0 12px;letter-spacing:-.02em}
+.cite__intro p:last-child{margin:0;font-size:1rem;line-height:1.65;color:var(--body)}
+.cite__label{font-family:var(--head);font-weight:700;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--grey);margin:0 0 10px}
+.cite__field{display:flex;align-items:center;gap:10px;background:var(--paper-2);border:1px solid var(--line);border-radius:12px;padding:6px 6px 6px 16px}
+.cite__url{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.95rem;color:var(--ink);user-select:all}
+.cite__field .btn{padding:11px 18px;flex:none}
+.cite__alt{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:14px}
+.cite__alt .btn{padding:10px 16px;font-size:.86rem}
+.cite__note{margin:0;font-size:.86rem;color:var(--grey)}
+.cite__note a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.cite__status{margin:12px 0 0;min-height:1.4em;font-size:.86rem;font-weight:600;color:var(--blue-d)}
+.cite__copy.is-copied,.cite__copy.is-copied:hover{background:var(--navy);border-color:var(--navy);color:#fff}
+@media (max-width:860px){.cite{grid-template-columns:1fr}}
+@media (max-width:520px){.cite__field{flex-direction:column;align-items:stretch;padding:12px}.cite__url{white-space:normal;overflow-wrap:anywhere}.cite__field .btn{width:100%}}
 
 /* ---------- prices ---------- */
 .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:26px}
