@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 24 September 2026.
+Generated 25 September 2026.
 
 
 
@@ -855,6 +855,7 @@ Guides
 Questions answered in full
 
 Can I install air conditioning in a terraced house?
+Can you fit air conditioning in a flat or apartment?
 
 Common questions
 
@@ -920,7 +921,7 @@ Can you fit air conditioning in a flat?
 
 Often, but there are two extra hurdles. Your lease usually requires the freeholder's or management company's consent to fix anything to the outside of the building, and the permitted development limits for flats are tighter than for houses.
 
-Where a wall mounted condenser is a non starter, the options are a balcony mounted unit, a shared plant position agreed with the building manager, or a self contained system with no outdoor unit at all. We will tell you at survey which of those applies.
+Where a wall mounted condenser is a non starter, the options are a balcony mounted unit, a shared plant position agreed with the building manager, or a self contained system with no outdoor unit at all. We will tell you at survey which of those applies. Our guide to air conditioning in a flat or apartment covers each option in full.
 
 Free survey
 
@@ -3830,7 +3831,7 @@ Asked most often in Manchester
 
 Can I put air conditioning in a Manchester city centre flat?
 
-Usually, with two conditions. Your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building, and the permitted development limits for flats are tighter than for houses. Where a wall mounted condenser is not possible, a balcony position or a self contained unit with no outdoor part are the alternatives.
+Usually, with two conditions. Your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building, and the permitted development limits for flats are tighter than for houses. Where a wall mounted condenser is not possible, a balcony position or a self contained unit with no outdoor part are the alternatives. Our guide to air conditioning in a flat or apartment covers each option in full.
 
 Do conservation areas in Manchester stop air conditioning?
 
@@ -4919,7 +4920,7 @@ Asked most often in Salford
 
 Can I get air conditioning in a Salford Quays apartment?
 
-Usually, but the lease decides. Almost all of them require the freeholder or managing agent to consent to anything fixed to the exterior, and the permitted development limits for flats are tighter than for houses. Where a wall mounted condenser is refused, the options are a balcony position if the lease allows it, a shared plant location agreed with the building manager, or a self contained unit with no outdoor part. We work out which applies at survey rather than after you have paid.
+Usually, but the lease decides. Almost all of them require the freeholder or managing agent to consent to anything fixed to the exterior, and the permitted development limits for flats are tighter than for houses. Where a wall mounted condenser is refused, the options are a balcony position if the lease allows it, a shared plant location agreed with the building manager, or a self contained unit with no outdoor part. We work out which applies at survey rather than after you have paid. Our guide to air conditioning in a flat or apartment covers each option in full.
 
 Why are apartments so much hotter than houses?
 
@@ -6418,7 +6419,7 @@ Listed buildings have no permitted development rights at all. Anything fixed to 
 
 Conservation areas keep permitted development but add a restriction: the outdoor unit must not sit nearer to a highway bounding the property than any part of the building. In practice that pushes it to a rear or side elevation, which is usually where you would want it anyway.
 
-Flats are covered but with tighter limits, and your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is a separate question from planning and it catches people out far more often than the planning rules do.
+Flats are covered but with tighter limits, and your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is a separate question from planning and it catches people out far more often than the planning rules do. The guide to air conditioning in a flat or apartment covers it step by step.
 
 Scheduled monuments are out entirely.
 
@@ -7225,16 +7226,170 @@ How accurate is this calculator?
 
 Close enough to set a budget and to spot someone selling you the wrong size, not close enough to order equipment from. It works from floor area and a handful of adjustments. A survey measures the real heat gain room by room, including walls, insulation and exactly which way the glass faces, and that is where the final size comes from.
 
+Free to use
+
 Writing about air conditioning?
 
-You are welcome to link to this calculator from an article, a forum answer or a guide. The address below always points at the current version.
+Link to this calculator from an article, a forum answer or a guide. It is free, there is nothing to sign up to, and the address always points at the current version.
 
-https://cool-in.co.uk/air-conditioning-size-calculator
-Or as a ready made link:
+Link to the calculator
 
-<a href="https://cool-in.co.uk/air-conditioning-size-calculator">Air conditioning size calculator</a>
+cool-in.co.uk/air-conditioning-size-calculator
+Copy link
+
+Copy as HTML
+Shows as: Air conditioning size calculator
 
 Free survey
+
+
+================================================================================
+URL: https://cool-in.co.uk/guides/air-conditioning-flat-or-apartment
+TITLE: Air conditioning in a flat or apartment
+DESCRIPTION: Yes, most flats and apartments can have air conditioning, but the lease usually decides. Where the outdoor unit goes, getting consent, and the options if not.
+================================================================================
+
+CoolIn / Guides / Can you fit air conditioning in a flat or apartment?
+
+Home air conditioning
+
+Can you fit air conditioning in a flat or apartment?
+
+By Zac Hancox, Founder of CoolIn
+
+The short answer
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally goes on a balcony, a flat roof or an outside wall, with the freeholder's written consent. Where no outdoor unit is allowed, a self contained unit with no outdoor part is the fallback.
+
+Most leases need the freeholder or managing agent to consent to anything fixed outside
+
+Permitted development covers flats in England, with tighter limits than for houses
+
+A listed building needs listed building consent, whatever the lease says
+
+On a modern block, a balcony is usually the easiest place for the outdoor unit
+
+One room from £1,850 fitted, two to five rooms from £3,450
+
+Domestic installations are zero rated for VAT until 31 March 2027
+
+Flats often get hotter than houses, and they are harder to fit. Most of the difficulty has nothing to do with the air conditioning itself. It comes down to who owns the outside of the building, and what they will let you fix to it.
+
+Who has to agree before air conditioning goes in?
+
+In a leasehold flat, which is most flats in England, you own the inside of your home and the freeholder owns the structure: the outside walls, the roof and often the balconies. Almost every lease needs the freeholder's or managing agent's written consent before anything is fixed to the outside or a hole goes through an outside wall. That consent is often called a licence for alterations.
+
+What they normally want to see is the equipment, where the outdoor unit would sit, its size and noise rating, how the pipework reaches it, and how the hole through the wall will be sealed. We put that information together at survey, because a vague request is the quickest way to a refusal. Some freeholders charge a fee to process a request, which they set, not the installer.
+
+If you rent, you also need your landlord's written permission, and your landlord will usually need the freeholder's consent in turn.
+
+Do I need planning permission for air conditioning in a flat?
+
+Usually not, in England, and planning is rarely the hurdle. The lease is. Permitted development covers flats as well as houses, but with tighter limits, and the noise standard still applies: 42 dB(A) at the nearest window of a room a neighbour lives in. Whether a particular position qualifies depends on the building, so we check it at survey.
+
+Two cases change the picture. A listed building needs listed building consent for anything fixed to it, whatever the lease says. In a conservation area the outdoor unit has to stay away from the road side of the building. The full planning rules set out every condition. Scotland, Wales and Northern Ireland have their own rules.
+
+Where does the outdoor unit go in a flat?
+
+There are three usual positions, and the building decides which is possible:
+
+On a balcony , standing on its own feet or a low bracket. On a modern block this is usually the easiest route, and it keeps the pipe run short.
+On an outside wall , on brackets, where the freeholder agrees. Often only possible on the lower floors or at the back of the building.
+On a flat roof or in a shared plant area , agreed with the building manager. Common in blocks that allow nothing on the outside walls, and for top floor flats.
+
+A balcony unit needs open air around it to get rid of the heat it takes out of your flat. An enclosed, glazed winter garden traps that heat, so it is not a suitable place for one.
+
+What if the building will not allow an outdoor unit?
+
+Then there are two realistic options.
+
+A self contained unit with no outdoor part. The whole machine sits inside, high on an outside wall, and breathes through two round holes of roughly 16 to 20 centimetres, which finish outside as small grilles. Freeholders who refuse an outdoor unit will often agree to this, though the holes still need their consent. The trade off is that the compressor is in the room with you, so it is louder than a split system and less efficient, and it suits a bedroom or study rather than a large open plan living room.
+
+A portable air conditioner. It needs no consent, which is its one real advantage. A single hose portable pushes room air out through the window hose and pulls warm air back in through the gaps to replace it, so it cools noticeably less than its label suggests, and it is noisy in the room. Where the windows only open a few inches for safety, the hose often does not fit properly either.
+
+My flat has MVHR. Is that air conditioning?
+
+No. Many newer apartments have mechanical ventilation with heat recovery, which swaps stale air for fresh and holds on to the heat in winter. Its summer bypass lets outside air in without warming it, but a standard system cannot make the air colder than it is outside, so on a hot afternoon it does not cool the flat.
+
+It is still worth running and keeping serviced, because a well ventilated flat is easier to keep cool. The ventilation page covers how it works alongside cooling.
+
+Why do flats overheat so much?
+
+Three things tend to stack up. Large areas of glass with little shading. Windows that only open a few inches for safety, so there is almost no breeze through the flat. And heat arriving from the homes around and below you, as well as from outside. Many apartments also face one direction only, so there is no cooler side of the flat to open up, and a top floor flat takes heat from the roof as well.
+
+What about Manchester's converted mills and apartment towers?
+
+Apartments in Manchester city centre and Salford Quays tend to fall into two groups, and each has its own catch.
+
+Converted mills and warehouses , in areas such as Ancoats and Castlefield, are often listed or sit in conservation areas. The outdoor unit usually has to go somewhere out of sight, and listed building consent may be needed. The walls are thick masonry, which is slow to drill through but good at holding a steady temperature.
+
+Newer towers are often glazed on one side, with balconies or winter gardens, and a building manager with firm rules about the outside. A balcony is usually the way in. In taller blocks, anything that passes through an outside wall must keep the building's fire protection intact, so expect the building manager to ask exactly how the hole will be sealed.
+
+There is more on each area on the Manchester and Salford pages.
+
+Will the neighbours hear it?
+
+In a flat your neighbours are above, below and beside you, so the position matters more than it does in a house. The noise standard is measured at the nearest window of a room a neighbour lives in, and most leases also forbid causing a nuisance. A balcony unit on anti vibration feet, away from the neighbours' bedroom windows and running its quiet night mode, is normally fine. We work out the noise at the nearest window for the proposed position at survey.
+
+Where does the water go?
+
+Every indoor unit takes water out of the air as it cools, and that condensate needs somewhere to drain. In a house it usually runs to a drain outside. In a flat it often joins an internal waste pipe, such as the kitchen sink or washing machine waste, through a trap, or a small pump lifts it where gravity will not. The route is planned at survey, so nothing drips onto the balcony below.
+
+What size unit does a flat need?
+
+Often smaller than the floor area suggests. A flat in the middle of a block shares its floors, ceilings and walls with homes that are heated and cooled too, so far less heat passes through them than through an outside wall. The exceptions are top floor flats, which take heat from the roof, and flats with a wall of south or west facing glass, which can need a size up.
+
+The size calculator gives you a starting figure, and the survey confirms it.
+
+What does it cost?
+
+A single room starts at £1,850 fitted and a multi split for two to five rooms at £3,450 installed , with no VAT to add until 31 March 2027. In a flat, the things that move the price are where the outdoor unit can go, the route the pipework has to take, and access above the ground floor. Any fee the freeholder charges for consent is separate and set by them. The domestic price list has the rest, and if you live in a house instead, the terraced house guide covers the rules there.
+
+Questions people ask next
+
+I rent my flat. Can I have air conditioning fitted?
+
+Only with your landlord's written permission, and in most blocks your landlord will also need the freeholder's consent. If you are only staying a short while, a portable unit needs no permission, though it cools far less than a fitted system.
+
+Can I put the outdoor unit on my balcony?
+
+Often, yes, and on a modern block it is usually the easiest position. It still needs the freeholder's or managing agent's consent under most leases. The unit needs open air around it, so an open balcony works but an enclosed, glazed winter garden does not.
+
+What does the freeholder usually ask for before giving consent?
+
+The make and model, where the outdoor unit would go and how big it is, its noise rating, the route of the pipework, and how the hole through the outside wall will be sealed. Some also charge a fee to process the request. A clear, complete request is the quickest way to a yes.
+
+How long does it take to fit air conditioning in a flat?
+
+The fitting itself is usually one day for a single room. Getting the freeholder's consent often takes longer than the installation, so it is worth starting that as soon as you know what you want.
+
+Can a unit with no outdoor part cool a whole flat?
+
+Usually not. It suits a bedroom or a study. For a living room and bedrooms together, a split system with one outdoor unit serving several rooms does far better, if the building allows an outdoor unit somewhere.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it is usually permitted development, so there is no planning application. The.
+
+Read the answer
 
 
 ================================================================================
@@ -7349,3 +7504,12 @@ Book a free survey
 See home air conditioning
 
 All guides
+
+More questions answered
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer

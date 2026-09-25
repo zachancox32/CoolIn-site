@@ -71,6 +71,7 @@ Each page answers one question people ask before buying, with the short
 answer first and Article plus FAQPage markup. These are kept current in
 place rather than dated.
 
+- [Air conditioning in a flat or apartment](https://cool-in.co.uk/guides/air-conditioning-flat-or-apartment): Yes, most flats and apartments can have air conditioning, but the lease usually decides. Where the outdoor unit goes, getting consent, and the options if not.
 - [Air conditioning in a terraced house](https://cool-in.co.uk/guides/air-conditioning-terraced-house): Yes, most terraced houses can have air conditioning, usually without planning permission. Where the outdoor unit goes, the one unit rule, and what it costs.
 
 ## Articles

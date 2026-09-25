@@ -30,7 +30,7 @@ The old requirement to keep the unit a metre from the boundary has gone entirely
 
 **Conservation areas** keep permitted development but add a restriction: the outdoor unit must not sit nearer to a highway bounding the property than any part of the building. In practice that pushes it to a rear or side elevation, which is usually where you would want it anyway.
 
-**Flats** are covered but with tighter limits, and your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is a separate question from planning and it catches people out far more often than the planning rules do.
+**Flats** are covered but with tighter limits, and your lease almost certainly requires the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is a separate question from planning and it catches people out far more often than the planning rules do. The [guide to air conditioning in a flat or apartment](/guides/air-conditioning-flat-or-apartment) covers it step by step.
 
 **Scheduled monuments** are out entirely.
 
