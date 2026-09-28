@@ -13,3 +13,4 @@ https://unsplash.com/license
 |---|---|---|---|
 | restaurant-*.jpg | /restaurant-air-conditioning hero | Mustafa Fatemi | https://unsplash.com/photos/a-restaurant-with-a-lot-of-tables-and-chairs-ZEfHrVDF3NM |
 | commercial-office-*.jpg | /commercial hero | not identified (Unsplash) | https://images.unsplash.com/photo-1586534313131-8b27a31f9894 |
+| manchester-skyline-*.jpg | /air-conditioning-manchester hero | Jonny Gios | https://unsplash.com/photos/city-skyline-with-illuminated-buildings-at-night-yyypijweyAQ |
