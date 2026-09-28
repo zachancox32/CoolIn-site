@@ -42,9 +42,16 @@ TAIL    = shell('FOOTER') + '\n</body>\n</html>\n'
 QUOTE   = re.search(r'<section class="quote-sec" id="quote">.*?\n</section>\n', COMM, re.S).group(0)
 
 
+def photo_srcset(ph):
+    return ', '.join(f"assets/img/photos/{ph['name']}-{w}.jpg {w}w" for w in ph['widths'])
+
+
 def head(s, slug):
     """The whole <head>, mirroring commercial.html so nothing drifts between them."""
     t, d, url = s['title'], s['desc'], f'{BASE}/{slug}'
+    ph = s.get('photo')
+    preload = (f'<link rel="preload" as="image" imagesrcset="{photo_srcset(ph)}" imagesizes="100vw" fetchpriority="high">\n'
+               if ph else '')
     return f'''<!doctype html>
 <html lang="en-GB">
 <head>
@@ -74,7 +81,7 @@ def head(s, slug):
 <meta name="geo.placename" content="Manchester">
 <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v={CSS_V}">
+{preload}<link rel="stylesheet" href="assets/css/style.css?v={CSS_V}">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{{opacity:1!important}}</style></noscript>
 __JSONLD__
 </head>
@@ -153,9 +160,20 @@ def build(s, others):
 
     siblings = '\n'.join(f'<li><a href="{o["slug"]}">{o["nav"]}</a></li>' for o in others)
 
+    ph = s.get('photo')
+    if ph:
+        # Decorative, so empty alt: it sets the scene and is not CoolIn's own work.
+        backdrop = (f'<img class="hero__photo" src="assets/img/photos/{ph["name"]}-{ph["widths"][1]}.jpg" '
+                    f'srcset="{photo_srcset(ph)}" sizes="100vw" alt="" '
+                    f'style="object-position:{ph["position"]}" fetchpriority="high" decoding="async">')
+        hero_cls = 'hero hero--inner hero--photo'
+    else:
+        backdrop = '<canvas id="scene" class="hero__canvas" aria-hidden="true"></canvas>'
+        hero_cls = 'hero hero--inner'
+
     body = f'''<!-- ============ HERO ============ -->
-<section class="hero hero--inner" id="hero">
-  <canvas id="scene" class="hero__canvas" aria-hidden="true"></canvas>
+<section class="{hero_cls}" id="hero">
+  {backdrop}
   <div class="hero__veil" aria-hidden="true"></div>
   <div class="wrap hero__in">
     <div class="hero__copy">

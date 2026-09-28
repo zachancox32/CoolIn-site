@@ -127,6 +127,15 @@ ul,ol{margin:0;padding:0;list-style:none}
 /* ---------- hero ---------- */
 .hero{position:relative;background:var(--navy);color:#CFE2EB;overflow:hidden;isolation:isolate}
 .hero__canvas{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}
+/* A photo in place of the air currents, on pages that have one. The navy veil is
+   heavier than over the animation, so the brand colour still leads and the
+   headline stays readable over any photo. On narrow screens the text runs the
+   full width, so the veil is even top to bottom there. */
+.hero__photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:0}
+.hero--photo .hero__veil{background:
+  radial-gradient(110% 90% at 80% 10%, rgba(94,195,224,.14), transparent 60%),
+  linear-gradient(100deg, rgba(13,43,56,.94) 26%, rgba(13,43,56,.72) 50%, rgba(13,43,56,.22) 100%)}
+@media (max-width:720px){.hero--photo .hero__veil{background:linear-gradient(180deg, rgba(13,43,56,.8), rgba(13,43,56,.9))}}
 .hero__veil{
   position:absolute;inset:0;z-index:1;pointer-events:none;
   background:

@@ -379,6 +379,8 @@ SECTORS = [
 # ------------------------------------------------------------ hospitality
 {
  'slug': 'restaurant-air-conditioning',
+ # Stock photo as hero atmosphere, credited in assets/img/photos/CREDITS.md.
+ 'photo': {'name': 'restaurant', 'widths': (900, 1400, 2000), 'position': 'center 32%'},
  'crumb': 'Restaurants and bars',
  'eyebrow': 'Restaurants, bars and kitchens',
  'h1a': 'Restaurant, bar and kitchen',
