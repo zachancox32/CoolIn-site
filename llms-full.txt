@@ -5,23 +5,23 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 25 September 2026.
+Generated 28 September 2026.
 
 
 
 ================================================================================
 URL: https://cool-in.co.uk/
-TITLE: Air Conditioning North West | Homes & Business
-DESCRIPTION: Air conditioning installed across the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your trading hours. Free survey.
+TITLE: Air Conditioning Manchester & the North West
+DESCRIPTION: Air conditioning fitted across Manchester and the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your hours. Free survey.
 ================================================================================
 
-Air conditioning across the North West
+Based in Manchester, covering the North West
 
-Air conditioning for the North West.
+Air conditioning for Manchester and the North West.
 Cool rooms in July,
 warm rooms in January.
 
-CoolIn design, install and look after air conditioning for homes and businesses across the North West. Fixed price quotes, clean installations, and one company answerable for the job from the first call to the last service.
+CoolIn design, install and look after air conditioning for homes and businesses across Manchester and the North West. Fixed price quotes, clean installations, and one company answerable for the job from the first call to the last service.
 
 Book a free survey
 See what we take on
@@ -94,7 +94,7 @@ VRF, cassettes, ducted and close control
 
 Evening and weekend installation
 
-F-Gas records and TM44 duties handled
+F-Gas and TM44 duties set out for you
 
 Maintenance contracts with priority response
 
@@ -3721,7 +3721,7 @@ Free survey
 
 ================================================================================
 URL: https://cool-in.co.uk/air-conditioning-manchester
-TITLE: Air Conditioning Manchester | Install & Service
+TITLE: Air Conditioning Installation Manchester
 DESCRIPTION: Air conditioning installation, servicing and repairs in Manchester. Mill conversions, city centre apartments and offices. Free survey, 0% VAT on domestic work.
 ================================================================================
 
@@ -3729,8 +3729,8 @@ CoolIn / Areas covered / Air conditioning in Manchester
 
 Manchester and Greater Manchester
 
-Air conditioning in
-Manchester
+Air conditioning installation
+in Manchester
 
 City centre apartments in converted mills, Victorian terraces in Chorlton and Didsbury, and office floors above shops on Deansgate. Manchester throws up more awkward outdoor unit positions than anywhere else we work, and most of them have a solution.
 

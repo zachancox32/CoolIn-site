@@ -40,7 +40,7 @@ rather than a measurement, the page says so and gives the assumptions.
 
 ## Main pages
 
-- [Air Conditioning North West | Homes & Business](https://cool-in.co.uk/): Air conditioning installed across the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your trading hours. Free survey.
+- [Air Conditioning Manchester & the North West](https://cool-in.co.uk/): Air conditioning fitted across Manchester and the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your hours. Free survey.
 - [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,850 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
 - [Air Conditioning Size Calculator (kW and BTU)](https://cool-in.co.uk/air-conditioning-size-calculator): Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.
 - [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, with your F-Gas and TM44 duties set out.
@@ -101,7 +101,7 @@ constraints and travel time. All 22 are linked from https://cool-in.co.uk/areas
 - [Air Conditioning Leigh | Install & Service](https://cool-in.co.uk/air-conditioning-leigh): Air conditioning in Leigh, Atherton and Tyldesley. Former mill and mining terraces, modern estates and local business units. Free survey, 0% VAT.
 - [Air Conditioning Liverpool | Install & Service](https://cool-in.co.uk/air-conditioning-liverpool): Air conditioning installation, servicing and repairs in Liverpool. Georgian terraces, waterfront apartments and hospitality. Coastal grade units where needed.
 - [Air Conditioning Macclesfield | Install & Service](https://cool-in.co.uk/air-conditioning-macclesfield): Air conditioning in Macclesfield, Prestbury and Bollington. Georgian and silk era property, listed buildings and Peak District edge. Free survey, 0% VAT.
-- [Air Conditioning Manchester | Install & Service](https://cool-in.co.uk/air-conditioning-manchester): Air conditioning installation, servicing and repairs in Manchester. Mill conversions, city centre apartments and offices. Free survey, 0% VAT on domestic work.
+- [Air Conditioning Installation Manchester](https://cool-in.co.uk/air-conditioning-manchester): Air conditioning installation, servicing and repairs in Manchester. Mill conversions, city centre apartments and offices. Free survey, 0% VAT on domestic work.
 - [Air Conditioning Northwich | Install & Service](https://cool-in.co.uk/air-conditioning-northwich): Air conditioning in Northwich, Knutsford and Winsford. Cheshire village property, riverside homes and chemical industry units. Free survey, 0% VAT.
 - [Air Conditioning Oldham | Install & Service](https://cool-in.co.uk/air-conditioning-oldham): Air conditioning and heat pumps in Oldham and Saddleworth. Stone terraces, Pennine weather and mill conversions. Free survey, 0% VAT on domestic work.
 - [Air Conditioning Preston | Install & Service](https://cool-in.co.uk/air-conditioning-preston): Air conditioning installation, servicing and repairs in Preston. New build overheating, stone terraces and business parks across central Lancashire.
