@@ -33,6 +33,7 @@ CURRENT = {
     'restaurant-air-conditioning.html': 'commercial',
     'gym-air-conditioning.html': 'commercial',
     'server-room-cooling.html': 'commercial',
+    'hvac-contractors.html': 'commercial',
     'warehouse-air-conditioning.html': 'commercial',
 }
 

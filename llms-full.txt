@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 28 September 2026.
+Generated 29 September 2026.
 
 
 
@@ -1322,7 +1322,7 @@ How it works
 
 How a commercial project runs
 
-Small jobs run from survey to installation inside two weeks. Larger fit outs are programmed around your trading hours, floor by floor if that is what it takes.
+Small jobs run from survey to installation inside two weeks. Larger fit outs are programmed around your trading hours, floor by floor if that is what it takes. If you are a contractor letting the air conditioning package on a fit-out, see HVAC packages for contractors .
 
 1
 Site survey
@@ -7513,3 +7513,256 @@ Can you fit air conditioning in a flat or apartment?
 Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
 
 Read the answer
+
+
+================================================================================
+URL: https://cool-in.co.uk/hvac-contractors
+TITLE: HVAC & Air Conditioning Contractor Manchester
+DESCRIPTION: HVAC and air conditioning packages for fit-out, main and M&E contractors across Manchester and the North West. Priced from drawings, fitted to your programme.
+================================================================================
+
+CoolIn / For your business / For contractors
+
+For fit-out, main and M&E contractors
+
+HVAC and air conditioning packages
+for contractors
+
+Send us the drawings, the specification and the programme. We price the air conditioning package, fit it around your sequence from first fix to commissioning, and hand over the documents your client needs at practical completion.
+
+Send us a tender
+What the package covers
+
+From drawings priced with the builder’s work listed
+Your programme first fix to handover
+Out of hours at standard labour rates
+
+In short
+
+Who we work with
+
+The package
+
+Programme
+
+Builder’s work
+
+FAQs
+
+Send a tender
+
+HVAC packages for contractors, in short
+
+CoolIn takes on the air conditioning and ventilation package, including heat pump heating, on commercial fit-outs, refurbishments and new builds across Manchester and the North West. We work for fit-out contractors, main contractors, M&E contractors and facilities management companies, from a single meeting room to VRF across several floors.
+
+Works for
+Fit-out, main and M&E contractors, and facilities management companies
+
+Packages
+Design and install, or install to your consultant’s design
+
+Systems
+Wall units, cassettes, ducted, VRF and VRV, close control, heat recovery ventilation
+
+Stages
+First fix, second fix, commissioning and handover
+
+Hours
+Days, evenings and weekends, phased around live buildings
+
+Area
+Greater Manchester, Cheshire, Merseyside and Lancashire
+
+Who we work with
+
+Air conditioning packages for fit-out, main and M&E contractors
+
+The package is the same shape whoever lets it: priced from the drawings, fitted to the programme, handed over with the paperwork. What changes is where it sits in the job.
+
+Office fit-out contractors
+
+Cat A and Cat B fit-outs, where the pipework has to be in the ceiling void before the grid goes up and the units move when the layout changes. Cassettes and VRF laid out around the partitions, with comms rooms cooled on their own.
+
+Cat A and Cat B fit-out
+
+Main contractors and builders
+
+New builds and refurbishments where the air conditioning is one package among many. We take it from the tender to the commissioning sheets, and list the builder’s work up front so it sits in your programme rather than arriving as a surprise.
+
+New build and refurbishment
+
+M&E contractors
+
+Where the air conditioning is part of a wider mechanical and electrical package, or you need a specialist to own it. We install to your design and drawings, or take on the design of the cooling ourselves.
+
+Install to your design
+
+Facilities management and property managers
+
+Replacing failed or end of life plant, adding cooling to a floor, and keeping it running afterwards, with planned maintenance on a schedule and TM44 and leak check dates flagged before they are due.
+
+Replacement and planned maintenance
+
+The package
+
+What the air conditioning package covers
+
+Design through to the O&M manuals, or any part of it. The systems and sectors are covered in more depth on the commercial page .
+
+01 Design and heat load
+Heat load worked out room by room, equipment selected and laid out, and pipework routes and electrical loads set out on a schedule you can price against.
+
+02 Supply and install
+Wall units, ceiling cassettes, ducted units and VRF or VRV systems, with the refrigerant pipework, condensate drainage and controls.
+
+03 Ventilation and heat recovery
+Mechanical ventilation, heat recovery units and kitchen extract with make up air , where the job needs air changed as well as cooled.
+
+04 Commissioning
+Pressure testing, evacuation and commissioning, with the readings recorded for the handover pack rather than written up from memory afterwards.
+
+05 Handover documents
+Commissioning sheets, the F-Gas record with the charge and CO2 equivalent, electrical certificates, O&M manuals and a walk through of the controls.
+
+06 After handover
+Servicing and planned maintenance through the defects period and beyond, so your client has one number to ring.
+
+Programme
+
+How we fit into your programme
+
+Air conditioning touches the ceiling, the walls, the roof and the electrics, so timing matters more than on most packages. This is the sequence we price and programme around.
+
+1
+Tender
+
+Priced from your drawings and specification, with the equipment schedule and a list of the builder’s work we need.
+
+Tell us the return date
+
+2
+First fix
+
+Refrigerant pipework, condensate drains and control cabling run in the ceiling void and risers before the ceilings close.
+
+Before the grid goes up
+
+3
+Second fix
+
+Indoor units into the ceiling grid or onto the walls, outdoor units set on their plinths or brackets, and the controls connected.
+
+After ceilings and decoration
+
+4
+Commissioning and handover
+
+Pressure tested, commissioned and handed over with the full document pack ahead of practical completion.
+
+Ready for practical completion
+
+Before we start
+
+Builder’s work, fit-out categories and handover
+
+The three things that most often decide whether an air conditioning package runs to programme or turns into a variation.
+
+What builder’s work does the air conditioning need?
+
+Every job needs some of this from the main contractor or other trades. We identify it all at tender, include what we can in our price, and list the rest so it is programmed rather than discovered.
+
+Core holes through external walls for the pipework
+
+Power supplies to the outdoor unit positions
+
+A route for condensate to a drain, or space for a pump
+
+Ceiling void depth for cassettes, usually around 300mm
+
+Plinths, a flat roof position or bracket fixings for outdoor units
+
+Safe access to the roof or to high level positions
+
+None of it should arrive later as an extra. If it is not in the tender, it is our miss, not yours.
+
+Air conditioning on Cat A and Cat B fit-outs
+
+On a Cat A fit-out the air conditioning is usually part of the base build: open plan zones served by cassettes or VRF, ready for whichever tenant arrives.
+
+On a Cat B fit-out the tenant’s layout arrives, so units move to suit meeting rooms and partitions, comms rooms get their own cooling, and the zones are rebalanced.
+
+Moving a Cat A system to suit a Cat B layout is often cheaper than it looks, because the outdoor plant usually stays where it is.
+
+What your client gets at handover
+
+Commissioning sheets for every unit, the F-Gas record with the charge and CO2 equivalent, electrical certificates, O&M manuals and warranty registration, plus a walk through of the controls with whoever runs the building.
+
+Where the building’s air conditioning is over the 12kW threshold, the TM44 inspection duty is flagged in the pack so it does not come as a surprise to the client later.
+
+The pack is prepared for practical completion rather than chased afterwards.
+
+We take on air conditioning packages across Manchester, Salford, Trafford Park and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
+
+Questions
+
+Questions contractors ask
+
+Can you price an air conditioning package from our drawings?
+
+Yes. Send the drawings, the specification and the tender return date, and we come back with a price, the equipment schedule and a list of the builder’s work. Where the drawings do not show enough, such as ceiling void depths or roof access, a short site visit fills the gap.
+
+Do you design the system or install to our consultant’s design?
+
+Either. We install to an M&E consultant’s design and specification, or take on the design of the air conditioning ourselves, with the heat load worked out room by room and the equipment schedule to match. Tell us which the job needs in the tender.
+
+When should the air conditioning installer start on a fit-out?
+
+At first fix, before the ceilings close. Refrigerant pipework, condensate drains and control cables all run in the ceiling void, so bringing the installer in late means opening ceilings again. Indoor units then go in at second fix, after ceilings and decoration.
+
+Can you work around a live building?
+
+Yes. Occupied offices, shops and restaurants are usually done in the evenings and at weekends at standard labour rates, and larger jobs are phased floor by floor so only one area is affected at a time.
+
+Do you take on small packages?
+
+Yes, from a single cassette in a meeting room to VRF across several floors. Small packages are often where a specialist saves the most time, because nobody else on site wants to own them.
+
+Can you look after the system after handover?
+
+Yes. Servicing and planned maintenance can start at handover and run through the defects period and beyond, so the client has one number to ring. We flag TM44 inspection dates and leak check dates where the system needs them.
+
+Tenders
+
+Send us the tender
+
+Tell us about the job and where to find the drawings. We come back with a price, or with the questions we need answered to price it properly.
+
+Priced from your drawings and specification
+
+Builder’s work listed in the tender
+
+Programmed around your sequence
+
+Handover documents prepared for practical completion
+
+Prefer to talk it through
+
+07391 523255
+
+Leave this empty
+
+Your name
+Company
+
+Email
+Phone
+
+Project and scope
+
+Site postcode
+Tender return date
+
+Link to the drawings
+Anything else
+Send the tender details
+We use these details to price this job and nothing else. No lists, no third parties.

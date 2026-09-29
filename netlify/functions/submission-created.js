@@ -50,10 +50,26 @@ const esc = (v) =>
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
+// Every field any form on the site can send, in the order the lead email
+// shows them. A field missing here is dropped from the email, so a new form
+// needs its fields added. company, project, tender and drawings come from the
+// contractor form on /hvac-contractors.
 const LABELS = {
-  name: 'Name', phone: 'Phone', email: 'Email', postcode: 'Postcode',
+  name: 'Name', company: 'Company', phone: 'Phone', email: 'Email', postcode: 'Postcode',
+  project: 'Project', tender: 'Tender return', drawings: 'Drawings',
   type: 'Property', rooms: 'Rooms', message: 'Message',
 };
+
+const isContractor = (payload) => payload.form_name === 'contractor';
+
+// A drawings link is only useful in the email if it can be clicked.
+function cell(k, v) {
+  if (k === 'drawings' && /^https?:\/\/\S+$/i.test(String(v).trim())) {
+    const u = esc(String(v).trim());
+    return `<a href="${u}" style="color:${BLUE}">${u}</a>`;
+  }
+  return `<strong>${esc(v)}</strong>`;
+}
 
 function leadEmail(d, meta) {
   const rows = Object.keys(LABELS)
@@ -61,7 +77,7 @@ function leadEmail(d, meta) {
     .map(
       (k) =>
         `<tr><td style="padding:6px 14px 6px 0;color:#667;white-space:nowrap;vertical-align:top">${LABELS[k]}</td>` +
-        `<td style="padding:6px 0;color:#111"><strong>${esc(d[k])}</strong></td></tr>`
+        `<td style="padding:6px 0;color:#111">${cell(k, d[k])}</td></tr>`
     )
     .join('');
   return `<div style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.55;color:#111">
@@ -85,6 +101,17 @@ function confirmEmail(d) {
     <li>A written quote, itemised and fixed, valid for 60 days. No sales visit.</li>
   </ol>
   <p style="margin:0 0 16px">If it is urgent, ring <a href="tel:+447391523255" style="color:${BLUE}">${PHONE}</a> and you will get someone rather than a machine.</p>
+  ${SIGNATURE}
+</div>`;
+}
+
+function contractorConfirmEmail(d) {
+  const first = String(d.name || '').trim().split(/\s+/)[0] || 'there';
+  const project = String(d.project || '').trim();
+  return `<div style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.6;color:#111;max-width:560px">
+  <p style="margin:0 0 16px">Hi ${esc(first)},</p>
+  <p style="margin:0 0 16px">Thanks for sending the details${project ? ` of <strong>${esc(project)}</strong>` : ''}. We will go through the drawings and specification and come back to you with a price, or with any questions we need answered to price it properly.</p>
+  <p style="margin:0 0 16px">If the tender return date is close, ring <a href="tel:+447391523255" style="color:${BLUE}">${PHONE}</a> and we will tell you straight away whether we can meet it.</p>
   ${SIGNATURE}
 </div>`;
 }
@@ -132,7 +159,9 @@ exports.handler = async (event) => {
         from,
         to: leadTo,
         reply_to: String(d.email || '').trim() || undefined,
-        subject: `New enquiry${where ? ` from ${where}` : ''}${d.name ? `: ${d.name}` : ''}`,
+        subject: isContractor(payload)
+          ? `New contractor enquiry: ${d.company || d.name || 'no company given'}${d.project ? `, ${d.project}` : ''}`
+          : `New enquiry${where ? ` from ${where}` : ''}${d.name ? `: ${d.name}` : ''}`,
         html: leadEmail(d, meta),
       })
     );
@@ -146,8 +175,8 @@ exports.handler = async (event) => {
       send(key, {
         from,
         to: [customer],
-        subject: 'We have your air conditioning enquiry',
-        html: confirmEmail(d),
+        subject: isContractor(payload) ? 'We have your tender details' : 'We have your air conditioning enquiry',
+        html: isContractor(payload) ? contractorConfirmEmail(d) : confirmEmail(d),
       })
     );
   }
