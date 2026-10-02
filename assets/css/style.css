@@ -355,6 +355,10 @@ ul,ol{margin:0;padding:0;list-style:none}
 .footer{background:var(--navy);color:#9EBDCA;padding:64px 0 0;font-size:.93rem}
 .footer__top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.1fr;gap:44px;padding-bottom:48px}
 .footer__brand p{margin:20px 0 0;max-width:330px;font-size:.92rem}
+.footer__social{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.footer__social a{display:inline-flex;align-items:center;gap:8px;color:#BDD5E0;border:1px solid rgba(255,255,255,.16);border-radius:60px;padding:7px 14px 7px 11px;font-size:.84rem;font-weight:500;transition:border-color .25s var(--ease),color .25s var(--ease)}
+.footer__social a:hover{color:#fff;border-color:var(--ice)}
+.footer__social svg{width:16px;height:16px;fill:currentColor;flex:none}
 .footer__col h4{color:#fff;margin-bottom:18px}
 .footer__col ul{display:flex;flex-direction:column;gap:11px}
 .footer__col a{color:#8FA9B6}
