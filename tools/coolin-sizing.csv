@@ -32,10 +32,10 @@ Loft office,3.0,3.8,Vaulted,Average,y,1,Office,"=IF(B20="""","""",ROUND(B20*C20,
 "Unit sizes and installed guide prices, single wall unit"
 ,2.0,1650
 ,2.5,1650
-,3.5,1995
-,5.0,2280
-,6.0,2650
-,7.1,2950
+,3.5,1850
+,5.0,2150
+,6.0,2450
+,7.1,2750
 
 Careful with the money column
 Guide prices are one wall unit installed in one room.

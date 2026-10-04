@@ -254,7 +254,7 @@ change, so re-check before a rewrite.
 
 Every price on the page is indicative and needs replacing with yours.
 
-- Price guide: one room £1,650 to £2,950, multi split £3,450 to £8,200, console £2,150,
+- Price guide: one room £1,650 to £2,750, multi split £3,450 to £8,200, console £2,150,
   cassette £2,450, ducted £3,500
 - The typical install panel in the Why section, currently £1,650
 - Service plans: £89, £149 and £229 per unit per year, and £129 for a one off service

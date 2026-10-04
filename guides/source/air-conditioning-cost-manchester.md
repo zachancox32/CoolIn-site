@@ -34,9 +34,9 @@ A single wall mounted split, with one indoor unit and one outdoor unit, is the m
 | Unit size | Usually suits | Installed price |
 |---|---|---|
 | 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,650 |
-| 3.5 kW | Rooms up to about 22m², such as a double bedroom or small lounge | £1,995 |
-| 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,280 |
-| 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,950 |
+| 3.5 kW | Rooms up to about 22m², such as a double bedroom or small lounge | £1,850 |
+| 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,150 |
+| 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,750 |
 
 South facing glass, a room in the roof or a high ceiling can push a room up a size. The [size calculator](/air-conditioning-size-calculator) works out a starting figure for any room in under a minute.
 
