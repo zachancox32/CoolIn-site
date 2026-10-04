@@ -142,6 +142,16 @@ exports.handler = async (event) => {
   }
 
   const d = payload.data || {};
+
+  // A submission with no way to reply to it is a bot. The forms require these
+  // fields, but anything posting straight to Netlify skips the browser, so
+  // check here too rather than emailing an empty "new enquiry".
+  const contactable = ['name', 'phone', 'email'].some((k) => String(d[k] || '').trim());
+  if (!contactable) {
+    console.log('empty submission ignored', payload.form_name || '');
+    return { statusCode: 200, body: 'empty' };
+  }
+
   const from = process.env.MAIL_FROM;
   if (!from) {
     console.log('MAIL_FROM not set, no email sent');
