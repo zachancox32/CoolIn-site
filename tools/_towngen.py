@@ -123,7 +123,7 @@ def build(t, neighbours):
         <a href="/">CoolIn</a><span aria-hidden="true">/</span><a href="areas">Areas covered</a><span aria-hidden="true">/</span><span aria-current="page">{town}</span>
       </nav>
       <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>{town} and {county}</p>
-      <h1 class="js-hero">Air conditioning in<br><span class="grad">{town}</span></h1>
+      <h1 class="js-hero">Air conditioning installation<br><span class="grad">in {town}</span></h1>
       <p class="lede js-hero">{t['intro']}</p>
       <div class="hero__btns js-hero">
         <a class="btn btn--primary btn--lg" href="#quote">Book a free survey</a>
