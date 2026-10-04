@@ -1593,7 +1593,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We fit office systems across Manchester city centre, Salford Quays, Spinningfields and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -1828,7 +1828,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We fit retail systems across Manchester, the Trafford Centre area, Altrincham, Wilmslow and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -2063,7 +2063,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We fit hospitality systems across Manchester city centre, Ancoats, the Northern Quarter, Chorlton and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -2298,7 +2298,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We fit gym and studio systems across Manchester, Salford, Stockport, Altrincham and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -2533,7 +2533,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We cool server and comms rooms across Manchester, Salford Quays, Warrington, Stockport and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -2768,7 +2768,7 @@ How it works
 
 Survey, fixed quote, fitted around you
 
-A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns .
+A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the commercial page , along with servicing plans and what to do about breakdowns . Guide prices for every type of system are in our guide to what air conditioning costs in Manchester , and contractors letting the package can see HVAC packages for contractors .
 
 We work on industrial sites across Trafford Park, Salford, Warrington, Wigan, Bolton and the wider North West, including Manchester , Salford , Stockport , Warrington and Liverpool . See every town we cover .
 
@@ -3402,7 +3402,7 @@ per project
 Air handling units that filter, heat, cool and distribute in one plant item, plus finer filter grades where pollen, dust or clinical requirements mean the standard cassette is not enough.
 
 Best for
-Larger buildings, treatment rooms, gyms, manufacturing
+Larger buildings, treatment rooms, gyms , manufacturing
 
 Worth knowing
 Finer filters restrict airflow, so the fan has to be specified for the filter, not the other way round.
@@ -3427,7 +3427,7 @@ My commercial kitchen extract is too weak. Can you fix it?
 
 Usually, and the cause is often not the fan. A canopy pulling air out of a sealed kitchen has to get replacement air from somewhere, and if there is no make up air supply the fan is fighting a vacuum. Doors get hard to open, the extract rate collapses and the room fills with heat.
 
-The fix is a make up air system supplying tempered fresh air at the same rate the canopy removes it. We survey the canopy, measure the actual extract rate and size the supply to match.
+The fix is a make up air system supplying tempered fresh air at the same rate the canopy removes it. We survey the canopy, measure the actual extract rate and size the supply to match. There is more on restaurant and commercial kitchen air conditioning on its own page.
 
 Can ventilation help with damp and mould?
 
@@ -3801,7 +3801,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -3814,6 +3814,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -3922,7 +3924,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -3935,6 +3937,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4043,7 +4047,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4056,6 +4060,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4164,7 +4170,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4177,6 +4183,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4285,7 +4293,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4298,6 +4306,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4406,7 +4416,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4419,6 +4429,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4527,7 +4539,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4540,6 +4552,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4648,7 +4662,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4661,6 +4675,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4769,7 +4785,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4782,6 +4798,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -4890,7 +4908,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -4903,6 +4921,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5011,7 +5031,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5024,6 +5044,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5132,7 +5154,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5145,6 +5167,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5253,7 +5277,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5266,6 +5290,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5374,7 +5400,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5387,6 +5413,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5495,7 +5523,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5508,6 +5536,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5616,7 +5646,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5629,6 +5659,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5737,7 +5769,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5750,6 +5782,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5858,7 +5892,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5871,6 +5905,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -5979,7 +6015,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -5992,6 +6028,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -6100,7 +6138,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -6113,6 +6151,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -6221,7 +6261,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -6234,6 +6274,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -6342,7 +6384,7 @@ Everything from one bedroom unit to a full fit out
 Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
-Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
+Offices , shops , kitchens , gyms , server rooms and warehouses , designed around your heat load and fitted around your trading hours.
 
 03 Servicing and maintenance
 Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.
@@ -6355,6 +6397,8 @@ Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heati
 
 06 Ventilation
 Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.
+
+Before you book, see what air conditioning costs , size a room with the size calculator , or read our guides to terraced houses , flats and apartments and choosing a brand .
 
 Nearby
 
@@ -7351,7 +7395,7 @@ Less than most people expect. At an electricity price of 25p per unit, a 2.5kW b
 | Holding the temperature | about 0.3 kW | about 7p
 | Working hard on a hot afternoon | about 0.65 kW | about 16p
 
-The full working, including heating costs and the comparison with a fan heater, is in the running costs article .
+The full working, including heating costs and the comparison with a fan heater, is in the running costs article . If you are weighing it up against gas central heating, see should you heat with air conditioning instead of the gas boiler?
 
 How much does servicing and repair cost?
 
@@ -7997,7 +8041,7 @@ The package is the same shape whoever lets it: priced from the drawings, fitted 
 
 Office fit-out contractors
 
-Cat A and Cat B fit-outs, where the pipework has to be in the ceiling void before the grid goes up and the units move when the layout changes. Cassettes and VRF laid out around the partitions, with comms rooms cooled on their own.
+Cat A and Cat B fit-outs, where the pipework has to be in the ceiling void before the grid goes up and the units move when the layout changes. Cassettes and VRF laid out around the partitions, with comms rooms cooled on their own .
 
 Cat A and Cat B fit-out
 
@@ -8023,7 +8067,7 @@ The package
 
 What the air conditioning package covers
 
-Design through to the O&M manuals, or any part of it. The systems and sectors are covered in more depth on the commercial page .
+Design through to the O&M manuals, or any part of it. The systems and sectors are covered in more depth on the commercial page , with pages for office air conditioning , restaurants and commercial kitchens and warehouses and industrial units .
 
 01 Design and heat load
 Heat load worked out room by room, equipment selected and laid out, and pipework routes and electrical loads set out on a schedule you can price against.

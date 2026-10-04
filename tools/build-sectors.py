@@ -287,7 +287,7 @@ def build(s, others):
     <header class="sec-head sec-head--center">
       <p class="eyebrow js-up"><span class="eyebrow__mark"></span>How it works</p>
       <h2 class="js-up">Survey, fixed quote, fitted around you</h2>
-      <p class="sec-head__sub js-up">A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the <a href="commercial#process">commercial page</a>, along with <a href="servicing">servicing plans</a> and what to do about <a href="repairs">breakdowns</a>.</p>
+      <p class="sec-head__sub js-up">A free survey, a written price with the heat load working shown, and a programme set around your hours. The four stages are the same on every commercial job and are set out in full on the <a href="commercial#process">commercial page</a>, along with <a href="servicing">servicing plans</a> and what to do about <a href="repairs">breakdowns</a>. Guide prices for every type of system are in our guide to <a href="guides/air-conditioning-cost-manchester">what air conditioning costs in Manchester</a>, and contractors letting the package can see <a href="hvac-contractors">HVAC packages for contractors</a>.</p>
     </header>
   </div>
 </section>

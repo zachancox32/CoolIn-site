@@ -176,12 +176,19 @@ def build(t, neighbours):
     </header>
     <div class="truths">
       <article class="truth js-card"><span class="truth__n">01</span><h3><a href="domestic">Home air conditioning</a></h3><p>Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.</p></article>
-      <article class="truth js-card"><span class="truth__n">02</span><h3><a href="commercial">Commercial installation</a></h3><p>Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.</p></article>
+      <article class="truth js-card"><span class="truth__n">02</span><h3><a href="commercial">Commercial installation</a></h3><p><a href="office-air-conditioning">Offices</a>, <a href="retail-air-conditioning">shops</a>, <a href="restaurant-air-conditioning">kitchens</a>, <a href="gym-air-conditioning">gyms</a>, <a href="server-room-cooling">server rooms</a> and <a href="warehouse-air-conditioning">warehouses</a>, designed around your heat load and fitted around your trading hours.</p></article>
       <article class="truth js-card"><span class="truth__n">03</span><h3><a href="servicing">Servicing and maintenance</a></h3><p>Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.</p></article>
       <article class="truth js-card"><span class="truth__n">04</span><h3><a href="repairs">Repairs and callouts</a></h3><p>All makes and models, £95 for the first hour, with the common parts carried on the van.</p></article>
       <article class="truth js-card"><span class="truth__n">05</span><h3><a href="heat-pumps">Air source heat pumps</a></h3><p>Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit.</p></article>
       <article class="truth js-card"><span class="truth__n">06</span><h3><a href="ventilation">Ventilation</a></h3><p>Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.</p></article>
     </div>
+  </div>
+</section>
+
+<!-- ============ GUIDES STRIP ============ -->
+<section class="areas-strip" aria-label="Guides">
+  <div class="wrap">
+    <p class="js-up">Before you book, see <a href="guides/air-conditioning-cost-manchester">what air conditioning costs</a>, size a room with the <a href="air-conditioning-size-calculator">size calculator</a>, or read our guides to <a href="guides/air-conditioning-terraced-house">terraced houses</a>, <a href="guides/air-conditioning-flat-or-apartment">flats and apartments</a> and <a href="guides/best-air-conditioning-brands">choosing a brand</a>.</p>
   </div>
 </section>
 

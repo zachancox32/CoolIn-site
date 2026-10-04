@@ -101,7 +101,7 @@ Less than most people expect. At an electricity price of 25p per unit, a 2.5kW b
 | Holding the temperature | about 0.3 kW | about 7p |
 | Working hard on a hot afternoon | about 0.65 kW | about 16p |
 
-The full working, including heating costs and the comparison with a fan heater, is in the [running costs article](/blog/air-conditioning-running-costs).
+The full working, including heating costs and the comparison with a fan heater, is in the [running costs article](/blog/air-conditioning-running-costs). If you are weighing it up against gas central heating, see [should you heat with air conditioning instead of the gas boiler?](/blog/air-conditioning-vs-gas-boiler-heating)
 
 ## How much does servicing and repair cost?
 
