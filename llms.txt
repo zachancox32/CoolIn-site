@@ -16,7 +16,7 @@ rather than a measurement, the page says so and gives the assumptions.
 
 - Facebook: https://www.facebook.com/coolinMCR
 - LinkedIn: https://www.linkedin.com/company/cool-in/
-- Domestic installation: from £1,850 fitted for a 2.5kW wall mounted system
+- Domestic installation: from £1,650 fitted for a 2.5kW wall mounted system
 - Domestic VAT: 0% until 31 March 2027 under the energy saving materials relief
 - Commercial installation: priced per project; from £2,280 for a single 5kW wall unit
 - Servicing: from £89 per indoor unit per year; one off service £129
@@ -42,14 +42,14 @@ rather than a measurement, the page says so and gives the assumptions.
 
 ## Main pages
 
-- [Air Conditioning Manchester & the North West](https://cool-in.co.uk/): Air conditioning installation across Manchester and the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your hours. Free survey.
-- [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,850 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
+- [Air Conditioning Manchester & the North West](https://cool-in.co.uk/): Air conditioning installation across Manchester and the North West. Homes from £1,650 with 0% VAT, commercial systems fitted around your hours. Free survey.
+- [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,650 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
 - [Air Conditioning Size Calculator (kW and BTU)](https://cool-in.co.uk/air-conditioning-size-calculator): Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.
 - [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, with your F-Gas and TM44 duties set out.
 - [HVAC & Air Conditioning Contractor Manchester](https://cool-in.co.uk/hvac-contractors): HVAC and air conditioning packages for fit-out, main and M&E contractors across Manchester and the North West. Priced from drawings, fitted to your programme.
 - [Air Conditioning Servicing North West](https://cool-in.co.uk/servicing): Air conditioning service plans from £89 per unit a year. Annual servicing keeps your manufacturer warranty valid. All makes, F-Gas checks included.
 - [Air Conditioning Repairs North West](https://cool-in.co.uk/repairs): Air conditioning repairs on all makes across the North West. £95 for the first hour, parts carried on the van, most faults fixed on the first visit.
-- [Air Source Heat Pumps North West](https://cool-in.co.uk/heat-pumps): Air to air heat pumps from £1,850 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
+- [Air Source Heat Pumps North West](https://cool-in.co.uk/heat-pumps): Air to air heat pumps from £1,650 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
 - [Ventilation & MVHR North West](https://cool-in.co.uk/ventilation): Ventilation and air quality across the North West. Heat recovery, kitchen extract and make up air, and filtration. Fitted alongside air conditioning.
 - [Areas Covered | Air Conditioning North West](https://cool-in.co.uk/areas): CoolIn covers Greater Manchester, Cheshire, Merseyside and Lancashire from a base in Manchester. No travel charge inside the area, free survey wherever you are.
 - [About CoolIn | Air Conditioning, Manchester](https://cool-in.co.uk/about): CoolIn Air Conditioning Specialists install air conditioning across the North West from Manchester. Free survey, fixed quotes, two year workmanship guarantee.
@@ -74,7 +74,7 @@ Each page answers one question people ask before buying, with the short
 answer first and Article plus FAQPage markup. These are kept current in
 place rather than dated.
 
-- [Air conditioning cost in Manchester (2026)](https://cool-in.co.uk/guides/air-conditioning-cost-manchester): Air conditioning in Manchester costs from £1,850 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
+- [Air conditioning cost in Manchester (2026)](https://cool-in.co.uk/guides/air-conditioning-cost-manchester): Air conditioning in Manchester costs from £1,650 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
 - [Air conditioning in a flat or apartment](https://cool-in.co.uk/guides/air-conditioning-flat-or-apartment): Yes, most flats and apartments can have air conditioning, but the lease usually decides. Where the outdoor unit goes, getting consent, and the options if not.
 - [Air conditioning in a terraced house](https://cool-in.co.uk/guides/air-conditioning-terraced-house): Yes, most terraced houses can have air conditioning, usually without planning permission. Where the outdoor unit goes, the one unit rule, and what it costs.
 - [Best air conditioning brands compared](https://cool-in.co.uk/guides/best-air-conditioning-brands): Daikin, Mitsubishi Electric, Samsung and seven more brands compared: noise, ranges, apps and warranties, and which suits a bedroom, an office or a tight budget.

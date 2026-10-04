@@ -30,8 +30,8 @@ Loft office,3.0,3.8,Vaulted,Average,y,1,Office,"=IF(B20="""","""",ROUND(B20*C20,
 ,,,,,,,Total load,"=IF(COUNT(J18:J29)=0,"""",ROUND(SUM(J18:J29),1))",kW
 
 "Unit sizes and installed guide prices, single wall unit"
-,2.0,1850
-,2.5,1850
+,2.0,1650
+,2.5,1650
 ,3.5,1995
 ,5.0,2280
 ,6.0,2650

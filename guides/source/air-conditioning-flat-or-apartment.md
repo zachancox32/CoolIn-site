@@ -6,7 +6,7 @@ key_facts:
   - Permitted development covers flats in England, with tighter limits than for houses
   - A listed building needs listed building consent, whatever the lease says
   - On a modern block, a balcony is usually the easiest place for the outdoor unit
-  - One room from £1,850 fitted, two to five rooms from £3,450
+  - One room from £1,650 fitted, two to five rooms from £3,450
   - Domestic installations are zero rated for VAT until 31 March 2027
 service: domestic
 seo_title: Air conditioning in a flat or apartment
@@ -95,4 +95,4 @@ The [size calculator](/air-conditioning-size-calculator) gives you a starting fi
 
 ## What does it cost?
 
-A single room starts at **£1,850 fitted** and a multi split for two to five rooms at **£3,450 installed**, with no VAT to add until 31 March 2027. In a flat, the things that move the price are where the outdoor unit can go, the route the pipework has to take, and access above the ground floor. Any fee the freeholder charges for consent is separate and set by them. The [domestic price list](/domestic#prices) has the rest, and if you live in a house instead, the [terraced house guide](/guides/air-conditioning-terraced-house) covers the rules there.
+A single room starts at **£1,650 fitted** and a multi split for two to five rooms at **£3,450 installed**, with no VAT to add until 31 March 2027. In a flat, the things that move the price are where the outdoor unit can go, the route the pipework has to take, and access above the ground floor. Any fee the freeholder charges for consent is separate and set by them. The [domestic price list](/domestic#prices) has the rest, and if you live in a house instead, the [terraced house guide](/guides/air-conditioning-terraced-house) covers the rules there.

@@ -1,8 +1,8 @@
 ---
 title: How much does air conditioning cost in Manchester?
-answer: A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT until 31 March 2027. These are installed prices covering the units, up to five metres of pipe, the electrical connection, commissioning and your first annual service.
+answer: A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT until 31 March 2027. These are installed prices covering the units, up to five metres of pipe, the electrical connection, commissioning and your first annual service.
 key_facts:
-  - One room from £1,850 fitted, for a 2.5kW wall unit
+  - One room from £1,650 fitted, for a 2.5kW wall unit
   - Two to five rooms on one outdoor unit from £3,450
   - No VAT on domestic installations until 31 March 2027
   - Up to five metres of pipe, the electrics and commissioning included
@@ -10,7 +10,7 @@ key_facts:
   - Servicing from £89 per indoor unit per year
 service: domestic
 seo_title: Air conditioning cost in Manchester (2026)
-description: Air conditioning in Manchester costs from £1,850 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
+description: Air conditioning in Manchester costs from £1,650 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
 author: zac-hancox
 updated: 2026-10-04
 faqs:
@@ -33,7 +33,7 @@ A single wall mounted split, with one indoor unit and one outdoor unit, is the m
 
 | Unit size | Usually suits | Installed price |
 |---|---|---|
-| 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,850 |
+| 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,650 |
 | 3.5 kW | Rooms up to about 22m², such as a double bedroom or small lounge | £1,995 |
 | 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,280 |
 | 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,950 |

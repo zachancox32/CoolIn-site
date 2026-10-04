@@ -12,7 +12,7 @@ Generated 4 October 2026.
 ================================================================================
 URL: https://cool-in.co.uk/
 TITLE: Air Conditioning Manchester & the North West
-DESCRIPTION: Air conditioning installation across Manchester and the North West. Homes from £1,850 with 0% VAT, commercial systems fitted around your hours. Free survey.
+DESCRIPTION: Air conditioning installation across Manchester and the North West. Homes from £1,650 with 0% VAT, commercial systems fitted around your hours. Free survey.
 ================================================================================
 
 Based in Manchester, covering the North West
@@ -49,10 +49,10 @@ Get in touch
 
 CoolIn in short
 
-CoolIn installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,850 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
+CoolIn installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,650 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
 
 Domestic from
-£1,850 fitted, 0% VAT
+£1,650 fitted, 0% VAT
 
 Commercial
 Priced per project after survey
@@ -84,7 +84,7 @@ Heats through winter as well as cooling
 
 Zero rated for VAT until March 2027
 
-from £1,850 fitted, no VAT to add
+from £1,650 fitted, no VAT to add
 Domestic air conditioning
 
 For your business
@@ -214,7 +214,7 @@ Commissioning readings, the manufacturer warranty registered in your name, certi
 
 Typical home install, guide price
 
-£1,850 fitted, inc VAT
+£1,650 fitted, inc VAT
 
 2.5kW wall unit, quiet rated Included
 
@@ -392,7 +392,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/domestic
 TITLE: Home Air Conditioning North West | 0% VAT
-DESCRIPTION: Home air conditioning from £1,850 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
+DESCRIPTION: Home air conditioning from £1,650 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
 ================================================================================
 
 CoolIn / For your home
@@ -407,7 +407,7 @@ One room or the whole house, fitted to a specification we survey and write down.
 Book a free survey
 See prices
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT until March 2027
 
@@ -437,7 +437,7 @@ Wall mounted split
 
 One room, one indoor unit
 
-from £1,850installed
+from £1,650installed
 
 One indoor unit, one outdoor unit, surface trunking
 
@@ -511,10 +511,10 @@ Keep furniture clear of the front and top. Blocking it costs you more output tha
 
 Home air conditioning in short
 
-A domestic air conditioning system is an air to air heat pump : it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,850 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
+A domestic air conditioning system is an air to air heat pump : it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,650 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
 
 One room
-From £1,850 fitted, 2.5kW, rooms to 15m²
+From £1,650 fitted, 2.5kW, rooms to 15m²
 
 Whole home
 From £3,450 for two rooms on one outdoor unit
@@ -601,7 +601,7 @@ Loft conversion or room in the roof
 
 Points at a 2.5kW wall unit
 
-from £1,850 fitted, 0% VAT
+from £1,650 fitted, 0% VAT
 
 Based on a starting point of 155W per square metre, adjusted for height, aspect, occupancy and use. Both the size and the price are guides. A survey confirms the real figures before anything is ordered.
 
@@ -620,7 +620,7 @@ One room
 
 Single wall mounted split, installed
 
-2.5 kW, rooms to 15m² £1,850
+2.5 kW, rooms to 15m² £1,650
 
 3.5 kW, rooms to 22m² £1,995
 
@@ -1079,7 +1079,7 @@ Wall mounted split
 
 One room, one indoor unit
 
-from £1,850installed
+from £1,650installed
 
 One unit, one condenser, the same as a home install
 
@@ -3154,7 +3154,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/heat-pumps
 TITLE: Air Source Heat Pumps North West
-DESCRIPTION: Air to air heat pumps from £1,850 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
+DESCRIPTION: Air to air heat pumps from £1,650 with 0% VAT. Around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit. Compared to air to water.
 ================================================================================
 
 CoolIn / Air source heat pumps
@@ -3186,7 +3186,7 @@ Seasonal efficiency
 SCOP around 4.5, so 4.5kWh of heat per 1kWh of electricity
 
 Installed cost
-From £1,850 for one room, zero rated for VAT until 31 March 2027
+From £1,650 for one room, zero rated for VAT until 31 March 2027
 
 Grant eligible
 No. The Boiler Upgrade Scheme covers air to water and ground source only
@@ -3208,7 +3208,7 @@ Air to air compared with air to water heat pumps
 
 | Delivers heat through | A fan coil in the room | Radiators or underfloor pipes
 
-| Typical installed cost | £1,850 to £8,200 | £8,000 to £16,000
+| Typical installed cost | £1,650 to £8,200 | £8,000 to £16,000
 
 | VAT | 0% until 31 March 2027 | 0% until 31 March 2027
 
@@ -3745,7 +3745,7 @@ See prices
 
 20 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -3766,7 +3766,7 @@ Travel time
 About 20 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -3798,7 +3798,7 @@ What we do in Manchester
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -3866,7 +3866,7 @@ See prices
 
 45 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -3887,7 +3887,7 @@ Travel time
 About 45 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -3919,7 +3919,7 @@ What we do in Liverpool
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -3987,7 +3987,7 @@ See prices
 
 25 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4008,7 +4008,7 @@ Travel time
 About 25 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4040,7 +4040,7 @@ What we do in Stockport
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4108,7 +4108,7 @@ See prices
 
 50 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4129,7 +4129,7 @@ Travel time
 About 50 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4161,7 +4161,7 @@ What we do in Chester
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4229,7 +4229,7 @@ See prices
 
 45 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4250,7 +4250,7 @@ Travel time
 About 45 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4282,7 +4282,7 @@ What we do in Preston
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4350,7 +4350,7 @@ See prices
 
 30 minutes from our unit
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4371,7 +4371,7 @@ Travel time
 About 30 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4403,7 +4403,7 @@ What we do in Bolton
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4471,7 +4471,7 @@ See prices
 
 15 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4492,7 +4492,7 @@ Travel time
 About 15 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4524,7 +4524,7 @@ What we do in Altrincham
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4592,7 +4592,7 @@ See prices
 
 25 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4613,7 +4613,7 @@ Travel time
 About 25 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4645,7 +4645,7 @@ What we do in Wilmslow
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4713,7 +4713,7 @@ See prices
 
 30 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4734,7 +4734,7 @@ Travel time
 About 30 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4766,7 +4766,7 @@ What we do in Warrington
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4834,7 +4834,7 @@ See prices
 
 15 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4855,7 +4855,7 @@ Travel time
 About 15 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -4887,7 +4887,7 @@ What we do in Salford
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -4955,7 +4955,7 @@ See prices
 
 30 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -4976,7 +4976,7 @@ Travel time
 About 30 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5008,7 +5008,7 @@ What we do in Oldham
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5076,7 +5076,7 @@ See prices
 
 35 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5097,7 +5097,7 @@ Travel time
 About 35 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5129,7 +5129,7 @@ What we do in Rochdale
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5197,7 +5197,7 @@ See prices
 
 30 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5218,7 +5218,7 @@ Travel time
 About 30 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5250,7 +5250,7 @@ What we do in Bury
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5318,7 +5318,7 @@ See prices
 
 45 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5339,7 +5339,7 @@ Travel time
 About 45 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5371,7 +5371,7 @@ What we do in Macclesfield
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5439,7 +5439,7 @@ See prices
 
 35 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5460,7 +5460,7 @@ Travel time
 About 35 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5492,7 +5492,7 @@ What we do in Wigan
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5560,7 +5560,7 @@ See prices
 
 60 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5581,7 +5581,7 @@ Travel time
 About 60 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5613,7 +5613,7 @@ What we do in Southport
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5681,7 +5681,7 @@ See prices
 
 50 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5702,7 +5702,7 @@ Travel time
 About 50 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5734,7 +5734,7 @@ What we do in Blackburn
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5802,7 +5802,7 @@ See prices
 
 50 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5823,7 +5823,7 @@ Travel time
 About 50 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5855,7 +5855,7 @@ What we do in Crewe
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -5923,7 +5923,7 @@ See prices
 
 40 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -5944,7 +5944,7 @@ Travel time
 About 40 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -5976,7 +5976,7 @@ What we do in Northwich
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -6044,7 +6044,7 @@ See prices
 
 30 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -6065,7 +6065,7 @@ Travel time
 About 30 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -6097,7 +6097,7 @@ What we do in Leigh
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -6165,7 +6165,7 @@ See prices
 
 25 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -6186,7 +6186,7 @@ Travel time
 About 25 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -6218,7 +6218,7 @@ What we do in Ashton under Lyne
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -6286,7 +6286,7 @@ See prices
 
 75 minutes from our base
 
-£1,850 one room, fitted
+£1,650 one room, fitted
 
 0% VAT on domestic work
 
@@ -6307,7 +6307,7 @@ Travel time
 About 75 minutes from our Manchester base
 
 Domestic from
-£1,850 fitted, zero rated for VAT until 31 March 2027
+£1,650 fitted, zero rated for VAT until 31 March 2027
 
 Services
 Installation, servicing, repairs, heat pumps, ventilation
@@ -6339,7 +6339,7 @@ What we do in Lancaster
 Everything from one bedroom unit to a full fit out
 
 01 Home air conditioning
-Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.
+Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.
 
 02 Commercial installation
 Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.
@@ -7097,7 +7097,7 @@ Loft conversion or room in the roof
 
 Points at a 2.5kW wall unit
 
-from £1,850 fitted, 0% VAT
+from £1,650 fitted, 0% VAT
 
 Book the survey that confirms it
 Guide prices, installed, for a single wall unit. A survey confirms the size and price before anything is ordered.
@@ -7252,7 +7252,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/guides/air-conditioning-cost-manchester
 TITLE: Air conditioning cost in Manchester (2026)
-DESCRIPTION: Air conditioning in Manchester costs from £1,850 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
+DESCRIPTION: Air conditioning in Manchester costs from £1,650 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
 ================================================================================
 
 CoolIn / Guides / How much does air conditioning cost in Manchester?
@@ -7265,9 +7265,9 @@ Reviewed October 2026 by Zac Hancox, Founder of CoolIn
 
 The short answer
 
-A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT until 31 March 2027. These are installed prices covering the units, up to five metres of pipe, the electrical connection, commissioning and your first annual service.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT until 31 March 2027. These are installed prices covering the units, up to five metres of pipe, the electrical connection, commissioning and your first annual service.
 
-One room from £1,850 fitted, for a 2.5kW wall unit
+One room from £1,650 fitted, for a 2.5kW wall unit
 
 Two to five rooms on one outdoor unit from £3,450
 
@@ -7286,7 +7286,7 @@ How much does air conditioning cost for one room?
 A single wall mounted split, with one indoor unit and one outdoor unit, is the most common installation. The size you need depends mainly on the size of the room.
 
 | | Unit size | Usually suits | Installed price
-| 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,850
+| 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,650
 | 3.5 kW | Rooms up to about 22m², such as a double bedroom or small lounge | £1,995
 | 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,280
 | 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,950
@@ -7474,7 +7474,7 @@ A listed building needs listed building consent, whatever the lease says
 
 On a modern block, a balcony is usually the easiest place for the outdoor unit
 
-One room from £1,850 fitted, two to five rooms from £3,450
+One room from £1,650 fitted, two to five rooms from £3,450
 
 Domestic installations are zero rated for VAT until 31 March 2027
 
@@ -7548,7 +7548,7 @@ The size calculator gives you a starting figure, and the survey confirms it.
 
 What does it cost?
 
-A single room starts at £1,850 fitted and a multi split for two to five rooms at £3,450 installed , with no VAT to add until 31 March 2027. In a flat, the things that move the price are where the outdoor unit can go, the route the pipework has to take, and access above the ground floor. Any fee the freeholder charges for consent is separate and set by them. The domestic price list has the rest, and if you live in a house instead, the terraced house guide covers the rules there.
+A single room starts at £1,650 fitted and a multi split for two to five rooms at £3,450 installed , with no VAT to add until 31 March 2027. In a flat, the things that move the price are where the outdoor unit can go, the route the pipework has to take, and access above the ground floor. Any fee the freeholder charges for consent is separate and set by them. The domestic price list has the rest, and if you live in a house instead, the terraced house guide covers the rules there.
 
 Questions people ask next
 
@@ -7599,7 +7599,7 @@ Read the answer
 Home air conditioning
 How much does air conditioning cost in Manchester?
 
-A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 
@@ -7637,7 +7637,7 @@ Noise limit of 42 dB(A) at the nearest neighbour's window
 
 The old rule keeping units a metre from the boundary has gone
 
-One room from £1,850 fitted, two to five rooms from £3,450
+One room from £1,650 fitted, two to five rooms from £3,450
 
 Domestic installations are zero rated for VAT until 31 March 2027
 
@@ -7689,7 +7689,7 @@ The size calculator gives you a starting figure, and the survey confirms it.
 
 What does it cost?
 
-A single room starts at £1,850 fitted and a multi split for two to five rooms at £3,450 installed , with no VAT to add until 31 March 2027. Long pipe routes from the back of the house to the front are the most common reason a terrace comes in above those figures. The domestic price list has the rest.
+A single room starts at £1,650 fitted and a multi split for two to five rooms at £3,450 installed , with no VAT to add until 31 March 2027. Long pipe routes from the back of the house to the front are the most common reason a terrace comes in above those figures. The domestic price list has the rest.
 
 Questions people ask next
 
@@ -7736,7 +7736,7 @@ Read the answer
 Home air conditioning
 How much does air conditioning cost in Manchester?
 
-A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 
@@ -7866,7 +7866,7 @@ If you dislike a draught: Samsung WindFree.
 On a tighter budget: an entry range from an established brand, such as the Daikin Sensira or Mitsubishi Electric MSZ-HR, rather than an unknown name.
 For several rooms: a multi split from any of the three main brands, with one outdoor unit serving every room.
 
-A single room starts at £1,850 fitted , with no VAT to add until 31 March 2027. Design ranges cost more for the equipment, and the quote shows the exact model. The domestic price list has the rest.
+A single room starts at £1,650 fitted , with no VAT to add until 31 March 2027. Design ranges cost more for the equipment, and the quote shows the exact model. The domestic price list has the rest.
 
 Noise figures are the manufacturers' published sound pressure levels for the indoor unit on its lowest fan speed, checked in October 2026.
 
@@ -7926,7 +7926,7 @@ Read the answer
 Home air conditioning
 How much does air conditioning cost in Manchester?
 
-A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 

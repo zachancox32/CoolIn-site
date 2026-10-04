@@ -114,6 +114,6 @@ The things that decide how well a system performs are the size, worked out for t
 - **On a tighter budget:** an entry range from an established brand, such as the Daikin Sensira or Mitsubishi Electric MSZ-HR, rather than an unknown name.
 - **For several rooms:** a multi split from any of the three main brands, with one outdoor unit serving every room.
 
-A single room starts at **£1,850 fitted**, with no VAT to add until 31 March 2027. Design ranges cost more for the equipment, and the quote shows the exact model. The [domestic price list](/domestic#prices) has the rest.
+A single room starts at **£1,650 fitted**, with no VAT to add until 31 March 2027. Design ranges cost more for the equipment, and the quote shows the exact model. The [domestic price list](/domestic#prices) has the rest.
 
 > Noise figures are the manufacturers' published sound pressure levels for the indoor unit on its lowest fan speed, checked in October 2026.

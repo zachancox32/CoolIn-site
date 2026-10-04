@@ -121,7 +121,7 @@
 
     // standard indoor unit sizes and our installed prices for a single wall unit
     var SIZES = [
-      { kw: 2.0, price: 1850 }, { kw: 2.5, price: 1850 }, { kw: 3.5, price: 1995 },
+      { kw: 2.0, price: 1650 }, { kw: 2.5, price: 1650 }, { kw: 3.5, price: 1995 },
       { kw: 5.0, price: 2280 }, { kw: 6.0, price: 2650 }, { kw: 7.1, price: 2950 }
     ];
 

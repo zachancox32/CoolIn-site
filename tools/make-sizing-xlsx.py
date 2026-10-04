@@ -17,7 +17,7 @@ from xml.sax.saxutils import escape
 
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 OUT = 'tools/coolin-sizing.xlsx'
-SIZES = [(2.0, 1850), (2.5, 1850), (3.5, 1995), (5.0, 2280), (6.0, 2650), (7.1, 2950)]
+SIZES = [(2.0, 1650), (2.5, 1650), (3.5, 1995), (5.0, 2280), (6.0, 2650), (7.1, 2950)]
 
 def ceil_f(c):  return f'IF({c}="High",1.12,IF({c}="Vaulted",1.26,1))'
 def glaz_f(g):  return f'IF({g}="Shaded",0.95,IF({g}="Sunny",1.2,IF({g}="Bifolds",1.35,1)))'

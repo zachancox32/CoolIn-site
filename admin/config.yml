@@ -49,7 +49,7 @@ collections:
       - { name: title, label: Question, widget: string, hint: "The question exactly as someone would type it or ask it. For example: Can I install air conditioning in a terraced house?" }
       - { name: answer, label: Short answer, widget: text, hint: "40 to 60 words. Say yes or no, or give the figure, in the first sentence. This is the passage Google and AI assistants quote, so it has to make sense on its own." }
       # One input per fact. A bare list can be edited as comma separated text,
-      # which would split "from £1,850 fitted, two rooms from..." into two items.
+      # which would split "from £1,650 fitted, two rooms from..." into two items.
       - name: key_facts
         label: Key facts
         label_singular: Fact

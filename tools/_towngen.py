@@ -110,7 +110,7 @@ def build(t, neighbours):
     kf = '\n'.join(f'        <div class="kf__item"><dt>{k}</dt><dd>{v}</dd></div>' for k, v in [
         ('Town', town), ('County', county), ('Postcodes', t['postcodes']),
         ('Travel time', f"About {t['drive']} from our Manchester base"),
-        ('Domestic from', '£1,850 fitted, zero rated for VAT until 31 March 2027'),
+        ('Domestic from', '£1,650 fitted, zero rated for VAT until 31 March 2027'),
         ('Services', 'Installation, servicing, repairs, heat pumps, ventilation')])
 
     body = f'''<!-- ============ HERO ============ -->
@@ -131,7 +131,7 @@ def build(t, neighbours):
       </div>
       <ul class="hero__trust js-hero">
         <li><strong>{t['drive']}</strong><span>from our base</span></li>
-        <li><strong>£1,850</strong><span>one room, fitted</span></li>
+        <li><strong>£1,650</strong><span>one room, fitted</span></li>
         <li><strong>0% VAT</strong><span>on domestic work</span></li>
       </ul>
     </div>
@@ -175,7 +175,7 @@ def build(t, neighbours):
       <h2 class="js-up">Everything from one bedroom unit to a full fit out</h2>
     </header>
     <div class="truths">
-      <article class="truth js-card"><span class="truth__n">01</span><h3><a href="domestic">Home air conditioning</a></h3><p>Wall units, multi splits and ducted systems for houses and flats, from £1,850 fitted with no VAT to add.</p></article>
+      <article class="truth js-card"><span class="truth__n">01</span><h3><a href="domestic">Home air conditioning</a></h3><p>Wall units, multi splits and ducted systems for houses and flats, from £1,650 fitted with no VAT to add.</p></article>
       <article class="truth js-card"><span class="truth__n">02</span><h3><a href="commercial">Commercial installation</a></h3><p>Offices, shops, kitchens, gyms and server rooms, designed around your heat load and fitted around your trading hours.</p></article>
       <article class="truth js-card"><span class="truth__n">03</span><h3><a href="servicing">Servicing and maintenance</a></h3><p>Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.</p></article>
       <article class="truth js-card"><span class="truth__n">04</span><h3><a href="repairs">Repairs and callouts</a></h3><p>All makes and models, £95 for the first hour, with the common parts carried on the van.</p></article>

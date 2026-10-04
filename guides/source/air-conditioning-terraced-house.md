@@ -6,7 +6,7 @@ key_facts:
   - One outdoor unit allowed on a terraced house, up to 1.5 cubic metres
   - Noise limit of 42 dB(A) at the nearest neighbour's window
   - The old rule keeping units a metre from the boundary has gone
-  - One room from £1,850 fitted, two to five rooms from £3,450
+  - One room from £1,650 fitted, two to five rooms from £3,450
   - Domestic installations are zero rated for VAT until 31 March 2027
 service: domestic
 seo_title: Air conditioning in a terraced house
@@ -71,4 +71,4 @@ The [size calculator](/air-conditioning-size-calculator) gives you a starting fi
 
 ## What does it cost?
 
-A single room starts at **£1,850 fitted** and a multi split for two to five rooms at **£3,450 installed**, with no VAT to add until 31 March 2027. Long pipe routes from the back of the house to the front are the most common reason a terrace comes in above those figures. The [domestic price list](/domestic#prices) has the rest.
+A single room starts at **£1,650 fitted** and a multi split for two to five rooms at **£3,450 installed**, with no VAT to add until 31 March 2027. Long pipe routes from the back of the house to the front are the most common reason a terrace comes in above those figures. The [domestic price list](/domestic#prices) has the rest.

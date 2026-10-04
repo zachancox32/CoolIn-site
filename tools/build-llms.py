@@ -30,7 +30,7 @@ rather than a measurement, the page says so and gives the assumptions."""
 KEY_FACTS = [
  ("Facebook", "https://www.facebook.com/coolinMCR"),
  ("LinkedIn", "https://www.linkedin.com/company/cool-in/"),
- ("Domestic installation", "from £1,850 fitted for a 2.5kW wall mounted system"),
+ ("Domestic installation", "from £1,650 fitted for a 2.5kW wall mounted system"),
  ("Domestic VAT", "0% until 31 March 2027 under the energy saving materials relief"),
  ("Commercial installation", "priced per project; from £2,280 for a single 5kW wall unit"),
  ("Servicing", "from £89 per indoor unit per year; one off service £129"),
