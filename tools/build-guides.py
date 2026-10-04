@@ -21,7 +21,7 @@ Everything a guide needs is a frontmatter field, so it is written in the CMS:
     seo_title    optional, shorter <title>
     description  optional, otherwise the short answer is used
     author       an id from blog/authors
-    updated      when the answer was last checked, never shown on the page
+    updated      when the answer was last checked, shown as "Reviewed <month year>"
     faqs         optional list of {question, answer}
 
 With no guides the hub is not built, the footer link is hidden and the service
@@ -111,6 +111,12 @@ def build_one(g, guides):
     ab = author_block(g['fm'])
     byline, aschema, author_card = (ab[0][0], ab[0][1], ab[1]) if isinstance(ab[0], tuple) else (ab[0], ab[1], '')
     byline = re.sub(r'</?p[^>]*>', '', byline)
+    # Shown on the page, as the national cost guides that rank do: a dated,
+    # named review is a freshness and trust signal for price questions. It
+    # only stays honest if "Last reviewed" is updated when a guide is checked.
+    y, m, _ = g['updated'].split('-')
+    reviewed = f"{blog.MONTHS[int(m) - 1]} {y}"
+    byline = re.sub(r'^By ', f'<time datetime="{g["updated"]}">Reviewed {reviewed}</time> by ', byline)
 
     facts = ''
     if g['facts']:

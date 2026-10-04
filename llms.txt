@@ -74,6 +74,7 @@ Each page answers one question people ask before buying, with the short
 answer first and Article plus FAQPage markup. These are kept current in
 place rather than dated.
 
+- [Air conditioning cost in Manchester (2026)](https://cool-in.co.uk/guides/air-conditioning-cost-manchester): Air conditioning in Manchester costs from £1,850 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
 - [Air conditioning in a flat or apartment](https://cool-in.co.uk/guides/air-conditioning-flat-or-apartment): Yes, most flats and apartments can have air conditioning, but the lease usually decides. Where the outdoor unit goes, getting consent, and the options if not.
 - [Air conditioning in a terraced house](https://cool-in.co.uk/guides/air-conditioning-terraced-house): Yes, most terraced houses can have air conditioning, usually without planning permission. Where the outdoor unit goes, the one unit rule, and what it costs.
 - [Best air conditioning brands compared](https://cool-in.co.uk/guides/best-air-conditioning-brands): Daikin, Mitsubishi Electric, Samsung and seven more brands compared: noise, ranges, apps and warranties, and which suits a bedroom, an office or a tight budget.

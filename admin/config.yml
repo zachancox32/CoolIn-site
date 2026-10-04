@@ -71,7 +71,7 @@ collections:
       - { name: seo_title, label: Search result title, widget: string, required: false, hint: "Optional. Under 50 characters, because CoolIn is added. Leave blank to use the question." }
       - { name: description, label: Meta description, widget: text, required: false, hint: "Optional, 120 to 160 characters. Leave blank and the short answer is used." }
       - { name: author, label: Author, widget: relation, collection: authors, search_fields: [name], value_field: id, display_fields: [name], required: false }
-      - { name: updated, label: Last reviewed, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Not shown on the page. Tells Google when the answer was last checked, so update it when you review the guide." }
+      - { name: updated, label: Last reviewed, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Shown on the page as Reviewed (month year), and tells Google when the answer was last checked. Update it whenever you review the guide." }
       - name: faqs
         label: Follow up questions
         widget: list

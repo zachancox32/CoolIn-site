@@ -612,7 +612,7 @@ Price guide
 
 What it actually costs, before you ring anyone
 
-Installed prices, not equipment only. Every figure below includes the units, the brackets, up to five metres of pipe run, the electrical connection, commissioning and the handover. They are guide prices: only a survey fixes the number for your property.
+Installed prices, not equipment only. Every figure below includes the units, the brackets, up to five metres of pipe run, the electrical connection, commissioning and the handover. They are guide prices: only a survey fixes the number for your property. Running costs, servicing and VAT are covered in our guide to how much air conditioning costs in Manchester .
 
 Guide prices, installed. Confirmed at survey.
 
@@ -860,6 +860,7 @@ Questions answered in full
 
 Can I install air conditioning in a terraced house?
 Can you fit air conditioning in a flat or apartment?
+How much does air conditioning cost in Manchester?
 Which air conditioning brand is best? 10 brands compared
 
 Common questions
@@ -1157,7 +1158,7 @@ Budget and tax
 
 What a commercial system costs, and what you get back
 
-Every figure here is an installed price covering equipment, labour, commissioning and handover, not equipment only. Commercial work is priced per project because two identical floor areas can need very different systems, so these are guide bands to help you set a budget before we visit, not quotations.
+Every figure here is an installed price covering equipment, labour, commissioning and handover, not equipment only. Commercial work is priced per project because two identical floor areas can need very different systems, so these are guide bands to help you set a budget before we visit, not quotations. Domestic, running and servicing costs are in our guide to how much air conditioning costs in Manchester .
 
 Guide prices, installed. Confirmed at site survey.
 
@@ -7121,7 +7122,7 @@ The starting figure of 155W per square metre is a cooling load for a typical UK 
 
 The answer is rounded up to the next standard size, because units come in fixed steps rather than any figure you like.
 
-If it comes out above 7.1kW, one wall unit is the wrong answer. Two units, a multi split or a ducted system will do the job better, and the domestic price list covers those.
+If it comes out above 7.1kW, one wall unit is the wrong answer. Two units, a multi split or a ducted system will do the job better, and the domestic price list covers those. For running and servicing costs too, see how much air conditioning costs in Manchester .
 
 Rule of thumb
 
@@ -7249,6 +7250,205 @@ Free survey
 
 
 ================================================================================
+URL: https://cool-in.co.uk/guides/air-conditioning-cost-manchester
+TITLE: Air conditioning cost in Manchester (2026)
+DESCRIPTION: Air conditioning in Manchester costs from £1,850 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.
+================================================================================
+
+CoolIn / Guides / How much does air conditioning cost in Manchester?
+
+Home air conditioning
+
+How much does air conditioning cost in Manchester?
+
+Reviewed October 2026 by Zac Hancox, Founder of CoolIn
+
+The short answer
+
+A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT until 31 March 2027. These are installed prices covering the units, up to five metres of pipe, the electrical connection, commissioning and your first annual service.
+
+One room from £1,850 fitted, for a 2.5kW wall unit
+
+Two to five rooms on one outdoor unit from £3,450
+
+No VAT on domestic installations until 31 March 2027
+
+Up to five metres of pipe, the electrics and commissioning included
+
+Running a bedroom unit costs roughly 7p to 16p an hour
+
+Servicing from £89 per indoor unit per year
+
+These are CoolIn's own installed prices for Manchester and the North West, not national averages. Each one includes the equipment, the fitting, the electrical connection and commissioning, so you can compare them like for like with any quote you get.
+
+How much does air conditioning cost for one room?
+
+A single wall mounted split, with one indoor unit and one outdoor unit, is the most common installation. The size you need depends mainly on the size of the room.
+
+| | Unit size | Usually suits | Installed price
+| 2.5 kW | Rooms up to about 15m², such as a bedroom or study | £1,850
+| 3.5 kW | Rooms up to about 22m², such as a double bedroom or small lounge | £1,995
+| 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,280
+| 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,950
+
+South facing glass, a room in the roof or a high ceiling can push a room up a size. The size calculator works out a starting figure for any room in under a minute.
+
+How much does it cost to air condition a whole house?
+
+For several rooms, a multi split runs two to five indoor units from a single outdoor unit, so there is only one unit outside the house. Each room has its own controller.
+
+| | Rooms | Installed price
+| Two rooms | £3,450
+| Three rooms | £4,995
+| Four rooms | £6,650
+| Five rooms | £8,200
+
+A multi split is often the only option on a terraced house, because permitted development allows one outdoor unit on a house that is not detached. The terraced house guide explains how that works.
+
+What do cassettes, floor consoles and ducted systems cost?
+
+| | System | Installed price
+| Floor console, 2.5 kW | £2,150
+| Ceiling cassette, 3.5 kW | £2,450
+| Ducted, two rooms | £3,500
+
+A floor console suits a room with no space high on the wall, such as a loft conversion. A ducted system hides the indoor unit in a loft or ceiling void, so the only thing on show in each room is a grille.
+
+What is included in the price?
+
+Indoor and outdoor units, matched as a pair
+Wall brackets or floor feet, and anti vibration mounts
+Up to five metres of insulated pipe run in white trunking
+Core drilling through the wall, made good, and a condensate drain
+The electrical connection, an isolator and testing
+Vacuum testing, commissioning and the handover documents
+The manufacturer's warranty registered in your name
+Your first annual service, free
+
+What makes air conditioning cost more?
+
+Pipe runs over five metres, or routes through more than one floor
+Scaffolding or a tower where access is awkward
+An outdoor unit on a flat roof, on a bracket at height or in a lightwell
+Chasing the pipework into the walls rather than running it in trunking
+A new circuit from the consumer unit
+Design ranges, colour finishes or designer fronts
+Listed buildings and conservation areas, where consent is needed
+
+In Manchester the biggest variable is usually the pipe route. A terraced house with the outdoor unit in the rear yard often keeps it short. A city centre apartment can need longer runs, access equipment and the freeholder's consent, which the guide to flats and apartments covers.
+
+Does air conditioning carry VAT?
+
+Not on a domestic installation until 31 March 2027. Energy saving materials fitted in homes are zero rated, and HMRC treats most air conditioning units as air source heat pumps because they heat as well as cool. The relief only applies when the same company supplies and installs the system.
+
+From 1 April 2027 the rate is set to return to 5%. Commercial installations carry VAT at the standard rate, which a VAT registered business can normally reclaim. Your quote sets out the VAT position in writing.
+
+How much does air conditioning cost to run?
+
+Less than most people expect. At an electricity price of 25p per unit, a 2.5kW bedroom unit costs:
+
+| | Running state | Power drawn | Cost per hour
+| Holding the temperature | about 0.3 kW | about 7p
+| Working hard on a hot afternoon | about 0.65 kW | about 16p
+
+The full working, including heating costs and the comparison with a fan heater, is in the running costs article .
+
+How much does servicing and repair cost?
+
+| | Service | Price
+| Essential plan, one major service a year | £89 per indoor unit, per year
+| Plus plan, with a second visit and priority callouts | £149 per indoor unit, per year
+| Commercial plan, two major services a year | £229 per indoor unit, per year
+| One off service, single unit | £129
+| Repair callout | £95 for the first hour including travel, then £45 an hour
+
+An annual service is usually a condition of keeping the manufacturer's warranty, so it is worth budgeting for from the start. The servicing page sets out what each visit covers.
+
+How much does commercial air conditioning cost?
+
+| | System | Installed price
+| Wall unit, 5 kW, small shop or office | £2,280
+| Single ceiling cassette, 3.5 kW | £2,450
+| Two cassettes on one outdoor unit | £4,400
+| Four cassette system, office floor | £8,500
+| Six unit VRF system | £14,000
+| Kitchen extract and make up air | £6,500
+| Server room close control | from £9,000
+
+Commercial work is priced per project, because ceiling voids, riser routes and access vary so much. The commercial page has the detail by type of building.
+
+Why are national price guides different?
+
+National price guides average across the whole country and every type of installer, and they do not all include the same things. Some quote the equipment alone, some leave out the electrical connection or the pipe run, and some show prices before VAT.
+
+To compare quotes fairly, check that each one includes the same unit size and brand, the pipe run length, the electrical connection, commissioning, warranty registration and the VAT position. A cheaper quote that leaves one of those out is not cheaper.
+
+How do you get an exact price?
+
+Book a free survey. It takes under an hour, looks at the pipe route, the electrics and where the outdoor unit can go, and produces a fixed written price within 48 hours that does not change once you accept it. The domestic page has the full price list.
+
+Questions people ask next
+
+Why do air conditioning prices online vary so much?
+
+National price guides average across very different jobs, regions and installers, and they do not all include the same things. Some quote the unit alone, some leave out the electrical connection, the pipe run or VAT. To compare fairly, check each quote includes the same unit size, pipe run, electrical connection, commissioning, warranty registration and VAT position.
+
+Is it cheaper to buy the unit online and pay someone to fit it?
+
+Usually not. The 0% VAT relief only applies when the same company supplies and installs the system, so a unit bought separately carries 20% VAT. Many installers will not fit equipment they did not supply, and the manufacturer's extended warranty often depends on the installer registering the system.
+
+Do you charge for the survey?
+
+No. The survey is free, usually takes under an hour, and produces a fixed written price within 48 hours. That price does not change once you accept it.
+
+Will the price go up after the survey?
+
+No. The guide prices are a realistic starting point for a straightforward job. The survey looks at the things that move the price, such as the pipe route, access and where the outdoor unit can go, and the written price it produces is fixed once you accept it.
+
+How much does commercial air conditioning cost?
+
+A single 5kW wall unit in a small shop or office starts at £2,280 installed, a four cassette system for an office floor is around £8,500, and a six unit VRF system around £14,000. Commercial work carries VAT at the standard rate, which a VAT registered business can normally reclaim.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it is usually permitted development, so there is no planning application. The.
+
+Read the answer
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+Which air conditioning brand is best? 10 brands compared
+
+For most UK homes and businesses, Daikin, Mitsubishi Electric and Samsung are the safest choices. They are quiet, efficient, well supported with.
+
+Read the answer
+
+
+================================================================================
 URL: https://cool-in.co.uk/guides/air-conditioning-flat-or-apartment
 TITLE: Air conditioning in a flat or apartment
 DESCRIPTION: Yes, most flats and apartments can have air conditioning, but the lease usually decides. Where the outdoor unit goes, getting consent, and the options if not.
@@ -7260,7 +7460,7 @@ Home air conditioning
 
 Can you fit air conditioning in a flat or apartment?
 
-By Zac Hancox, Founder of CoolIn
+Reviewed September 2026 by Zac Hancox, Founder of CoolIn
 
 The short answer
 
@@ -7397,6 +7597,13 @@ Yes. Most terraced houses can have air conditioning, and in England it is usuall
 Read the answer
 
 Home air conditioning
+How much does air conditioning cost in Manchester?
+
+A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+
+Read the answer
+
+Home air conditioning
 Which air conditioning brand is best? 10 brands compared
 
 For most UK homes and businesses, Daikin, Mitsubishi Electric and Samsung are the safest choices. They are quiet, efficient, well supported with.
@@ -7416,7 +7623,7 @@ Home air conditioning
 
 Can I install air conditioning in a terraced house?
 
-By Zac Hancox, Founder of CoolIn
+Reviewed September 2026 by Zac Hancox, Founder of CoolIn
 
 The short answer
 
@@ -7527,6 +7734,13 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
+How much does air conditioning cost in Manchester?
+
+A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+
+Read the answer
+
+Home air conditioning
 Which air conditioning brand is best? 10 brands compared
 
 For most UK homes and businesses, Daikin, Mitsubishi Electric and Samsung are the safest choices. They are quiet, efficient, well supported with.
@@ -7546,7 +7760,7 @@ Home air conditioning
 
 Which air conditioning brand is best? 10 brands compared
 
-By Zac Hancox, Founder of CoolIn
+Reviewed October 2026 by Zac Hancox, Founder of CoolIn
 
 The short answer
 
@@ -7706,6 +7920,13 @@ Home air conditioning
 Can you fit air conditioning in a flat or apartment?
 
 Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+How much does air conditioning cost in Manchester?
+
+A single room costs from £1,850 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 

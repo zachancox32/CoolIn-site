@@ -123,8 +123,9 @@ on its service page, which gives it far more internal links than a blog post.
 
 Every question goes into FAQPage markup, the page into Article markup with the
 named author, and the guide into the sitemap and `llms.txt` automatically.
-Update **Last reviewed** whenever you check a guide; it feeds the sitemap and
-the markup, never the page.
+Update **Last reviewed** whenever you check a guide. It shows on the page as
+"Reviewed October 2026 by ...", and feeds the sitemap and the markup, so a date
+that is never updated will make the guide look stale.
 
 With no guides the hub is not built and the footer link hides itself, the
 same as case studies. Deleting a guide in the CMS removes its page.
