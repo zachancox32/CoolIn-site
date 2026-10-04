@@ -1,6 +1,7 @@
 ---
 title: Should you heat with air conditioning instead of the gas boiler?
-description: An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
+seo_title: Air conditioning vs a gas boiler for heating
+description: Heating a room with an air to air heat pump compared with gas central heating, including where the boiler still wins and what air conditioning cannot do.
 date: 2026-09-08
 category: Heating
 author: zac-hancox

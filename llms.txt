@@ -86,9 +86,9 @@ BlogPosting structured data with a named author and a publication date.
 
 - [Planning permission for air conditioning](https://cool-in.co.uk/blog/air-conditioning-planning-permission): The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
 - [Air conditioning running costs](https://cool-in.co.uk/blog/air-conditioning-running-costs): Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
-- [Should you heat with air conditioning instead of the gas boiler?](https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating): An honest comparison of heating a room with an air to air heat pump against gas central heating, including where the boiler still wins and what the system cannot do.
-- [What are the productivity benefits of effective temperature control for businesses?](https://cool-in.co.uk/blog/what-are-the-productivity-benefits-of-effective-temperature-control-for-businesses): Discover how effective office and commercial air conditioning enhances business productivity, employee well-being, and equipment lifespan, reducing costs and boosting efficiency.
-- [Why Should You Install Air Conditioning in Manchester During Winter?](https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter): Discover the benefits of installing domestic air conditioning in winter, including shorter waits, better availability, and efficient heating for your Manchester home.
+- [Air conditioning vs a gas boiler for heating](https://cool-in.co.uk/blog/air-conditioning-vs-gas-boiler-heating): Heating a room with an air to air heat pump compared with gas central heating, including where the boiler still wins and what air conditioning cannot do.
+- [Air conditioning and office productivity](https://cool-in.co.uk/blog/what-are-the-productivity-benefits-of-effective-temperature-control-for-businesses): Yes, once an office gets warm. Office work peaks at around 22°C and falls away above 24°C. What overheats an office, what fixes it, and what it costs.
+- [Installing air conditioning in winter](https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter): Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
 
 ## Town pages
 
