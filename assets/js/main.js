@@ -13,6 +13,36 @@
     document.querySelectorAll('.step').forEach(function (el) { el.classList.add('is-on'); });
   }
 
+  /* ---------- typed line under the homepage headline ----------
+     Types a word, pauses, deletes it and moves to the next. The full sentence
+     is in the page as text for search engines and screen readers; this only
+     changes what is drawn. With reduced motion it shows the whole list, still. */
+  (function () {
+    var el = document.querySelector('.typed__word');
+    if (!el) return;
+    var words = el.getAttribute('data-words').split('|');
+    if (reduced) {
+      el.textContent = words.slice(0, -1).join(', ') + ' and ' + words[words.length - 1] + '.';
+      return;
+    }
+    var i = 0, n = words[0].length, deleting = true;
+    function tick() {
+      if (document.hidden) { setTimeout(tick, 600); return; }
+      var w = words[i];
+      if (deleting) {
+        n--;
+        el.textContent = w.slice(0, n);
+        if (n === 0) { deleting = false; i = (i + 1) % words.length; return setTimeout(tick, 380); }
+        return setTimeout(tick, 42);
+      }
+      w = words[i]; n++;
+      el.textContent = w.slice(0, n);
+      if (n === w.length) { deleting = true; return setTimeout(tick, 1900); }
+      setTimeout(tick, 75);
+    }
+    setTimeout(tick, 2400);   // let the hero entrance finish first
+  })();
+
   /* ---------- copy buttons ----------
      Any <button data-copy="..."> copies its text, says so on the button for a
      moment, and announces it through the nearest role="status" for screen

@@ -158,6 +158,12 @@ ul,ol{margin:0;padding:0;list-style:none}
 .hero .eyebrow{color:var(--ice)}
 .eyebrow__mark{width:22px;height:2px;background:currentColor;border-radius:2px;flex:none;opacity:.8}
 .lede{font-size:clamp(1.05rem,1.45vw,1.22rem);max-width:640px;color:#BDD5E0;margin-bottom:34px}
+/* Typed line under the homepage headline. One line high whatever word is
+   showing, so the buttons below never jump as it types. */
+.typed{font-family:var(--head);font-weight:700;font-size:clamp(1.25rem,2.1vw,1.7rem);letter-spacing:-.02em;color:#fff;margin:-6px 0 22px;min-height:1.3em;line-height:1.3;white-space:nowrap}
+.typed__word{background:linear-gradient(98deg,#74C9EA 0%,#A9DFF2 50%,#F3925F 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.typed__cursor{display:inline-block;width:3px;height:.95em;margin-left:4px;vertical-align:-.1em;background:var(--ice);border-radius:2px;animation:typedBlink 1s steps(1) infinite}
+@keyframes typedBlink{50%{opacity:0}}
 .hero__btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px}
 .hero__trust{display:flex;gap:44px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.14);padding-top:26px}
 .hero__trust li{display:flex;flex-direction:column;gap:2px}
@@ -958,6 +964,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 }
 
 @media (prefers-reduced-motion:reduce){
+  .typed__cursor{display:none}
+  .typed{white-space:normal}
   html{scroll-behavior:auto}
   .js-hero,.js-up,.js-card,.js-step{opacity:1!important;transform:none!important}
   *{animation-duration:.01ms!important;transition-duration:.01ms!important}
