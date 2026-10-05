@@ -12,6 +12,15 @@
         "/Users/hancoxz/Documents/CoolIn site"
       ],
       "port": 4732
+    },
+    {
+      "name": "coolin-copy",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": [
+        "-c",
+        "cd /private/tmp/claude-501/-Users-hancoxz-Documents-CoolIn-site/fc5607b9-dc57-4e15-8e9f-795acab2b86b/scratchpad/site && exec python3 -m http.server 4733"
+      ],
+      "port": 4733
     }
   ]
 }
