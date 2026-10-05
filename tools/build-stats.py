@@ -11,13 +11,16 @@ Office's public HadUK-Grid files, so the build never needs the network.
 To update: change the figures below (or drop in fresh Met Office files),
 set REVIEWED, run this, then run tools/make-stats-png.py on a Mac to redraw
 the PNG versions of the charts, which journalists can drop into an article.
+Each chart image carries its own title, source and a "Chart by CoolIn" credit,
+in a wide version and a phone version. The page shows the PNGs only while
+they match the current figures, and falls back to the SVGs otherwise.
 
     python3 tools/build-stats.py
 
 Writes air-conditioning-statistics.html, assets/data/air-conditioning-statistics.csv
 and one SVG per chart in assets/img/stats.
 """
-import os, re, sys, csv, json, html, importlib.util, statistics
+import os, re, sys, csv, json, html, hashlib, importlib.util, statistics
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 os.chdir(os.path.join(HERE, '..'))
@@ -245,153 +248,236 @@ CHARTS = {
               R('2027 at twice that pace', round(HIGH_2027 / 1e6, 2),
                 f'{m(HIGH_2027)} ({HIGH_2027 / HOUSEHOLDS * 100:.1f}%)', 'proj')],
         src=['edrc'], note="Projections are CoolIn's, built from the measured figure and the 2013 to 2020 installation rate. The full method is on the page."),
+    'nw-summers': dict(
+        title=f'North West England summers, {min(NW)} to {LATEST}',
+        sub='Mean temperature, June to August, England NW and North Wales. Orange summers were warmer than the 1961 to 1990 average, blue were cooler',
+        series=NW, base=NW_BASE, src=['metgrid'],
+        alt_data=(f'Summer {LATEST} was the warmest on record at {NW[LATEST]:.1f}°C, against a 1961 to 1990 average of '
+                  f'{NW_BASE:.1f}°C. Seven of the ten warmest summers came in 2003 or later')),
 }
 
 
-def bars_html(cid, c):
-    top = max(r[1] for r in c['rows'] if r[1] is not None) * 1.08
-    out = []
-    for label, value, shown, kind in c['rows']:
-        if value is None:
-            out.append(f'<li class="bars__group">{html.escape(label)}</li>')
-            continue
-        cls = f' bars__row--{kind}' if kind else ''
-        out.append(f'<li class="bars__row{cls}"><span class="bars__label">{html.escape(label)}</span>'
-                   f'<span class="bars__track"><span class="bars__fill" style="width:{value / top * 100:.1f}%"></span></span>'
-                   f'<span class="bars__val">{html.escape(shown)}</span></li>')
-    return '<ul class="bars">' + ''.join(out) + '</ul>'
-
-
-# Colours for the standalone chart files, which travel without the site's CSS.
-INK, BODY, GREY, LINE, BLUE, ORANGE, REF, ICE = '#12262F', '#41606E', '#6E8592', '#E1EAEF', '#0E6E96', '#E2673B', '#9FB3BE', '#D7EDF7'
+# Each chart is drawn twice as a self contained image: a wide one for articles
+# and desktop, and a narrow one with larger text for phones. Both carry the
+# title, the source and a "Chart by CoolIn" credit with the address, so the
+# image still names us wherever it ends up.
+INK, BODY, GREY, LINE, BLUE, ORANGE, REF, ICE, NAVY = ('#12262F', '#41606E', '#6E8592', '#E1EAEF', '#0E6E96',
+                                                       '#E2673B', '#9FB3BE', '#D7EDF7', '#0D2B38')
 FONT = "Arial, Helvetica, sans-serif"
+WIDE, NARROW = 1200, 600
+CREDIT = f'Chart by CoolIn, {SHORT}'
+CRYSTAL_PATHS = re.search(r'<g [^>]*>(.*?)</g>', CRYSTAL).group(1)
 
-def svg_frame(title, sub, body, h, src_line, note=''):
-    """Wraps a drawing in the title, source and address, 1200 wide."""
-    e = html.escape
-    note_svg = f'<text x="48" y="{h - 70}" font-size="17" fill="{GREY}">{e(note)}</text>' if note else ''
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 {h}" width="1200" height="{h}" font-family="{FONT}">
-<rect width="1200" height="{h}" fill="#FFFFFF"/>
-<rect width="1200" height="8" fill="{BLUE}"/>
-<text x="48" y="70" font-size="34" font-weight="700" fill="{INK}">{e(title)}</text>
-<text x="48" y="106" font-size="19" fill="{BODY}">{e(sub)}</text>
-{body}
-{note_svg}
-<line x1="48" y1="{h - 52}" x2="1152" y2="{h - 52}" stroke="{LINE}" stroke-width="2"/>
-<text x="48" y="{h - 22}" font-size="16" fill="{GREY}">Source: {e(src_line)}</text>
-<text x="1152" y="{h - 22}" font-size="16" font-weight="700" fill="{BLUE}" text-anchor="end">{e(SHORT)}</text>
-</svg>
-'''
 
-def bars_svg(c):
+def wrap(text, size, width):
+    """Greedy line breaks, using an average Arial character width."""
+    per = max(int(width / (size * 0.53)), 10)
+    lines, cur = [], ''
+    for word in text.split():
+        if cur and len(cur) + 1 + len(word) > per:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = f'{cur} {word}'.strip()
+    return lines + ([cur] if cur else [])
+
+
+def tspans(lines, x, y, size, lead, **attrs):
+    a = ' '.join(f'{k.replace("_", "-")}="{v}"' for k, v in attrs.items())
+    return ''.join(f'<text x="{x}" y="{y + i * size * lead:.0f}" font-size="{size}" {a}>{html.escape(t)}</text>'
+                   for i, t in enumerate(lines))
+
+
+def brand(x, y, size):
+    """The crystal mark and wordmark, with (x, y) at the left of the baseline."""
+    k = size / 24 * 1.15
+    return (f'<g transform="translate({x},{y - size * 0.95:.1f}) scale({k:.3f})" fill="none" stroke="{BLUE}" '
+            f'stroke-width="1.6" stroke-linecap="round">{CRYSTAL_PATHS}</g>'
+            f'<text x="{x + size * 1.35:.0f}" y="{y}" font-size="{size}" font-weight="900" letter-spacing="1" fill="{NAVY}">COOLIN</text>')
+
+
+def frame(W, c, body, body_h):
+    narrow = W == NARROW
+    pad = 32 if narrow else 48
+    ts, ss, fs = (30, 19, 17) if narrow else (34, 19, 16)
+    title = wrap(c['title'], ts, W - 2 * pad)
+    sub = wrap(c['sub'], ss, W - 2 * pad)
+    y = 8 + 26 + ts
+    head = tspans(title, pad, y, ts, 1.18, font_weight='700', fill=INK)
+    y += (len(title) - 1) * ts * 1.18 + ss * 1.7
+    head += tspans(sub, pad, y, ss, 1.35, fill=BODY)
+    y += (len(sub) - 1) * ss * 1.35 + 30
+    out = [head, f'<g transform="translate(0,{y:.0f})">{body}</g>']
+    y += body_h
+    if c.get('note'):
+        note = wrap(c['note'], fs, W - 2 * pad)
+        y += 10
+        out.append(tspans(note, pad, y + fs, fs, 1.4, fill=GREY))
+        y += len(note) * fs * 1.4
+    y += 22
+    out.append(f'<line x1="{pad}" y1="{y:.0f}" x2="{W - pad}" y2="{y:.0f}" stroke="{LINE}" stroke-width="2"/>')
+    text_w = W - 2 * pad - (0 if narrow else 230)
+    src = wrap('Source: ' + src_text(c['src']), fs, text_w)
+    y += 14 + fs
+    out.append(tspans(src, pad, y, fs, 1.4, fill=GREY))
+    y += len(src) * fs * 1.4
+    out.append(tspans(wrap(CREDIT, fs, text_w), pad, y, fs, 1.4, font_weight='700', fill=BLUE))
+    if narrow:
+        y += fs * 1.4 + 34
+        out.append(brand(pad, y, 24))
+        y += 24
+    else:
+        out.append(brand(W - pad - 190, y - fs * 0.6, 28))
+        y += fs * 0.4
+    h = int(y + 26)
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}" font-family="{FONT}">\n'
+           f'<title>{html.escape(c["title"])}. {html.escape(CREDIT)}</title>\n'
+           f'<rect width="{W}" height="{h}" fill="#FFFFFF"/><rect width="{W}" height="8" fill="{BLUE}"/>\n'
+           + '\n'.join(out) + '\n</svg>\n')
+    return svg, h
+
+
+def bars_body(c, W):
+    narrow = W == NARROW
+    pad = 32 if narrow else 48
+    fs = 20 if narrow else 19
     rows = c['rows']
-    top = max(r[1] for r in rows if r[1] is not None) * 1.08
-    lab_w, x0, x1 = 420, 470, 1000
-    y, parts = 150, []
-    parts.append(f'<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
-                 f'<rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="{ORANGE}" stroke-width="4"/></pattern></defs>')
+    top = max(r[1] for r in rows if r[1] is not None)
+    room = max(len(r[2]) for r in rows if r[1] is not None) * fs * 0.56 + 16
+    x0 = pad if narrow else 470
+    x1 = W - pad - room
+    p = [f'<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+         f'<rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="{ORANGE}" stroke-width="4"/></pattern></defs>']
+    y = 0
     for label, value, shown, kind in rows:
         if value is None:
-            parts.append(f'<text x="48" y="{y + 26}" font-size="15" font-weight="700" letter-spacing="2" fill="{GREY}">{html.escape(label.upper())}</text>')
-            y += 44
+            p.append(f'<text x="{pad}" y="{y + 26}" font-size="{fs - 4}" font-weight="700" letter-spacing="2" fill="{GREY}">{html.escape(label.upper())}</text>')
+            y += 42
             continue
         w = value / top * (x1 - x0)
         fill = {'hi': ORANGE, 'ref': REF, 'proj': 'url(#hatch)'}.get(kind, BLUE)
         weight = '700' if kind in ('hi', 'ref') else '400'
-        parts.append(f'<text x="{x0 - 16}" y="{y + 25}" font-size="19" font-weight="{weight}" fill="{INK}" text-anchor="end">{html.escape(label)}</text>')
-        parts.append(f'<rect x="{x0}" y="{y + 6}" width="{x1 - x0}" height="26" rx="4" fill="{ICE}" opacity=".45"/>')
         stroke = f' stroke="{ORANGE}" stroke-width="2"' if kind == 'proj' else ''
-        parts.append(f'<rect x="{x0}" y="{y + 6}" width="{w:.1f}" height="26" rx="4" fill="{fill}"{stroke}/>')
-        parts.append(f'<text x="{x0 + w + 12:.1f}" y="{y + 26}" font-size="19" font-weight="700" fill="{INK}">{html.escape(shown)}</text>')
-        y += 46
-    h = y + 40 + (40 if c.get('note') else 0) + 50
-    return svg_frame(c['title'], c['sub'], '\n'.join(parts), h, src_text(c['src']), c.get('note', ''))
+        if narrow:
+            p.append(f'<text x="{x0}" y="{y + fs}" font-size="{fs}" font-weight="{weight}" fill="{INK}">{html.escape(label)}</text>')
+            by = y + fs + 10
+        else:
+            p.append(f'<text x="{x0 - 16}" y="{y + 25}" font-size="{fs}" font-weight="{weight}" fill="{INK}" text-anchor="end">{html.escape(label)}</text>')
+            by = y + 6
+        p.append(f'<rect x="{x0}" y="{by}" width="{x1 - x0:.1f}" height="26" rx="4" fill="{ICE}" opacity=".45"/>')
+        p.append(f'<rect x="{x0}" y="{by}" width="{w:.1f}" height="26" rx="4" fill="{fill}"{stroke}/>')
+        p.append(f'<text x="{x0 + w + 12:.1f}" y="{by + 20}" font-size="{fs}" font-weight="700" fill="{INK}">{html.escape(shown)}</text>')
+        y = by + 26 + (22 if narrow else 14)
+    return '\n'.join(p), y
 
 
-def stripes(series, base, standalone=False):
+def stripes_body(c, W):
     """Summer temperature by year as columns, warm years orange, cool years blue."""
+    narrow = W == NARROW
+    series, base = c['series'], c['base']
     years = sorted(series)
-    W, H = (1200, 520) if standalone else (820, 340)
-    ox, oy = (48, 130) if standalone else (0, 0)
-    L, Rt, T, B = 44, 64, 18, 32
-    pw, ph = W - 2 * ox - L - Rt, (H - oy - 100 if standalone else H) - T - B
+    pad = 32 if narrow else 48
+    fs = 18 if narrow else 15
+    L, Rt, T, B = (50 if narrow else 44), (8 if narrow else 64), 30, 34
+    H = 330 if narrow else 340
+    pw, ph = W - 2 * pad - L - Rt, H - T - B
     lo, hi = 12.0, 17.0
     bw = pw / len(years)
-    def X(i): return ox + L + i * bw
-    def Y(v): return oy + T + (hi - v) / (hi - lo) * ph
-    def cls(name, colour):
-        halo = ' stroke="#FFFFFF" stroke-width="4" paint-order="stroke" stroke-linejoin="round"'
-        return f'fill="{colour}"{halo}' if standalone else f'class="{name}"'
+    def X(i): return pad + L + i * bw
+    def Y(v): return T + (hi - v) / (hi - lo) * ph
+    halo = 'stroke="#FFFFFF" stroke-width="4" paint-order="stroke" stroke-linejoin="round"'
     p = []
     for t in range(12, 18):
-        p.append(f'<line x1="{ox + L}" x2="{ox + L + pw}" y1="{Y(t):.1f}" y2="{Y(t):.1f}" '
-                 + (f'stroke="{LINE}"' if standalone else 'class="st-grid"') + '/>')
-        p.append(f'<text x="{ox + L - 8}" y="{Y(t) + 5:.1f}" text-anchor="end" font-size="{15 if standalone else 12}" '
-                 + cls('st-lab', GREY) + f'>{t}°C</text>')
+        p.append(f'<line x1="{pad + L}" x2="{pad + L + pw}" y1="{Y(t):.1f}" y2="{Y(t):.1f}" stroke="{LINE}"/>')
+        p.append(f'<text x="{pad + L - 8}" y="{Y(t) + 5:.1f}" text-anchor="end" font-size="{fs}" fill="{GREY}">{t}°C</text>')
     for i, yr in enumerate(years):
         v = series[yr]
         a = v - base
-        k = min(abs(a) / 2.2, 1)
-        colour = ORANGE if a > 0 else BLUE
-        op = 0.22 + 0.78 * k
+        op = 0.22 + 0.78 * min(abs(a) / 2.2, 1)
         y0, y1 = Y(max(v, lo)), Y(lo)
-        p.append(f'<rect x="{X(i) + 0.4:.2f}" y="{y0:.1f}" width="{max(bw - 0.8, 0.6):.2f}" height="{y1 - y0:.1f}" '
-                 + (f'fill="{colour}"' if standalone else f'class="{"st-warm" if a > 0 else "st-cool"}"')
-                 + f' fill-opacity="{op:.2f}"><title>{yr}: {v:.1f}°C</title></rect>')
+        p.append(f'<rect x="{X(i) + 0.3:.2f}" y="{y0:.1f}" width="{max(bw - 0.6, 0.6):.2f}" height="{y1 - y0:.1f}" '
+                 f'fill="{ORANGE if a > 0 else BLUE}" fill-opacity="{op:.2f}"/>')
     by = Y(base)
-    p.append(f'<line x1="{ox + L}" x2="{ox + L + pw}" y1="{by:.1f}" y2="{by:.1f}" stroke-dasharray="5 4" '
-             + (f'stroke="{INK}"' if standalone else 'class="st-base"') + '/>')
-    p.append(f'<text x="{ox + L + 6}" y="{by - 7:.1f}" font-size="{15 if standalone else 12}" ' + cls('st-lab', INK)
-             + f'>1961 to 1990 average, {base:.1f}°C</text>')
-    for yr in (1900, 1925, 1950, 1975, 2000, 2025):
-        if yr in years:
-            i = years.index(yr)
-            p.append(f'<text x="{X(i) + bw / 2:.1f}" y="{oy + T + ph + 22}" text-anchor="middle" font-size="{15 if standalone else 12}" '
-                     + cls('st-lab', GREY) + f'>{yr}</text>')
-    for yr, anchor in ((1976, 'middle'), (LATEST, 'end')):
+    p.append(f'<line x1="{pad + L}" x2="{pad + L + pw}" y1="{by:.1f}" y2="{by:.1f}" stroke-dasharray="5 4" stroke="{INK}" stroke-width="1.4"/>')
+    p.append(f'<text x="{pad + L + 6}" y="{by + fs + 6:.1f}" font-size="{fs}" fill="{INK}" {halo}>1961 to 1990 average, {base:.1f}°C</text>')
+    ticks = (1900, 1950, 2000) if narrow else (1900, 1925, 1950, 1975, 2000, 2025)
+    for yr in ticks:
         i = years.index(yr)
-        p.append(f'<text x="{X(i) + bw / 2 + (0 if anchor == "middle" else 4):.1f}" y="{Y(series[yr]) - 8:.1f}" text-anchor="{anchor}" '
-                 f'font-size="{16 if standalone else 12}" font-weight="700" ' + cls('st-key', INK)
-                 + f'>{yr}: {series[yr]:.1f}°C</text>')
-    body = '\n'.join(p)
-    if standalone:
-        return svg_frame(f'North West England summers, {years[0]} to {years[-1]}',
-                         'Mean temperature, June to August, England NW and North Wales. Warmer than the 1961 to 1990 average in orange',
-                         body, H, src_text(['metgrid']))
-    return (f'<svg class="stripes" viewBox="0 0 {W} {H}" role="img" aria-labelledby="chart-nw-summers-title">'
-            f'{body}</svg>')
+        p.append(f'<text x="{X(i) + bw / 2:.1f}" y="{T + ph + fs + 8}" text-anchor="middle" font-size="{fs}" fill="{GREY}">{yr}</text>')
+    for yr, anchor in ((1976, 'middle'), (years[-1], 'end')):
+        i = years.index(yr)
+        p.append(f'<text x="{X(i) + bw:.1f}" y="{Y(series[yr]) - 9:.1f}" text-anchor="{anchor}" font-size="{fs + 1}" '
+                 f'font-weight="700" fill="{INK}" {halo}>{yr}: {series[yr]:.1f}°C</text>')
+    return '\n'.join(p), H
+
+
+def draw(c, W):
+    body, h = (stripes_body if c.get('series') else bars_body)(c, W)
+    return frame(W, c, body, h)
+
+
+def alt_text(c):
+    if c.get('series'):
+        data = c['alt_data']
+    else:
+        data = '; '.join(f'{label} {shown}' for label, value, shown, kind in c['rows'] if value is not None)
+    return f"{c['title']}. {c['sub']}. {data}. Source: {src_text(c['src'])}. {CREDIT}."
 
 
 def src_text(keys):
     names = {'edrc': 'EDRC analysis of the English Housing Survey 2023-24',
              'ehs': 'English Housing Survey 2024 to 2025, MHCLG',
-             'ofgem': 'Ofgem price cap, October 2026; CoolIn',
+             'ofgem': 'Ofgem price cap, October 2026; CoolIn calculation',
              'metgrid': 'Met Office HadUK-Grid'}
     return '; '.join(names.get(k, SOURCES[k][0]) for k in keys)
 
 
-def figure(cid, c, inner=None, kind='bars'):
+STATS_DIR = 'assets/img/stats'
+MANIFEST = f'{STATS_DIR}/png-manifest.json'
+
+def digest(text):
+    return hashlib.sha1(text.encode('utf-8')).hexdigest()[:16]
+
+def png_current(name, svg_text):
+    """A PNG is shown only if it was drawn from the SVG as it is now, so a
+    figure changed without re-running make-stats-png.py falls back to the SVG
+    instead of showing an out of date picture."""
+    try:
+        made = json.load(open(MANIFEST))
+    except (OSError, ValueError):
+        return False
+    return made.get(name) == digest(svg_text) and os.path.exists(f'{STATS_DIR}/{name}.png')
+
+
+def figure(cid, c, first=False):
     e = html.escape
-    png, svg = f'/assets/img/stats/{cid}.png', f'/assets/img/stats/{cid}.svg'
-    alt = f"{c['title']}. {c['sub']}. Source: {src_text(c['src'])}."
-    embed = (f'<a href="{URL}#chart-{cid}"><img src="{BASE}{png}" alt="{e(alt)}" width="1200"></a>'
-             f'<p>Source: <a href="{URL}">CoolIn, UK air conditioning statistics</a></p>')
-    note = f'<p class="chart__note">{e(c["note"])}</p>' if c.get('note') else ''
-    has_png = os.path.exists(png[1:])
-    dl = (f'<a class="chart__dl" href="{png}" download>Download PNG</a>' if has_png else '') + \
-         f'<a class="chart__dl" href="{svg}" download>Download SVG</a>'
+    os.makedirs(STATS_DIR, exist_ok=True)
+    wide, wh = draw(c, WIDE)
+    narrow, nh = draw(c, NARROW)
+    open(f'{STATS_DIR}/{cid}.svg', 'w', encoding='utf-8').write(wide)
+    open(f'{STATS_DIR}/{cid}-mobile.svg', 'w', encoding='utf-8').write(narrow)
+    has_png = png_current(cid, wide)
+    ext_w = 'png' if has_png else 'svg'
+    ext_n = 'png' if png_current(f'{cid}-mobile', narrow) else 'svg'
+    alt = alt_text(c)
+    img_url = f'{BASE}/{STATS_DIR}/{cid}.{ext_w}'
+    embed = (f'<figure><a href="{URL}#chart-{cid}"><img src="{img_url}" alt="{e(alt)}" width="{WIDE}" height="{wh}" '
+             f'style="max-width:100%;height:auto"></a><figcaption>Chart: <a href="{URL}">CoolIn, UK air conditioning '
+             f'statistics</a></figcaption></figure>')
+    dl = ((f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.png" download="coolin-{cid}.png">Download image (PNG)</a>' if has_png else '')
+          + f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.svg" download="coolin-{cid}.svg">SVG</a>')
+    load = '' if first else ' loading="lazy"'
     return f'''
     <figure class="chart js-up" id="chart-{cid}">
-      <figcaption class="chart__cap">
-        <h3 class="chart__title" id="chart-{cid}-title">{e(c['title'])}</h3>
-        <p class="chart__sub">{e(c['sub'])}</p>
-      </figcaption>
-      <div class="chart__plot">{inner if inner is not None else bars_html(cid, c)}</div>
-      {note}
-      <div class="chart__foot">
-        <p class="chart__src">Source: {e(src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
+      <h3 class="sr-only" id="chart-{cid}-title">{e(c['title'])}</h3>
+      <picture>
+        <source media="(max-width:640px)" srcset="/{STATS_DIR}/{cid}-mobile.{ext_n}" width="{NARROW}" height="{nh}">
+        <img class="chart__img" src="/{STATS_DIR}/{cid}.{ext_w}" width="{WIDE}" height="{wh}" alt="{e(alt)}"{load} decoding="async">
+      </picture>
+      <figcaption class="chart__foot">
+        <p class="chart__src">Free to use with credit to CoolIn. Data: {e(src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
         <div class="chart__tools">{dl}<button type="button" class="chart__dl chart__embed" data-copy="{e(embed)}" data-done="Embed code copied. Paste it into your article's HTML">Copy embed code</button></div>
-      </div>
+      </figcaption>
     </figure>'''
 
 
@@ -574,7 +660,7 @@ def page():
         <p>The best measure of air conditioning in English homes is the English Housing Survey, which asked 15,846 households in 2023-24 how they keep cool in summer. Researchers at the Energy Demand Research Centre and the University of Reading analysed the answers and found that {ENGLAND_SHARE:g}% used air conditioning, about {m(ENGLAND_HOMES)} homes. {ref('edrc')}</p>
         <p>It is not spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. {ref('reading')}</p>
       </div>
-{figure('region', CHARTS['region'])}
+{figure('region', CHARTS['region'], first=True)}
 {figure('income', CHARTS['income'])}
 {figure('people', CHARTS['people'])}
 {figure('home', CHARTS['home'])}
@@ -591,7 +677,7 @@ def page():
         <p>At London's rate of {LONDON_SHARE:g}%, around {thou(NW_GAP, 5000)} more North West homes would have it. Even allowing for income, home type and the other differences between households, a North West household had 69% lower odds of using air conditioning than one in London. {ref('edrc')}</p>
         <p>The summers are not standing still while that gap stays open. Summer {LATEST} was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of {NW[LATEST]:.1f}°C. Summer {LATEST - 1} was the second warmest. {WORDS[NW_TOP_RECENT]} of the ten warmest have come in 2003 or later, and the last ten summers averaged {NW_RECENT - NW_BASE:.1f}°C warmer than the 1961 to 1990 average. {ref('metgrid')}</p>
       </div>
-{figure('nw-summers', dict(title=f'North West England summers, 1884 to {LATEST}', sub='Mean temperature, June to August, England NW and North Wales. Orange summers were warmer than the 1961 to 1990 average, blue were cooler', src=['metgrid']), inner='<div class="chart__scroll">' + stripes(NW, NW_BASE) + '</div>')}
+{figure('nw-summers', CHARTS['nw-summers'])}
 {top10_table()}
     </section>
 
@@ -775,6 +861,8 @@ def write_csv():
     src_of = {'region': 'edrc', 'income': 'edrc', 'people': 'edrc', 'wfh': 'edrc', 'home': 'edrc',
               'overheat': 'ehs', 'overheat-type': 'ehs', 'cooling': 'ehs', 'cost': 'ofgem', 'outlook': 'edrc'}
     for cid, c in CHARTS.items():
+        if c.get('series'):
+            continue
         group_prefix = ''
         for label, value, shown, kind in c['rows']:
             if value is None:
@@ -798,19 +886,11 @@ def write_csv():
         csv.writer(f).writerows(rows)
 
 
-def write_svgs():
-    os.makedirs('assets/img/stats', exist_ok=True)
-    for cid, c in CHARTS.items():
-        open(f'assets/img/stats/{cid}.svg', 'w', encoding='utf-8').write(bars_svg(c))
-    open('assets/img/stats/nw-summers.svg', 'w', encoding='utf-8').write(stripes(NW, NW_BASE, standalone=True))
-
-
 if __name__ == '__main__':
-    write_svgs()
     write_csv()
     out = page()
     for bad in ('–', '—'):
         if bad in out:
             sys.exit(f'  build-stats: the page contains a {"en" if bad == chr(0x2013) else "em"} dash, which the house style does not use')
     open(f'{SLUG}.html', 'w', encoding='utf-8').write(out)
-    print(f'  {SLUG}.html  {len(CHARTS) + 1} charts, {len(FINDINGS)} findings, {len(SOURCES)} sources')
+    print(f'  {SLUG}.html  {len(CHARTS)} charts, {len(FINDINGS)} findings, {len(SOURCES)} sources')

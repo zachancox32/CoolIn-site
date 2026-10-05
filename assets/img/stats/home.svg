@@ -1,62 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 924" width="1200" height="924" font-family="Arial, Helvetica, sans-serif">
-<rect width="1200" height="924" fill="#FFFFFF"/>
-<rect width="1200" height="8" fill="#0E6E96"/>
-<text x="48" y="70" font-size="34" font-weight="700" fill="#12262F">Which homes have air conditioning</text>
-<text x="48" y="106" font-size="19" fill="#41606E">Share of households using air conditioning in summer, by home type, age and tenure, England 2023-24</text>
-<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
-<text x="48" y="176" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY TYPE</text>
-<text x="454" y="219" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Detached or bungalow</text>
-<rect x="470" y="200" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="200" width="461.0" height="26" rx="4" fill="#0E6E96"/>
-<text x="943.0" y="220" font-size="19" font-weight="700" fill="#12262F">6.2%</text>
-<text x="454" y="265" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Semi detached</text>
-<rect x="470" y="246" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="246" width="290.0" height="26" rx="4" fill="#0E6E96"/>
-<text x="772.0" y="266" font-size="19" font-weight="700" fill="#12262F">3.9%</text>
-<text x="454" y="311" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Flat</text>
-<rect x="470" y="292" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="292" width="275.1" height="26" rx="4" fill="#0E6E96"/>
-<text x="757.1" y="312" font-size="19" font-weight="700" fill="#12262F">3.7%</text>
-<text x="454" y="357" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Terraced</text>
-<rect x="470" y="338" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="338" width="267.7" height="26" rx="4" fill="#0E6E96"/>
-<text x="749.7" y="358" font-size="19" font-weight="700" fill="#12262F">3.6%</text>
-<text x="48" y="404" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY AGE</text>
-<text x="454" y="447" font-size="19" font-weight="700" fill="#12262F" text-anchor="end">Built since 2000</text>
-<rect x="470" y="428" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="428" width="490.7" height="26" rx="4" fill="#E2673B"/>
-<text x="972.7" y="448" font-size="19" font-weight="700" fill="#12262F">6.6%</text>
-<text x="454" y="493" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built before 1930</text>
-<rect x="470" y="474" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="474" width="319.7" height="26" rx="4" fill="#0E6E96"/>
-<text x="801.7" y="494" font-size="19" font-weight="700" fill="#12262F">4.3%</text>
-<text x="454" y="539" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built 1930 to 1964</text>
-<rect x="470" y="520" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="520" width="275.1" height="26" rx="4" fill="#0E6E96"/>
-<text x="757.1" y="540" font-size="19" font-weight="700" fill="#12262F">3.7%</text>
-<text x="454" y="585" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built 1965 to 1999</text>
-<rect x="470" y="566" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="566" width="267.7" height="26" rx="4" fill="#0E6E96"/>
-<text x="749.7" y="586" font-size="19" font-weight="700" fill="#12262F">3.6%</text>
-<text x="48" y="632" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY TENURE</text>
-<text x="454" y="675" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Owner occupied</text>
-<rect x="470" y="656" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="656" width="371.8" height="26" rx="4" fill="#0E6E96"/>
-<text x="853.8" y="676" font-size="19" font-weight="700" fill="#12262F">5.0%</text>
-<text x="454" y="721" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Private rented</text>
-<rect x="470" y="702" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="702" width="245.4" height="26" rx="4" fill="#0E6E96"/>
-<text x="727.4" y="722" font-size="19" font-weight="700" fill="#12262F">3.3%</text>
-<text x="454" y="767" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Council</text>
-<rect x="470" y="748" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="748" width="237.9" height="26" rx="4" fill="#0E6E96"/>
-<text x="719.9" y="768" font-size="19" font-weight="700" fill="#12262F">3.2%</text>
-<text x="454" y="813" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Housing association</text>
-<rect x="470" y="794" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
-<rect x="470" y="794" width="193.3" height="26" rx="4" fill="#0E6E96"/>
-<text x="675.3" y="814" font-size="19" font-weight="700" fill="#12262F">2.6%</text>
-
-<line x1="48" y1="872" x2="1152" y2="872" stroke="#E1EAEF" stroke-width="2"/>
-<text x="48" y="902" font-size="16" fill="#6E8592">Source: EDRC analysis of the English Housing Survey 2023-24</text>
-<text x="1152" y="902" font-size="16" font-weight="700" fill="#0E6E96" text-anchor="end">cool-in.co.uk/air-conditioning-statistics</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 915" width="1200" height="915" font-family="Arial, Helvetica, sans-serif">
+<title>Which homes have air conditioning. Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics</title>
+<rect width="1200" height="915" fill="#FFFFFF"/><rect width="1200" height="8" fill="#0E6E96"/>
+<text x="48" y="68" font-size="34" font-weight="700" fill="#12262F">Which homes have air conditioning</text><text x="48" y="100" font-size="19" fill="#41606E">Share of households using air conditioning in summer, by home type, age and tenure, England 2023-24</text>
+<g transform="translate(0,130)"><defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
+<text x="48" y="26" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY TYPE</text>
+<text x="454" y="67" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Detached or bungalow</text>
+<rect x="470" y="48" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="48" width="585.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="1067.7" y="68" font-size="19" font-weight="700" fill="#12262F">6.2%</text>
+<text x="454" y="113" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Semi detached</text>
+<rect x="470" y="94" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="94" width="368.4" height="26" rx="4" fill="#0E6E96"/>
+<text x="850.4" y="114" font-size="19" font-weight="700" fill="#12262F">3.9%</text>
+<text x="454" y="159" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Flat</text>
+<rect x="470" y="140" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="140" width="349.5" height="26" rx="4" fill="#0E6E96"/>
+<text x="831.5" y="160" font-size="19" font-weight="700" fill="#12262F">3.7%</text>
+<text x="454" y="205" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Terraced</text>
+<rect x="470" y="186" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="186" width="340.1" height="26" rx="4" fill="#0E6E96"/>
+<text x="822.1" y="206" font-size="19" font-weight="700" fill="#12262F">3.6%</text>
+<text x="48" y="252" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY AGE</text>
+<text x="454" y="293" font-size="19" font-weight="700" fill="#12262F" text-anchor="end">Built since 2000</text>
+<rect x="470" y="274" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="274" width="623.4" height="26" rx="4" fill="#E2673B"/>
+<text x="1105.4" y="294" font-size="19" font-weight="700" fill="#12262F">6.6%</text>
+<text x="454" y="339" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built before 1930</text>
+<rect x="470" y="320" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="320" width="406.2" height="26" rx="4" fill="#0E6E96"/>
+<text x="888.2" y="340" font-size="19" font-weight="700" fill="#12262F">4.3%</text>
+<text x="454" y="385" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built 1930 to 1964</text>
+<rect x="470" y="366" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="366" width="349.5" height="26" rx="4" fill="#0E6E96"/>
+<text x="831.5" y="386" font-size="19" font-weight="700" fill="#12262F">3.7%</text>
+<text x="454" y="431" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Built 1965 to 1999</text>
+<rect x="470" y="412" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="412" width="340.1" height="26" rx="4" fill="#0E6E96"/>
+<text x="822.1" y="432" font-size="19" font-weight="700" fill="#12262F">3.6%</text>
+<text x="48" y="478" font-size="15" font-weight="700" letter-spacing="2" fill="#6E8592">BY TENURE</text>
+<text x="454" y="519" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Owner occupied</text>
+<rect x="470" y="500" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="500" width="472.3" height="26" rx="4" fill="#0E6E96"/>
+<text x="954.3" y="520" font-size="19" font-weight="700" fill="#12262F">5.0%</text>
+<text x="454" y="565" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Private rented</text>
+<rect x="470" y="546" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="546" width="311.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="793.7" y="566" font-size="19" font-weight="700" fill="#12262F">3.3%</text>
+<text x="454" y="611" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Council</text>
+<rect x="470" y="592" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="592" width="302.3" height="26" rx="4" fill="#0E6E96"/>
+<text x="784.3" y="612" font-size="19" font-weight="700" fill="#12262F">3.2%</text>
+<text x="454" y="657" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Housing association</text>
+<rect x="470" y="638" width="623.4" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="638" width="245.6" height="26" rx="4" fill="#0E6E96"/>
+<text x="727.6" y="658" font-size="19" font-weight="700" fill="#12262F">2.6%</text></g>
+<line x1="48" y1="830" x2="1152" y2="830" stroke="#E1EAEF" stroke-width="2"/>
+<text x="48" y="860" font-size="16" fill="#6E8592">Source: EDRC analysis of the English Housing Survey 2023-24</text>
+<text x="48" y="883" font-size="16" font-weight="700" fill="#0E6E96">Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics</text>
+<g transform="translate(962,846.5) scale(1.342)" fill="none" stroke="#0E6E96" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/><path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/><path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/><path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/></g><text x="1000" y="873.0999999999999" font-size="28" font-weight="900" letter-spacing="1" fill="#0D2B38">COOLIN</text>
 </svg>

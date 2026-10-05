@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 867" width="600" height="867" font-family="Arial, Helvetica, sans-serif">
+<title>What it costs to keep cool, per hour. Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics</title>
+<rect width="600" height="867" fill="#FFFFFF"/><rect width="600" height="8" fill="#0E6E96"/>
+<text x="32" y="64" font-size="30" font-weight="700" fill="#12262F">What it costs to keep cool, per</text><text x="32" y="99" font-size="30" font-weight="700" fill="#12262F">hour</text><text x="32" y="132" font-size="19" fill="#41606E">Running cost per hour at the October to December 2026</text><text x="32" y="157" font-size="19" fill="#41606E">price cap of 26.32p per kWh</text>
+<g transform="translate(0,187)"><defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
+<text x="32" y="20" font-size="20" font-weight="400" fill="#12262F">Portable air conditioner</text>
+<rect x="32" y="30" width="464.0" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="32" y="30" width="464.0" height="26" rx="4" fill="#0E6E96"/>
+<text x="508.0" y="50" font-size="20" font-weight="700" fill="#12262F">26.3p</text>
+<text x="32" y="98" font-size="20" font-weight="400" fill="#12262F">Split system, cooling a hot room down</text>
+<rect x="32" y="108" width="464.0" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="32" y="108" width="301.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="345.7" y="128" font-size="20" font-weight="700" fill="#12262F">17.1p</text>
+<text x="32" y="176" font-size="20" font-weight="700" fill="#12262F">Split system, holding the room at temperature</text>
+<rect x="32" y="186" width="464.0" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="32" y="186" width="139.4" height="26" rx="4" fill="#E2673B"/>
+<text x="183.4" y="206" font-size="20" font-weight="700" fill="#12262F">7.9p</text>
+<text x="32" y="254" font-size="20" font-weight="400" fill="#12262F">Evaporative air cooler</text>
+<rect x="32" y="264" width="464.0" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="32" y="264" width="31.8" height="26" rx="4" fill="#0E6E96"/>
+<text x="75.8" y="284" font-size="20" font-weight="700" fill="#12262F">1.8p</text>
+<text x="32" y="332" font-size="20" font-weight="400" fill="#12262F">Electric fan</text>
+<rect x="32" y="342" width="464.0" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="32" y="342" width="19.4" height="26" rx="4" fill="#0E6E96"/>
+<text x="63.4" y="362" font-size="20" font-weight="700" fill="#12262F">1.1p</text></g>
+<text x="32" y="604" font-size="17" fill="#6E8592">Power figures are typical: 0.3 and 0.65kW for a 2.5kW split</text><text x="32" y="628" font-size="17" fill="#6E8592">system, about 1kW for a portable unit, 70W for an air</text><text x="32" y="652" font-size="17" fill="#6E8592">cooler and 40W for a fan. Check the label on your own</text><text x="32" y="676" font-size="17" fill="#6E8592">appliance.</text>
+<line x1="32" y1="705" x2="568" y2="705" stroke="#E1EAEF" stroke-width="2"/>
+<text x="32" y="736" font-size="17" fill="#6E8592">Source: Ofgem price cap, October 2026; CoolIn calculation</text>
+<text x="32" y="759" font-size="17" font-weight="700" fill="#0E6E96">Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics</text>
+<g transform="translate(32,794.3) scale(1.150)" fill="none" stroke="#0E6E96" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/><path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/><path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/><path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/></g><text x="64" y="817.1499999999999" font-size="24" font-weight="900" letter-spacing="1" fill="#0D2B38">COOLIN</text>
+</svg>
