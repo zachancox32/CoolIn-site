@@ -381,6 +381,13 @@ ul,ol{margin:0;padding:0;list-style:none}
 .footer__col ul{display:flex;flex-direction:column;gap:11px}
 .footer__col a{color:#8FA9B6}
 .footer__col a:hover{color:var(--ice)}
+/* Cookie choice. Accept and Reject carry equal weight on purpose. */
+.consent{position:fixed;left:20px;bottom:20px;z-index:300;max-width:400px;background:var(--navy);color:#CFE2EB;border:1px solid rgba(255,255,255,.14);border-radius:var(--radius-lg);box-shadow:0 18px 40px -16px rgba(0,0,0,.55);padding:20px 22px;display:grid;gap:14px}
+.consent__text{margin:0;font-size:.9rem;line-height:1.55}
+.consent__text a{color:var(--ice);text-decoration:underline;text-underline-offset:3px}
+.consent__btns{display:flex;gap:10px}
+.consent__btn{flex:1;padding:11px 16px}
+@media (max-width:620px){.consent{left:12px;right:12px;bottom:12px;max-width:none}}
 .footer__areas{display:flex;gap:10px 18px;align-items:baseline;flex-wrap:wrap;padding-top:6px;padding-bottom:26px}
 .footer__areas h4{color:#fff;margin:0;font-size:.82rem;white-space:nowrap}
 .footer__areas ul{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0;padding:0;list-style:none}

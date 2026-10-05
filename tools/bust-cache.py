@@ -19,6 +19,7 @@ ASSETS = {
     'assets/css/style.css': r'(assets/css/style\.css\?v=)([A-Za-z0-9]+)',
     'assets/js/main.js':    r'(assets/js/main\.js\?v=)([A-Za-z0-9]+)',
     'assets/js/scene.js':   r'(assets/js/scene\.js\?v=)([A-Za-z0-9]+)',
+    'assets/js/analytics.js': r'(assets/js/analytics\.js\?v=)([A-Za-z0-9]+)',
 }
 
 stamps = {}
