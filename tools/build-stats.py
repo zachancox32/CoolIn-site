@@ -473,18 +473,21 @@ def figure(cid, c, first=False):
     ext_w = 'png' if has_png else 'svg'
     ext_n = 'png' if png_current(f'{cid}-mobile', narrow) else 'svg'
     alt = alt_text(c)
-    img_url = f'{BASE}/{STATS_DIR}/{cid}.{ext_w}'
+    # A version tag from the drawing itself, so browsers fetch a chart again
+    # whenever it changes instead of showing the copy they cached.
+    vw, vn = f'?v={digest(wide)[:8]}', f'?v={digest(narrow)[:8]}'
+    img_url = f'{BASE}/{STATS_DIR}/{cid}.{ext_w}{vw}'
     embed = (f'<figure><a href="{URL}#chart-{cid}"><img src="{img_url}" alt="{e(alt)}" width="{WIDE}" height="{wh}" '
              f'style="max-width:100%;height:auto"></a><figcaption>Chart: <a href="{URL}">CoolIn, UK air conditioning '
              f'statistics</a></figcaption></figure>')
-    dl = ((f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.png" download="coolin-{cid}.png">Download PNG</a>' if has_png else '')
-          + f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.svg" download="coolin-{cid}.svg">SVG</a>')
+    dl = ((f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.png{vw}" download="coolin-{cid}.png">Download PNG</a>' if has_png else '')
+          + f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.svg{vw}" download="coolin-{cid}.svg">SVG</a>')
     load = '' if first else ' loading="lazy"'
     return f'''
     <figure class="chart js-up" id="chart-{cid}">
       <picture>
-        <source media="(max-width:640px)" srcset="/{STATS_DIR}/{cid}-mobile.{ext_n}" width="{NARROW}" height="{nh}">
-        <img class="chart__img" src="/{STATS_DIR}/{cid}.{ext_w}" width="{WIDE}" height="{wh}" alt="{e(alt)}"{load} decoding="async">
+        <source media="(max-width:640px)" srcset="/{STATS_DIR}/{cid}-mobile.{ext_n}{vn}" width="{NARROW}" height="{nh}">
+        <img class="chart__img" src="/{STATS_DIR}/{cid}.{ext_w}{vw}" width="{WIDE}" height="{wh}" alt="{e(alt)}"{load} decoding="async">
       </picture>
       <figcaption class="chart__foot">
         <p class="chart__src">Free to use with credit to CoolIn. Data: {e(c.get('src_line') or src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
