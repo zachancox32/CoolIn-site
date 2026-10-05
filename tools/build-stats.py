@@ -11,7 +11,7 @@ Office's public HadUK-Grid files, so the build never needs the network.
 To update: change the figures below (or drop in fresh Met Office files),
 set REVIEWED, run this, then run tools/make-stats-png.py on a Mac to redraw
 the PNG versions of the charts, which journalists can drop into an article.
-Each chart image carries its own title, source and a "Chart by CoolIn" credit,
+Each chart image carries its own title, source and a "Chart by CoolIn" credit
 in a wide version and a phone version. The page shows the PNGs only while
 they match the current figures, and falls back to the SVGs otherwise.
 
@@ -260,13 +260,12 @@ CHARTS = {
 # Each chart is drawn twice as a self contained image: a wide one for articles
 # and desktop, and a narrow one with larger text for phones. Both carry the
 # title, the source and a "Chart by CoolIn" credit with the address, so the
-# image still names us wherever it ends up.
+# image still names us wherever it ends up. No logo: the credit line does it.
 INK, BODY, GREY, LINE, BLUE, ORANGE, REF, ICE, NAVY = ('#12262F', '#41606E', '#6E8592', '#E1EAEF', '#0E6E96',
                                                        '#E2673B', '#9FB3BE', '#D7EDF7', '#0D2B38')
 FONT = "Arial, Helvetica, sans-serif"
 WIDE, NARROW = 1200, 600
 CREDIT = f'Chart by CoolIn, {SHORT}'
-CRYSTAL_PATHS = re.search(r'<g [^>]*>(.*?)</g>', CRYSTAL).group(1)
 
 
 def wrap(text, size, width):
@@ -286,14 +285,6 @@ def tspans(lines, x, y, size, lead, **attrs):
     a = ' '.join(f'{k.replace("_", "-")}="{v}"' for k, v in attrs.items())
     return ''.join(f'<text x="{x}" y="{y + i * size * lead:.0f}" font-size="{size}" {a}>{html.escape(t)}</text>'
                    for i, t in enumerate(lines))
-
-
-def brand(x, y, size):
-    """The crystal mark and wordmark, with (x, y) at the left of the baseline."""
-    k = size / 24 * 1.15
-    return (f'<g transform="translate({x},{y - size * 0.95:.1f}) scale({k:.3f})" fill="none" stroke="{BLUE}" '
-            f'stroke-width="1.6" stroke-linecap="round">{CRYSTAL_PATHS}</g>'
-            f'<text x="{x + size * 1.35:.0f}" y="{y}" font-size="{size}" font-weight="900" letter-spacing="1" fill="{NAVY}">COOLIN</text>')
 
 
 def frame(W, c, body, body_h):
@@ -316,19 +307,14 @@ def frame(W, c, body, body_h):
         y += len(note) * fs * 1.4
     y += 22
     out.append(f'<line x1="{pad}" y1="{y:.0f}" x2="{W - pad}" y2="{y:.0f}" stroke="{LINE}" stroke-width="2"/>')
-    text_w = W - 2 * pad - (0 if narrow else 230)
+    text_w = W - 2 * pad
     src = wrap('Source: ' + src_text(c['src']), fs, text_w)
     y += 14 + fs
     out.append(tspans(src, pad, y, fs, 1.4, fill=GREY))
     y += len(src) * fs * 1.4
-    out.append(tspans(wrap(CREDIT, fs, text_w), pad, y, fs, 1.4, font_weight='700', fill=BLUE))
-    if narrow:
-        y += fs * 1.4 + 34
-        out.append(brand(pad, y, 24))
-        y += 24
-    else:
-        out.append(brand(W - pad - 190, y - fs * 0.6, 28))
-        y += fs * 0.4
+    credit = wrap(CREDIT, fs, text_w)
+    out.append(tspans(credit, pad, y, fs, 1.4, font_weight='700', fill=BLUE))
+    y += (len(credit) - 1) * fs * 1.4
     h = int(y + 26)
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {h}" width="{W}" height="{h}" font-family="{FONT}">\n'
            f'<title>{html.escape(c["title"])}. {html.escape(CREDIT)}</title>\n'
@@ -486,44 +472,49 @@ LOW_PC, HIGH_PC = LOW_2027 / HOUSEHOLDS * 100, HIGH_2027 / HOUSEHOLDS * 100
 
 WORDS = ['None', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten']
 
+# The findings band at the top of the page. Each is (id, the big figure, the
+# line beside it, the full sentence that is copied, source keys). The first
+# is the figure people search for and leads; the rest are the ones only this
+# page has. Keep the list short: every extra line makes the others weaker.
 FINDINGS = [
-    ('homes', f'Only {ENGLAND_SHARE:g}% of homes in England use air conditioning to keep cool in summer, about {m(ENGLAND_HOMES)} homes.', ['edrc']),
-    ('north-west', f'In the North West it is {NW_SHARE:g}%, roughly {thou(NW_HOMES, 10000)} homes, against {LONDON_SHARE:g}% in London and the East of England.', ['edrc', 'census']),
-    ('gap', f'If the North West used air conditioning at London\'s rate, around {thou(NW_GAP, 5000)} more homes in the region would have it.', ['edrc', 'census']),
-    ('overheating', f'{m(OVERHEAT_2024, 0)} homes in England reported overheating in 2024, up from {m(OVERHEAT_2019)} in 2019.', ['ehs']),
-    ('windows', 'When their home overheated, 90% of households opened the windows and 7% used air conditioning.', ['ehs']),
-    ('income', 'The highest earning fifth of households are more than three times as likely to use air conditioning as the lowest earning fifth: 8.2% against 2.5%.', ['edrc']),
-    ('older', 'Households with someone over 75 are among the least likely to have air conditioning, at 3.0%, though older people are among the most at risk from heat.', ['edrc', 'reading']),
-    ('wfh', 'Where someone works from home four or more days a week, 6.9% of households use air conditioning, more than double the 3.2% where nobody does.', ['edrc']),
-    ('summer', f'Summer {LATEST} was the hottest on record for the UK and for North West England, with 55 days above 28°C against a previous record of 41.', ['metgrid', 'metdays']),
-    ('seven', f'{WORDS[NW_TOP_RECENT]} of the North West\'s ten warmest summers since 1884 have come in 2003 or later.', ['metgrid']),
-    ('warmer', f'North West summers over the last ten years averaged {NW_RECENT - NW_BASE:.1f}°C warmer than the 1961 to 1990 average.', ['metgrid']),
-    ('cost', f'A split air conditioner holding a room at temperature costs about {pence(0.3):.0f}p an hour to run at the October 2026 price cap. A portable unit costs about {pence(1.0):.0f}p.', ['ofgem']),
-    ('2027', f'By summer 2027, between {m(LOW_2027)} and {m(HIGH_2027)} homes in England could be using air conditioning, about 1 in {one_in(LOW_PC)} to 1 in {one_in(HIGH_PC)}.', ['edrc']),
-    ('ban', 'No new air conditioning ban arrives in Great Britain in 2027. The EU\'s ban on small split systems using higher warming refrigerants starts in the EU and Northern Ireland on 1 January 2027, but not in England, Scotland or Wales.', ['fgas', 'daikin']),
+    ('homes', f'{ENGLAND_SHARE:g}%', f'of homes in England use air conditioning. About {m(ENGLAND_HOMES)}.',
+     f'Only {ENGLAND_SHARE:g}% of homes in England use air conditioning to keep cool in summer, about {m(ENGLAND_HOMES)} homes.',
+     ['edrc']),
+    ('north-west', f'{NW_SHARE:g}%', f'in the North West, roughly {thou(NW_HOMES, 10000)} homes. London is at {LONDON_SHARE:g}%.',
+     f'In the North West, {NW_SHARE:g}% of homes use air conditioning, roughly {thou(NW_HOMES, 10000)} homes, against {LONDON_SHARE:g}% in London and the East of England.',
+     ['edrc', 'census']),
+    ('gap', thou(NW_GAP, 5000), 'more North West homes would have it at London\'s rate.',
+     f'If the North West used air conditioning at London\'s rate, around {thou(NW_GAP, 5000)} more homes in the region would have it.',
+     ['edrc', 'census']),
+    ('seven', f'{NW_TOP_RECENT} in 10', 'of the North West\'s warmest summers since 1884 came in 2003 or later.',
+     f'{WORDS[NW_TOP_RECENT]} of the North West\'s ten warmest summers since 1884 have come in 2003 or later.',
+     ['metgrid']),
+    ('windows', '7%', 'of households whose home overheated used air conditioning. 90% opened a window.',
+     'When their home overheated, 90% of households in England opened the windows and 7% used air conditioning.',
+     ['ehs']),
+    ('income', '3x', 'as likely to have it in the richest fifth of homes as the poorest: 8.2% against 2.5%.',
+     'The highest earning fifth of households are more than three times as likely to use air conditioning as the lowest earning fifth: 8.2% against 2.5%.',
+     ['edrc']),
+    ('2027', f'{HIGH_2027 / 1e6:.2f}m', f'homes in England could be using it by summer 2027. Up to 1 in {one_in(HIGH_PC)}.',
+     f'By summer 2027, between {m(LOW_2027)} and {m(HIGH_2027)} homes in England could be using air conditioning, about 1 in {one_in(LOW_PC)} to 1 in {one_in(HIGH_PC)}.',
+     ['edrc']),
+    ('ban', 'No ban', 'on air conditioning in Great Britain in 2027. The EU\'s applies in the EU and Northern Ireland only.',
+     'No new air conditioning ban arrives in Great Britain in 2027. The EU\'s ban on small split systems using higher warming refrigerants starts in the EU and Northern Ireland on 1 January 2027, but not in England, Scotland or Wales.',
+     ['fgas', 'daikin']),
 ]
-assert NW_TOP_RECENT == 7, 'the headline tile says seven of ten; check it'
+assert NW_TOP_RECENT == 7 and len(FINDINGS) == 8, 'the findings band is laid out for eight cards with seven of ten; check it'
 
 
 def findings_html():
     items = []
-    for fid, text, keys in FINDINGS:
-        cite = f'{text} Source: CoolIn, UK air conditioning statistics, {URL}#finding-{fid}'
-        items.append(f'''        <li class="finding" id="finding-{fid}">
-          <p class="finding__text">{html.escape(text)} {' '.join(ref(k) for k in keys)}</p>
-          <button type="button" class="finding__copy" data-copy="{html.escape(cite)}" data-done="Statistic and source copied">Copy</button>
+    for i, (fid, big, line, quote, keys) in enumerate(FINDINGS):
+        cite = f'{quote} Source: CoolIn, UK air conditioning statistics 2027, {URL}#finding-{fid}'
+        items.append(f'''        <li class="find{' find--lead' if i == 0 else ''}" id="finding-{fid}">
+          <p class="find__n">{html.escape(big)}</p>
+          <p class="find__t">{html.escape(line)} {' '.join(ref(k) for k in keys)}</p>
+          <button type="button" class="find__copy" data-copy="{html.escape(cite)}" data-done="Finding and source copied" aria-label="Copy this finding with its source">Copy</button>
         </li>''')
     return '\n'.join(items)
-
-
-TILES = [
-    (f'{ENGLAND_SHARE:g}%', 'of homes in England use air conditioning', 'edrc'),
-    (f'{NW_SHARE:g}%', 'in the North West, against 6.5% in London', 'edrc'),
-    ('3 million', 'homes in England reported overheating in 2024', 'ehs'),
-    ('7%', 'of households whose home overheated used air conditioning', 'ehs'),
-    ('55 days', f'above 28°C in the UK in summer {LATEST}, a record', 'metdays'),
-    (f'Up to 1 in {one_in(HIGH_PC)}', 'homes in England could use air conditioning by summer 2027', 'edrc'),
-]
 
 
 RECENT = ' class="is-recent"'
@@ -600,11 +591,6 @@ def page():
     y, mo, _ = REVIEWED.split('-')
     byline = re.sub(r'^By ', f'<time datetime="{REVIEWED}">Updated {blog.MONTHS[int(mo) - 1]} {y}</time> by ', byline)
 
-    tiles = '\n'.join(f'''        <div class="tile">
-          <p class="tile__n">{e(n)}</p>
-          <p class="tile__t">{e(t)} {ref(k)}</p>
-        </div>''' for n, t, k in TILES)
-
     sources = '\n'.join(f'        <li id="source-{i}"><a href="{u}" rel="noopener">{e(t)}</a></li>'
                         for i, (t, u) in enumerate(SOURCES.values(), 1))
 
@@ -614,7 +600,7 @@ def page():
     cost_rows = ''.join(f'<tr><td>{e(n)}</td><td>{kw * 1000:.0f}W</td><td>{pence(kw):.1f}p</td><td>{night(kw)}</td></tr>'
                         for n, kw in APPLIANCES)
 
-    toc = [('headline', 'The headline numbers'), ('quotable', 'Quotable findings'), ('who', 'Who has air conditioning'),
+    toc = [('findings', 'What we found'), ('who', 'Who has air conditioning'),
            ('north-west', 'The North West'), ('overheating', 'Homes that overheat'), ('summers', 'Hotter summers'),
            ('running-costs', 'Running costs'), ('2027', 'What 2027 brings'), ('estimates', 'Why estimates differ'),
            ('method', 'How we worked these out'), ('use', 'Use these figures'), ('sources', 'Sources')]
@@ -635,24 +621,21 @@ def page():
     </div>
   </header>
 
-  <div class="wrap stats__wrap">
-    <nav class="stats__toc js-up" aria-label="On this page"><p class="stats__toc-h">On this page</p><ul>{toc_html}</ul></nav>
-
-    <section class="stats__sec" id="headline" aria-labelledby="h-headline">
-      <h2 id="h-headline">The headline numbers</h2>
-      <div class="tiles js-up">
-{tiles}
+  <section class="findings-band" id="findings" aria-labelledby="h-findings">
+    <div class="wrap findings-band__wrap">
+      <div class="findings-band__head">
+        <h2 id="h-findings">What we found</h2>
+        <p>Every figure is sourced. Copy any finding and it comes with its source and a link back to it.</p>
       </div>
-    </section>
-
-    <section class="stats__sec" id="quotable" aria-labelledby="h-quotable">
-      <h2 id="h-quotable">Quotable findings</h2>
-      <p class="stats__intro">Each line copies with its source and a link straight back to it. The numbers in brackets go to the original research.</p>
-      <ul class="findings js-up">
+      <ul class="finds">
 {findings_html()}
       </ul>
       <p class="sr-only" role="status"></p>
-    </section>
+    </div>
+  </section>
+
+  <div class="wrap stats__wrap">
+    <nav class="stats__toc js-up" aria-label="On this page"><p class="stats__toc-h">On this page</p><ul>{toc_html}</ul></nav>
 
     <section class="stats__sec" id="who" aria-labelledby="h-who">
       <h2 id="h-who">Who has air conditioning</h2>

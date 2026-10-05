@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 727" width="600" height="727" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 669" width="600" height="669" font-family="Arial, Helvetica, sans-serif">
 <title>North West England summers, 1884 to 2026. Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics-2027</title>
-<rect width="600" height="727" fill="#FFFFFF"/><rect width="600" height="8" fill="#0E6E96"/>
+<rect width="600" height="669" fill="#FFFFFF"/><rect width="600" height="8" fill="#0E6E96"/>
 <text x="32" y="64" font-size="30" font-weight="700" fill="#12262F">North West England summers, 1884</text><text x="32" y="99" font-size="30" font-weight="700" fill="#12262F">to 2026</text><text x="32" y="132" font-size="19" fill="#41606E">Mean temperature, June to August, England NW and</text><text x="32" y="157" font-size="19" fill="#41606E">North Wales. Orange summers were warmer than the 1961</text><text x="32" y="183" font-size="19" fill="#41606E">to 1990 average, blue were cooler</text>
 <g transform="translate(0,213)"><line x1="82" x2="560" y1="296.0" y2="296.0" stroke="#E1EAEF"/>
 <text x="74" y="301.0" text-anchor="end" font-size="18" fill="#6E8592">12°C</text>
@@ -167,5 +167,4 @@
 <line x1="32" y1="565" x2="568" y2="565" stroke="#E1EAEF" stroke-width="2"/>
 <text x="32" y="596" font-size="17" fill="#6E8592">Source: Met Office HadUK-Grid</text>
 <text x="32" y="620" font-size="17" font-weight="700" fill="#0E6E96">Chart by CoolIn,</text><text x="32" y="644" font-size="17" font-weight="700" fill="#0E6E96">cool-in.co.uk/air-conditioning-statistics-2027</text>
-<g transform="translate(32,654.8) scale(1.150)" fill="none" stroke="#0E6E96" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/><path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/><path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/><path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/></g><text x="64" y="677.5999999999999" font-size="24" font-weight="900" letter-spacing="1" fill="#0D2B38">COOLIN</text>
 </svg>

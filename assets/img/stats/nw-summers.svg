@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 602" width="1200" height="602" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 596" width="1200" height="596" font-family="Arial, Helvetica, sans-serif">
 <title>North West England summers, 1884 to 2026. Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics-2027</title>
-<rect width="1200" height="602" fill="#FFFFFF"/><rect width="1200" height="8" fill="#0E6E96"/>
+<rect width="1200" height="596" fill="#FFFFFF"/><rect width="1200" height="8" fill="#0E6E96"/>
 <text x="48" y="68" font-size="34" font-weight="700" fill="#12262F">North West England summers, 1884 to 2026</text><text x="48" y="100" font-size="19" fill="#41606E">Mean temperature, June to August, England NW and North Wales. Orange summers were warmer than the 1961 to</text><text x="48" y="126" font-size="19" fill="#41606E">1990 average, blue were cooler</text>
 <g transform="translate(0,156)"><line x1="92" x2="1088" y1="306.0" y2="306.0" stroke="#E1EAEF"/>
 <text x="84" y="311.0" text-anchor="end" font-size="15" fill="#6E8592">12°C</text>
@@ -170,5 +170,4 @@
 <line x1="48" y1="518" x2="1152" y2="518" stroke="#E1EAEF" stroke-width="2"/>
 <text x="48" y="548" font-size="16" fill="#6E8592">Source: Met Office HadUK-Grid</text>
 <text x="48" y="570" font-size="16" font-weight="700" fill="#0E6E96">Chart by CoolIn, cool-in.co.uk/air-conditioning-statistics-2027</text>
-<g transform="translate(962,534.1) scale(1.342)" fill="none" stroke="#0E6E96" stroke-width="1.6" stroke-linecap="round"><path d="M12 2v20"/><path d="M3.3 7 20.7 17"/><path d="M20.7 7 3.3 17"/><path d="M12 6 9.4 3.4M12 6l2.6-2.6M12 18l-2.6 2.6M12 18l2.6 2.6"/><path d="m17.1 9 3.2-.9M17.1 9l.9 3.2M6.9 15l-3.2.9M6.9 15 6 11.8"/><path d="m17.1 15 3.2.9M17.1 15l.9-3.2M6.9 9l-3.2-.9M6.9 9 6 12.2"/></g><text x="1000" y="560.75" font-size="28" font-weight="900" letter-spacing="1" fill="#0D2B38">COOLIN</text>
 </svg>
