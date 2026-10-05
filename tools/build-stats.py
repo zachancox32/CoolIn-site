@@ -540,18 +540,6 @@ FINDINGS_CHART = dict(
     alt_data=' '.join(f[3] for f in FINDINGS))
 
 
-def findings_html():
-    """The same findings as text, each copyable with its source."""
-    items = []
-    for fid, big, line, quote, keys in FINDINGS:
-        cite = f'{quote} Source: CoolIn, UK air conditioning statistics 2027, {URL}'
-        items.append(f'''          <li class="find-text__item" id="finding-{fid}">
-            <p>{html.escape(quote)} {' '.join(ref(k) for k in keys)}</p>
-            <button type="button" class="chart__dl" data-copy="{html.escape(cite)}" data-done="Finding and source copied">Copy</button>
-          </li>''')
-    return '\n'.join(items)
-
-
 RECENT = ' class="is-recent"'
 
 def top10_table():
@@ -664,13 +652,7 @@ def page():
     <section class="stats__sec" id="findings" aria-labelledby="h-findings">
       <h2 id="h-findings">UK air conditioning statistics at a glance</h2>
 {figure('findings', FINDINGS_CHART, first=True)}
-      <details class="find-text">
-        <summary>Copy a finding as text</summary>
-        <ul class="find-text__list">
-{findings_html()}
-        </ul>
-        <p class="sr-only" role="status"></p>
-      </details>
+      <p class="sr-only" role="status"></p>
     </section>
 
     <nav class="stats__toc js-up" aria-label="On this page"><p class="stats__toc-h">On this page</p><ul>{toc_html}</ul></nav>

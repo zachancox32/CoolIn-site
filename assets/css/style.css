@@ -1095,15 +1095,6 @@ ul,ol{margin:0;padding:0;list-style:none}
 .ref{font-size:.74em;font-weight:600;color:var(--blue);text-decoration:none!important;vertical-align:.18em;white-space:nowrap}
 .ref:hover{color:var(--orange)}
 
-/* The findings as text, folded away under the infographic for copying. */
-.find-text{margin:-8px 0 0;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper)}
-.find-text summary{cursor:pointer;padding:14px 18px;font-family:var(--head);font-weight:700;font-size:.9rem;color:var(--blue-d)}
-.find-text summary:hover{color:var(--orange)}
-.find-text__list{list-style:none;margin:0;padding:0 18px 8px}
-.find-text__item{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:start;padding:12px 0;border-top:1px solid var(--line);scroll-margin-top:100px}
-.find-text__item p{margin:0;font-size:.95rem;line-height:1.55;color:var(--ink)}
-.find-text__item:target{background:var(--orange-soft)}
-
 .chart__dl{font-family:var(--head);font-weight:700;font-size:.78rem;letter-spacing:.02em;color:var(--blue-d);background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer;white-space:nowrap;text-decoration:none;transition:border-color .2s,color .2s,background .2s}
 .chart__dl:hover{border-color:var(--blue);color:var(--blue)}
 .chart__dl:focus-visible{outline:3px solid var(--ice);outline-offset:2px}
