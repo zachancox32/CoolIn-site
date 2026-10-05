@@ -41,10 +41,10 @@ URL = f'{BASE}/{SLUG}'
 SHORT = URL.replace('https://', '')
 REVIEWED = '2026-10-05'
 PUBLISHED = '2026-10-05'
-TITLE = 'UK air conditioning statistics, and what 2027 brings'
-SEO_TITLE = 'UK Air Conditioning Statistics & 2027 Outlook'
-DESC = ('How many UK homes have air conditioning, who has it, how many overheat, '
-        'what it costs to run, and what changes in 2027. Every figure sourced, with free charts.')
+TITLE = 'Air conditioning statistics 2027: the UK, Manchester and the North West'
+SEO_TITLE = 'UK & Manchester Air Conditioning Statistics 2027'
+DESC = ('How many UK homes have air conditioning, how Manchester and the North West compare, '
+        'who overheats, running costs and what changes in 2027. Sourced, with free charts.')
 
 # ------------------------------------------------------------------ sources
 # Numbered in the order they first matter on the page. Charts and findings
@@ -308,7 +308,7 @@ def frame(W, c, body, body_h):
     y += 22
     out.append(f'<line x1="{pad}" y1="{y:.0f}" x2="{W - pad}" y2="{y:.0f}" stroke="{LINE}" stroke-width="2"/>')
     text_w = W - 2 * pad
-    src = wrap('Source: ' + src_text(c['src']), fs, text_w)
+    src = wrap('Source: ' + (c.get('src_line') or src_text(c['src'])), fs, text_w)
     y += 14 + fs
     out.append(tspans(src, pad, y, fs, 1.4, fill=GREY))
     y += len(src) * fs * 1.4
@@ -397,17 +397,44 @@ def stripes_body(c, W):
     return '\n'.join(p), H
 
 
+def findings_body(c, W):
+    """The headline findings as one grid: a big figure and a line under it."""
+    narrow = W == NARROW
+    pad = 32 if narrow else 48
+    cols = 2 if narrow else 4
+    ns, fs = (44, 18) if narrow else (52, 18)
+    cw = (W - 2 * pad) / cols
+    cells = [(big, wrap(line, fs, cw - 28)) for _, big, line, _, _ in FINDINGS]
+    p = []
+    y = 0
+    for r in range(0, len(cells), cols):
+        row = cells[r:r + cols]
+        h = ns + 18 + max(len(t) for _, t in row) * fs * 1.38 + 30
+        if r:
+            p.append(f'<line x1="{pad}" x2="{W - pad}" y1="{y:.0f}" y2="{y:.0f}" stroke="{LINE}" stroke-width="2"/>')
+        for i, (big, lines) in enumerate(row):
+            x = pad + i * cw + (0 if i == 0 else 22)
+            if i:
+                p.append(f'<line x1="{pad + i * cw:.0f}" x2="{pad + i * cw:.0f}" y1="{y + 18:.0f}" y2="{y + h - 14:.0f}" stroke="{LINE}" stroke-width="2"/>')
+            colour = ORANGE if r + i == 0 else NAVY
+            p.append(f'<text x="{x:.0f}" y="{y + 22 + ns * 0.8:.0f}" font-size="{ns}" font-weight="700" letter-spacing="-1" fill="{colour}">{html.escape(big)}</text>')
+            p.append(tspans(lines, round(x), y + 22 + ns * 0.8 + 16 + fs, fs, 1.38, fill=BODY))
+        y += h
+    return '\n'.join(p), y
+
+
 def draw(c, W):
-    body, h = (stripes_body if c.get('series') else bars_body)(c, W)
+    kind = 'findings' if c.get('kind') == 'findings' else 'stripes' if c.get('series') else 'bars'
+    body, h = {'findings': findings_body, 'stripes': stripes_body, 'bars': bars_body}[kind](c, W)
     return frame(W, c, body, h)
 
 
 def alt_text(c):
-    if c.get('series'):
+    if c.get('alt_data'):
         data = c['alt_data']
     else:
         data = '; '.join(f'{label} {shown}' for label, value, shown, kind in c['rows'] if value is not None)
-    return f"{c['title']}. {c['sub']}. {data}. Source: {src_text(c['src'])}. {CREDIT}."
+    return f"{c['title']}. {c['sub']}. {data} Source: {c.get('src_line') or src_text(c['src'])}. {CREDIT}."
 
 
 def src_text(keys):
@@ -455,13 +482,12 @@ def figure(cid, c, first=False):
     load = '' if first else ' loading="lazy"'
     return f'''
     <figure class="chart js-up" id="chart-{cid}">
-      <h3 class="sr-only" id="chart-{cid}-title">{e(c['title'])}</h3>
       <picture>
         <source media="(max-width:640px)" srcset="/{STATS_DIR}/{cid}-mobile.{ext_n}" width="{NARROW}" height="{nh}">
         <img class="chart__img" src="/{STATS_DIR}/{cid}.{ext_w}" width="{WIDE}" height="{wh}" alt="{e(alt)}"{load} decoding="async">
       </picture>
       <figcaption class="chart__foot">
-        <p class="chart__src">Free to use with credit to CoolIn. Data: {e(src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
+        <p class="chart__src">Free to use with credit to CoolIn. Data: {e(c.get('src_line') or src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
         <div class="chart__tools">{dl}<button type="button" class="chart__dl chart__embed" data-copy="{e(embed)}" data-done="Embed code copied. Paste it into your article's HTML">Copy embed code</button></div>
       </figcaption>
     </figure>'''
@@ -480,8 +506,8 @@ FINDINGS = [
     ('homes', f'{ENGLAND_SHARE:g}%', f'of homes in England use air conditioning. About {m(ENGLAND_HOMES)}.',
      f'Only {ENGLAND_SHARE:g}% of homes in England use air conditioning to keep cool in summer, about {m(ENGLAND_HOMES)} homes.',
      ['edrc']),
-    ('north-west', f'{NW_SHARE:g}%', f'in the North West, roughly {thou(NW_HOMES, 10000)} homes. London is at {LONDON_SHARE:g}%.',
-     f'In the North West, {NW_SHARE:g}% of homes use air conditioning, roughly {thou(NW_HOMES, 10000)} homes, against {LONDON_SHARE:g}% in London and the East of England.',
+    ('north-west', f'{NW_SHARE:g}%', f'in the North West, including Manchester. Roughly {thou(NW_HOMES, 10000)} homes. London: {LONDON_SHARE:g}%.',
+     f'In the North West, which includes Manchester, {NW_SHARE:g}% of homes use air conditioning, roughly {thou(NW_HOMES, 10000)} homes, against {LONDON_SHARE:g}% in London and the East of England.',
      ['edrc', 'census']),
     ('gap', thou(NW_GAP, 5000), 'more North West homes would have it at London\'s rate.',
      f'If the North West used air conditioning at London\'s rate, around {thou(NW_GAP, 5000)} more homes in the region would have it.',
@@ -505,15 +531,24 @@ FINDINGS = [
 assert NW_TOP_RECENT == 7 and len(FINDINGS) == 8, 'the findings band is laid out for eight cards with seven of ten; check it'
 
 
+FINDINGS_CHART = dict(
+    kind='findings', title='UK air conditioning in numbers, 2027',
+    sub='Who has it, who goes without, and what changes next year',
+    src=list(dict.fromkeys(k for f in FINDINGS for k in f[4])),
+    src_line='EDRC analysis of the English Housing Survey 2023-24; English Housing Survey 2024 to 2025; '
+             'Met Office HadUK-Grid; ONS Census 2021; DEFRA; CoolIn projection',
+    alt_data=' '.join(f[3] for f in FINDINGS))
+
+
 def findings_html():
+    """The same findings as text, each copyable with its source."""
     items = []
-    for i, (fid, big, line, quote, keys) in enumerate(FINDINGS):
-        cite = f'{quote} Source: CoolIn, UK air conditioning statistics 2027, {URL}#finding-{fid}'
-        items.append(f'''        <li class="find{' find--lead' if i == 0 else ''}" id="finding-{fid}">
-          <p class="find__n">{html.escape(big)}</p>
-          <p class="find__t">{html.escape(line)} {' '.join(ref(k) for k in keys)}</p>
-          <button type="button" class="find__copy" data-copy="{html.escape(cite)}" data-done="Finding and source copied" aria-label="Copy this finding with its source">Copy</button>
-        </li>''')
+    for fid, big, line, quote, keys in FINDINGS:
+        cite = f'{quote} Source: CoolIn, UK air conditioning statistics 2027, {URL}'
+        items.append(f'''          <li class="find-text__item" id="finding-{fid}">
+            <p>{html.escape(quote)} {' '.join(ref(k) for k in keys)}</p>
+            <button type="button" class="chart__dl" data-copy="{html.escape(cite)}" data-done="Finding and source copied">Copy</button>
+          </li>''')
     return '\n'.join(items)
 
 
@@ -556,7 +591,7 @@ TIMELINE = [
 def timeline_html():
     return '\n'.join(f'''        <li class="tl__item">
           <p class="tl__date">{html.escape(d)}</p>
-          <h3 class="tl__title">{html.escape(t)}</h3>
+          <h4 class="tl__title">{html.escape(t)}</h4>
           <p class="tl__text">{html.escape(x)} {' '.join(ref(k) for k in keys)}</p>
         </li>''' for d, t, x, keys in TIMELINE)
 
@@ -569,6 +604,10 @@ FAQS = [
     ('Which part of England has the most air conditioning?',
      f'London and the East of England, both at {LONDON_SHARE:g}% of homes. The lowest are the North East at 1.5%, '
      f'Yorkshire and the Humber at 1.7% and the North West at {NW_SHARE:g}%.'),
+    ('How common is air conditioning in Manchester?',
+     f'There is no official figure for Manchester on its own. Manchester is in the North West, where {NW_SHARE:g}% of households '
+     f'use air conditioning, roughly {thou(NW_HOMES, 10000)} homes, against {ENGLAND_SHARE:g}% across England and {LONDON_SHARE:g}% in London. '
+     'That makes the North West one of the three least air conditioned regions in England.'),
     ('How many homes in England overheat?',
      'About 3 million in 2024, or 12% of occupied homes, up from 1.7 million, or 7%, in 2019. Detached houses were the most likely to overheat, at 15%.'),
     ('Will air conditioning be banned in the UK in 2027?',
@@ -600,8 +639,8 @@ def page():
     cost_rows = ''.join(f'<tr><td>{e(n)}</td><td>{kw * 1000:.0f}W</td><td>{pence(kw):.1f}p</td><td>{night(kw)}</td></tr>'
                         for n, kw in APPLIANCES)
 
-    toc = [('findings', 'What we found'), ('who', 'Who has air conditioning'),
-           ('north-west', 'The North West'), ('overheating', 'Homes that overheat'), ('summers', 'Hotter summers'),
+    toc = [('findings', 'At a glance'), ('who', 'Who has air conditioning'),
+           ('north-west', 'Manchester and the North West'), ('overheating', 'Homes that overheat'), ('summers', 'Hotter summers'),
            ('running-costs', 'Running costs'), ('2027', 'What 2027 brings'), ('estimates', 'Why estimates differ'),
            ('method', 'How we worked these out'), ('use', 'Use these figures'), ('sources', 'Sources')]
     toc_html = ''.join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in toc)
@@ -616,34 +655,33 @@ def page():
       </nav>
       <p class="post__cat js-up">Data, updated quarterly</p>
       <h1 class="js-up">{e(TITLE)}</h1>
-      <p class="stats__lede js-up">How many homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure links to its source, and every chart is free to use.</p>
+      <p class="stats__lede js-up">How many homes have air conditioning, how Manchester and the North West compare, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure links to its source, and every chart is free to use.</p>
       <p class="post__meta js-up">{byline}</p>
     </div>
   </header>
 
-  <section class="findings-band" id="findings" aria-labelledby="h-findings">
-    <div class="wrap findings-band__wrap">
-      <div class="findings-band__head">
-        <h2 id="h-findings">What we found</h2>
-        <p>Every figure is sourced. Copy any finding and it comes with its source and a link back to it.</p>
-      </div>
-      <ul class="finds">
-{findings_html()}
-      </ul>
-      <p class="sr-only" role="status"></p>
-    </div>
-  </section>
-
   <div class="wrap stats__wrap">
+    <section class="stats__sec" id="findings" aria-labelledby="h-findings">
+      <h2 id="h-findings">UK air conditioning statistics at a glance</h2>
+{figure('findings', FINDINGS_CHART, first=True)}
+      <details class="find-text">
+        <summary>Copy a finding as text</summary>
+        <ul class="find-text__list">
+{findings_html()}
+        </ul>
+        <p class="sr-only" role="status"></p>
+      </details>
+    </section>
+
     <nav class="stats__toc js-up" aria-label="On this page"><p class="stats__toc-h">On this page</p><ul>{toc_html}</ul></nav>
 
     <section class="stats__sec" id="who" aria-labelledby="h-who">
-      <h2 id="h-who">Who has air conditioning</h2>
+      <h2 id="h-who">How many UK homes have air conditioning?</h2>
       <div class="prose">
         <p>The best measure of air conditioning in English homes is the English Housing Survey, which asked 15,846 households in 2023-24 how they keep cool in summer. Researchers at the Energy Demand Research Centre and the University of Reading analysed the answers and found that {ENGLAND_SHARE:g}% used air conditioning, about {m(ENGLAND_HOMES)} homes. {ref('edrc')}</p>
         <p>It is not spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. {ref('reading')}</p>
       </div>
-{figure('region', CHARTS['region'], first=True)}
+{figure('region', CHARTS['region'])}
 {figure('income', CHARTS['income'])}
 {figure('people', CHARTS['people'])}
 {figure('home', CHARTS['home'])}
@@ -654,10 +692,11 @@ def page():
     </section>
 
     <section class="stats__sec" id="north-west" aria-labelledby="h-nw">
-      <h2 id="h-nw">The North West</h2>
+      <h2 id="h-nw">Air conditioning in Manchester and the North West</h2>
       <div class="prose">
-        <p>The North West has some of the lowest air conditioning use in England. {NW_SHARE:g}% of households use it, which across the region's {NW_HOUSEHOLDS:,} households is roughly {thou(NW_HOMES, 10000)} homes. {ref('edrc')} {ref('census')}</p>
+        <p>The North West, which takes in Manchester and the rest of Greater Manchester, has some of the lowest air conditioning use in England. {NW_SHARE:g}% of households use it, which across the region's {NW_HOUSEHOLDS:,} households is roughly {thou(NW_HOMES, 10000)} homes. {ref('edrc')} {ref('census')}</p>
         <p>At London's rate of {LONDON_SHARE:g}%, around {thou(NW_GAP, 5000)} more North West homes would have it. Even allowing for income, home type and the other differences between households, a North West household had 69% lower odds of using air conditioning than one in London. {ref('edrc')}</p>
+        <p>The survey does not publish figures for individual cities, so these regional numbers are the closest available for Manchester. In Manchester, the homes most prone to overheating tend to be top floor flats, glass fronted apartments in the city centre and Salford Quays, and offices with south facing windows. The <a href="/air-conditioning-manchester">Manchester page</a> covers what installation involves in the city's mills, terraces and towers.</p>
         <p>The summers are not standing still while that gap stays open. Summer {LATEST} was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of {NW[LATEST]:.1f}°C. Summer {LATEST - 1} was the second warmest. {WORDS[NW_TOP_RECENT]} of the ten warmest have come in 2003 or later, and the last ten summers averaged {NW_RECENT - NW_BASE:.1f}°C warmer than the 1961 to 1990 average. {ref('metgrid')}</p>
       </div>
 {figure('nw-summers', CHARTS['nw-summers'])}
@@ -665,7 +704,7 @@ def page():
     </section>
 
     <section class="stats__sec" id="overheating" aria-labelledby="h-over">
-      <h2 id="h-over">Homes that overheat</h2>
+      <h2 id="h-over">How many homes overheat in summer?</h2>
       <div class="prose">
         <p>In 2024, households in about 3 million homes in England said their home got uncomfortably hot, 12% of occupied homes. In 2019 it was 1.7 million, or 7%. Owner occupied homes were the most affected at 13%, against 11% for both private and social renters. {ref('ehs')}</p>
       </div>
@@ -678,7 +717,7 @@ def page():
     </section>
 
     <section class="stats__sec" id="summers" aria-labelledby="h-summers">
-      <h2 id="h-summers">Hotter summers</h2>
+      <h2 id="h-summers">Hotter summers in the UK and the North West</h2>
       <div class="prose">
         <p>Summer {LATEST} was the hottest on record for the UK as a whole, with a mean of {UK[LATEST]:.1f}°C, ahead of {LATEST - 1} at {UK[LATEST - 1]:.1f}°C. {ref('metgrid')} There were 55 days above 28°C, beating the previous record of 41 days set in 1976 and again in 1995, and 9 days above 35°C, almost double the previous record of 5 in 2020. The Met Office puts a summer with that many days over 35°C at about a 1 in 100 chance in today's climate. {ref('metdays')}</p>
         <p>The UK first passed 40°C in July 2022, when Coningsby in Lincolnshire reached 40.3°C. The Met Office estimates a 50-50 chance of another 40°C day within 12 years of its 2025 study, and says the chance of exceeding 40°C is now over 20 times what it was in the 1960s. {ref('met40')}</p>
@@ -686,7 +725,7 @@ def page():
     </section>
 
     <section class="stats__sec" id="running-costs" aria-labelledby="h-cost">
-      <h2 id="h-cost">What it costs to run</h2>
+      <h2 id="h-cost">How much does air conditioning cost to run?</h2>
       <div class="prose">
         <p>A 2.5kW split system does not draw 2.5kW of electricity. That figure is the heat it moves. Once the room is down to temperature it throttles back to roughly 0.3kW. At the price cap for October to December 2026, {UNIT_RATE}p per kWh with no VAT on electricity until 31 March 2027, that is about {pence(0.3):.0f}p an hour. {ref('ofgem')} The <a href="/blog/air-conditioning-running-costs">running costs article</a> goes through heating costs as well.</p>
       </div>
@@ -704,7 +743,7 @@ def page():
     </section>
 
     <section class="stats__sec" id="2027" aria-labelledby="h-2027">
-      <h2 id="h-2027">What 2027 brings</h2>
+      <h2 id="h-2027">Air conditioning in 2027: what changes</h2>
       <div class="prose">
         <p>Some of 2027 is already fixed in law or policy. Some of it is a projection, which we show with its working. And one part nobody can tell you: how hot summer 2027 will be. Seasonal forecasts do not reach that far ahead, so anyone quoting a forecast for next summer's weather today is guessing.</p>
         <h3>What is already decided</h3>
@@ -723,7 +762,7 @@ def page():
     </section>
 
     <section class="stats__sec" id="estimates" aria-labelledby="h-est">
-      <h2 id="h-est">Why the estimates differ</h2>
+      <h2 id="h-est">Why air conditioning estimates differ</h2>
       <div class="prose">
         <p>Published figures for UK homes with air conditioning run from about 3% to 19%. They are mostly answering different questions.</p>
       </div>
@@ -800,8 +839,8 @@ def page():
 
     <aside class="post-cta js-up">
       <div>
-        <h2>Thinking about air conditioning for your own home?</h2>
-        <p>A free survey settles where the units can go, what size you need, and a fixed written price within 48 hours.</p>
+        <h2>Thinking about air conditioning in Manchester?</h2>
+        <p>We fit air conditioning across Manchester and the North West. A free survey settles where the units go, what size you need, and a fixed written price within 48 hours.</p>
       </div>
       <div class="post-cta__act">
         <a class="btn btn--primary" href="/contact">Book a free survey</a>
@@ -825,7 +864,7 @@ def page():
                          'the current price cap; and projections for 2027, compiled from official sources.'),
          "url": URL, "creator": {"@id": f"{BASE}/#business"}, "dateModified": REVIEWED,
          "isAccessibleForFree": True, "license": "https://creativecommons.org/licenses/by/4.0/",
-         "spatialCoverage": "England, United Kingdom", "temporalCoverage": f"{min(NW)}/2027",
+         "spatialCoverage": "England, United Kingdom, including North West England and Manchester", "temporalCoverage": f"{min(NW)}/2027",
          "keywords": ["air conditioning", "overheating", "heatwave", "housing", "energy", "North West England"],
          "citation": [u for _, u in SOURCES.values()],
          "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv",

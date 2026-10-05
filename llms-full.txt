@@ -7182,76 +7182,64 @@ Free survey
 
 ================================================================================
 URL: https://cool-in.co.uk/air-conditioning-statistics-2027
-TITLE: UK Air Conditioning Statistics & 2027 Outlook
-DESCRIPTION: How many UK homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure sourced, with free charts.
+TITLE: UK & Manchester Air Conditioning Statistics 2027
+DESCRIPTION: How many UK homes have air conditioning, how Manchester and the North West compare, who overheats, running costs and what changes in 2027. Sourced, with free charts.
 ================================================================================
 
 CoolIn / Air conditioning statistics
 
 Data, updated quarterly
 
-UK air conditioning statistics, and what 2027 brings
+Air conditioning statistics 2027: the UK, Manchester and the North West
 
-How many homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure links to its source, and every chart is free to use.
+How many homes have air conditioning, how Manchester and the North West compare, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure links to its source, and every chart is free to use.
 
 Updated October 2026 by Zac Hancox, Founder of CoolIn
 
-What we found
+UK air conditioning statistics at a glance
 
-Every figure is sourced. Copy any finding and it comes with its source and a link back to it.
+Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24; English Housing Survey 2024 to 2025; Met Office HadUK-Grid; ONS Census 2021; DEFRA; CoolIn projection [1] [4] [5] [3] [10] [11]
 
-4.3%
+SVG Copy embed code
 
-of homes in England use air conditioning. About 1.06 million. [1]
+Copy a finding as text
 
-Copy
-
-2.5%
-
-in the North West, roughly 80,000 homes. London is at 6.5%. [1] [4]
+Only 4.3% of homes in England use air conditioning to keep cool in summer, about 1.06 million homes. [1]
 
 Copy
 
-125,000
-
-more North West homes would have it at London's rate. [1] [4]
+In the North West, which includes Manchester, 2.5% of homes use air conditioning, roughly 80,000 homes, against 6.5% in London and the East of England. [1] [4]
 
 Copy
 
-7 in 10
-
-of the North West's warmest summers since 1884 came in 2003 or later. [5]
+If the North West used air conditioning at London's rate, around 125,000 more homes in the region would have it. [1] [4]
 
 Copy
 
-7%
-
-of households whose home overheated used air conditioning. 90% opened a window. [3]
+Seven of the North West's ten warmest summers since 1884 have come in 2003 or later. [5]
 
 Copy
 
-3x
-
-as likely to have it in the richest fifth of homes as the poorest: 8.2% against 2.5%. [1]
+When their home overheated, 90% of households in England opened the windows and 7% used air conditioning. [3]
 
 Copy
 
-1.68m
-
-homes in England could be using it by summer 2027. Up to 1 in 15. [1]
+The highest earning fifth of households are more than three times as likely to use air conditioning as the lowest earning fifth: 8.2% against 2.5%. [1]
 
 Copy
 
-No ban
+By summer 2027, between 1.37 million and 1.68 million homes in England could be using air conditioning, about 1 in 18 to 1 in 15. [1]
 
-on air conditioning in Great Britain in 2027. The EU's applies in the EU and Northern Ireland only. [10] [11]
+Copy
+
+No new air conditioning ban arrives in Great Britain in 2027. The EU's ban on small split systems using higher warming refrigerants starts in the EU and Northern Ireland on 1 January 2027, but not in England, Scotland or Wales. [10] [11]
 
 Copy
 
 On this page
-What we found
+At a glance
 Who has air conditioning
-The North West
+Manchester and the North West
 Homes that overheat
 Hotter summers
 Running costs
@@ -7261,37 +7249,27 @@ How we worked these out
 Use these figures
 Sources
 
-Who has air conditioning
+How many UK homes have air conditioning?
 
 The best measure of air conditioning in English homes is the English Housing Survey, which asked 15,846 households in 2023-24 how they keep cool in summer. Researchers at the Energy Demand Research Centre and the University of Reading analysed the answers and found that 4.3% used air conditioning, about 1.06 million homes. [1]
 
 It is not spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. [2]
 
-Homes using air conditioning, by region
+Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download image (PNG) SVG Copy embed code
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
 Download image (PNG) SVG Copy embed code
 
-Air conditioning rises with income
-
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
 Download image (PNG) SVG Copy embed code
 
-Those most at risk from heat are least likely to have it
-
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
 Download image (PNG) SVG Copy embed code
-
-Which homes have air conditioning
-
-Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
-
-Download image (PNG) SVG Copy embed code
-
-Working from home goes with air conditioning
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
@@ -7299,15 +7277,15 @@ Download image (PNG) SVG Copy embed code
 
 Two patterns stand out. Homes built since 2000 are the most likely of any age to have air conditioning, at 6.6%, which fits with modern homes being more airtight and better insulated, so they hold heat in summer as well as in winter. And working from home matters: once someone is home four or more days a week, use rises to 6.9%. After allowing for income, home type and region together, households where someone works from home two or more days a week had 42% higher odds of using air conditioning. [1]
 
-The North West
+Air conditioning in Manchester and the North West
 
-The North West has some of the lowest air conditioning use in England. 2.5% of households use it, which across the region's 3,153,403 households is roughly 80,000 homes. [1] [4]
+The North West, which takes in Manchester and the rest of Greater Manchester, has some of the lowest air conditioning use in England. 2.5% of households use it, which across the region's 3,153,403 households is roughly 80,000 homes. [1] [4]
 
 At London's rate of 6.5%, around 125,000 more North West homes would have it. Even allowing for income, home type and the other differences between households, a North West household had 69% lower odds of using air conditioning than one in London. [1]
 
-The summers are not standing still while that gap stays open. Summer 2026 was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of 16.5°C. Summer 2025 was the second warmest. Seven of the ten warmest have come in 2003 or later, and the last ten summers averaged 1.5°C warmer than the 1961 to 1990 average. [5]
+The survey does not publish figures for individual cities, so these regional numbers are the closest available for Manchester. In Manchester, the homes most prone to overheating tend to be top floor flats, glass fronted apartments in the city centre and Salford Quays, and offices with south facing windows. The Manchester page covers what installation involves in the city's mills, terraces and towers.
 
-North West England summers, 1884 to 2026
+The summers are not standing still while that gap stays open. Summer 2026 was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of 16.5°C. Summer 2025 was the second warmest. Seven of the ten warmest have come in 2003 or later, and the last ten summers averaged 1.5°C warmer than the 1961 to 1990 average. [5]
 
 Free to use with credit to CoolIn. Data: Met Office HadUK-Grid [5]
 
@@ -7327,23 +7305,17 @@ The ten warmest summers in North West England and North Wales since 1884, by mea
 | 9 | 1933 | 15.4°C | +1.6°C
 | 10 | 2023 | 15.4°C | +1.6°C
 
-Homes that overheat
+How many homes overheat in summer?
 
 In 2024, households in about 3 million homes in England said their home got uncomfortably hot, 12% of occupied homes. In 2019 it was 1.7 million, or 7%. Owner occupied homes were the most affected at 13%, against 11% for both private and social renters. [3]
 
-Homes reporting overheating in England
-
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
 Download image (PNG) SVG Copy embed code
 
-Which homes overheat
-
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
 Download image (PNG) SVG Copy embed code
-
-How people cooled down when their home overheated
 
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
@@ -7351,17 +7323,15 @@ Download image (PNG) SVG Copy embed code
 
 Air conditioning is still the exception even in homes that overheat. Among those 3 million households, 7% used it: 9% of owner occupiers, 6% of social renters and 4% of private renters. [3] Renters usually need their landlord's permission to fit anything, which goes some way to explaining the gap. The guide to air conditioning in a flat or apartment covers what that involves.
 
-Hotter summers
+Hotter summers in the UK and the North West
 
 Summer 2026 was the hottest on record for the UK as a whole, with a mean of 16.5°C, ahead of 2025 at 16.1°C. [5] There were 55 days above 28°C, beating the previous record of 41 days set in 1976 and again in 1995, and 9 days above 35°C, almost double the previous record of 5 in 2020. The Met Office puts a summer with that many days over 35°C at about a 1 in 100 chance in today's climate. [6]
 
 The UK first passed 40°C in July 2022, when Coningsby in Lincolnshire reached 40.3°C. The Met Office estimates a 50-50 chance of another 40°C day within 12 years of its 2025 study, and says the chance of exceeding 40°C is now over 20 times what it was in the 1960s. [7]
 
-What it costs to run
+How much does air conditioning cost to run?
 
 A 2.5kW split system does not draw 2.5kW of electricity. That figure is the heat it moves. Once the room is down to temperature it throttles back to roughly 0.3kW. At the price cap for October to December 2026, 26.32p per kWh with no VAT on electricity until 31 March 2027, that is about 8p an hour. [8] The running costs article goes through heating costs as well.
-
-What it costs to keep cool, per hour
 
 Free to use with credit to CoolIn. Data: Ofgem price cap, October 2026; CoolIn calculation [8]
 
@@ -7378,7 +7348,7 @@ Running cost at 26.32p per kWh, per hour and for an eight hour night
 
 A fan and an air cooler are far cheaper to run because they do not lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect.
 
-What 2027 brings
+Air conditioning in 2027: what changes
 
 Some of 2027 is already fixed in law or policy. Some of it is a projection, which we show with its working. And one part nobody can tell you: how hot summer 2027 will be. Seasonal forecasts do not reach that far ahead, so anyone quoting a forecast for next summer's weather today is guessing.
 
@@ -7424,15 +7394,13 @@ What the trend points to
 
 If homes in England took up air conditioning at the pace measured from 2013 to 2020, about 83,000 more a year, 1.37 million homes would be using it by July 2027, 5.6% of households. [1] That pace came before the record summers of 2022, 2025 and 2026, so it is a floor more than a forecast. At twice the pace, it would be 1.68 million, or 6.8%: about 1 in 15 homes.
 
-Homes using air conditioning in England by summer 2027
-
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
 Download image (PNG) SVG Copy embed code
 
 Overheating is moving faster. If the 2019 to 2024 rise carries on in a straight line, about 3.8 million homes in England would report overheating in 2027. [3] Further out, NESO's scenarios have between 10% and 40% of UK homes using air conditioning by 2050, depending on the path the energy system takes. [1] Researchers at UCL have argued that home air conditioning may already be more common than every one of NESO's 2024 scenarios assumed for 2030. [9]
 
-Why the estimates differ
+Why air conditioning estimates differ
 
 Published figures for UK homes with air conditioning run from about 3% to 19%. They are mostly answering different questions.
 
@@ -7488,6 +7456,10 @@ Which part of England has the most air conditioning?
 
 London and the East of England, both at 6.5% of homes. The lowest are the North East at 1.5%, Yorkshire and the Humber at 1.7% and the North West at 2.5%.
 
+How common is air conditioning in Manchester?
+
+There is no official figure for Manchester on its own. Manchester is in the North West, where 2.5% of households use air conditioning, roughly 80,000 homes, against 4.3% across England and 6.5% in London. That makes the North West one of the three least air conditioned regions in England.
+
 How many homes in England overheat?
 
 About 3 million in 2024, or 12% of occupied homes, up from 1.7 million, or 7%, in 2019. Detached houses were the most likely to overheat, at 15%.
@@ -7534,9 +7506,9 @@ HM Revenue and Customs, VAT on energy-saving materials and heating equipment (VA
 
 Home Energy Model, Full Part O overheating review confirmed, 9 April 2026
 
-Thinking about air conditioning for your own home?
+Thinking about air conditioning in Manchester?
 
-A free survey settles where the units can go, what size you need, and a fixed written price within 48 hours.
+We fit air conditioning across Manchester and the North West. A free survey settles where the units go, what size you need, and a fixed written price within 48 hours.
 
 Book a free survey
 See what it costs
