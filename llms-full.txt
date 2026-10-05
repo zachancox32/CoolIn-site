@@ -7181,7 +7181,7 @@ Free survey
 
 
 ================================================================================
-URL: https://cool-in.co.uk/air-conditioning-statistics
+URL: https://cool-in.co.uk/air-conditioning-statistics-2027
 TITLE: UK Air Conditioning Statistics & 2027 Outlook
 DESCRIPTION: How many UK homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure sourced, with free charts.
 ================================================================================
@@ -7507,7 +7507,7 @@ Quote any figure, embed or download any chart, and take the full dataset as a sp
 
 Link to this page
 
-cool-in.co.uk/air-conditioning-statistics
+cool-in.co.uk/air-conditioning-statistics-2027
 Copy link
 
 Copy as HTML

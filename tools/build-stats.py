@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Builds /air-conditioning-statistics, the page written to be quoted.
+"""Builds /air-conditioning-statistics-2027, the page written to be quoted.
 
 Every figure on the page lives in this file next to the source it came from,
 and the page, the downloadable CSV and the chart files are all written from
@@ -17,7 +17,7 @@ they match the current figures, and falls back to the SVGs otherwise.
 
     python3 tools/build-stats.py
 
-Writes air-conditioning-statistics.html, assets/data/air-conditioning-statistics.csv
+Writes air-conditioning-statistics-2027.html, assets/data/air-conditioning-statistics-2027.csv
 and one SVG per chart in assets/img/stats.
 """
 import os, re, sys, csv, json, html, hashlib, importlib.util, statistics
@@ -36,7 +36,7 @@ HEADER = (blog.shell('HEADER')
 # The page sits at the root like the hand made pages, so the shell is used
 # exactly as sync-shell.py writes it, unrooted, and the two never disagree.
 
-SLUG = 'air-conditioning-statistics'
+SLUG = 'air-conditioning-statistics-2027'
 URL = f'{BASE}/{SLUG}'
 SHORT = URL.replace('https://', '')
 REVIEWED = '2026-10-05'

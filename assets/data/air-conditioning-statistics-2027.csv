@@ -1,4 +1,4 @@
-# UK air conditioning statistics, compiled by CoolIn, https://cool-in.co.uk/air-conditioning-statistics, updated 2026-10-05. Free to use with credit and a link.
+# UK air conditioning statistics, compiled by CoolIn, https://cool-in.co.uk/air-conditioning-statistics-2027, updated 2026-10-05. Free to use with credit and a link.
 metric,group,value,unit,period,area,source,source_url,note
 "Homes using air conditioning, by region",London,6.5,% of households,"Share of households in each English region using air conditioning to keep cool in summer, 2023-24",England,Jones,https://www.edrc.ac.uk/publications/socio-technical-drivers-of-air-conditioning-adoption-and-use-in-uk-homes/,
 "Homes using air conditioning, by region",East of England,6.5,% of households,"Share of households in each English region using air conditioning to keep cool in summer, 2023-24",England,Jones,https://www.edrc.ac.uk/publications/socio-technical-drivers-of-air-conditioning-adoption-and-use-in-uk-homes/,
