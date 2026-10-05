@@ -477,7 +477,7 @@ def figure(cid, c, first=False):
     embed = (f'<figure><a href="{URL}#chart-{cid}"><img src="{img_url}" alt="{e(alt)}" width="{WIDE}" height="{wh}" '
              f'style="max-width:100%;height:auto"></a><figcaption>Chart: <a href="{URL}">CoolIn, UK air conditioning '
              f'statistics</a></figcaption></figure>')
-    dl = ((f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.png" download="coolin-{cid}.png">Download image (PNG)</a>' if has_png else '')
+    dl = ((f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.png" download="coolin-{cid}.png">Download PNG</a>' if has_png else '')
           + f'<a class="chart__dl" href="/{STATS_DIR}/{cid}.svg" download="coolin-{cid}.svg">SVG</a>')
     load = '' if first else ' loading="lazy"'
     return f'''
@@ -488,7 +488,7 @@ def figure(cid, c, first=False):
       </picture>
       <figcaption class="chart__foot">
         <p class="chart__src">Free to use with credit to CoolIn. Data: {e(c.get('src_line') or src_text(c['src']))} {' '.join(ref(k) for k in c['src'])}</p>
-        <div class="chart__tools">{dl}<button type="button" class="chart__dl chart__embed" data-copy="{e(embed)}" data-done="Embed code copied. Paste it into your article's HTML">Copy embed code</button></div>
+        <div class="chart__tools">{dl}<button type="button" class="chart__dl chart__embed" data-copy="{e(embed)}" data-done="Embed code copied. Paste it into your article's HTML">Embed</button></div>
       </figcaption>
     </figure>'''
 
