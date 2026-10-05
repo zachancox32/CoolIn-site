@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="470" fill="#FFFFFF"/>
+<rect width="1200" height="8" fill="#0E6E96"/>
+<text x="48" y="70" font-size="34" font-weight="700" fill="#12262F">Air conditioning rises with income</text>
+<text x="48" y="106" font-size="19" fill="#41606E">Share of households using air conditioning in summer, by household income, England 2023-24</text>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
+<text x="454" y="175" font-size="19" font-weight="700" fill="#12262F" text-anchor="end">Highest fifth</text>
+<rect x="470" y="156" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="156" width="490.7" height="26" rx="4" fill="#E2673B"/>
+<text x="972.7" y="176" font-size="19" font-weight="700" fill="#12262F">8.2%</text>
+<text x="454" y="221" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Fourth fifth</text>
+<rect x="470" y="202" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="202" width="305.2" height="26" rx="4" fill="#0E6E96"/>
+<text x="787.2" y="222" font-size="19" font-weight="700" fill="#12262F">5.1%</text>
+<text x="454" y="267" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Middle fifth</text>
+<rect x="470" y="248" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="248" width="215.4" height="26" rx="4" fill="#0E6E96"/>
+<text x="697.4" y="268" font-size="19" font-weight="700" fill="#12262F">3.6%</text>
+<text x="454" y="313" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Second fifth</text>
+<rect x="470" y="294" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="294" width="131.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="613.7" y="314" font-size="19" font-weight="700" fill="#12262F">2.2%</text>
+<text x="454" y="359" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Lowest fifth</text>
+<rect x="470" y="340" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="340" width="149.6" height="26" rx="4" fill="#0E6E96"/>
+<text x="631.6" y="360" font-size="19" font-weight="700" fill="#12262F">2.5%</text>
+
+<line x1="48" y1="418" x2="1152" y2="418" stroke="#E1EAEF" stroke-width="2"/>
+<text x="48" y="448" font-size="16" fill="#6E8592">Source: EDRC analysis of the English Housing Survey 2023-24</text>
+<text x="1152" y="448" font-size="16" font-weight="700" fill="#0E6E96" text-anchor="end">cool-in.co.uk/air-conditioning-statistics</text>
+</svg>

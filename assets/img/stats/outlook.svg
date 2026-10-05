@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 418" width="1200" height="418" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="418" fill="#FFFFFF"/>
+<rect width="1200" height="8" fill="#0E6E96"/>
+<text x="48" y="70" font-size="34" font-weight="700" fill="#12262F">Homes using air conditioning in England by summer 2027</text>
+<text x="48" y="106" font-size="19" fill="#41606E">Measured in 2023-24, and two projections for July 2027, millions of homes</text>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
+<text x="454" y="175" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">2023-24, measured</text>
+<rect x="470" y="156" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="156" width="309.6" height="26" rx="4" fill="#0E6E96"/>
+<text x="791.6" y="176" font-size="19" font-weight="700" fill="#12262F">1.06 million (4.3%)</text>
+<text x="454" y="221" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">2027 at the pre 2020 pace</text>
+<rect x="470" y="202" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="202" width="400.2" height="26" rx="4" fill="url(#hatch)" stroke="#E2673B" stroke-width="2"/>
+<text x="882.2" y="222" font-size="19" font-weight="700" fill="#12262F">1.37 million (5.6%)</text>
+<text x="454" y="267" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">2027 at twice that pace</text>
+<rect x="470" y="248" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="248" width="490.7" height="26" rx="4" fill="url(#hatch)" stroke="#E2673B" stroke-width="2"/>
+<text x="972.7" y="268" font-size="19" font-weight="700" fill="#12262F">1.68 million (6.8%)</text>
+<text x="48" y="348" font-size="17" fill="#6E8592">Projections are CoolIn&#x27;s, built from the measured figure and the 2013 to 2020 installation rate. The full method is on the page.</text>
+<line x1="48" y1="366" x2="1152" y2="366" stroke="#E1EAEF" stroke-width="2"/>
+<text x="48" y="396" font-size="16" fill="#6E8592">Source: EDRC analysis of the English Housing Survey 2023-24</text>
+<text x="1152" y="396" font-size="16" font-weight="700" fill="#0E6E96" text-anchor="end">cool-in.co.uk/air-conditioning-statistics</text>
+</svg>

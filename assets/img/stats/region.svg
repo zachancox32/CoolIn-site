@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="700" fill="#FFFFFF"/>
+<rect width="1200" height="8" fill="#0E6E96"/>
+<text x="48" y="70" font-size="34" font-weight="700" fill="#12262F">Homes using air conditioning, by region</text>
+<text x="48" y="106" font-size="19" fill="#41606E">Share of households in each English region using air conditioning to keep cool in summer, 2023-24</text>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FBE7DC"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E2673B" stroke-width="4"/></pattern></defs>
+<text x="454" y="175" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">London</text>
+<rect x="470" y="156" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="156" width="490.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="972.7" y="176" font-size="19" font-weight="700" fill="#12262F">6.5%</text>
+<text x="454" y="221" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">East of England</text>
+<rect x="470" y="202" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="202" width="490.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="972.7" y="222" font-size="19" font-weight="700" fill="#12262F">6.5%</text>
+<text x="454" y="267" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">East Midlands</text>
+<rect x="470" y="248" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="248" width="415.2" height="26" rx="4" fill="#0E6E96"/>
+<text x="897.2" y="268" font-size="19" font-weight="700" fill="#12262F">5.5%</text>
+<text x="454" y="313" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">South East</text>
+<rect x="470" y="294" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="294" width="407.7" height="26" rx="4" fill="#0E6E96"/>
+<text x="889.7" y="314" font-size="19" font-weight="700" fill="#12262F">5.4%</text>
+<text x="454" y="359" font-size="19" font-weight="700" fill="#12262F" text-anchor="end">England</text>
+<rect x="470" y="340" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="340" width="324.6" height="26" rx="4" fill="#9FB3BE"/>
+<text x="806.6" y="360" font-size="19" font-weight="700" fill="#12262F">4.3%</text>
+<text x="454" y="405" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">West Midlands</text>
+<rect x="470" y="386" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="386" width="264.2" height="26" rx="4" fill="#0E6E96"/>
+<text x="746.2" y="406" font-size="19" font-weight="700" fill="#12262F">3.5%</text>
+<text x="454" y="451" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">South West</text>
+<rect x="470" y="432" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="432" width="211.4" height="26" rx="4" fill="#0E6E96"/>
+<text x="693.4" y="452" font-size="19" font-weight="700" fill="#12262F">2.8%</text>
+<text x="454" y="497" font-size="19" font-weight="700" fill="#12262F" text-anchor="end">North West</text>
+<rect x="470" y="478" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="478" width="188.7" height="26" rx="4" fill="#E2673B"/>
+<text x="670.7" y="498" font-size="19" font-weight="700" fill="#12262F">2.5%</text>
+<text x="454" y="543" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">Yorkshire and the Humber</text>
+<rect x="470" y="524" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="524" width="128.3" height="26" rx="4" fill="#0E6E96"/>
+<text x="610.3" y="544" font-size="19" font-weight="700" fill="#12262F">1.7%</text>
+<text x="454" y="589" font-size="19" font-weight="400" fill="#12262F" text-anchor="end">North East</text>
+<rect x="470" y="570" width="530" height="26" rx="4" fill="#D7EDF7" opacity=".45"/>
+<rect x="470" y="570" width="113.2" height="26" rx="4" fill="#0E6E96"/>
+<text x="595.2" y="590" font-size="19" font-weight="700" fill="#12262F">1.5%</text>
+
+<line x1="48" y1="648" x2="1152" y2="648" stroke="#E1EAEF" stroke-width="2"/>
+<text x="48" y="678" font-size="16" fill="#6E8592">Source: EDRC analysis of the English Housing Survey 2023-24</text>
+<text x="1152" y="678" font-size="16" font-weight="700" fill="#0E6E96" text-anchor="end">cool-in.co.uk/air-conditioning-statistics</text>
+</svg>

@@ -7181,6 +7181,504 @@ Free survey
 
 
 ================================================================================
+URL: https://cool-in.co.uk/air-conditioning-statistics
+TITLE: UK Air Conditioning Statistics & 2027 Outlook
+DESCRIPTION: How many UK homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure sourced, with free charts.
+================================================================================
+
+CoolIn / Air conditioning statistics
+
+Data, updated quarterly
+
+UK air conditioning statistics, and what 2027 brings
+
+How many homes have air conditioning, who has it, how many overheat, what it costs to run, and what changes in 2027. Every figure links to its source, and every chart is free to use.
+
+Updated October 2026 by Zac Hancox, Founder of CoolIn
+
+On this page
+The headline numbers
+Quotable findings
+Who has air conditioning
+The North West
+Homes that overheat
+Hotter summers
+Running costs
+What 2027 brings
+Why estimates differ
+How we worked these out
+Use these figures
+Sources
+
+The headline numbers
+
+4.3%
+
+of homes in England use air conditioning [1]
+
+2.5%
+
+in the North West, against 6.5% in London [1]
+
+3 million
+
+homes in England reported overheating in 2024 [3]
+
+7%
+
+of households whose home overheated used air conditioning [3]
+
+55 days
+
+above 28°C in the UK in summer 2026, a record [6]
+
+Up to 1 in 15
+
+homes in England could use air conditioning by summer 2027 [1]
+
+Quotable findings
+
+Each line copies with its source and a link straight back to it. The numbers in brackets go to the original research.
+
+Only 4.3% of homes in England use air conditioning to keep cool in summer, about 1.06 million homes. [1]
+
+Copy
+
+In the North West it is 2.5%, roughly 80,000 homes, against 6.5% in London and the East of England. [1] [4]
+
+Copy
+
+If the North West used air conditioning at London's rate, around 125,000 more homes in the region would have it. [1] [4]
+
+Copy
+
+3 million homes in England reported overheating in 2024, up from 1.7 million in 2019. [3]
+
+Copy
+
+When their home overheated, 90% of households opened the windows and 7% used air conditioning. [3]
+
+Copy
+
+The highest earning fifth of households are more than three times as likely to use air conditioning as the lowest earning fifth: 8.2% against 2.5%. [1]
+
+Copy
+
+Households with someone over 75 are among the least likely to have air conditioning, at 3.0%, though older people are among the most at risk from heat. [1] [2]
+
+Copy
+
+Where someone works from home four or more days a week, 6.9% of households use air conditioning, more than double the 3.2% where nobody does. [1]
+
+Copy
+
+Summer 2026 was the hottest on record for the UK and for North West England, with 55 days above 28°C against a previous record of 41. [5] [6]
+
+Copy
+
+Seven of the North West's ten warmest summers since 1884 have come in 2003 or later. [5]
+
+Copy
+
+North West summers over the last ten years averaged 1.5°C warmer than the 1961 to 1990 average. [5]
+
+Copy
+
+A split air conditioner holding a room at temperature costs about 8p an hour to run at the October 2026 price cap. A portable unit costs about 26p. [8]
+
+Copy
+
+By summer 2027, between 1.37 million and 1.68 million homes in England could be using air conditioning, about 1 in 18 to 1 in 15. [1]
+
+Copy
+
+No new air conditioning ban arrives in Great Britain in 2027. The EU's ban on small split systems using higher warming refrigerants starts in the EU and Northern Ireland on 1 January 2027, but not in England, Scotland or Wales. [10] [11]
+
+Copy
+
+Who has air conditioning
+
+The best measure of air conditioning in English homes is the English Housing Survey, which asked 15,846 households in 2023-24 how they keep cool in summer. Researchers at the Energy Demand Research Centre and the University of Reading analysed the answers and found that 4.3% used air conditioning, about 1.06 million homes. [1]
+
+It is not spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. [2]
+
+Homes using air conditioning, by region
+
+Share of households in each English region using air conditioning to keep cool in summer, 2023-24
+
+London 6.5%
+East of England 6.5%
+East Midlands 5.5%
+South East 5.4%
+England 4.3%
+West Midlands 3.5%
+South West 2.8%
+North West 2.5%
+Yorkshire and the Humber 1.7%
+North East 1.5%
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Air conditioning rises with income
+
+Share of households using air conditioning in summer, by household income, England 2023-24
+
+Highest fifth 8.2%
+Fourth fifth 5.1%
+Middle fifth 3.6%
+Second fifth 2.2%
+Lowest fifth 2.5%
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Those most at risk from heat are least likely to have it
+
+Share of households using air conditioning in summer, by who lives there, England 2023-24
+
+Child under 5 6.1%
+Baby under 1 5.8%
+Someone with a long term illness or disability 5.0%
+All households 4.3%
+Someone over 65 3.7%
+Lone parent with children 2.9%
+Someone over 75 3.0%
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Which homes have air conditioning
+
+Share of households using air conditioning in summer, by home type, age and tenure, England 2023-24
+
+By type
+Detached or bungalow 6.2%
+Semi detached 3.9%
+Flat 3.7%
+Terraced 3.6%
+By age
+Built since 2000 6.6%
+Built before 1930 4.3%
+Built 1930 to 1964 3.7%
+Built 1965 to 1999 3.6%
+By tenure
+Owner occupied 5.0%
+Private rented 3.3%
+Council 3.2%
+Housing association 2.6%
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Working from home goes with air conditioning
+
+Share of households using air conditioning in summer, by how often someone works from home, England 2023-24
+
+Four or more days a week 6.9%
+Two or three days a week 6.3%
+Once a week 5.6%
+Less than once a week 1.3%
+Never 3.2%
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Two patterns stand out. Homes built since 2000 are the most likely of any age to have air conditioning, at 6.6%, which fits with modern homes being more airtight and better insulated, so they hold heat in summer as well as in winter. And working from home matters: once someone is home four or more days a week, use rises to 6.9%. After allowing for income, home type and region together, households where someone works from home two or more days a week had 42% higher odds of using air conditioning. [1]
+
+The North West
+
+The North West has some of the lowest air conditioning use in England. 2.5% of households use it, which across the region's 3,153,403 households is roughly 80,000 homes. [1] [4]
+
+At London's rate of 6.5%, around 125,000 more North West homes would have it. Even allowing for income, home type and the other differences between households, a North West household had 69% lower odds of using air conditioning than one in London. [1]
+
+The summers are not standing still while that gap stays open. Summer 2026 was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of 16.5°C. Summer 2025 was the second warmest. Seven of the ten warmest have come in 2003 or later, and the last ten summers averaged 1.5°C warmer than the 1961 to 1990 average. [5]
+
+North West England summers, 1884 to 2026
+
+Mean temperature, June to August, England NW and North Wales. Orange summers were warmer than the 1961 to 1990 average, blue were cooler
+
+Source: Met Office HadUK-Grid [5]
+
+Download PNG Download SVG Copy embed code
+
+The ten warmest summers in North West England and North Wales since 1884, by mean temperature, June to August. Years from 2003 on are highlighted. [5]
+| | Rank | Year | Mean | Against 1961 to 1990
+
+| 1 | 2026 | 16.5°C | +2.7°C
+| 2 | 2025 | 15.9°C | +2.1°C
+| 3 | 1995 | 15.8°C | +2.1°C
+| 4 | 2006 | 15.8°C | +2.0°C
+| 5 | 1976 | 15.7°C | +1.9°C
+| 6 | 2018 | 15.7°C | +1.9°C
+| 7 | 2003 | 15.6°C | +1.8°C
+| 8 | 2022 | 15.5°C | +1.7°C
+| 9 | 1933 | 15.4°C | +1.6°C
+| 10 | 2023 | 15.4°C | +1.6°C
+
+Homes that overheat
+
+In 2024, households in about 3 million homes in England said their home got uncomfortably hot, 12% of occupied homes. In 2019 it was 1.7 million, or 7%. Owner occupied homes were the most affected at 13%, against 11% for both private and social renters. [3]
+
+Homes reporting overheating in England
+
+Homes where the household reported the home getting uncomfortably hot, millions
+
+2019 1.7 million (7%)
+2024 3.0 million (12%)
+2027 if the trend continues about 3.8 million
+
+The 2027 bar is our straight line projection of the 2019 to 2024 rise, not an official figure. Overheating also depends on how hot a given summer is.
+
+Source: English Housing Survey 2024 to 2025, MHCLG [3]
+
+Download PNG Download SVG Copy embed code
+
+Which homes overheat
+
+Share of homes in England reported as overheating in 2024, by type of home
+
+Detached house 15%
+Bungalow 14%
+Semi detached house 12%
+Terraced house 11%
+Purpose built flat 9 to 10%
+
+Source: English Housing Survey 2024 to 2025, MHCLG [3]
+
+Download PNG Download SVG Copy embed code
+
+How people cooled down when their home overheated
+
+Methods used by the 3 million households in England whose home got uncomfortably hot, 2024-25
+
+Opened windows 90%
+Closed curtains, blinds or shutters 75%
+Switched on a fan 59%
+Used air conditioning 7%
+Put out an awning or canopy 3%
+
+Source: English Housing Survey 2024 to 2025, MHCLG [3]
+
+Download PNG Download SVG Copy embed code
+
+Air conditioning is still the exception even in homes that overheat. Among those 3 million households, 7% used it: 9% of owner occupiers, 6% of social renters and 4% of private renters. [3] Renters usually need their landlord's permission to fit anything, which goes some way to explaining the gap. The guide to air conditioning in a flat or apartment covers what that involves.
+
+Hotter summers
+
+Summer 2026 was the hottest on record for the UK as a whole, with a mean of 16.5°C, ahead of 2025 at 16.1°C. [5] There were 55 days above 28°C, beating the previous record of 41 days set in 1976 and again in 1995, and 9 days above 35°C, almost double the previous record of 5 in 2020. The Met Office puts a summer with that many days over 35°C at about a 1 in 100 chance in today's climate. [6]
+
+The UK first passed 40°C in July 2022, when Coningsby in Lincolnshire reached 40.3°C. The Met Office estimates a 50-50 chance of another 40°C day within 12 years of its 2025 study, and says the chance of exceeding 40°C is now over 20 times what it was in the 1960s. [7]
+
+What it costs to run
+
+A 2.5kW split system does not draw 2.5kW of electricity. That figure is the heat it moves. Once the room is down to temperature it throttles back to roughly 0.3kW. At the price cap for October to December 2026, 26.32p per kWh with no VAT on electricity until 31 March 2027, that is about 8p an hour. [8] The running costs article goes through heating costs as well.
+
+What it costs to keep cool, per hour
+
+Running cost per hour at the October to December 2026 price cap of 26.32p per kWh
+
+Portable air conditioner 26.3p
+Split system, cooling a hot room down 17.1p
+Split system, holding the room at temperature 7.9p
+Evaporative air cooler 1.8p
+Electric fan 1.1p
+
+Power figures are typical: 0.3 and 0.65kW for a 2.5kW split system, about 1kW for a portable unit, 70W for an air cooler and 40W for a fan. Check the label on your own appliance.
+
+Source: Ofgem price cap, October 2026; CoolIn [8]
+
+Download PNG Download SVG Copy embed code
+
+Running cost at 26.32p per kWh, per hour and for an eight hour night
+| | Appliance | Typical draw | Per hour | Eight hours
+
+| Portable air conditioner | 1000W | 26.3p | £2.11
+| Split system, cooling a hot room down | 650W | 17.1p | £1.37
+| Split system, holding the room at temperature | 300W | 7.9p | 63p
+| Evaporative air cooler | 70W | 1.8p | 15p
+| Electric fan | 40W | 1.1p | 8p
+
+A fan and an air cooler are far cheaper to run because they do not lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect.
+
+What 2027 brings
+
+Some of 2027 is already fixed in law or policy. Some of it is a projection, which we show with its working. And one part nobody can tell you: how hot summer 2027 will be. Seasonal forecasts do not reach that far ahead, so anyone quoting a forecast for next summer's weather today is guessing.
+
+What is already decided
+
+1 January 2027
+
+The HFC quota steps down in Great Britain, as already scheduled
+
+DEFRA confirmed in May 2026 that it will not change the 2027 phase down step. Unlike the EU and Northern Ireland, Great Britain brings in no ban on new split systems in 2027. [10]
+
+1 January 2027
+
+The EU bans small split systems using higher warming refrigerants
+
+New split air conditioners and heat pumps under 12kW using refrigerant with a global warming potential of 150 or more cannot be placed on the market in the EU or Northern Ireland. [11]
+
+January, April, July and October 2027
+
+The energy price cap changes four times
+
+Each change moves the running cost of every appliance in the table above. We update this page when it does. [8]
+
+24 March 2027
+
+The Future Homes Standard comes into force in England
+
+New homes have to be more airtight and better insulated. The overheating rule for new homes, Part O, is under a separate full review. [12] [14]
+
+31 March 2027
+
+Zero rate VAT on home installations ends
+
+Installing energy saving materials in homes, including heat pumps, is zero rated until 31 March 2027, then 5% from 1 April. HMRC says most air conditioning units are air source heat pumps. [13]
+
+31 March 2027
+
+No VAT on household electricity runs until this date
+
+Ofgem's price cap shows no VAT on electricity from 1 October 2026 to 31 March 2027. [8]
+
+What the trend points to
+
+If homes in England took up air conditioning at the pace measured from 2013 to 2020, about 83,000 more a year, 1.37 million homes would be using it by July 2027, 5.6% of households. [1] That pace came before the record summers of 2022, 2025 and 2026, so it is a floor more than a forecast. At twice the pace, it would be 1.68 million, or 6.8%: about 1 in 15 homes.
+
+Homes using air conditioning in England by summer 2027
+
+Measured in 2023-24, and two projections for July 2027, millions of homes
+
+2023-24, measured 1.06 million (4.3%)
+2027 at the pre 2020 pace 1.37 million (5.6%)
+2027 at twice that pace 1.68 million (6.8%)
+
+Projections are CoolIn's, built from the measured figure and the 2013 to 2020 installation rate. The full method is on the page.
+
+Source: EDRC analysis of the English Housing Survey 2023-24 [1]
+
+Download PNG Download SVG Copy embed code
+
+Overheating is moving faster. If the 2019 to 2024 rise carries on in a straight line, about 3.8 million homes in England would report overheating in 2027. [3] Further out, NESO's scenarios have between 10% and 40% of UK homes using air conditioning by 2050, depending on the path the energy system takes. [1] Researchers at UCL have argued that home air conditioning may already be more common than every one of NESO's 2024 scenarios assumed for 2030. [9]
+
+Why the estimates differ
+
+Published figures for UK homes with air conditioning run from about 3% to 19%. They are mostly answering different questions.
+
+| | Estimate | Figure | What it measures
+
+| English Housing Survey 2023-24 [1] | 4.3% | Households in England that use air conditioning to keep cool in summer. A large official survey, 15,846 households
+
+| NESO [1] | About 3% | UK homes with air conditioning, used for planning the electricity grid
+
+| Official survey, 2021-22 [9] | 3.1% | UK households, as cited by UCL researchers
+
+| Private surveys, 2023 and 2024 [9] | 19% and 8% | Smaller online polls, as cited by UCL researchers. Likely to count portable units and to over represent people interested in the subject
+
+For a single number, use the English Housing Survey figure: it is the largest, the most recent official measure, and it is the one the research on this page is built on.
+
+How we worked these out
+
+Most figures on this page are quoted straight from the sources listed below. These are the ones we calculated ourselves:
+
+North West homes. 2.5% of the region's 3,153,403 households at the 2021 Census is 78,835, which we round to 80,000. At London's 6.5%, the difference is 126,136, which we round to 125,000.
+
+Summer temperatures. The Met Office's HadUK-Grid mean temperature series for England NW and North Wales and for the UK, June to August, 1884 to 2026, last updated by the Met Office on 1 October 2026. The averages and rankings are ours. The regional series includes North Wales.
+
+Running costs. Power drawn multiplied by 26.32p per kWh. The power figures are typical for each kind of appliance, not measured on a particular model.
+
+The 2027 projection. We start from 1.06 million homes at the middle of the survey, October 2023, and add 83,000 homes a year, the rate the government estimated from sales data for 2013 to 2020, for the 3.75 years to July 2027. The higher figure doubles that rate. Percentages hold the number of households at the survey's 24.7 million. The 83,000 figure covers the UK, so applying it to England alone slightly flatters the lower figure.
+
+Overheating in 2027. The rise from 1.7 million homes in 2019 to 3 million in 2024 is about 260,000 a year. Carried on for three more years, that gives about 3.8 million. A cool summer would bring the real figure in lower.
+
+We will update this page when new data is published, and each quarter when the price cap changes. The date at the top shows when it was last checked.
+
+Free to use
+
+Writing about air conditioning?
+
+Quote any figure, embed or download any chart, and take the full dataset as a spreadsheet. All we ask is credit to CoolIn and a link to this page.
+
+Link to this page
+
+cool-in.co.uk/air-conditioning-statistics
+Copy link
+
+Copy as HTML
+Download the data (CSV)
+
+Questions people ask
+
+What percentage of UK homes have air conditioning?
+
+The most reliable recent figure is 4.3% of homes in England, about 1.06 million, from the English Housing Survey 2023-24. The national grid operator, NESO, uses about 3% for the UK, and private surveys have given figures from 8% to 19%. The surveys ask different questions, which is most of the difference.
+
+Which part of England has the most air conditioning?
+
+London and the East of England, both at 6.5% of homes. The lowest are the North East at 1.5%, Yorkshire and the Humber at 1.7% and the North West at 2.5%.
+
+How many homes in England overheat?
+
+About 3 million in 2024, or 12% of occupied homes, up from 1.7 million, or 7%, in 2019. Detached houses were the most likely to overheat, at 15%.
+
+Will air conditioning be banned in the UK in 2027?
+
+No. The EU bans new small split systems that use refrigerant with a global warming potential of 150 or more from 1 January 2027, and that applies in Northern Ireland, but Great Britain has not adopted it. Systems already installed are not affected either way.
+
+How much does air conditioning cost to run per hour?
+
+At the October 2026 price cap of 26.32p per kWh, a 2.5kW split system costs about 8p an hour holding a room at temperature and about 17p cooling a hot room down. A portable unit costs about 26p an hour.
+
+Can I use these statistics and charts?
+
+Yes. Quote the figures, embed or download the charts, and use the CSV, with credit to CoolIn and a link to this page. The underlying data belongs to the sources listed, so cite them too where you can.
+
+Sources
+
+Jones, Fuertes and Charles, Socio-technical drivers of air conditioning adoption and use in UK homes, Energy Demand Research Centre, June 2026. Analysis of the English Housing Survey 2023-24, 15,846 households
+
+University of Reading, The most at risk from heat have the least air con, June 2026
+
+Ministry of Housing, Communities and Local Government, English Housing Survey 2024 to 2025: weather resilient homes fact sheet, 9 July 2026
+
+Office for National Statistics, Census 2021, number of households (TS041). North West: 3,153,403
+
+Met Office, HadUK-Grid areal series, mean air temperature for England NW and N Wales and for the UK, last updated 1 October 2026
+
+Met Office, How exceptional were UK summer 2026 daily temperatures?, 2 September 2026
+
+Met Office, Met Office report details rising likelihood of UK hot days, June 2025
+
+Ofgem, Energy price cap unit rates and standing charges, 1 October to 31 December 2026
+
+Simpson, Halai, Price, Petrou, Heaviside and Davies, Air conditioning and the future electricity system in Great Britain, Energy Research and Social Science, 2026
+
+Cooling Post, DEFRA delays GB F-gas phase down, 16 May 2026
+
+Daikin UK, Air to air heat pump and air conditioner bans of the EU F-gas regulation
+
+UK Parliament, written statement HCWS1445 on the Future Homes and Buildings Standards, 24 March 2026
+
+HM Revenue and Customs, VAT on energy-saving materials and heating equipment (VAT Notice 708/6)
+
+Home Energy Model, Full Part O overheating review confirmed, 9 April 2026
+
+Thinking about air conditioning for your own home?
+
+A free survey settles where the units can go, what size you need, and a fixed written price within 48 hours.
+
+Book a free survey
+See what it costs
+
+
+================================================================================
 URL: https://cool-in.co.uk/guides/air-conditioning-cost-manchester
 TITLE: Air conditioning cost in Manchester (2026)
 DESCRIPTION: Air conditioning in Manchester costs from £1,650 fitted for one room and £3,450 for two. Installed prices by room and system, plus running and servicing costs.

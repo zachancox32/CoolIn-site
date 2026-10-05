@@ -62,7 +62,7 @@ def clean_url(f):
     return '' if f == 'index.html' else f[:-5] if f.endswith('.html') else f
 
 
-ORDER = ['index.html','domestic.html','air-conditioning-size-calculator.html','commercial.html','hvac-contractors.html','servicing.html','repairs.html',
+ORDER = ['index.html','domestic.html','air-conditioning-size-calculator.html','air-conditioning-statistics.html','commercial.html','hvac-contractors.html','servicing.html','repairs.html',
          'heat-pumps.html','ventilation.html','areas.html','about.html','contact.html']
 # Commercial sector pages, one per building type. Listed as their own group so
 # an answer engine can see they are siblings rather than unrelated pages.
