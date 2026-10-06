@@ -847,7 +847,10 @@ def page():
          "description": ('Air conditioning use in English homes by region, income, household and home type; homes '
                          'reporting overheating; North West England summer temperatures since 1884; running costs at '
                          'the current price cap; and projections for 2027, compiled from official sources.'),
-         "url": URL, "creator": {"@id": f"{BASE}/#business"}, "dateModified": REVIEWED,
+         "url": URL,
+         # Spelled out rather than only referenced: Google reads each page on
+         # its own and needs to see the creator is an Organization.
+         "creator": {"@type": "Organization", "@id": f"{BASE}/#business", "name": "CoolIn", "url": f"{BASE}/"}, "dateModified": REVIEWED,
          "isAccessibleForFree": True, "license": "https://creativecommons.org/licenses/by/4.0/",
          "spatialCoverage": "England, United Kingdom, including North West England and Manchester", "temporalCoverage": f"{min(NW)}/2027",
          "keywords": ["air conditioning", "overheating", "heatwave", "housing", "energy", "North West England"],
