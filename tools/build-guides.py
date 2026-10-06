@@ -93,11 +93,12 @@ def related(g, guides, n=3):
     return (same + rest)[:n]
 
 
-def card(o):
+def card(o, h='h2'):
+    """h3 when the cards sit under a heading of their own, as on a guide."""
     return f'''        <article class="post-card js-card">
           <div class="post-card__panel">
             <span class="post-card__cat">{html.escape(SERVICES[o['service']][1])}</span>
-            <h2><a href="/guides/{o['slug']}">{html.escape(o['title'])}</a></h2>
+            <{h}><a href="/guides/{o['slug']}">{html.escape(o['title'])}</a></{h}>
           </div>
           <div class="post-card__body">
             <p>{html.escape(clip(o['answer'], 150))}</p>
@@ -144,7 +145,7 @@ def build_one(g, guides):
     <div class="wrap">
       <h2 class="post-more__title js-up">More questions answered</h2>
       <div class="post-grid">
-{chr(10).join(card(o) for o in near)}
+{chr(10).join(card(o, 'h3') for o in near)}
       </div>
     </div>
   </section>

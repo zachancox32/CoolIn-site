@@ -723,7 +723,7 @@ def page():
         </table>
       </div>
       <div class="prose">
-        <p>A fan and an air cooler are far cheaper to run because they do not lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect.</p>
+        <p>A fan and an air cooler are far cheaper to run because they do not lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect. The guide to <a href="/guides/portable-air-conditioner-vs-fitted">portable or fitted air conditioning</a> compares the two in full.</p>
       </div>
     </section>
 

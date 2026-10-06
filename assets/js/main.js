@@ -363,6 +363,19 @@
     if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 700);
   });
 
+  /* ---------- enquiry context from a link ----------
+     A guide can link to /contact?enquiry=portable and the message starts
+     with what the visitor came about. Only known values are used, so the
+     address cannot put arbitrary text into the form. */
+  (function () {
+    var form = document.getElementById('quoteForm');
+    var m = location.search.match(/[?&]enquiry=([a-z-]+)/);
+    var LINES = { portable: 'Replacing a portable air conditioner.' };
+    if (!form || !m || !LINES[m[1]]) return;
+    var msg = form.querySelector('textarea[name="message"]');
+    if (msg && !msg.value) msg.value = LINES[m[1]] + ' ';
+  })();
+
   /* ---------- quote form ---------- */
   var form = document.getElementById('quoteForm');
   var done = document.getElementById('formDone');

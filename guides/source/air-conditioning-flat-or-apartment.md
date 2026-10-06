@@ -57,7 +57,7 @@ Then there are two realistic options.
 
 **A self contained unit with no outdoor part.** The whole machine sits inside, high on an outside wall, and breathes through two round holes of roughly 16 to 20 centimetres, which finish outside as small grilles. Freeholders who refuse an outdoor unit will often agree to this, though the holes still need their consent. The trade off is that the compressor is in the room with you, so it is louder than a split system and less efficient, and it suits a bedroom or study rather than a large open plan living room.
 
-**A portable air conditioner.** It needs no consent, which is its one real advantage. A single hose portable pushes room air out through the window hose and pulls warm air back in through the gaps to replace it, so it cools noticeably less than its label suggests, and it is noisy in the room. Where the windows only open a few inches for safety, the hose often does not fit properly either.
+**A portable air conditioner.** It needs no consent, which is its one real advantage. A single hose portable pushes room air out through the window hose and pulls warm air back in through the gaps to replace it, so it cools noticeably less than its label suggests, and it is noisy in the room. Where the windows only open a few inches for safety, the hose often does not fit properly either. The guide to [portable or fitted air conditioning](/guides/portable-air-conditioner-vs-fitted) compares the two in full.
 
 ## My flat has MVHR. Is that air conditioning?
 

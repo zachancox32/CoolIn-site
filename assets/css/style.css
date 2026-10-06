@@ -755,7 +755,7 @@ ul,ol{margin:0;padding:0;list-style:none}
   border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column;
   transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease);
 }
-.post-card h2 a::after{content:"";position:absolute;inset:0}
+.post-card h2 a::after,.post-card h3 a::after{content:"";position:absolute;inset:0}
 .post-card:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px rgba(14,110,150,.18)}
 .post-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:transparent}
 
@@ -777,12 +777,12 @@ ul,ol{margin:0;padding:0;list-style:none}
   text-transform:uppercase;color:var(--ice);
   border:1px solid rgba(94,195,224,.42);border-radius:60px;padding:5px 12px;
 }
-.post-card__panel h2{
+.post-card__panel h2,.post-card__panel h3{
   font-size:1.22rem;line-height:1.22;letter-spacing:-.018em;
   margin:0;text-wrap:balance;
 }
-.post-card__panel h2 a{color:#fff}
-.post-card:hover .post-card__panel h2 a{color:var(--ice)}
+.post-card__panel h2 a,.post-card__panel h3 a{color:#fff}
+.post-card:hover .post-card__panel h2 a,.post-card:hover .post-card__panel h3 a{color:var(--ice)}
 
 .post-card__body{padding:22px 26px 26px;display:flex;flex-direction:column;flex:1}
 .post-card__body p{font-size:.94rem;margin:0 0 16px}
