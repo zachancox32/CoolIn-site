@@ -8237,7 +8237,7 @@ Running costs are at the October to December 2026 price cap of 26.32p per kWh. T
 
 Why isn't my portable air conditioner cooling the room?
 
-Usually because of how a single hose portable works. It takes in air from the room, uses some of it to cool the hot parts inside the unit, and blows that warm air out of the window. Air that leaves the room has to be replaced, so warm air from outside and from the rest of the house is drawn back in through gaps around doors and windows. The unit is cooling the room and warming it at the same time.
+A portable air conditioner often fails to cool a room because of how a single hose unit works: it blows air out of the window, and warm air is drawn back in to replace it. It takes in air from the room, uses some of it to cool the hot parts inside the unit, and blows that warm air out of the window. Air that leaves the room has to be replaced, so warm air from outside and from the rest of the house is drawn back in through gaps around doors and windows. The unit is cooling the room and warming it at the same time.
 
 The hose itself gets hot and gives off heat, and the gap where it goes through the window lets more warm air in. That is why a portable rated to cool a large room often struggles with a small bedroom on a hot afternoon.
 
@@ -8254,7 +8254,7 @@ If all of that is right and the room is still warm in the afternoon, the portabl
 
 How much does a portable cost to run compared with fitted air con?
 
-A portable draws about 1kW the whole time its compressor runs. A fitted 2.5kW unit draws about 0.65kW while it brings a hot room down, then throttles back to around 0.3kW to hold it there, because it can slow down instead of switching on and off.
+A portable air conditioner costs about 26p an hour to run, against about 8p to 17p an hour for fitted air conditioning, at the October 2026 price cap of 26.32p per kWh. A portable draws about 1kW the whole time its compressor runs. A fitted 2.5kW unit draws about 0.65kW while it brings a hot room down, then throttles back to around 0.3kW to hold it there, because it can slow down instead of switching on and off.
 
 | | What is running | Power drawn | Per hour | An eight hour night
 | Portable air conditioner | About 1kW | 26p | £2.11
@@ -8265,15 +8265,15 @@ These use the price cap for October to December 2026, 26.32p per kWh. The runnin
 
 Is fitted air conditioning noisy?
 
-Much less than a portable, because the compressor is outside. Quiet fitted indoor units start around 19 dB(A) on their lowest setting, about the level of a whisper. A portable has its compressor in the room with you, and most run at around 50 to 65 dB(A), closer to the level of normal conversation. For a bedroom, that is often what decides it.
+Fitted air conditioning is much quieter than a portable unit, because its compressor, the noisy part, sits outside. Quiet fitted indoor units start around 19 dB(A) on their lowest setting, about the level of a whisper. A portable has its compressor in the room with you, and most run at around 50 to 65 dB(A), closer to the level of normal conversation. For a bedroom, that is often what decides it.
 
 Can a portable air conditioner heat a room?
 
-Some can, and many cannot, so check the label. Fitted air conditioning heats as standard, and it does it efficiently: it moves heat in from outside, giving several units of heat for each unit of electricity it uses. That makes it far cheaper to run than any plug in heater, which is why a fitted unit earns its keep in winter as well as summer. The comparison with a gas boiler goes through the numbers.
+Some portable air conditioners can heat a room and many cannot, so check the label. Fitted air conditioning heats as standard, and it does it efficiently: it moves heat in from outside, giving several units of heat for each unit of electricity it uses. That makes it far cheaper to run than any plug in heater, which is why a fitted unit earns its keep in winter as well as summer. The comparison with a gas boiler goes through the numbers.
 
 Is fitted air conditioning worth the extra cost?
 
-Not on the electricity saving alone, if we are honest. Say you run it for 300 hours over a summer. Fitted saves roughly 9p to 18p an hour against a portable, so about £30 to £55 a year. That will not pay back the difference in price on its own.
+Fitted air conditioning is not worth it on the electricity saving alone: over a 300 hour summer it saves about £30 to £55 against a portable. Fitted saves roughly 9p to 18p an hour against a portable, and 300 hours of that comes to about £30 to £55 a year. That will not pay back the difference in price on its own.
 
 What makes fitted worth it is everything else:
 
@@ -8285,7 +8285,7 @@ It takes up no floor space and there is no hose to trip over or store.
 
 When is a portable the better choice?
 
-A portable is the right answer when:
+A portable air conditioner is the better choice when:
 
 You rent and cannot get permission for anything fixed to the building.
 You only need it for a few hot days a year , and do not mind the noise for those.
@@ -8294,13 +8294,20 @@ Your building will not allow an outdoor unit. Before settling for a portable, as
 
 Can my portable help work out what size I need?
 
-Yes, in a useful way. If your portable keeps a room comfortable in the morning but loses the battle by mid afternoon, that tells us the room has strong sun on it or a lot of glass, and a fitted unit for that room may need a size up. Tell us which room it is and how the portable copes, and we will size the fitted unit for what the room really needs. The size calculator gives you a starting figure in under a minute.
+A portable air conditioner can help size a fitted unit, because how it copes shows how much heat the room takes on. If your portable keeps a room comfortable in the morning but loses the battle by mid afternoon, that tells us the room has strong sun on it or a lot of glass, and a fitted unit for that room may need a size up. Tell us which room it is and how the portable copes, and we will size the fitted unit for what the room really needs. The size calculator gives you a starting figure in under a minute.
 
 How much does it cost to get air conditioning fitted?
 
-One room starts at £1,650 fitted for a 2.5kW wall unit, and two to five rooms on one outdoor unit start at £3,450 . Both are installed prices, including the units, up to five metres of pipe, the electrical connection and commissioning, with no VAT to add until 31 March 2027. The price guide has every size.
+Getting air conditioning fitted costs from £1,650 for one room with a 2.5kW wall unit, and from £3,450 for two to five rooms on one outdoor unit. Both are installed prices, including the units, up to five metres of pipe, the electrical connection and commissioning, with no VAT to add until 31 March 2027. The price guide has every size.
 
 If you are ready to move on from the portable, get a price for fitted air conditioning . A free survey settles where the units can go, what size you need and a fixed written price within 48 hours.
+
+Where these figures come from
+
+Electricity price: 26.32p per kWh, the Ofgem energy price cap for October to December 2026, paying by direct debit. Running costs are power drawn multiplied by that rate.
+Portable power and noise: typical 9,000 BTU portables draw about 0.9 to 1kW and are rated at roughly 47 to 63 dB(A), from manufacturer specifications such as the De'Longhi Pinguino PAC EM93K and PAC N82 Eco . Check the label on your own unit.
+Fitted power and noise: about 0.3kW holding a room and 0.65kW bringing it down for a 2.5kW wall unit, and quiet indoor units from around 19 dB(A) on their lowest setting, from current manufacturer ranges. The running costs article shows the working.
+How many homes have air conditioning, and running costs over time: the UK air conditioning statistics page, updated each time the price cap changes.
 
 Questions people ask next
 
