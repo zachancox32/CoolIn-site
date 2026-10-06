@@ -304,6 +304,46 @@
   });
   }
 
+  /* ---------- thank you page: the tender version ----------
+     The contractor form posts to /thanks?form=contractor, which shows the
+     tender copy in place of the homeowner copy. */
+  (function () {
+    var ty = document.querySelector('[data-thanks]');
+    if (!ty || !/(^|[?&])form=contractor(&|$)/.test(location.search.slice(1))) return;
+    Array.prototype.forEach.call(ty.querySelectorAll('[data-for]'), function (el) {
+      el.hidden = el.getAttribute('data-for') !== 'contractor';
+    });
+  })();
+
+  /* WhatsApp deep link, prefilled with what the page is about so the
+     enquiry arrives with context instead of a bare "hi". It sits above the
+     animation code so it still runs with reduced motion or without GSAP. */
+  (function () {
+    var links = document.querySelectorAll('[data-wa]');
+    if (!links.length) return;
+    var SMALL = { under: 1, upon: 1, on: 1, in: 1 };
+    var page = location.pathname.replace(/^\//, '').replace(/\.html$/, '') || 'index';
+    var town = page.match(/^air-conditioning-(.+)$/);
+    var ctx = 'air conditioning';
+    if (town) {
+      ctx = 'air conditioning in ' + town[1].split('-').map(function (w, i) {
+        return (i && SMALL[w]) ? w : w.charAt(0).toUpperCase() + w.slice(1);
+      }).join(' ');
+    } else if (page === 'domestic') ctx = 'air conditioning at home';
+    else if (page === 'commercial') ctx = 'commercial air conditioning';
+    else if (page === 'servicing') ctx = 'a service';
+    else if (page === 'repairs') ctx = 'a repair';
+    else if (page === 'heat-pumps') ctx = 'an air source heat pump';
+    else if (page === 'ventilation') ctx = 'ventilation';
+    var msg = page === 'thanks'
+      ? 'Hi CoolIn, I have just sent an enquiry through the website. Here are some photos of the rooms and where the outdoor unit could go.'
+      : 'Hi CoolIn, I would like a quote for ' + ctx + '.';
+    var text = '?text=' + encodeURIComponent(msg);
+    Array.prototype.forEach.call(links, function (a) {
+      a.href = a.href.split('?')[0] + text;
+    });
+  })();
+
   /* ---------- quote form ---------- */
   var form = document.getElementById('quoteForm');
   var done = document.getElementById('formDone');
@@ -451,31 +491,6 @@
           a.classList.add('is-active');
         }
       });
-    });
-  })();
-
-  /* WhatsApp deep link, prefilled with what the page is about so the
-     enquiry arrives with context instead of a bare "hi". */
-  (function () {
-    var links = document.querySelectorAll('[data-wa]');
-    if (!links.length) return;
-    var SMALL = { under: 1, upon: 1, on: 1, in: 1 };
-    var page = location.pathname.replace(/^\//, '').replace(/\.html$/, '') || 'index';
-    var town = page.match(/^air-conditioning-(.+)$/);
-    var ctx = 'air conditioning';
-    if (town) {
-      ctx = 'air conditioning in ' + town[1].split('-').map(function (w, i) {
-        return (i && SMALL[w]) ? w : w.charAt(0).toUpperCase() + w.slice(1);
-      }).join(' ');
-    } else if (page === 'domestic') ctx = 'air conditioning at home';
-    else if (page === 'commercial') ctx = 'commercial air conditioning';
-    else if (page === 'servicing') ctx = 'a service';
-    else if (page === 'repairs') ctx = 'a repair';
-    else if (page === 'heat-pumps') ctx = 'an air source heat pump';
-    else if (page === 'ventilation') ctx = 'ventilation';
-    var text = '?text=' + encodeURIComponent('Hi CoolIn, I would like a quote for ' + ctx + '.');
-    Array.prototype.forEach.call(links, function (a) {
-      a.href = a.href.split('?')[0] + text;
     });
   })();
 

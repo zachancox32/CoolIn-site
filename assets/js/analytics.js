@@ -7,9 +7,10 @@
    cookie and is needed to remember the answer, and it can be changed
    from the cookie policy page.
 
-   With consent it also records enquiries: form submissions (which form,
-   on which page, never what was typed), phone link clicks and WhatsApp
-   clicks, so it is possible to see which pages lead to work.
+   With consent it also records enquiries: a completed form, counted when
+   the thank you page loads (which form, from which page, never what was
+   typed), phone link clicks and WhatsApp clicks, so it is possible to see
+   which pages lead to work.
    ============================================================ */
 (function () {
   var ID = 'G-4MGYWZ7WMD';
@@ -74,7 +75,7 @@
   }
 
   document.addEventListener('click', function (e) {
-    var t = e.target.closest && e.target.closest('[data-consent],[data-consent-reset],a[href^="tel:"],a[data-wa]');
+    var t = e.target.closest && e.target.closest('[data-consent],[data-consent-reset],a[href^="tel:"],a[data-wa],a[data-save-contact]');
     if (!t) return;
 
     if (t.hasAttribute('data-consent')) {
@@ -92,18 +93,38 @@
       return;
     }
     if (t.matches('a[href^="tel:"]')) track('click_to_call');
+    else if (t.hasAttribute('data-save-contact')) track('save_contact');
     else track('click_whatsapp');
   });
 
+  /* ---------- enquiries ----------
+     The lead is counted when the thank you page loads after a real
+     submission, not when the button is pressed, so a submission that fails
+     never counts. On submit the form name and page are noted for this tab
+     only; /thanks reads the note once, sends generate_lead and clears it,
+     so a refresh or a direct visit to /thanks does not count again. */
+  var LEAD = 'coolin-lead';
   document.addEventListener('submit', function (e) {
     var f = e.target;
-    if (!f || !f.hasAttribute || !f.hasAttribute('data-netlify')) return;
-    track('generate_lead', { form_name: f.getAttribute('name') || 'form' });
+    if (!loaded || !f || !f.hasAttribute || !f.hasAttribute('data-netlify')) return;
+    try {
+      sessionStorage.setItem(LEAD, JSON.stringify({ form: f.getAttribute('name') || 'form', page: location.pathname }));
+    } catch (err) {}
   });
+
+  function countLead() {
+    if (!/^\/thanks(\.html)?$/.test(location.pathname)) return;
+    var raw = null;
+    try { raw = sessionStorage.getItem(LEAD); sessionStorage.removeItem(LEAD); } catch (err) {}
+    if (!raw) return;
+    var d = {};
+    try { d = JSON.parse(raw) || {}; } catch (err) {}
+    track('generate_lead', { form_name: d.form || 'form', form_page: d.page || '' });
+  }
 
   /* ---------- start ---------- */
   var choice = stored();
-  if (choice === 'granted') load();
+  if (choice === 'granted') { load(); countLead(); }
   else if (choice !== 'denied') {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', showBanner);
     else showBanner();

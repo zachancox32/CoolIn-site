@@ -28,7 +28,7 @@
 <meta name="geo.placename" content="Manchester">
 <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v=30af97b8">
+<link rel="stylesheet" href="assets/css/style.css?v=c8f17ce7">
 <noscript><style>.js-hero,.js-up,.js-card,.js-step{opacity:1!important}</style></noscript>
 
 </head>
@@ -74,9 +74,12 @@
 </header>
 <!-- SHELL:HEADER:END -->
 
-<main id="main">
+<main id="main" data-thanks>
 
-<!-- ============ HERO ============ -->
+<!-- ============ HERO ============
+     Two versions in one page: homeowners and businesses by default, and the
+     tender version when the contractor form sends people to /thanks?form=contractor.
+     main.js swaps them; without script everyone sees the default. -->
 <section class="hero hero--inner" id="hero">
   <div class="hero__veil" aria-hidden="true"></div>
   <div class="wrap hero__in">
@@ -85,23 +88,28 @@
         <a href="/">CoolIn</a><span aria-hidden="true">/</span><span aria-current="page">Thank you</span>
       </nav>
       <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Thank you</p>
-      <h1 class="js-hero">Thanks, that<br><span class="grad">is with us</span></h1>
-      <p class="lede js-hero">An engineer will call you back the same working day. If it is urgent, ring 07391 523255 and you will get someone rather than a machine.</p>
-      <div class="hero__btns js-hero">
-        <a class="btn btn--primary btn--lg" href="/">Back to the homepage</a>
-        <a class="btn btn--line btn--lg" href="contact">Contact us</a>
+      <h1 class="js-hero" data-for="default">Thanks, that<br><span class="grad">is with us</span></h1>
+      <h1 class="js-hero" data-for="contractor" hidden>Thanks, your tender<br><span class="grad">is with us</span></h1>
+      <p class="lede js-hero" data-for="default">An engineer will call you back the same working day. If it is urgent, ring 07391 523255 and you will get someone rather than a machine.</p>
+      <p class="lede js-hero" data-for="contractor" hidden>We will go through the drawings and specification and come back to you with a price, or with the questions we need answered to price it properly. A copy of what you sent is on its way to your inbox.</p>
+      <div class="hero__btns ty__btns js-hero">
+        <a class="btn btn--primary btn--lg" href="/assets/coolin.vcf" download="CoolIn.vcf" data-save-contact>Save our number</a>
+        <a class="btn btn--line btn--lg" href="https://wa.me/447391523255" data-wa data-for="default" target="_blank" rel="noopener">Send photos on WhatsApp</a>
+        <a class="btn btn--line btn--lg" href="/hvac-contractors" data-for="contractor" hidden>Back to contractors</a>
       </div>
+      <p class="ty__note js-hero">We call from <a href="tel:+447391523255">07391 523255</a>. Save it and you will know it is us.</p>
     </div>
   </div>
 </section>
 
-<section class="section" id="next">
+<!-- ============ NEXT STEPS ============ -->
+<section class="section" id="next" data-for="default">
   <div class="wrap">
     <header class="sec-head">
       <p class="eyebrow js-up"><span class="eyebrow__mark"></span>What happens next</p>
       <h2 class="js-up">Three steps, and none of them involve a sales visit</h2>
     </header>
-    <div class="steps">
+    <div class="steps steps--3">
       <ol>
         <li class="step js-step is-on"><span class="step__n">1</span><h3>We ring you back</h3><p>The same working day, to understand the rooms and book a survey at a time that suits you.</p><span class="step__meta">Today</span></li>
         <li class="step js-step is-on"><span class="step__n">2</span><h3>Free survey</h3><p>Under an hour at your property. Measurements, wall construction, pipe routes and where the outdoor unit can legally go.</p><span class="step__meta">Usually within a week</span></li>
@@ -111,6 +119,65 @@
   </div>
 </section>
 
+<!-- ============ WHILE YOU WAIT ============ -->
+<section class="section section--tint" id="meanwhile" data-for="default">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>While you wait</p>
+      <h2 class="js-up">Three things that make the survey quicker</h2>
+    </header>
+    <div class="ty-cards">
+      <article class="ty-card js-up">
+        <h3>Send a few photos</h3>
+        <p>One of each room, the outside wall where the outdoor unit could go, and your fuse board. The survey is quicker and the quote more accurate.</p>
+        <a class="ty-card__go" href="https://wa.me/447391523255" data-wa target="_blank" rel="noopener">Send them on WhatsApp</a>
+      </article>
+      <article class="ty-card js-up">
+        <h3>Work out the size</h3>
+        <p>Room size, windows and which way it faces. The calculator gives you a starting figure in under a minute, with the working shown.</p>
+        <a class="ty-card__go" href="/air-conditioning-size-calculator">Open the size calculator</a>
+      </article>
+      <article class="ty-card js-up">
+        <h3>Check the prices</h3>
+        <p>Guide prices, installed: one room from £1,650 and two to five rooms on one outdoor unit from £3,450. No VAT to add until 31 March 2027.</p>
+        <a class="ty-card__go" href="/guides/air-conditioning-cost-manchester">See the full price guide</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOOD TO KNOW ============ -->
+<section class="section" id="know" data-for="default">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Good to know</p>
+      <h2 class="js-up">Questions people often have at this point</h2>
+    </header>
+    <ul class="ty-list js-up">
+      <li><a href="/blog/why-should-you-install-air-conditioning-in-manchester-during-winter"><strong>Is now a good time to install?</strong><span>Winter means no summer rush, and home installations carry no VAT until 31 March 2027.</span></a></li>
+      <li><a href="/guides/air-conditioning-flat-or-apartment"><strong>Do you live in a flat?</strong><span>The lease usually decides more than planning does. What the freeholder will ask for.</span></a></li>
+      <li><a href="/guides/air-conditioning-terraced-house"><strong>Is it a terraced house?</strong><span>Where the outdoor unit can go, and the rules on noise and the front of the house.</span></a></li>
+      <li><a href="/guides/best-air-conditioning-brands"><strong>Not sure which brand?</strong><span>Daikin, Mitsubishi Electric, Samsung and the rest, compared plainly.</span></a></li>
+      <li><a href="/blog/air-conditioning-running-costs"><strong>What will it cost to run?</strong><span>Pence per hour for cooling and heating, with the sums shown.</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONTRACTOR NEXT STEPS ============ -->
+<section class="section" id="tender-next" data-for="contractor" hidden>
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>To price it quickly</p>
+      <h2 class="js-up">Anything you did not attach, send it over</h2>
+    </header>
+    <ul class="ty-list ty-list--plain js-up">
+      <li><strong>Drawings and specification.</strong><span>The M&amp;E drawings, the mechanical specification and any equipment schedule.</span></li>
+      <li><strong>Programme and access.</strong><span>Start dates, phasing, working hours and how the site is accessed.</span></li>
+      <li><strong>Return date.</strong><span>When you need the price back, so we can tell you straight away if it is tight.</span></li>
+    </ul>
+    <p class="ty__more js-up">Reply to the confirmation email with anything else, or ring <a href="tel:+447391523255">07391 523255</a> to talk it through.</p>
+  </div>
+</section>
 
 </main>
 
@@ -191,8 +258,8 @@
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script defer src="assets/js/scene.js?v=c4abd447"></script>
-<script defer src="assets/js/main.js?v=2443a949"></script>
-<script defer src="assets/js/analytics.js?v=1a2e1d94"></script>
+<script defer src="assets/js/main.js?v=b556ef64"></script>
+<script defer src="assets/js/analytics.js?v=e7b62b66"></script>
 <!-- SHELL:FOOTER:END -->
 </body>
 </html>
