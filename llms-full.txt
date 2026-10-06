@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 5 October 2026.
+Generated 6 October 2026.
 
 
 
@@ -452,6 +452,8 @@ Sizes
 Worth knowing
 Quiet ranges start around 19 dB(A) indoors, about the same as a whisper. Nearly all current models take app control as standard.
 
+Get a price for this
+
 Multi split
 
 Two to five rooms, one outdoor unit
@@ -470,6 +472,8 @@ Outdoor units from 4.0kW to around 10kW
 
 Worth knowing
 The outdoor unit caps the total. Four 2.5kW indoor units on a 7.2kW condenser gives 7.2kW shared between them when everything runs at once, not 10kW. We size the condenser for how you actually use the rooms.
+
+Get a price for this
 
 Ducted and concealed
 
@@ -490,6 +494,8 @@ Sizes
 Worth knowing
 Far easier during building work than afterwards. It can also be paired with a fresh air supply , which wall units cannot do.
 
+Get a price for this
+
 Floor standing console
 
 Low level, like a radiator
@@ -508,6 +514,8 @@ Sizes
 
 Worth knowing
 Keep furniture clear of the front and top. Blocking it costs you more output than people expect.
+
+Get a price for this
 
 Home air conditioning in short
 
@@ -1037,6 +1045,8 @@ Sizes
 Worth knowing
 You need roughly 250mm to 350mm of clear void above the ceiling. We check that at survey before anything is quoted.
 
+Get a price for this
+
 Ducted and concealed
 
 Nothing on show but grilles
@@ -1055,6 +1065,8 @@ Sizes
 
 Worth knowing
 Far easier during building work than afterwards. It can also be paired with a fresh air supply, which wall units cannot do.
+
+Get a price for this
 
 VRF and VRV
 
@@ -1075,6 +1087,8 @@ From around 12kW to well over 100kW on a single system
 Worth knowing
 These need a proper design, not a rule of thumb. You get pipework drawings, a heat load, and full operating and maintenance documentation at handover.
 
+Get a price for this
+
 Wall mounted split
 
 One room, one indoor unit
@@ -1093,6 +1107,8 @@ Sizes
 
 Worth knowing
 Quiet ranges start around 19 dB(A) indoors, about the same as a whisper. Nearly all current models take app control as standard.
+
+Get a price for this
 
 Close control
 
@@ -1113,6 +1129,8 @@ Sizes
 Worth knowing
 Nearly always installed as two systems so one can fail without taking the room down, with remote alarms and four service visits a year rather than one.
 
+Get a price for this
+
 Ventilation and heat recovery
 
 Fresh air, extract and make up
@@ -1131,6 +1149,8 @@ Air handling units, heat recovery ventilation, kitchen extract and make up air
 
 Worth knowing
 Heat recovery units pull warmth out of the air leaving the building and put it into the air coming in, so you are not paying to heat the street.
+
+Get a price for this
 
 Commercial air conditioning in short
 
@@ -7200,7 +7220,7 @@ UK air conditioning statistics at a glance
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24; English Housing Survey 2024 to 2025; Met Office HadUK-Grid; ONS Census 2021; DEFRA; CoolIn projection [1] [4] [5] [3] [10] [11]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 On this page
 At a glance
@@ -7223,23 +7243,23 @@ It is not spread evenly. It follows money, the age of the home, where in the cou
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Two patterns stand out. Homes built since 2000 are the most likely of any age to have air conditioning, at 6.6%, which fits with modern homes being more airtight and better insulated, so they hold heat in summer as well as in winter. And working from home matters: once someone is home four or more days a week, use rises to 6.9%. After allowing for income, home type and region together, households where someone works from home two or more days a week had 42% higher odds of using air conditioning. [1]
 
@@ -7255,7 +7275,7 @@ The summers are not standing still while that gap stays open. Summer 2026 was th
 
 Free to use with credit to CoolIn. Data: Met Office HadUK-Grid [5]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 The ten warmest summers in North West England and North Wales since 1884, by mean temperature, June to August. Years from 2003 on are highlighted. [5]
 | | Rank | Year | Mean | Against 1961 to 1990
@@ -7277,15 +7297,15 @@ In 2024, households in about 3 million homes in England said their home got unco
 
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Free to use with credit to CoolIn. Data: English Housing Survey 2024 to 2025, MHCLG [3]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Air conditioning is still the exception even in homes that overheat. Among those 3 million households, 7% used it: 9% of owner occupiers, 6% of social renters and 4% of private renters. [3] Renters usually need their landlord's permission to fit anything, which goes some way to explaining the gap. The guide to air conditioning in a flat or apartment covers what that involves.
 
@@ -7301,7 +7321,7 @@ A 2.5kW split system does not draw 2.5kW of electricity. That figure is the heat
 
 Free to use with credit to CoolIn. Data: Ofgem price cap, October 2026; CoolIn calculation [8]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Running cost at 26.32p per kWh, per hour and for an eight hour night
 | | Appliance | Typical draw | Per hour | Eight hours
@@ -7362,7 +7382,7 @@ If homes in England took up air conditioning at the pace measured from 2013 to 2
 
 Free to use with credit to CoolIn. Data: EDRC analysis of the English Housing Survey 2023-24 [1]
 
-Download image (PNG) SVG Copy embed code
+Download PNG SVG Embed
 
 Overheating is moving faster. If the 2019 to 2024 rise carries on in a straight line, about 3.8 million homes in England would report overheating in 2027. [3] Further out, NESO's scenarios have between 10% and 40% of UK homes using air conditioning by 2050, depending on the path the energy system takes. [1] Researchers at UCL have argued that home air conditioning may already be more common than every one of NESO's 2024 scenarios assumed for 2030. [9]
 

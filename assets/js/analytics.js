@@ -75,7 +75,7 @@
   }
 
   document.addEventListener('click', function (e) {
-    var t = e.target.closest && e.target.closest('[data-consent],[data-consent-reset],a[href^="tel:"],a[data-wa],a[data-save-contact]');
+    var t = e.target.closest && e.target.closest('[data-consent],[data-consent-reset],a[href^="tel:"],a[data-wa],a[data-save-contact],a[data-system]');
     if (!t) return;
 
     if (t.hasAttribute('data-consent')) {
@@ -94,6 +94,7 @@
     }
     if (t.matches('a[href^="tel:"]')) track('click_to_call');
     else if (t.hasAttribute('data-save-contact')) track('save_contact');
+    else if (t.hasAttribute('data-system')) track('choose_system', { system: t.getAttribute('data-system') });
     else track('click_whatsapp');
   });
 

@@ -344,6 +344,25 @@
     });
   })();
 
+  /* ---------- "Get a price for this" on the system cards ----------
+     The link scrolls to the enquiry form on the same page (the in-page
+     anchor handler does the scrolling) and starts the message with the
+     system chosen, so the enquiry arrives knowing what it is about. The
+     visitor can still edit or delete the line. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-system]');
+    var form = document.getElementById('quoteForm');
+    if (!a || !form) return;
+    var msg = form.querySelector('textarea[name="message"]');
+    var line = 'Interested in: ' + a.getAttribute('data-system') + '.';
+    if (msg && msg.value.indexOf(line) === -1) {
+      msg.value = msg.value.replace(/^Interested in: [^\n]*\n?/, '').trim();
+      msg.value = line + (msg.value ? '\n' + msg.value : ' ');
+    }
+    var first = form.querySelector('input[name="name"]');
+    if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 700);
+  });
+
   /* ---------- quote form ---------- */
   var form = document.getElementById('quoteForm');
   var done = document.getElementById('formDone');
