@@ -43,6 +43,10 @@ const SIGNATURE = `
     <a href="${SITE}" style="color:${BLUE};text-decoration:none">cool-in.co.uk</a>
     <span style="color:#C7D5DD">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
     <a href="tel:+447391523255" style="color:${BLUE};text-decoration:none">${PHONE}</a>
+  </p>
+  <p style="margin:12px 0 0;color:${GREY};font-size:11px;line-height:1.6">
+    CoolIn Limited, registered in England and Wales, company number 17501944.<br>
+    Registered office: Lloyds House, 18-22 Lloyd Street, Manchester M2 5WA.
   </p>`;
 
 const esc = (v) =>

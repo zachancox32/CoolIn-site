@@ -28,6 +28,7 @@ themselves link to that source. Where a number is an estimate from a model
 rather than a measurement, the page says so and gives the assumptions."""
 
 KEY_FACTS = [
+ ("Legal entity", "CoolIn Limited, registered in England and Wales, company number 17501944, registered office Lloyds House, 18-22 Lloyd Street, Manchester M2 5WA"),
  ("Facebook", "https://www.facebook.com/coolinMCR"),
  ("LinkedIn", "https://www.linkedin.com/company/cool-in/"),
  ("Domestic installation", "from £1,650 fitted for a 2.5kW wall mounted system"),
