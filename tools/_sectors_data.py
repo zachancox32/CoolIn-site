@@ -1129,11 +1129,11 @@ SECTORS = [
             'huts and garden offices across Manchester and the North West, for hire '
             'fleets, contractors, schools and owners.',
  'kf': [('Typical systems', 'Wall mounted split, units with no outdoor part, slim ducted'),
-        ('Single cabin', 'From £2,280 installed'),
+        ('Single cabin', 'From £1,650 installed'),
         ('Heating', 'Several units of heat per unit of electricity'),
         ('Power', 'Checked against the cabin supply or generator'),
         ('Relocation', 'Systems laid out so they can be moved'),
-        ('VAT', 'Standard rated for business premises')],
+        ('Survey', 'Free, with a fixed written price')],
  'ch_eyebrow': 'What makes cabins different',
  'ch_h2': 'Why a cabin is harder to keep comfortable than it looks',
  'ch_sub': 'A modular building is a small space with a big problem: very little between '
@@ -1200,7 +1200,7 @@ SECTORS = [
  'prices': [],
  'price_from': {
    'label': 'Cabin air conditioning',
-   'figure': '£2,280',
+   'figure': '£1,650',
    'sub': 'Installed, for a single wall mounted unit in a straightforward cabin. Your '
           'building gets a fixed written price after a free site survey.',
    'includes': ['The indoor and outdoor units',
@@ -1208,10 +1208,10 @@ SECTORS = [
                 'The electrical connection, on a supply checked at survey',
                 'Condensate routed safely outside',
                 'Commissioning, controls set up and a handover']},
- 'price_note': 'Commercial installations are standard rated for VAT, which a VAT '
-               'registered business normally reclaims. A garden room or annex at a '
-               'home may be priced as a home installation; we confirm which applies at '
-               'survey and put it in the written price.',
+ 'price_note': 'The starting price is for a small cabin with a suitable supply. Larger '
+               'buildings, several rooms, roof access and relocation all change the '
+               'figure, and your fixed written price sets out every item, including the '
+               'VAT position, before you commit.',
  'du_nav': 'Practicalities',
  'du_eyebrow': 'Before we fit',
  'du_h2': 'Power, drainage, moving and refrigerant',
