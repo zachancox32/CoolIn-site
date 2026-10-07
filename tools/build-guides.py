@@ -72,10 +72,10 @@ def load(path):
     slug = os.path.basename(path)[:-3]
     for need in ('title', 'answer'):
         if not str(fm.get(need, '')).strip():
-            sys.exit(f'  build-guides: {path} has no {need}, and a guide cannot work without it')
+            sys.exit(f'  build-guides: {path} has no {need}, and a guide can\'t work without it')
     svc = fm.get('service') or 'domestic'
     if svc not in SERVICES:
-        sys.exit(f'  build-guides: {path} names service "{svc}", which is not one of {", ".join(SERVICES)}')
+        sys.exit(f'  build-guides: {path} names service "{svc}", which isn\'t one of {", ".join(SERVICES)}')
     facts = fm.get('key_facts') or []
     faqs = [f for f in (fm.get('faqs') or []) if isinstance(f, dict) and f.get('question') and f.get('answer')]
     updated = str(fm.get('updated') or '')[:10] or time.strftime('%Y-%m-%d')

@@ -561,11 +561,11 @@ def top10_table():
 
 TIMELINE = [
     ('1 January 2027', 'The HFC quota steps down in Great Britain, as already scheduled',
-     'DEFRA confirmed in May 2026 that it will not change the 2027 phase down step. Unlike the EU and Northern Ireland, '
+     'DEFRA confirmed in May 2026 that it won\'t change the 2027 phase down step. Unlike the EU and Northern Ireland, '
      'Great Britain brings in no ban on new split systems in 2027.', ['fgas']),
     ('1 January 2027', 'The EU bans small split systems using higher warming refrigerants',
      'New split air conditioners and heat pumps under 12kW using refrigerant with a global warming potential of 150 or more '
-     'cannot be placed on the market in the EU or Northern Ireland.', ['daikin']),
+     'can\'t be placed on the market in the EU or Northern Ireland.', ['daikin']),
     ('January, April, July and October 2027', 'The energy price cap changes four times',
      'Each change moves the running cost of every appliance in the table above. We update this page when it does.', ['ofgem']),
     ('24 March 2027', 'The Future Homes Standard comes into force in England',
@@ -596,14 +596,14 @@ FAQS = [
      f'London and the East of England, both at {LONDON_SHARE:g}% of homes. The lowest are the North East at 1.5%, '
      f'Yorkshire and the Humber at 1.7% and the North West at {NW_SHARE:g}%.'),
     ('How common is air conditioning in Manchester?',
-     f'There is no official figure for Manchester on its own. Manchester is in the North West, where {NW_SHARE:g}% of households '
+     f'There\'s no official figure for Manchester on its own. Manchester is in the North West, where {NW_SHARE:g}% of households '
      f'use air conditioning, roughly {thou(NW_HOMES, 10000)} homes, against {ENGLAND_SHARE:g}% across England and {LONDON_SHARE:g}% in London. '
      'That makes the North West one of the three least air conditioned regions in England.'),
     ('How many homes in England overheat?',
      'About 3 million in 2024, or 12% of occupied homes, up from 1.7 million, or 7%, in 2019. Detached houses were the most likely to overheat, at 15%.'),
     ('Will air conditioning be banned in the UK in 2027?',
      'No. The EU bans new small split systems that use refrigerant with a global warming potential of 150 or more from 1 January 2027, '
-     'and that applies in Northern Ireland, but Great Britain has not adopted it. Systems already installed are not affected either way.'),
+     'and that applies in Northern Ireland, but Great Britain hasn\'t adopted it. Systems already installed aren\'t affected either way.'),
     ('How much does air conditioning cost to run per hour?',
      f'At the October 2026 price cap of {UNIT_RATE}p per kWh, a 2.5kW split system costs about {pence(0.3):.0f}p an hour holding a room '
      f'at temperature and about {pence(0.65):.0f}p cooling a hot room down. A portable unit costs about {pence(1.0):.0f}p an hour.'),
@@ -664,7 +664,7 @@ def page():
       <h2 id="h-who">How many UK homes have air conditioning?</h2>
       <div class="prose">
         <p>The best measure of air conditioning in English homes is the English Housing Survey, which asked 15,846 households in 2023-24 how they keep cool in summer. Researchers at the Energy Demand Research Centre and the University of Reading analysed the answers and found that {ENGLAND_SHARE:g}% used air conditioning, about {m(ENGLAND_HOMES)} homes. {ref('edrc')}</p>
-        <p>It is not spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. {ref('reading')}</p>
+        <p>It isn't spread evenly. It follows money, the age of the home, where in the country you live, and whether anyone works from home. The households the researchers flag as most at risk from heat, older people and lone parents among them, are among the least likely to have it. {ref('reading')}</p>
       </div>
 {figure('region', CHARTS['region'])}
 {figure('income', CHARTS['income'])}
@@ -681,8 +681,8 @@ def page():
       <div class="prose">
         <p>The North West, which takes in Manchester and the rest of Greater Manchester, has some of the lowest air conditioning use in England. {NW_SHARE:g}% of households use it, which across the region's {NW_HOUSEHOLDS:,} households is roughly {thou(NW_HOMES, 10000)} homes. {ref('edrc')} {ref('census')}</p>
         <p>At London's rate of {LONDON_SHARE:g}%, around {thou(NW_GAP, 5000)} more North West homes would have it. Even allowing for income, home type and the other differences between households, a North West household had 69% lower odds of using air conditioning than one in London. {ref('edrc')}</p>
-        <p>The survey does not publish figures for individual cities, so these regional numbers are the closest available for Manchester. In Manchester, the homes most prone to overheating tend to be top floor flats, glass fronted apartments in the city centre and Salford Quays, and offices with south facing windows. The <a href="/air-conditioning-manchester">Manchester page</a> covers what installation involves in the city's mills, terraces and towers.</p>
-        <p>The summers are not standing still while that gap stays open. Summer {LATEST} was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of {NW[LATEST]:.1f}°C. Summer {LATEST - 1} was the second warmest. {WORDS[NW_TOP_RECENT]} of the ten warmest have come in 2003 or later, and the last ten summers averaged {NW_RECENT - NW_BASE:.1f}°C warmer than the 1961 to 1990 average. {ref('metgrid')}</p>
+        <p>The survey doesn't publish figures for individual cities, so these regional numbers are the closest available for Manchester. In Manchester, the homes most prone to overheating tend to be top floor flats, glass fronted apartments in the city centre and Salford Quays, and offices with south facing windows. The <a href="/air-conditioning-manchester">Manchester page</a> covers what installation involves in the city's mills, terraces and towers.</p>
+        <p>The summers aren't standing still while that gap stays open. Summer {LATEST} was the warmest in the Met Office record for North West England and North Wales, which goes back to 1884, at a mean of {NW[LATEST]:.1f}°C. Summer {LATEST - 1} was the second warmest. {WORDS[NW_TOP_RECENT]} of the ten warmest have come in 2003 or later, and the last ten summers averaged {NW_RECENT - NW_BASE:.1f}°C warmer than the 1961 to 1990 average. {ref('metgrid')}</p>
       </div>
 {figure('nw-summers', CHARTS['nw-summers'])}
 {top10_table()}
@@ -712,7 +712,7 @@ def page():
     <section class="stats__sec" id="running-costs" aria-labelledby="h-cost">
       <h2 id="h-cost">How much does air conditioning cost to run?</h2>
       <div class="prose">
-        <p>A 2.5kW split system does not draw 2.5kW of electricity. That figure is the heat it moves. Once the room is down to temperature it throttles back to roughly 0.3kW. At the price cap for October to December 2026, {UNIT_RATE}p per kWh with no VAT on electricity until 31 March 2027, that is about {pence(0.3):.0f}p an hour. {ref('ofgem')} The <a href="/blog/air-conditioning-running-costs">running costs article</a> goes through heating costs as well.</p>
+        <p>A 2.5kW split system doesn't draw 2.5kW of electricity. That figure is the heat it moves. Once the room is down to temperature it throttles back to roughly 0.3kW. At the price cap for October to December 2026, {UNIT_RATE}p per kWh with no VAT on electricity until 31 March 2027, that's about {pence(0.3):.0f}p an hour. {ref('ofgem')} The <a href="/blog/air-conditioning-running-costs">running costs article</a> goes through heating costs as well.</p>
       </div>
 {figure('cost', CHARTS['cost'])}
       <div class="prose__table stats-table js-up">
@@ -723,14 +723,14 @@ def page():
         </table>
       </div>
       <div class="prose">
-        <p>A fan and an air cooler are far cheaper to run because they do not lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect. The guide to <a href="/guides/portable-air-conditioner-vs-fitted">portable or fitted air conditioning</a> compares the two in full.</p>
+        <p>A fan and an air cooler are far cheaper to run because they don't lower the temperature of the room. A fan moves air across your skin, and an evaporative cooler adds moisture, which helps less in humid weather. A portable air conditioner does cool, but a single hose unit pushes the room air it has just cooled out of the window, so it draws the most power for the least effect. The guide to <a href="/guides/portable-air-conditioner-vs-fitted">portable or fitted air conditioning</a> compares the two in full.</p>
       </div>
     </section>
 
     <section class="stats__sec" id="2027" aria-labelledby="h-2027">
       <h2 id="h-2027">Air conditioning in 2027: what changes</h2>
       <div class="prose">
-        <p>Some of 2027 is already fixed in law or policy. Some of it is a projection, which we show with its working. And one part nobody can tell you: how hot summer 2027 will be. Seasonal forecasts do not reach that far ahead, so anyone quoting a forecast for next summer's weather today is guessing.</p>
+        <p>Some of 2027 is already fixed in law or policy. Some of it is a projection, which we show with its working. And one part nobody can tell you: how hot summer 2027 will be. Seasonal forecasts don't reach that far ahead, so anyone quoting a forecast for next summer's weather today is guessing.</p>
         <h3>What is already decided</h3>
       </div>
       <ol class="tl js-up">
@@ -738,7 +738,7 @@ def page():
       </ol>
       <div class="prose">
         <h3>What the trend points to</h3>
-        <p>If homes in England took up air conditioning at the pace measured from 2013 to 2020, about 83,000 more a year, {m(LOW_2027)} homes would be using it by July 2027, {LOW_PC:.1f}% of households. {ref('edrc')} That pace came before the record summers of 2022, 2025 and 2026, so it is a floor more than a forecast. At twice the pace, it would be {m(HIGH_2027)}, or {HIGH_PC:.1f}%: about 1 in {one_in(HIGH_PC)} homes.</p>
+        <p>If homes in England took up air conditioning at the pace measured from 2013 to 2020, about 83,000 more a year, {m(LOW_2027)} homes would be using it by July 2027, {LOW_PC:.1f}% of households. {ref('edrc')} That pace came before the record summers of 2022, 2025 and 2026, so it's a floor more than a forecast. At twice the pace, it would be {m(HIGH_2027)}, or {HIGH_PC:.1f}%: about 1 in {one_in(HIGH_PC)} homes.</p>
       </div>
 {figure('outlook', CHARTS['outlook'])}
       <div class="prose">
@@ -749,7 +749,7 @@ def page():
     <section class="stats__sec" id="estimates" aria-labelledby="h-est">
       <h2 id="h-est">Why air conditioning estimates differ</h2>
       <div class="prose">
-        <p>Published figures for UK homes with air conditioning run from about 3% to 19%. They are mostly answering different questions.</p>
+        <p>Published figures for UK homes with air conditioning run from about 3% to 19%. They're mostly answering different questions.</p>
       </div>
       <div class="prose__table stats-table js-up">
         <table>
@@ -763,7 +763,7 @@ def page():
         </table>
       </div>
       <div class="prose">
-        <p>For a single number, use the English Housing Survey figure: it is the largest, the most recent official measure, and it is the one the research on this page is built on.</p>
+        <p>For a single number, use the English Housing Survey figure: it's the largest, the most recent official measure, and it's the one the research on this page is built on.</p>
       </div>
     </section>
 
@@ -778,7 +778,7 @@ def page():
           <li><strong>The 2027 projection.</strong> We start from {m(ENGLAND_HOMES)} homes at the middle of the survey, October 2023, and add 83,000 homes a year, the rate the government estimated from sales data for 2013 to 2020, for the {YEARS_TO_2027:g} years to July 2027. The higher figure doubles that rate. Percentages hold the number of households at the survey's {HOUSEHOLDS / 1e6:.1f} million. The 83,000 figure covers the UK, so applying it to England alone slightly flatters the lower figure.</li>
           <li><strong>Overheating in 2027.</strong> The rise from {m(OVERHEAT_2019)} homes in 2019 to {m(OVERHEAT_2024)} in 2024 is about 260,000 a year. Carried on for three more years, that gives about {m(OVERHEAT_2027, 1)}. A cool summer would bring the real figure in lower.</li>
         </ul>
-        <p>We will update this page when new data is published, and each quarter when the price cap changes. The date at the top shows when it was last checked.</p>
+        <p>We'll update this page when new data is published, and each quarter when the price cap changes. The date at the top shows when it was last checked.</p>
       </div>
     </section>
 
@@ -901,6 +901,6 @@ if __name__ == '__main__':
     out = page()
     for bad in ('–', '—'):
         if bad in out:
-            sys.exit(f'  build-stats: the page contains a {"en" if bad == chr(0x2013) else "em"} dash, which the house style does not use')
+            sys.exit(f'  build-stats: the page contains a {"en" if bad == chr(0x2013) else "em"} dash, which the house style doesn\'t use')
     open(f'{SLUG}.html', 'w', encoding='utf-8').write(out)
     print(f'  {SLUG}.html  {len(CHARTS)} charts, {len(FINDINGS)} findings, {len(SOURCES)} sources')

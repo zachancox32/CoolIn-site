@@ -9,7 +9,7 @@ author: zac-hancox
 
 For most houses in England, no. The rules changed on 29 May 2025 and they got considerably more generous, including for systems that cool as well as heat.
 
-That last part matters. Before the change, permitted development covered air source heat pumps used for heating. Systems that also cooled sat in a grey area that made some councils awkward. They are now explicitly in scope.
+That last part matters. Before the change, permitted development covered air source heat pumps used for heating. Systems that also cooled sat in a grey area that made some councils awkward. They're now explicitly in scope.
 
 ## What permitted development allows
 
@@ -26,7 +26,7 @@ The old requirement to keep the unit a metre from the boundary has gone entirely
 
 ## Where it does not apply
 
-**Listed buildings** have no permitted development rights at all. Anything fixed to the structure needs listed building consent, and that is a real application with a real timescale rather than a formality.
+**Listed buildings** have no permitted development rights at all. Anything fixed to the structure needs listed building consent, and that's a real application with a real timescale rather than a formality.
 
 **Conservation areas** keep permitted development but add a restriction: the outdoor unit must not sit nearer to a highway bounding the property than any part of the building. In practice that pushes it to a rear or side elevation, which is usually where you would want it anyway.
 
@@ -36,24 +36,24 @@ The old requirement to keep the unit a metre from the boundary has gone entirely
 
 ## The noise limit is the one people trip over
 
-42 dB(A) sounds restrictive until you understand where it is measured: at the neighbour's window, not at the unit.
+42 dB(A) sounds restrictive until you understand where it's measured: at the neighbour's window, not at the unit.
 
 A typical domestic condenser produces somewhere in the high 40s to low 50s at one metre. Sound falls away with distance, and a fence or a wall between the unit and the boundary helps further. Most positions pass comfortably. A unit bolted to a party wall directly below a neighbour's bedroom window may not.
 
-This is a calculation, not a guess, and it is part of a proper survey.
+This is a calculation, not a guess, and it's part of a proper survey.
 
 ## What we do about it
 
-We check the designation of your property at survey, before quoting. That means looking at whether you are in a conservation area, whether the building is listed, and working the noise assessment for the position we are proposing.
+We check the designation of your property at survey, before quoting. That means looking at whether you are in a conservation area, whether the building is listed, and working the noise assessment for the position we're proposing.
 
-If an application is needed, we prepare it. If a position will not pass, we tell you before you have paid for anything rather than after.
+If an application is needed, we prepare it. If a position won't pass, we tell you before you have paid for anything rather than after.
 
 > Source: [Planning Portal, planning permission for air source heat pumps](https://www.planningportal.co.uk/permission/common-projects/heat-pumps/planning-permission-air-source-heat-pump), checked September 2026.
 
 ## One thing coming down the line
 
-From 28 May 2026, MCS becomes the only certification scheme recognised for the planning standard. If you are reading this after that date and comparing quotes, it is worth asking which standard an installer is working to.
+From 28 May 2026, MCS becomes the only certification scheme recognised for the planning standard. If you're reading this after that date and comparing quotes, it's worth asking which standard an installer is working to.
 
-If you are weighing up whether the system is worth it in the first place, [the running costs](/blog/air-conditioning-running-costs) are the other half of the question.
+If you're weighing up whether the system is worth it in the first place, [the running costs](/blog/air-conditioning-running-costs) are the other half of the question.
 
-Scotland, Wales and Northern Ireland have their own rules and the limits above do not apply there.
+Scotland, Wales and Northern Ireland have their own rules and the limits above don't apply there.

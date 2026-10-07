@@ -43,7 +43,7 @@ SECTORS = [
         ('Servicing', 'From £89 per indoor unit per year, plus VAT')],
  'ch_eyebrow': 'What makes offices difficult',
  'ch_h2': 'Why an office is harder to cool than the floor area suggests',
- 'ch_sub': 'Nearly every office we are called back to was sized off a square metre '
+ 'ch_sub': 'Nearly every office we\'re called back to was sized off a square metre '
            'rule of thumb. Four things break that rule, and all four are visible '
            'on a survey if anyone bothers to look.',
  'challenges': [
@@ -56,7 +56,7 @@ SECTORS = [
    ('The meeting room that fills at two o\'clock',
     'A person sitting at a desk gives off roughly the heat of a small light bulb, '
     'and a room of twelve in a glass box with the door shut climbs fast. Meeting '
-    'rooms are the single most common complaint in an office, and they are almost '
+    'rooms are the single most common complaint in an office, and they\'re almost '
     'always undersized because they were counted as floor area rather than as '
     'people.',
     'Sized on occupancy, not square metres'),
@@ -75,16 +75,16 @@ SECTORS = [
     'Locked setpoint ranges as standard')],
  'sy_h2': 'Which system suits your office',
  'sy_sub': 'The ceiling decides most of this. What sits above the tiles, and whether '
-           'there is a void at all, narrows the options before anything else does.',
+           'there\'s a void at all, narrows the options before anything else does.',
  'systems': [
    ('Ceiling cassette',
-    'The default where there is a suspended ceiling. Sits flush in a tile grid, '
+    'The default where there\'s a suspended ceiling. Sits flush in a tile grid, '
     'throws air four ways, and is the cheapest route to even coverage across open '
     'plan. Needs around 300mm of void.'),
    ('Slim ducted',
     'The unit hides in the void and feeds linear grilles, so the ceiling stays '
     'clean. The usual choice on a designed fit out, or where a landlord or a '
-    'listed frontage will not accept visible plant.'),
+    'listed frontage won\'t accept visible plant.'),
    ('VRF and VRV',
     'One outdoor unit serving many indoor ones, with heat recovery moving heat '
     'from the sunny side to the shaded side rather than dumping it outside. Worth '
@@ -118,12 +118,12 @@ SECTORS = [
                'the working visible, an equipment schedule with positions and '
                'pipework routes, the electrical requirement, and a programme set '
                'around your working hours. The survey costs nothing and the written '
-               'price does not move.',
+               'price doesn\'t move.',
  'du_nav': 'Duties',
  'du_eyebrow': 'Compliance and tenancy',
  'du_h2': 'The duties that come with an office system',
  'du_sub': 'Two of these are law and catch more offices than people expect. The '
-           'third is not law at all, and is the one that costs tenants money at '
+           'third isn\'t law at all, and is the one that costs tenants money at '
            'the end of a lease.',
  'duties': [
    ('TM44 inspections',
@@ -145,7 +145,7 @@ SECTORS = [
      'minimum. The full thresholds are set out on the '
      '<a href="commercial#compliance">commercial page</a>.'],
     'Nobody opens a refrigerant circuit on your system without current F-Gas '
-    'certification. That is a legal requirement for handling refrigerant, not a '
+    'certification. That\'s a legal requirement for handling refrigerant, not a '
     'preference.'),
    ('Landlord consent and dilapidations',
     ['Most office leases require written consent before plant is fixed to the '
@@ -155,7 +155,7 @@ SECTORS = [
      'The part tenants miss is the other end. A lease that requires reinstatement '
      'means stripping the system out and making good when you leave, which is a '
      'cost worth pricing before you commit rather than discovering at exit.'],
-    'We will put the equipment schedule and condenser positions in writing for a '
+    'We\'ll put the equipment schedule and condenser positions in writing for a '
     'landlord application, which is normally what gets consent moving.')],
  'faqs': [
    ('Can you install without closing the office?',
@@ -252,11 +252,11 @@ SECTORS = [
    ('Salons have their own load',
     'Dryers, straighteners and backwash units put real heat into a room that also '
     'needs the air changing rather than just chilling, because of product fumes '
-    'and humidity. Cooling alone will not fix a salon that smells, so '
+    'and humidity. Cooling alone won\'t fix a salon that smells, so '
     '<a href="ventilation">ventilation</a> usually belongs in the same design.',
     'Cooling and air change designed together')],
  'sy_h2': 'Which system suits a retail space',
- 'sy_sub': 'The fit out usually decides it. How much you are willing to see on the '
+ 'sy_sub': 'The fit out usually decides it. How much you\'re willing to see on the '
            'ceiling, and whether there is a void to hide anything in, narrows the '
            'choice quickly.',
  'systems': [
@@ -300,7 +300,7 @@ SECTORS = [
                'things that move a retail price most are the condenser position, '
                'because a rear yard is cheap and a roof with no safe access is not, '
                'and whether the work has to happen overnight. We quote out of hours '
-               'labour at standard rates, so trading overnight does not carry a '
+               'labour at standard rates, so trading overnight doesn\'t carry a '
                'premium.',
  'du_nav': 'Landlord',
  'du_eyebrow': 'Consent and compliance',
@@ -326,7 +326,7 @@ SECTORS = [
      'pipe run gets longer, which is a cost worth knowing at survey rather than at '
      'installation.'],
     'Noise to a neighbouring residential property is the other common objection, '
-    'and it is answered with the unit\'s rated sound level and its position.'),
+    'and it\'s answered with the unit\'s rated sound level and its position.'),
    ('F-Gas and TM44',
     ['A single shop system will normally hold well under 5 tonnes of CO2 equivalent '
      'refrigerant, so no leak check duty applies. Several units across a larger '
@@ -335,7 +335,7 @@ SECTORS = [
      'for the whole building rather than per unit. A parade with one owner can '
      'cross it easily.'],
     'We work out where your system sits against both thresholds at survey and put '
-    'it in writing, so it is not left to guesswork.')],
+    'it in writing, so it\'s not left to guesswork.')],
  'faqs': [
    ('Will air conditioning work with the door open?',
     'Yes, provided it was sized knowing the door would be open. The open door is a '
@@ -347,7 +347,7 @@ SECTORS = [
    ('Can you fit it without closing the shop?',
     'Yes. Most retail installs are done overnight or on a Sunday, with the floor '
     'sheeted and cleared before opening. We charge standard labour rates for out of '
-    'hours work rather than a premium, because for retail it is the normal way to '
+    'hours work rather than a premium, because for retail it\'s the normal way to '
     'do the job rather than a special request.'),
    ('Do we need the landlord\'s permission?',
     'Almost certainly, if anything is fixed to the structure or a hole goes through '
@@ -355,13 +355,13 @@ SECTORS = [
     'equipment schedule, the condenser position and the noise rating that a '
     'landlord or centre management normally asks for before consenting.'),
    ('Will the outside unit annoy the flat above?',
-    'It is the most common objection and it is manageable. Modern condensers have a '
+    'It\'s the most common objection and it\'s manageable. Modern condensers have a '
     'published sound power level, night mode settings drop it further, and position '
     'and anti vibration mounts do the rest. We check the nearest sensitive window '
     'at survey rather than after a complaint.'),
    ('Our salon gets hot and smells. Is cooling the answer?',
     'Partly. Cooling deals with the heat from dryers and lighting, but smell and '
-    'humidity are an air change problem, and recirculating cooled air does not fix '
+    'humidity are an air change problem, and recirculating cooled air doesn\'t fix '
     'them. Most salons need both, and a heat recovery unit changes the air without '
     'throwing away the heat you have paid for.'),
    ('How long does a shop installation take?',
@@ -392,7 +392,7 @@ SECTORS = [
  'lede': 'A canopy pulling hard over the line has to have air coming back in from '
          'somewhere, or the kitchen fights itself and the dining room gets the '
          'smell. We design extract, make up air and front of house cooling as one '
-         'system, because that is how the building behaves.',
+         'system, because that\'s how the building behaves.',
  'trust': [('Overnight', 'fitted between service and service'),
            ('Gas interlock', 'wired and certificated'),
            ('DW/172', 'kitchen ductwork to specification')],
@@ -408,13 +408,13 @@ SECTORS = [
         ('Fitting hours', 'Overnight or closed days, standard rates')],
  'ch_eyebrow': 'What makes kitchens different',
  'ch_h2': 'Why the kitchen is still hot with the extract running',
- 'ch_sub': 'This is the call we get most often in hospitality, and it is almost '
+ 'ch_sub': 'This is the call we get most often in hospitality, and it\'s almost '
            'never the canopy fan. A kitchen is an air balance problem before it is '
            'a cooling problem, and until the balance is right nothing else helps.',
  'challenges': [
    ('Air has to come back in',
     'A canopy can pull a serious volume of air out of a kitchen every hour. If '
-    'there is no designed route for replacement air, the extract pulls it through '
+    'there\'s no designed route for replacement air, the extract pulls it through '
     'the only openings available, which is usually the dining room and the back '
     'door. The fan strains, the extract rate drops below what it says on paper, and '
     'the kitchen stays hot.',
@@ -430,12 +430,12 @@ SECTORS = [
     'The dining room needs comfort cooling sized for a full house on a hot '
     'Saturday, with people, candles, lighting and a bar all contributing. Trying to '
     'serve it from the same system as the kitchen gives you a dining room that '
-    'smells and a kitchen that is never cold enough.',
+    'smells and a kitchen that\'s never cold enough.',
     'Dedicated cooling for the customer side'),
    ('Bars have a cellar as well',
     'Keg and cask cellars want holding steadily in the low to mid teens, and a '
     'cellar that drifts costs you beer quality and yield before it costs you '
-    'anything else. It is a different kind of cooling from the dining room and it '
+    'anything else. It\'s a different kind of cooling from the dining room and it '
     'belongs in the design from the start.',
     'Cellar cooling designed with the rest')],
  'sy_h2': 'What a hospitality fit out actually involves',
@@ -445,20 +445,20 @@ SECTORS = [
  'systems': [
    ('Canopy and extract',
     'The canopy, grease filters and ductwork carrying the extract to a discharge '
-    'point that does not upset the neighbours. Kitchen extract ductwork is built to '
+    'point that doesn\'t upset the neighbours. Kitchen extract ductwork is built to '
     'DW/172, with access panels so it can be cleaned rather than sealed up and '
     'forgotten.'),
    ('Make up air',
     'A supply unit bringing replacement air back into the kitchen, tempered so the '
-    'brigade is not standing in a draught of cold outside air in January. This is '
-    'the part most often missing from a kitchen that does not work.'),
+    'brigade isn\'t standing in a draught of cold outside air in January. This is '
+    'the part most often missing from a kitchen that doesn\'t work.'),
    ('Front of house cooling',
     'Cassettes or slim ducted units sized for a full room, positioned so nobody is '
-    'sitting directly in the throw and the staff side is not left out. Zoned '
+    'sitting directly in the throw and the staff side isn\'t left out. Zoned '
     'separately from the bar, which runs warmer.'),
    ('Cellar cooling',
     'A dedicated cellar unit holding the room steady year round, with the condenser '
-    'sited where its heat and noise are not a problem. Sized on the cellar volume, '
+    'sited where its heat and noise aren\'t a problem. Sized on the cellar volume, '
     'the ground it sits in and the delivery pattern, not on floor area.')],
  'co_h2': 'What a restaurant or bar system costs',
  'co_sub': 'Installed prices covering equipment, labour, commissioning and handover. '
@@ -495,10 +495,10 @@ SECTORS = [
  'duties': [
    ('Gas interlock',
     ['Where gas appliances sit under an extract canopy, BS 6173 requires an '
-     'interlock so the gas supply cannot be on unless the ventilation is running '
+     'interlock so the gas supply can\'t be on unless the ventilation is running '
      'and proving flow. It exists to stop combustion products collecting in a '
      'kitchen where nobody would notice.',
-     'It is a commissioning item, not an optional extra, and it is one of the first '
+     'It\'s a commissioning item, not an optional extra, and it\'s one of the first '
      'things an environmental health officer or a gas engineer will look for.'],
     'The interlock is wired, proved and certificated as part of the handover pack '
     'rather than left to a separate visit.'),
@@ -507,7 +507,7 @@ SECTORS = [
      'fire dampers where the duct passes through compartments, and access panels at '
      'intervals so the whole run can be cleaned.',
      'Grease build up in a duct is a fire risk and a standard question on a '
-     'commercial insurance policy. A duct with no access panels cannot be cleaned '
+     'commercial insurance policy. A duct with no access panels can\'t be cleaned '
      'properly, which tends to become the operator\'s problem rather than the '
      'installer\'s.'],
     'Access panels go in at design stage. Retrofitting them into a finished ceiling '
@@ -523,14 +523,14 @@ SECTORS = [
     'request and the design will be built to satisfy it.')],
  'faqs': [
    ('Why is the kitchen still hot when the extract is running?',
-    'Almost always because there is no make up air. The canopy can only remove as '
+    'Almost always because there\'s no make up air. The canopy can only remove as '
     'much as can get back in, so without a designed supply the fan pulls against '
     'the building, the real extract rate falls well below the figure it was sold '
     'on, and the kitchen stays hot. Adding a make up air unit usually fixes it '
     'without touching the canopy.'),
    ('Do we legally need make up air?',
-    'It is a design requirement rather than a single clause you can point at. A '
-    'kitchen extract system has to work as designed, and it cannot without '
+    'It\'s a design requirement rather than a single clause you can point at. A '
+    'kitchen extract system has to work as designed, and it can\'t without '
     'replacement air, so building control and any competent designer will expect '
     'it. The gas interlock also proves flow, and a starved system can fail to prove '
     'and shut your gas off.'),
@@ -540,7 +540,7 @@ SECTORS = [
     'labour is charged at standard rates. A full fit out is programmed in writing '
     'so you know which sittings are affected.'),
    ('Will the council object to the extract?',
-    'Possibly, and it is better to know first. Noise at the nearest residential '
+    'Possibly, and it\'s better to know first. Noise at the nearest residential '
     'window and cooking odour are the two usual conditions, and both are answered '
     'at design stage with termination height, the unit\'s sound data and odour '
     'control where required. Retrofitting that after a complaint is the expensive '
@@ -548,7 +548,7 @@ SECTORS = [
    ('Do you do cellar cooling as well?',
     'Yes, and on a bar it should be designed alongside everything else rather than '
     'bolted on later. A cellar wants holding steadily in the low to mid teens, and '
-    'the condenser needs a position where its heat and noise are not somebody '
+    'the condenser needs a position where its heat and noise aren\'t somebody '
     'else\'s problem.'),
    ('How often does kitchen ventilation need servicing?',
     'More often than comfort cooling. Grease filters are a routine cleaning job for '
@@ -594,7 +594,7 @@ SECTORS = [
  'ch_eyebrow': 'What makes gyms different',
  'ch_h2': 'A gym is the highest heat load per square metre in the building',
  'ch_sub': 'Every other sector we work in is cooling a room. A gym is cooling '
-           'people, and the difference in the numbers is not small. Get this wrong '
+           'people, and the difference in the numbers isn\'t small. Get this wrong '
            'and no amount of adjusting the setpoint later will rescue it.',
  'challenges': [
    ('People are the load',
@@ -603,19 +603,19 @@ SECTORS = [
     'thirty of them together is a load on the scale of a small industrial process. '
     'Floor area tells you almost nothing here. Peak class size does.',
     'Sized on peak occupancy'),
-   ('Cooling alone does not fix the air',
+   ('Cooling alone doesn\'t fix the air',
     'Recirculating chilled air keeps the temperature down and does nothing about '
     'carbon dioxide, humidity or smell, which are what members actually complain '
     'about. A busy studio with no fresh air feels stale even when the thermometer '
-    'reads fine. That is a <a href="ventilation">ventilation</a> problem.',
+    'reads fine. That\'s a <a href="ventilation">ventilation</a> problem.',
     'Fresh air rate designed with the cooling'),
    ('Humidity is the part people forget',
     'Thirty people sweating in a closed room puts a lot of moisture into the air. '
     'Once humidity climbs, the room feels hotter than it reads, mirrors fog, and in '
     'a space with poor ventilation you get condensation and eventually a smell you '
-    'cannot clean out.',
+    'can\'t clean out.',
     'Latent load taken into account'),
-   ('It cannot be loud, and it cannot blow on the mats',
+   ('It can\'t be loud, and it can\'t blow on the mats',
     'A unit audible over a class is a complaint, and cold air dropping directly '
     'onto somebody lying on a mat in the stretch at the end is a bigger one. '
     'Positioning goes around how the room is used, and equipment gets specified on '
@@ -631,8 +631,8 @@ SECTORS = [
     'run can be arranged around the rig and the lighting.'),
    ('Heat recovery ventilation',
     'Brings fresh air in and pushes stale air out while recovering most of the heat '
-    'from the air leaving, so you are not paying to warm the outdoors in winter. On '
-    'a busy gym this is not optional comfort, it is what keeps the room breathable.'),
+    'from the air leaving, so you\'re not paying to warm the outdoors in winter. On '
+    'a busy gym this isn\'t optional comfort, it\'s what keeps the room breathable.'),
    ('Ceiling cassettes',
     'Suit a boutique studio or a smaller room with a suspended ceiling, zoned per '
     'room so a spin class and a reformer studio can run at different temperatures '
@@ -665,14 +665,14 @@ SECTORS = [
      ('Plant replacement', 'per project')])],
  'price_note': '<strong>These are guide bands, not quotations.</strong> The number '
                'that moves a gym price most is peak class size, because that sets '
-               'the capacity, and after that it is how much ductwork the ceiling '
+               'the capacity, and after that it\'s how much ductwork the ceiling '
                'height and rig layout force on the design. We ask for your class '
                'timetable at survey, which tells us more than the floor plan does.',
  'du_nav': 'Running it',
  'du_eyebrow': 'Maintenance and duties',
  'du_h2': 'Keeping it working in a dusty, heavily used building',
  'du_sub': 'Gym plant works harder than almost anything else we maintain, in an '
-           'environment that is unusually hard on filters. A servicing interval '
+           'environment that\'s unusually hard on filters. A servicing interval '
            'written for an office is the wrong interval here.',
  'duties': [
    ('Filters and servicing frequency',
@@ -689,9 +689,9 @@ SECTORS = [
     ['Carbon dioxide is the usual proxy for whether a room has enough fresh air, '
      'and it climbs quickly in a packed studio with the door shut. High readings '
      'track closely with the stale, heavy feeling members describe.',
-     'Monitoring it is cheap and it gives you a number to design against, instead '
+     'Monitoring it\'s cheap and it gives you a number to design against, instead '
      'of a debate about whether the room feels stuffy.'],
-    'Where a room is already built and ventilation cannot be added easily, '
+    'Where a room is already built and ventilation can\'t be added easily, '
     'increasing the fresh air share on the existing system is often the practical '
     'fix.'),
    ('F-Gas and TM44',
@@ -721,10 +721,10 @@ SECTORS = [
     'notice. Heat recovery ventilation brings fresh air in without throwing the '
     'heating away with the stale air.'),
    ('Can you heat a hot yoga or bikram room?',
-    'Yes, and it is a specific design rather than a normal system turned up. Those '
+    'Yes, and it\'s a specific design rather than a normal system turned up. Those '
     'rooms need controlled heat and controlled humidity held steadily, plus enough '
     'air change between classes to clear the room. Tell us the temperature and '
-    'humidity you want to hold and we will design to it.'),
+    'humidity you want to hold and we\'ll design to it.'),
    ('How often should gym air conditioning be serviced?',
     'More often than an office. Dust loading on filters is the reason, and a '
     'blocked filter directly reduces the cooling you get. We set the interval '
@@ -755,7 +755,7 @@ SECTORS = [
          'North West. Runs year round, with redundancy and alarms where it matters.',
  'lede': 'A server room runs the same load at four in the morning in January as it '
          'does on the hottest afternoon of the year, and it fails expensively when '
-         'it gets hot. Comfort cooling is not designed for that. Close control is, '
+         'it gets hot. Comfort cooling isn\'t designed for that. Close control is, '
          'and the difference shows up the first time something goes wrong at a '
          'weekend.',
  'trust': [('Year round', 'no seasonal shutdown, ever'),
@@ -773,7 +773,7 @@ SECTORS = [
         ('Monitoring', 'Temperature alarm to phone or email')],
  'ch_eyebrow': 'Why it is a different job',
  'ch_h2': 'Why a normal air conditioning unit is the wrong answer',
- 'ch_sub': 'This is the single most common thing we are asked to put right. A '
+ 'ch_sub': 'This is the single most common thing we\'re asked to put right. A '
            'comfort unit will cool a server room, right up until the day it does '
            'not, and the way it fails is specific and predictable.',
  'challenges': [
@@ -783,9 +783,9 @@ SECTORS = [
     'including the coldest week of the year. Run a domestic split like that and you '
     'are running it well outside what it was designed for.',
     'Equipment rated for continuous duty'),
-   ('It will not run in winter',
-    'Most comfort units are not built to cool when it is near freezing outside, and '
-    'will refuse to run or trip on low pressure. That is fine in an office, which '
+   ('It won\'t run in winter',
+    'Most comfort units aren\'t built to cool when it\'s near freezing outside, and '
+    'will refuse to run or trip on low pressure. That\'s fine in an office, which '
     'wants heating in January. In a server room it means the cooling stops in the '
     'one situation where nobody is watching, and the room climbs.',
     'Low ambient operation specified'),
@@ -795,7 +795,7 @@ SECTORS = [
     'sharing the load, alternating so both stay exercised, means a failure is an '
     'inconvenience rather than an outage.',
     'N+1 with lead and lag rotation'),
-   ('Nobody finds out until it is too late',
+   ('Nobody finds out until it\'s too late',
     'Server rooms have no occupants to notice. Without a temperature alarm the '
     'first sign of a failure is usually kit shutting itself down, often on a Friday '
     'night. A sensor and an alert cost very little against what an unplanned outage '
@@ -852,7 +852,7 @@ SECTORS = [
  'du_eyebrow': 'Operation and duties',
  'du_h2': 'Keeping a technical room reliable',
  'du_sub': 'The design gets you a room that works. These three are what keep it '
-           'working, and they are where most of the rooms we inherit have been let '
+           'working, and they\'re where most of the rooms we inherit have been let '
            'down.',
  'duties': [
    ('Temperature and humidity targets',
@@ -871,7 +871,7 @@ SECTORS = [
      'year, checking filters, coil condition, refrigerant charge, drain operation '
      'and the alarm itself.',
      'Testing the alarm is the part most often skipped, and an alarm nobody has '
-     'proved is not resilience.'],
+     'proved isn\'t resilience.'],
     'Our <a href="servicing">commercial servicing plan</a> covers quarterly '
     'attendance, and we test the failover on rooms running a lead and lag pair.'),
    ('F-Gas duties',
@@ -886,7 +886,7 @@ SECTORS = [
  'faqs': [
    ('Can I just use a normal split unit in my server room?',
     'For a small comms cupboard it can work, provided the unit is specified for low '
-    'ambient operation so it still cools when it is near freezing outside, and '
+    'ambient operation so it still cools when it\'s near freezing outside, and '
     'provided you accept that a failure means downtime. Standard comfort equipment '
     'installed without that specification is the most common cause of the winter '
     'failures we get called to.'),
@@ -903,8 +903,8 @@ SECTORS = [
    ('What happens if the cooling fails overnight?',
     'With no alarm, the room heats until the equipment protects itself or fails, '
     'and you find out on Monday. With a sensor and an alert you get a message while '
-    'there is still time to open a door, bring in temporary cooling or shut things '
-    'down in an orderly way. It is the cheapest resilience you can buy.'),
+    'there\'s still time to open a door, bring in temporary cooling or shut things '
+    'down in an orderly way. It\'s the cheapest resilience you can buy.'),
    ('How often should it be serviced?',
     'Usually four times a year rather than once. The load is constant, the run '
     'hours are far higher than comfort equipment, and the alarm needs proving as '
@@ -964,7 +964,7 @@ SECTORS = [
     'Cooling targeted at occupied zones'),
    ('Heat collects where nobody is standing',
     'Warm air rises and sits at roof level, so in winter you can have a roof space '
-    'well above 20C while the floor is cold, and you are paying to heat both. '
+    'well above 20C while the floor is cold, and you\'re paying to heat both. '
     'Destratification fans push that layer back down and often pay for themselves '
     'on the heating bill alone.',
     'Stratification measured at survey'),
@@ -988,7 +988,7 @@ SECTORS = [
    ('Spot and zone cooling',
     'Cooling delivered to packing benches, picking faces, workshop bays and other '
     'places people stand for hours, rather than to the volume as a whole. Far less '
-    'capacity, far less running cost, and the comfort lands where it is noticed.'),
+    'capacity, far less running cost, and the comfort lands where it\'s noticed.'),
    ('Destratification',
     'High level fans that bring the warm layer at roof level back down to where '
     'people are. Cheap to install, cuts the heating demand noticeably in a tall '
@@ -1031,12 +1031,12 @@ SECTORS = [
  'du_eyebrow': 'Duties and comfort',
  'du_h2': 'Workplace temperature, and what the law actually says',
  'du_sub': 'This comes up on every industrial survey, usually as a claim about a '
-           'legal maximum temperature. It is worth being clear about what the rules '
-           'do and do not require.',
+           'legal maximum temperature. It\'s worth being clear about what the rules '
+           'do and don\'t require.',
  'duties': [
-   ('There is no legal maximum temperature',
+   ('There\'s no legal maximum temperature',
     ['Workplace regulations require a reasonable temperature rather than a specific '
-     'one, and there is no upper figure in law that forces an employer to send '
+     'one, and there\'s no upper figure in law that forces an employer to send '
      'people home. The approved guidance suggests a minimum of around 16C, dropping '
      'to about 13C where the work involves severe physical effort.',
      'What does apply is the general duty to assess the risk and act on it. In a '
@@ -1061,19 +1061,19 @@ SECTORS = [
      'control rooms and production areas, and TM44 counts the whole building. The '
      '12kW threshold is crossed easily once several areas are added together.',
      'Process refrigeration and cold storage sit under their own separate regime '
-     'and are a different trade from comfort cooling, so they are quoted and '
+     'and are a different trade from comfort cooling, so they\'re quoted and '
      'maintained separately.'],
     'We work out the total across the site at survey and tell you where you stand '
     'against both thresholds.')],
  'faqs': [
    ('Is there a legal maximum workplace temperature in the UK?',
     'No. The regulations require a reasonable temperature rather than naming an '
-    'upper limit, so there is no figure at which work must legally stop. The '
+    'upper limit, so there\'s no figure at which work must legally stop. The '
     'approved guidance does suggest a minimum of around 16C, or about 13C where the '
     'work is physically demanding. The duty to assess and control the risk still '
     'applies in hot conditions.'),
    ('Can you air condition a whole warehouse?',
-    'Technically yes, and for most buildings it is not worth what it costs. The '
+    'Technically yes, and for most buildings it\'s not worth what it costs. The '
     'volume above head height is the problem. Cooling the zones where people '
     'actually work, ventilating the rest and dealing with process heat at source '
     'gets a far better result for the money in nearly every case.'),
@@ -1081,16 +1081,16 @@ SECTORS = [
     'Warm air collects at roof level where nobody feels it. Destratification fans '
     'push that layer back down to floor level. In a tall building it can cut heating '
     'demand noticeably and makes the working area feel warmer in winter without '
-    'adding any heat, which is why it is often the first thing we recommend.'),
+    'adding any heat, which is why it\'s often the first thing we recommend.'),
    ('Can you cool just the packing area?',
-    'Yes, and that is normally the right approach. Spot and zone cooling delivers '
+    'Yes, and that\'s normally the right approach. Spot and zone cooling delivers '
     'capacity where people stand for hours, at a fraction of the capital and running '
     'cost of conditioning the whole space. The zones are agreed at survey from how '
     'the building is used.'),
    ('Do you do cold stores and process refrigeration?',
     'Those sit under a separate regime from comfort cooling and are a different '
     'trade, so we quote and maintain them separately rather than folding them into '
-    'a comfort cooling package. Tell us what you need at survey and we will be '
+    'a comfort cooling package. Tell us what you need at survey and we\'ll be '
     'straight with you about scope.'),
    ('Will the dust wreck the units?',
     'It will shorten their life if the plant was specified for an office. Filter '
@@ -1144,8 +1144,8 @@ SECTORS = [
     'than a brick building. The roof heats up quickly on a sunny day and the inside '
     'follows within the hour, then loses that heat just as fast on a cold night.',
     'Sized for the panel construction, not the floor area alone'),
-   ('Walls that will not take a heavy bracket',
-    'A cladding panel is not a cavity wall. The indoor unit needs fixing into the frame '
+   ('Walls that won\'t take a heavy bracket',
+    'A cladding panel isn\'t a cavity wall. The indoor unit needs fixing into the frame '
     'or onto battens, and the outdoor unit usually goes on a ground stand or a frame on '
     'the roof rather than on wall brackets.',
     'Fixings planned around the frame'),
@@ -1156,7 +1156,7 @@ SECTORS = [
     'Supply and generator load checked at survey'),
    ('Buildings that move',
     'Hire cabins and site welfare units get lifted onto a lorry and set down somewhere '
-    'else. A system that is laid out for that, with the pipe route and isolation planned '
+    'else. A system that\'s laid out for that, with the pipe route and isolation planned '
     'from the start, can be taken down and refitted rather than written off.',
     'Relocation planned before installation')],
  'sy_h2': 'What works in a modular building',
@@ -1184,14 +1184,14 @@ SECTORS = [
      ('It stays where it is, and people work or sleep in it',
       'Wall mounted split', 'The most efficient option, and the quietest inside.'),
      ('It gets moved several times a year',
-      'A unit with no outdoor part', 'No refrigerant circuit to break each time it is lifted.'),
+      'A unit with no outdoor part', 'No refrigerant circuit to break each time it\'s lifted.'),
      ('It sits on a busy or unsecured site',
       'A unit with no outdoor part', 'Nothing outside to knock, damage or steal.'),
      ('It has several rooms, like classrooms or accommodation',
       'Multi room or slim ducted', 'One outdoor unit, with a control in each room.'),
      ('It runs from a generator',
-      'An inverter split, sized to the supply', 'Starts gently and throttles back, so it is easier on the generator.'),
-     ('It is a garden office or annex at home',
+      'An inverter split, sized to the supply', 'Starts gently and throttles back, so it\'s easier on the generator.'),
+     ('It\'s a garden office or annex at home',
       'Wall mounted split', 'Quiet enough to work beside, and heats it all winter.')]},
  'co_h2': 'What cabin air conditioning costs',
  'co_sub': 'Every cabin and modular building is different: the construction, the '
@@ -1230,17 +1230,17 @@ SECTORS = [
    ('Condensate in a building with no drains',
     ['Every indoor unit takes water out of the air as it cools, and most cabins have '
      'no internal waste to join. The condensate is piped outside through the wall, '
-     'away from doors and walkways, and run so it cannot freeze back into the unit in '
+     'away from doors and walkways, and run so it can\'t freeze back into the unit in '
      'winter.',
-     'Where gravity will not work, a small pump lifts it to a point where it can.'],
+     'Where gravity won\'t work, a small pump lifts it to a point where it can.'],
     'The drain route is planned at survey, so nothing drips onto steps or a path.'),
    ('Moving a cabin with air conditioning',
     ['Opening the refrigerant circuit to disconnect a split system must be done by an '
      'F-Gas certified technician, who recovers the refrigerant, caps the pipework and '
      'recommissions the system once the cabin is set down again.',
      'If a cabin moves every few months, a unit with no outdoor part can be the better '
-     'choice, because there is no refrigerant circuit to break.'],
-    'Tell us how often the building moves and we will recommend the option that costs '
+     'choice, because there\'s no refrigerant circuit to break.'],
+    'Tell us how often the building moves and we\'ll recommend the option that costs '
     'least over its life, not just on day one.')],
  'faqs': [
    ('Can you put air conditioning in a portable cabin?',

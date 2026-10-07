@@ -15,11 +15,11 @@ author: zac-hancox
 updated: 2026-10-04
 faqs:
   - question: Why do air conditioning prices online vary so much?
-    answer: National price guides average across very different jobs, regions and installers, and they do not all include the same things. Some quote the unit alone, some leave out the electrical connection, the pipe run or VAT. To compare fairly, check each quote includes the same unit size, pipe run, electrical connection, commissioning, warranty registration and VAT position.
+    answer: National price guides average across very different jobs, regions and installers, and they don't all include the same things. Some quote the unit alone, some leave out the electrical connection, the pipe run or VAT. To compare fairly, check each quote includes the same unit size, pipe run, electrical connection, commissioning, warranty registration and VAT position.
   - question: Is it cheaper to buy the unit online and pay someone to fit it?
-    answer: Usually not. The 0% VAT relief only applies when the same company supplies and installs the system, so a unit bought separately carries 20% VAT. Many installers will not fit equipment they did not supply, and the manufacturer's extended warranty often depends on the installer registering the system.
+    answer: Usually not. The 0% VAT relief only applies when the same company supplies and installs the system, so a unit bought separately carries 20% VAT. Many installers won't fit equipment they didn't supply, and the manufacturer's extended warranty often depends on the installer registering the system.
   - question: Do you charge for the survey?
-    answer: No. The survey is free, usually takes under an hour, and produces a fixed written price within 48 hours. That price does not change once you accept it.
+    answer: No. The survey is free, usually takes under an hour, and produces a fixed written price within 48 hours. That price doesn't change once you accept it.
   - question: Will the price go up after the survey?
     answer: No. The guide prices are a realistic starting point for a straightforward job. The survey looks at the things that move the price, such as the pipe route, access and where the outdoor unit can go, and the written price it produces is fixed once you accept it.
   - question: How much does commercial air conditioning cost?
@@ -42,7 +42,7 @@ South facing glass, a room in the roof or a high ceiling can push a room up a si
 
 ## How much does it cost to air condition a whole house?
 
-For several rooms, a multi split runs two to five indoor units from a single outdoor unit, so there is only one unit outside the house. Each room has its own controller.
+For several rooms, a multi split runs two to five indoor units from a single outdoor unit, so there's only one unit outside the house. Each room has its own controller.
 
 | Rooms | Installed price |
 |---|---|
@@ -51,7 +51,7 @@ For several rooms, a multi split runs two to five indoor units from a single out
 | Four rooms | £6,650 |
 | Five rooms | £8,200 |
 
-A multi split is often the only option on a terraced house, because permitted development allows one outdoor unit on a house that is not detached. The [terraced house guide](/guides/air-conditioning-terraced-house) explains how that works.
+A multi split is often the only option on a terraced house, because permitted development allows one outdoor unit on a house that's not detached. The [terraced house guide](/guides/air-conditioning-terraced-house) explains how that works.
 
 ## What do cassettes, floor consoles and ducted systems cost?
 
@@ -101,7 +101,7 @@ Less than most people expect. At an electricity price of 25p per unit, a 2.5kW b
 | Holding the temperature | about 0.3 kW | about 7p |
 | Working hard on a hot afternoon | about 0.65 kW | about 16p |
 
-The full working, including heating costs and the comparison with a fan heater, is in the [running costs article](/blog/air-conditioning-running-costs). If you are weighing it up against gas central heating, see [should you heat with air conditioning instead of the gas boiler?](/blog/air-conditioning-vs-gas-boiler-heating)
+The full working, including heating costs and the comparison with a fan heater, is in the [running costs article](/blog/air-conditioning-running-costs). If you're weighing it up against gas central heating, see [should you heat with air conditioning instead of the gas boiler?](/blog/air-conditioning-vs-gas-boiler-heating)
 
 ## How much does servicing and repair cost?
 
@@ -113,7 +113,7 @@ The full working, including heating costs and the comparison with a fan heater, 
 | One off service, single unit | £129 |
 | Repair callout | £95 for the first hour including travel, then £45 an hour |
 
-An annual service is usually a condition of keeping the manufacturer's warranty, so it is worth budgeting for from the start. The [servicing page](/servicing) sets out what each visit covers.
+An annual service is usually a condition of keeping the manufacturer's warranty, so it's worth budgeting for from the start. The [servicing page](/servicing) sets out what each visit covers.
 
 ## How much does commercial air conditioning cost?
 
@@ -133,10 +133,10 @@ Commercial work is priced per project, because ceiling voids, riser routes and a
 
 ## Why are national price guides different?
 
-National price guides average across the whole country and every type of installer, and they do not all include the same things. Some quote the equipment alone, some leave out the electrical connection or the pipe run, and some show prices before VAT.
+National price guides average across the whole country and every type of installer, and they don't all include the same things. Some quote the equipment alone, some leave out the electrical connection or the pipe run, and some show prices before VAT.
 
-To compare quotes fairly, check that each one includes the same unit size and brand, the pipe run length, the electrical connection, commissioning, warranty registration and the VAT position. A cheaper quote that leaves one of those out is not cheaper.
+To compare quotes fairly, check that each one includes the same unit size and brand, the pipe run length, the electrical connection, commissioning, warranty registration and the VAT position. A cheaper quote that leaves one of those out isn't cheaper.
 
 ## How do you get an exact price?
 
-Book a free survey. It takes under an hour, looks at the pipe route, the electrics and where the outdoor unit can go, and produces a fixed written price within 48 hours that does not change once you accept it. The [domestic page](/domestic#prices) has the full price list.
+Book a free survey. It takes under an hour, looks at the pipe route, the electrics and where the outdoor unit can go, and produces a fixed written price within 48 hours that doesn't change once you accept it. The [domestic page](/domestic#prices) has the full price list.

@@ -1,6 +1,6 @@
 ---
 title: Can I install air conditioning in a terraced house?
-answer: Yes. Most terraced houses can have air conditioning, and in England it is usually permitted development, so there is no planning application. The outdoor unit normally goes on the back wall, in the rear yard or on a flat extension roof. Permitted development allows one outdoor unit on a terrace, so several rooms share it through a multi split.
+answer: Yes. Most terraced houses can have air conditioning, and in England it's usually permitted development, so there's no planning application. The outdoor unit normally goes on the back wall, in the rear yard or on a flat extension roof. Permitted development allows one outdoor unit on a terrace, so several rooms share it through a multi split.
 key_facts:
   - Usually permitted development in England since the rules changed on 29 May 2025
   - One outdoor unit allowed on a terraced house, up to 1.5 cubic metres
@@ -15,9 +15,9 @@ author: zac-hancox
 updated: 2026-09-24
 faqs:
   - question: Do I need my neighbour's permission to fit air conditioning?
-    answer: Not for planning. Permitted development does not need their consent, and they are protected by the noise limit, which is measured at their window. If anything would be fixed to their side of a shared wall or pass over their land, you would need their agreement, which is one more reason to keep the whole installation on your own back wall.
+    answer: Not for planning. Permitted development doesn't need their consent, and they're protected by the noise limit, which is measured at their window. If anything would be fixed to their side of a shared wall or pass over their land, you would need their agreement, which is one more reason to keep the whole installation on your own back wall.
   - question: Can the outdoor unit go on the front of a terraced house?
-    answer: Rarely. Permitted development excludes a wall above ground floor level that faces a road, and in a conservation area the unit cannot sit nearer the road than the house itself. A ground level position at the front can be allowed outside a conservation area, but on most terraces the front door opens onto the pavement, so the back is the practical answer.
+    answer: Rarely. Permitted development excludes a wall above ground floor level that faces a road, and in a conservation area the unit can't sit nearer the road than the house itself. A ground level position at the front can be allowed outside a conservation area, but on most terraces the front door opens onto the pavement, so the back is the practical answer.
   - question: What if the terrace has been converted into flats?
     answer: Then the rules for flats apply instead. Planning limits are tighter, and the lease almost certainly needs the freeholder or managing agent to approve anything fixed to the outside of the building. That consent is separate from planning and catches more people out.
   - question: How long does it take to install in a terraced house?
@@ -33,13 +33,13 @@ Almost always at the back. There are three usual positions:
 - **In the rear yard**, on a ground stand, which the removal of the old one metre boundary rule has made possible in far more small yards than before
 - **On the flat roof of a rear extension**, at least a metre from the edge
 
-The front is usually ruled out. Permitted development excludes a wall above ground floor level that faces a road, and in a conservation area the unit cannot sit nearer the road than any part of the house.
+The front is usually ruled out. Permitted development excludes a wall above ground floor level that faces a road, and in a conservation area the unit can't sit nearer the road than any part of the house.
 
-One position to avoid even where it is allowed is the party wall. A condenser fixed to a shared wall passes vibration straight into the house next door, and it puts the unit as close as it can get to your neighbour's windows.
+One position to avoid even where it's allowed is the party wall. A condenser fixed to a shared wall passes vibration straight into the house next door, and it puts the unit as close as it can get to your neighbour's windows.
 
 ## Do I need planning permission?
 
-Usually not, in England. Since 29 May 2025 an outdoor unit on a house is permitted development if it is no bigger than 1.5 cubic metres, meets the 42 dB(A) noise limit at the neighbour's window, is not used for cooling alone, and is not on a pitched roof. On a house that is not detached, that covers **one** outdoor unit.
+Usually not, in England. Since 29 May 2025 an outdoor unit on a house is permitted development if it's no bigger than 1.5 cubic metres, meets the 42 dB(A) noise limit at the neighbour's window, isn't used for cooling alone, and isn't on a pitched roof. On a house that's not detached, that covers **one** outdoor unit.
 
 The exceptions are listed buildings, which need listed building consent, and conservation areas, which push the unit to the rear. The [full planning rules](/blog/air-conditioning-planning-permission) set out every condition. Scotland, Wales and Northern Ireland have their own rules.
 

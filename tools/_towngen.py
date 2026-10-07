@@ -144,7 +144,7 @@ def build(t, neighbours):
     <div class="kf">
       <div class="kf__lead">
         <h2 id="kf-title">Air conditioning in {town}, in short</h2>
-        <p>CoolIn installs, services and repairs air conditioning throughout {town} and the wider {county} area, covering {t['postcodes']}. We are about {t['drive']} away, which is close enough to attend a breakdown in the same week rather than the same month.</p>
+        <p>CoolIn installs, services and repairs air conditioning throughout {town} and the wider {county} area, covering {t['postcodes']}. We're about {t['drive']} away, which is close enough to attend a breakdown in the same week rather than the same month.</p>
       </div>
       <dl class="kf__grid">
 {kf}
@@ -180,7 +180,7 @@ def build(t, neighbours):
       <article class="truth js-card"><span class="truth__n">03</span><h3><a href="servicing">Servicing and maintenance</a></h3><p>Plans from £89 per unit a year, keeping the manufacturer warranty valid and the running costs down.</p></article>
       <article class="truth js-card"><span class="truth__n">04</span><h3><a href="repairs">Repairs and callouts</a></h3><p>All makes and models, £95 for the first hour, with the common parts carried on the van.</p></article>
       <article class="truth js-card"><span class="truth__n">05</span><h3><a href="heat-pumps">Air source heat pumps</a></h3><p>Air to air heat pumps giving around 4.5kWh of heat per kWh of electricity, heating and cooling from one unit.</p></article>
-      <article class="truth js-card"><span class="truth__n">06</span><h3><a href="ventilation">Ventilation</a></h3><p>Heat recovery, kitchen extract and make up air, and filtration where cooling alone will not fix the problem.</p></article>
+      <article class="truth js-card"><span class="truth__n">06</span><h3><a href="ventilation">Ventilation</a></h3><p>Heat recovery, kitchen extract and make up air, and filtration where cooling alone won't fix the problem.</p></article>
     </div>
   </div>
 </section>

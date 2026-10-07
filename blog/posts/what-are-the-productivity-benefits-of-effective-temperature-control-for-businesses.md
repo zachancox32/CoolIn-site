@@ -13,7 +13,7 @@ The study most often quoted on this is a review of office studies by researchers
 
 ## What temperature should an office be?
 
-There is no legal maximum in the UK. The [Health and Safety Executive](https://www.hse.gov.uk/temperature/index.htm) asks employers to keep workplaces at a reasonable temperature, with a suggested minimum of about 16°C, or about 13°C where the work is physically demanding. Above that, it is down to the employer to assess the risk.
+There's no legal maximum in the UK. The [Health and Safety Executive](https://www.hse.gov.uk/temperature/index.htm) asks employers to keep workplaces at a reasonable temperature, with a suggested minimum of about 16°C, or about 13°C where the work is physically demanding. Above that, it's down to the employer to assess the risk.
 
 In practice, 21 to 23°C suits most offices. The harder part is holding it, because an office rarely gets hot evenly.
 
@@ -26,25 +26,25 @@ Four things, and most offices have at least two of them:
 - **Equipment.** Computers, screens, printers and a comms cupboard running all day add up, particularly in a small office.
 - **The building.** Top floors, flat roofs and offices above a kitchen or a shop with its heating on all take on heat from outside the room.
 
-A single thermostat for the whole floor cannot fix that, because the warm side and the cool side need different things at the same time. That is what zoning is for, and the [office air conditioning page](/office-air-conditioning) explains how a floor is split up.
+A single thermostat for the whole floor can't fix that, because the warm side and the cool side need different things at the same time. That's what zoning is for, and the [office air conditioning page](/office-air-conditioning) explains how a floor is split up.
 
 ## Is the problem heat, or stale air?
 
-Often both, and they are easy to confuse. A busy room with poor ventilation builds up carbon dioxide, and people describe it as stuffy, heavy or tiring even when the temperature is fine. Cooling recirculates the air in the room, so it fixes the heat but not the staleness.
+Often both, and they're easy to confuse. A busy room with poor ventilation builds up carbon dioxide, and people describe it as stuffy, heavy or tiring even when the temperature is fine. Cooling recirculates the air in the room, so it fixes the heat but not the staleness.
 
 If the complaint is that a room feels airless rather than hot, the answer is fresh air, and [ventilation with heat recovery](/ventilation) brings it in without throwing away the heat in winter. Many offices need a bit of both.
 
 ## Does the cost add up?
 
-For most offices, comfortably. Take an employee costing £30,000 a year. Over a normal working year that is roughly £15 an hour. If a hot afternoon costs them even five minutes of every hour, that is over £1 an hour, for each person in the room. A 3.5kW cassette holding a meeting room once it has cooled it down uses roughly the electricity of a desktop computer and a monitor, which is pence an hour.
+For most offices, comfortably. Take an employee costing £30,000 a year. Over a normal working year that's roughly £15 an hour. If a hot afternoon costs them even five minutes of every hour, that's over £1 an hour, for each person in the room. A 3.5kW cassette holding a meeting room once it has cooled it down uses roughly the electricity of a desktop computer and a monitor, which is pence an hour.
 
-That sum is an illustration rather than a measurement, but the direction does not change much whatever figures you put in: staff cost a great deal more than the electricity.
+That sum is an illustration rather than a measurement, but the direction doesn't change much whatever figures you put in: staff cost a great deal more than the electricity.
 
 The installed price for a single ceiling cassette is £2,450, and a four cassette system for an open plan floor is around £8,500. The [cost guide](/guides/air-conditioning-cost-manchester) has the full list, including servicing.
 
 ## What about the comms room?
 
-Treat it separately. A comms cupboard or server room runs at the same load every hour of the year, including winter, and an ordinary office unit is not built for that. It needs its own cooling and usually an alarm, which the [server room cooling page](/server-room-cooling) covers.
+Treat it separately. A comms cupboard or server room runs at the same load every hour of the year, including winter, and an ordinary office unit isn't built for that. It needs its own cooling and usually an alarm, which the [server room cooling page](/server-room-cooling) covers.
 
 ## Are there rules for office air conditioning?
 

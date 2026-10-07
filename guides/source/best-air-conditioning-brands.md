@@ -1,6 +1,6 @@
 ---
 title: Which air conditioning brand is best? 10 brands compared
-answer: For most UK homes and businesses, Daikin, Mitsubishi Electric and Samsung are the safest choices. They are quiet, efficient, well supported with parts and backed by extended warranties when registered. Daikin and Mitsubishi Electric are the two we fit most, with Samsung close behind. The right size and a careful installation matter more than the badge.
+answer: For most UK homes and businesses, Daikin, Mitsubishi Electric and Samsung are the safest choices. They're quiet, efficient, well supported with parts and backed by extended warranties when registered. Daikin and Mitsubishi Electric are the two we fit most, with Samsung close behind. The right size and a careful installation matter more than the badge.
 key_facts:
   - Most systems we fit are Daikin or Mitsubishi Electric, with Samsung close behind
   - The quietest wall units from all three run at around 19 dB(A) on the lowest fan speed
@@ -23,7 +23,7 @@ faqs:
   - question: Do cheaper brands last as long?
     answer: Some do, but parts and support are where budget brands tend to fall short. If a part is hard to get in the UK, a simple repair can mean weeks without cooling. The established brands keep parts in the country and have engineers trained on them, which matters more over ten years than a lower price on day one.
   - question: Can I choose which brand is fitted?
-    answer: Yes. Tell us at survey if you have a preference and we will quote for it. If you have no preference, we recommend a unit for the room, and the quote names the exact make and model so you know what you are getting.
+    answer: Yes. Tell us at survey if you have a preference and we'll quote for it. If you have no preference, we recommend a unit for the room, and the quote names the exact make and model so you know what you're getting.
 ---
 Air conditioning brands are closer together than most buyers expect. The big names all make quiet, efficient units that will last, so the choice usually comes down to how the indoor unit looks, how quiet it needs to be, how you want to control it, and how well the brand is supported if anything goes wrong.
 
@@ -38,7 +38,7 @@ Six things, roughly in order of how much they matter day to day:
 - **Efficiency.** The energy label gives a SEER figure for cooling and a SCOP figure for heating. Higher means cheaper to run.
 - **Controls.** All the main brands now offer an app, a remote and simple wall controllers. Some also work with Alexa or Google Home.
 - **Warranty.** The length depends on the brand and on registration, which is covered further down.
-- **Looks.** The indoor unit is on your wall for years, so it is fair for this to decide between two otherwise similar options.
+- **Looks.** The indoor unit is on your wall for years, so it's fair for this to decide between two otherwise similar options.
 
 ## Daikin
 
@@ -88,7 +88,7 @@ Any of these can be a good choice. The things to check are that parts are easy t
 
 ## Is Mitsubishi Electric the same as Mitsubishi Heavy Industries?
 
-No. They share a name and a history, but they are separate companies with separate product ranges, parts and support. Both make good air conditioning. It matters when comparing quotes, because a quote that just says "Mitsubishi" could mean either.
+No. They share a name and a history, but they're separate companies with separate product ranges, parts and support. Both make good air conditioning. It matters when comparing quotes, because a quote that just says "Mitsubishi" could mean either.
 
 ## How long is an air conditioning warranty?
 
@@ -102,13 +102,13 @@ Across the main brands, the result can be anything from one year to seven. Whate
 
 ## Does the brand matter more than the installer?
 
-No. A top of the range unit that is too small for the room will run flat out and still not cope. One fitted with a poor pipe joint will slowly lose refrigerant. A careful installation of a mid range unit will outperform a careless installation of the best one on the market.
+No. A top of the range unit that's too small for the room will run flat out and still not cope. One fitted with a poor pipe joint will slowly lose refrigerant. A careful installation of a mid range unit will outperform a careless installation of the best one on the market.
 
 The things that decide how well a system performs are the size, worked out for the room rather than guessed, where the indoor and outdoor units go, and the quality of the pipework and commissioning. The [size calculator](/air-conditioning-size-calculator) gives you a starting figure for any room.
 
 ## Which brand should you choose?
 
-- **For a bedroom:** a unit that is very quiet on its lowest setting, such as the Mitsubishi Electric MSZ-LN, Daikin Perfera or Samsung WindFree.
+- **For a bedroom:** a unit that's very quiet on its lowest setting, such as the Mitsubishi Electric MSZ-LN, Daikin Perfera or Samsung WindFree.
 - **Where the unit is on show:** a design range such as the Daikin Emura or Stylish.
 - **If you dislike a draught:** Samsung WindFree.
 - **On a tighter budget:** an entry range from an established brand, such as the Daikin Sensira or Mitsubishi Electric MSZ-HR, rather than an unknown name.

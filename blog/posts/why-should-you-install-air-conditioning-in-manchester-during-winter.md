@@ -7,11 +7,11 @@ updated: 2026-10-04
 category: Installation
 author: zac-hancox
 ---
-Yes, and for most people it is the best time. You avoid the rush that starts with the first heatwave, you get to choose the installation date, and the system spends the months before summer heating the room instead of sitting unused. This winter there is also a deadline: domestic installations carry no VAT until 31 March 2027.
+Yes, and for most people it's the best time. You avoid the rush that starts with the first heatwave, you get to choose the installation date, and the system spends the months before summer heating the room instead of sitting unused. This winter there's also a deadline: domestic installations carry no VAT until 31 March 2027.
 
 ## Can you install air conditioning in winter?
 
-Yes. Cold weather does not stop an installation. The outdoor unit goes on a wall bracket, a flat roof or a ground stand in the same way at any time of year, and the system is pressure tested and commissioned on the day whatever the weather. A single room is usually fitted in one day.
+Yes. Cold weather doesn't stop an installation. The outdoor unit goes on a wall bracket, a flat roof or a ground stand in the same way at any time of year, and the system is pressure tested and commissioned on the day whatever the weather. A single room is usually fitted in one day.
 
 The only things that delay work are the same in any season: heavy rain on a job that needs a roof, or access equipment that has to be booked.
 
@@ -25,7 +25,7 @@ The process is the same all year: a free survey, a fixed written price within 48
 
 Yes. A modern air conditioning system is an air to air heat pump, so it heats as well as cools from the same indoor unit. It moves heat from the outside air into the room, which means it delivers several units of heat for every unit of electricity it uses. That makes it far cheaper to run than a plug in electric heater.
 
-It does give less output as the weather gets colder, so it is worth sizing with heating in mind if you plan to rely on it. The [running costs article](/blog/air-conditioning-running-costs) has the figures, and if you are wondering whether it could replace your radiators, [this comparison with a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating) sets out where each one wins.
+It does give less output as the weather gets colder, so it's worth sizing with heating in mind if you plan to rely on it. The [running costs article](/blog/air-conditioning-running-costs) has the figures, and if you're wondering whether it could replace your radiators, [this comparison with a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating) sets out where each one wins.
 
 ## Why does the VAT deadline matter?
 
