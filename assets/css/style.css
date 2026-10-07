@@ -1325,4 +1325,4 @@ ul,ol{margin:0;padding:0;list-style:none}
 /* A last sector card left alone on its row spans the row instead of
    leaving two empty slots beside it. */
 .sectors .sector:last-child:nth-child(3n+1){grid-column:1/-1}
-@media (max-width:980px){.sectors .sector:last-child:nth-child(3n+1){grid-column:auto}.sectors .sector:last-child:nth-child(2n+1){grid-column:1/-1}}
+@media (max-width:1080px){.sectors .sector:last-child:nth-child(3n+1){grid-column:auto}.sectors .sector:last-child:nth-child(2n+1){grid-column:1/-1}}
