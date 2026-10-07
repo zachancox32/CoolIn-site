@@ -147,7 +147,7 @@ def build(s, others):
 
     prices = '\n'.join('''      <div class="price-card js-card">
         <h3>{h}</h3>
-        <p class="price-card__sub">{sub}. Installed prices</p>
+        <p class="price-card__sub">{sub}. Installed prices, plus VAT</p>
         <ul class="price-list">
 {rows}
         </ul>
@@ -163,7 +163,7 @@ def build(s, others):
         price_block = f'''    <div class="price-from js-up">
       <div class="price-from__fig">
         <p class="price-from__label">{pf['label']}</p>
-        <p class="price-from__n">from {pf['figure']}</p>
+        <p class="price-from__n">from {pf['figure']}<span class="price-from__vat">plus VAT</span></p>
         <p class="price-from__sub">{pf['sub']}</p>
         <a class="btn btn--primary" href="#quote">Get a fixed price for your building</a>
       </div>
@@ -173,7 +173,7 @@ def build(s, others):
       </div>
     </div>'''
     else:
-        price_block = f'''    <p class="price-caption js-up">Guide prices, installed. Confirmed at site survey.</p>
+        price_block = f'''    <p class="price-caption js-up">Guide prices, installed, plus VAT. Confirmed at site survey.</p>
     <div class="price-grid">
 {prices}
     </div>'''

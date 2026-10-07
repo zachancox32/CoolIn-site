@@ -29,18 +29,18 @@ SECTORS = [
          'the evenings so nobody loses a desk.',
  'trust': [('Zoned control', 'room by room, not floor by floor'),
            ('Evenings', 'fitted outside office hours'),
-           ('From £2,450', 'one cassette, installed')],
+           ('From £2,450', 'one cassette, installed, plus VAT')],
  'kf_lead': 'CoolIn designs, installs and maintains office air conditioning across '
             'Manchester city centre and the wider North West, from a single meeting '
             'room to a multi floor VRF system. Most office work is done outside '
             'trading hours at standard labour rates, so the floor is usable the '
             'next morning.',
  'kf': [('Typical systems', 'Ceiling cassettes, slim ducted, VRF'),
-        ('One room', 'From £2,450 installed'),
-        ('Open plan floor', 'Around £8,500 for four cassettes'),
+        ('One room', 'From £2,450 installed, plus VAT'),
+        ('Open plan floor', 'Around £8,500 for four cassettes, plus VAT'),
         ('Fitting hours', 'Evenings and weekends, standard rates'),
         ('Compliance', 'TM44 over 12kW, F-Gas over 5 tonnes CO2e'),
-        ('Servicing', 'From £89 per indoor unit per year')],
+        ('Servicing', 'From £89 per indoor unit per year, plus VAT')],
  'ch_eyebrow': 'What makes offices difficult',
  'ch_h2': 'Why an office is harder to cool than the floor area suggests',
  'ch_sub': 'Nearly every office we are called back to was sized off a square metre '
@@ -213,17 +213,17 @@ SECTORS = [
          'lose a day\'s takings.',
  'trust': [('Overnight', 'fitted between closing and opening'),
            ('Open door', 'sized for how shops really trade'),
-           ('From £2,280', 'one unit, installed')],
+           ('From £2,280', 'one unit, installed, plus VAT')],
  'kf_lead': 'CoolIn installs and maintains air conditioning for shops, hair and '
             'beauty salons, showrooms and small retail units across Manchester and '
             'the North West. Retail work is almost always done between closing and '
             'opening, so the shutters go up on time.',
  'kf': [('Typical systems', 'Cassettes, slim ducted, wall units'),
-        ('Small unit', 'From £2,280 installed'),
-        ('Salon or larger floor', 'From £4,400 for two units'),
+        ('Small unit', 'From £2,280 installed, plus VAT'),
+        ('Salon or larger floor', 'From £4,400 for two units, plus VAT'),
         ('Fitting hours', 'Overnight and Sundays, standard rates'),
         ('Lead time', 'Usually inside two weeks from survey'),
-        ('Servicing', 'From £89 per indoor unit per year')],
+        ('Servicing', 'From £89 per indoor unit per year, plus VAT')],
  'ch_eyebrow': 'What makes retail different',
  'ch_h2': 'Cooling a space that is deliberately open to the street',
  'ch_sub': 'Retail breaks the assumptions every heat load calculation starts from. '
@@ -401,8 +401,8 @@ SECTORS = [
             'across Manchester and the North West. Hospitality work is programmed '
             'around service, normally overnight or on a closed day.',
  'kf': [('Typical systems', 'Canopy extract, make up air, cassettes, cellar cooling'),
-        ('Kitchen extract and make up', 'From £6,500 installed'),
-        ('Front of house', 'From £4,400 for two units'),
+        ('Kitchen extract and make up', 'From £6,500 installed, plus VAT'),
+        ('Front of house', 'From £4,400 for two units, plus VAT'),
         ('Ductwork standard', 'DW/172 for kitchen extract'),
         ('Gas safety', 'Interlock required under BS 6173'),
         ('Fitting hours', 'Overnight or closed days, standard rates')],
@@ -586,9 +586,9 @@ SECTORS = [
             'Manchester and the North West, from a single spin room to a full floor '
             'of equipment.',
  'kf': [('Typical systems', 'High capacity ducted, cassettes, heat recovery ventilation'),
-        ('Single studio', 'From £4,400 installed'),
-        ('Gym floor', 'From £8,500 for four units'),
-        ('Ventilation', 'From £5,200 for heat recovery'),
+        ('Single studio', 'From £4,400 installed, plus VAT'),
+        ('Gym floor', 'From £8,500 for four units, plus VAT'),
+        ('Ventilation', 'From £5,200 for heat recovery, plus VAT'),
         ('Servicing', 'More frequent than an office, because of dust'),
         ('Fitting hours', 'Overnight and closed periods, standard rates')],
  'ch_eyebrow': 'What makes gyms different',
@@ -682,7 +682,7 @@ SECTORS = [
      'undersized in year two without anything having failed.',
      'Most gyms we look after need more visits a year than the standard office '
      'schedule, and the filter clean is the reason.'],
-    'Our <a href="servicing">servicing plans</a> start at £89 per indoor unit per '
+    'Our <a href="servicing">servicing plans</a> start at £89 per indoor unit, plus VAT, per '
     'year, and we set the visit frequency against how the building is actually '
     'used rather than a default.'),
    ('Air quality and how it feels',
@@ -766,8 +766,8 @@ SECTORS = [
             'a single rack in a cupboard to a room running on N+1 with remote '
             'monitoring.',
  'kf': [('Typical systems', 'Close control, in row, dedicated splits on rotation'),
-        ('Close control', 'From £9,000 installed'),
-        ('Comms cupboard', 'From £2,600 for a dedicated unit'),
+        ('Close control', 'From £9,000 installed, plus VAT'),
+        ('Comms cupboard', 'From £2,600 for a dedicated unit, plus VAT'),
         ('Recommended range', '18C to 27C at the rack inlet'),
         ('Servicing', 'Usually four visits a year, not one'),
         ('Monitoring', 'Temperature alarm to phone or email')],
@@ -946,7 +946,7 @@ SECTORS = [
             'across Manchester and the North West, including the mezzanine offices '
             'that sit inside them.',
  'kf': [('Typical systems', 'Spot cooling, high level ducted, destratification, ventilation'),
-        ('Mezzanine office', 'From £2,450 installed'),
+        ('Mezzanine office', 'From £2,450 installed, plus VAT'),
         ('Zone or spot cooling', 'Priced per zone'),
         ('Workplace guidance', 'No legal maximum, 16C suggested minimum'),
         ('Plant', 'Specified for dust and continuous running'),
@@ -1129,7 +1129,7 @@ SECTORS = [
             'huts and garden offices across Manchester and the North West, for hire '
             'fleets, contractors, schools and owners.',
  'kf': [('Typical systems', 'Wall mounted split, units with no outdoor part, slim ducted'),
-        ('Single cabin', 'From £1,650 installed'),
+        ('Single cabin', 'From £1,650 installed, plus VAT'),
         ('Heating', 'Several units of heat per unit of electricity'),
         ('Power', 'Checked against the cabin supply or generator'),
         ('Relocation', 'Systems laid out so they can be moved'),

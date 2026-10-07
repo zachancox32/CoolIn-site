@@ -1164,13 +1164,13 @@ Commercial air conditioning in short
 Commercial air conditioning is priced per project because two identical floor areas can need very different systems. CoolIn designs against a measured heat load, installs outside trading hours at standard labour rates, and hands over the F-Gas records, commissioning sheets and certificates that a building file needs. Systems over 12kW carry a legal TM44 inspection duty.
 
 Small premises
-From £2,280 installed for a single 5kW wall unit
+From £2,280 installed for a single 5kW wall unit, plus VAT
 
 Mid size
-From £8,500 installed for a four cassette system
+From £8,500 installed for a four cassette system, plus VAT
 
 VRF
-From around £14,000 for six units, or per project
+From around £14,000 for six units plus VAT, or per project
 
 Out of hours
 Evening and weekend fitting at standard rates
@@ -1187,11 +1187,11 @@ What a commercial system costs, and what you get back
 
 Every figure here is an installed price covering equipment, labour, commissioning and handover, not equipment only. Commercial work is priced per project because two identical floor areas can need very different systems, so these are guide bands to help you set a budget before we visit, not quotations. Domestic, running and servicing costs are in our guide to how much air conditioning costs in Manchester .
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Small premises
 
-Shop, salon, small office. Installed prices
+Shop, salon, small office. Installed prices, plus VAT
 
 Wall unit, 5kW £2,280
 
@@ -1203,7 +1203,7 @@ Slim ducted, two zones £3,500
 
 Mid size
 
-Office floor, restaurant, gym. Installed prices
+Office floor, restaurant, gym. Installed prices, plus VAT
 
 Four cassette system £8,500
 
@@ -1215,7 +1215,7 @@ Heat recovery ventilation £5,200
 
 Larger projects
 
-Multi floor, server rooms. Installed prices
+Multi floor, server rooms. Installed prices, plus VAT
 
 VRF, whole building per project
 
@@ -1245,7 +1245,7 @@ Staff handover on the controls, not just a remote in a drawer
 
 The tax side
 
-Commercial installations are standard rated for VAT, which a VAT registered business normally reclaims
+All commercial prices are shown plus VAT at the standard rate, which a VAT registered business normally reclaims
 
 Equipment usually qualifies as plant and machinery, so the Annual Investment Allowance can cover the cost against profits
 
@@ -1425,7 +1425,7 @@ Maintenance contract customers come first, with same day phone support and atten
 
 Can we reclaim the VAT and claim the cost against tax?
 
-Commercial installations are standard rated, so a VAT registered business normally reclaims the VAT in the usual way. The zero rate that applies to homes does not apply to commercial premises.
+All our commercial prices are shown plus VAT. Commercial installations are standard rated, so a VAT registered business normally reclaims the VAT in the usual way. The zero rate that applies to homes does not apply to commercial premises.
 
 The equipment itself is generally plant and machinery, which often means the Annual Investment Allowance can cover it against profits in the year you buy it. Replacing failing plant can be treated as a repair instead, which works differently again. We give you a clear invoice and your accountant decides the treatment.
 
@@ -1456,7 +1456,7 @@ See guide prices
 
 Zoned control room by room, not floor by floor
 Evenings fitted outside office hours
-From £2,450 one cassette, installed
+From £2,450 one cassette, installed, plus VAT
 
 In short
 
@@ -1478,10 +1478,10 @@ Typical systems
 Ceiling cassettes, slim ducted, VRF
 
 One room
-From £2,450 installed
+From £2,450 installed, plus VAT
 
 Open plan floor
-Around £8,500 for four cassettes
+Around £8,500 for four cassettes, plus VAT
 
 Fitting hours
 Evenings and weekends, standard rates
@@ -1490,7 +1490,7 @@ Compliance
 TM44 over 12kW, F-Gas over 5 tonnes CO2e
 
 Servicing
-From £89 per indoor unit per year
+From £89 per indoor unit per year, plus VAT
 
 What makes offices difficult
 
@@ -1546,11 +1546,11 @@ What office air conditioning costs
 
 Installed prices covering equipment, labour, commissioning and handover. Commercial jobs are priced per project because ceiling voids, riser routes and access all move the figure, so treat these as budget bands rather than quotations.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Small office
 
-Up to about 30 square metres. Installed prices
+Up to about 30 square metres. Installed prices, plus VAT
 
 Wall unit, 5kW £2,280
 
@@ -1562,7 +1562,7 @@ Two rooms, one condenser £4,400
 
 Office floor
 
-Open plan plus meeting rooms. Installed prices
+Open plan plus meeting rooms. Installed prices, plus VAT
 
 Four cassette system £8,500
 
@@ -1574,7 +1574,7 @@ Heat recovery ventilation £5,200
 
 Multi floor
 
-Whole building or phased fit out. Installed prices
+Whole building or phased fit out. Installed prices, plus VAT
 
 VRF, whole building per project
 
@@ -1693,7 +1693,7 @@ See guide prices
 
 Overnight fitted between closing and opening
 Open door sized for how shops really trade
-From £2,280 one unit, installed
+From £2,280 one unit, installed, plus VAT
 
 In short
 
@@ -1715,10 +1715,10 @@ Typical systems
 Cassettes, slim ducted, wall units
 
 Small unit
-From £2,280 installed
+From £2,280 installed, plus VAT
 
 Salon or larger floor
-From £4,400 for two units
+From £4,400 for two units, plus VAT
 
 Fitting hours
 Overnight and Sundays, standard rates
@@ -1727,7 +1727,7 @@ Lead time
 Usually inside two weeks from survey
 
 Servicing
-From £89 per indoor unit per year
+From £89 per indoor unit per year, plus VAT
 
 What makes retail different
 
@@ -1783,11 +1783,11 @@ What retail air conditioning costs
 
 Installed prices covering equipment, labour, commissioning and handover. Retail jobs vary with access, ceiling height and where the condenser can physically go, so treat these as budget bands rather than quotations.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Small shop or salon
 
-One trading space. Installed prices
+One trading space. Installed prices, plus VAT
 
 Wall unit, 5kW £2,280
 
@@ -1799,7 +1799,7 @@ Extract and make up air from £2,400
 
 Larger unit
 
-Front and rear, or two floors. Installed prices
+Front and rear, or two floors. Installed prices, plus VAT
 
 Two cassettes, one condenser £4,400
 
@@ -1811,7 +1811,7 @@ Heat recovery ventilation £5,200
 
 Showroom or chain
 
-Multi site or high ceiling. Installed prices
+Multi site or high ceiling. Installed prices, plus VAT
 
 Six unit VRF £14,000
 
@@ -1952,10 +1952,10 @@ Typical systems
 Canopy extract, make up air, cassettes, cellar cooling
 
 Kitchen extract and make up
-From £6,500 installed
+From £6,500 installed, plus VAT
 
 Front of house
-From £4,400 for two units
+From £4,400 for two units, plus VAT
 
 Ductwork standard
 DW/172 for kitchen extract
@@ -2020,11 +2020,11 @@ What a restaurant or bar system costs
 
 Installed prices covering equipment, labour, commissioning and handover. Hospitality varies more than any other sector we work in, because the duct route to a discharge point can be trivial in a retail park and very involved in a city centre building.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Cafe or small kitchen
 
-Single canopy, small front of house. Installed prices
+Single canopy, small front of house. Installed prices, plus VAT
 
 Front of house, one unit £2,450
 
@@ -2036,7 +2036,7 @@ Cellar cooling from £2,600
 
 Restaurant
 
-Full kitchen and dining room. Installed prices
+Full kitchen and dining room. Installed prices, plus VAT
 
 Kitchen extract and make up £6,500
 
@@ -2048,7 +2048,7 @@ Gas interlock system from £1,400
 
 Bar or multi floor
 
-Larger venue or long duct run. Installed prices
+Larger venue or long duct run. Installed prices, plus VAT
 
 Six unit VRF £14,000
 
@@ -2189,13 +2189,13 @@ Typical systems
 High capacity ducted, cassettes, heat recovery ventilation
 
 Single studio
-From £4,400 installed
+From £4,400 installed, plus VAT
 
 Gym floor
-From £8,500 for four units
+From £8,500 for four units, plus VAT
 
 Ventilation
-From £5,200 for heat recovery
+From £5,200 for heat recovery, plus VAT
 
 Servicing
 More frequent than an office, because of dust
@@ -2257,11 +2257,11 @@ What gym air conditioning costs
 
 Installed prices covering equipment, labour, commissioning and handover. Gyms vary widely with ceiling height, how much plant the roof will accept and how much ductwork the layout needs, so these are budget bands rather than quotations.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Single studio
 
-One class room. Installed prices
+One class room. Installed prices, plus VAT
 
 Two units, one condenser £4,400
 
@@ -2273,7 +2273,7 @@ Single cassette, 3.5kW £2,450
 
 Gym floor
 
-Equipment floor plus studios. Installed prices
+Equipment floor plus studios. Installed prices, plus VAT
 
 Four unit system £8,500
 
@@ -2285,7 +2285,7 @@ High capacity ducted from £7,800
 
 Multi room site
 
-Full club or leisure centre. Installed prices
+Full club or leisure centre. Installed prices, plus VAT
 
 VRF, whole building per project
 
@@ -2309,7 +2309,7 @@ Chalk, rubber dust off the flooring and skin particles load a filter far faster 
 
 Most gyms we look after need more visits a year than the standard office schedule, and the filter clean is the reason.
 
-Our servicing plans start at £89 per indoor unit per year, and we set the visit frequency against how the building is actually used rather than a default.
+Our servicing plans start at £89 per indoor unit, plus VAT, per year, and we set the visit frequency against how the building is actually used rather than a default.
 
 Air quality and how it feels
 
@@ -2426,10 +2426,10 @@ Typical systems
 Close control, in row, dedicated splits on rotation
 
 Close control
-From £9,000 installed
+From £9,000 installed, plus VAT
 
 Comms cupboard
-From £2,600 for a dedicated unit
+From £2,600 for a dedicated unit, plus VAT
 
 Recommended range
 18C to 27C at the rack inlet
@@ -2494,11 +2494,11 @@ What server room cooling costs
 
 Installed prices covering equipment, labour, commissioning and handover. A technical room is priced on its heat load in kilowatts, on how much redundancy you want, and on where the condenser can go, so these are budget bands rather than quotations.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Comms cupboard
 
-A rack or two, low criticality. Installed prices
+A rack or two, low criticality. Installed prices, plus VAT
 
 Single dedicated unit from £2,600
 
@@ -2510,7 +2510,7 @@ Ventilation only per project
 
 Server room
 
-Several racks, business critical. Installed prices
+Several racks, business critical. Installed prices, plus VAT
 
 Close control, single unit from £9,000
 
@@ -2522,7 +2522,7 @@ Quarterly service plan from £229 per unit
 
 Larger suite
 
-Multi rack or high density. Installed prices
+Multi rack or high density. Installed prices, plus VAT
 
 In row cooling per project
 
@@ -2663,7 +2663,7 @@ Typical systems
 Spot cooling, high level ducted, destratification, ventilation
 
 Mezzanine office
-From £2,450 installed
+From £2,450 installed, plus VAT
 
 Zone or spot cooling
 Priced per zone
@@ -2731,11 +2731,11 @@ What industrial cooling costs
 
 Installed prices covering equipment, labour, commissioning and handover. Industrial work is quoted per project more than any other sector, because access equipment, height and the electrical supply available change the figure substantially.
 
-Guide prices, installed. Confirmed at site survey.
+Guide prices, installed, plus VAT. Confirmed at site survey.
 
 Offices and small areas
 
-Mezzanine, site office, control room. Installed prices
+Mezzanine, site office, control room. Installed prices, plus VAT
 
 Single cassette, 3.5kW £2,450
 
@@ -2747,7 +2747,7 @@ Slim ducted, two zones £3,500
 
 Working zones
 
-Benches, bays and picking faces. Installed prices
+Benches, bays and picking faces. Installed prices, plus VAT
 
 Spot cooling per zone per project
 
@@ -2759,7 +2759,7 @@ Heat recovery ventilation £5,200
 
 Whole area
 
-Production hall or conditioned store. Installed prices
+Production hall or conditioned store. Installed prices, plus VAT
 
 High level ducted per project
 
@@ -2952,7 +2952,7 @@ Add this plan
 
 Commercial
 
-£229per unit, per year
+£229per unit, per year, plus VAT
 
 Two major services a year
 
@@ -7630,7 +7630,7 @@ How much does servicing and repair cost?
 | | Service | Price
 | Essential plan, one major service a year | £89 per indoor unit, per year
 | Plus plan, with a second visit and priority callouts | £149 per indoor unit, per year
-| Commercial plan, two major services a year | £229 per indoor unit, per year
+| Commercial plan, two major services a year | £229 per indoor unit, per year, plus VAT
 | One off service, single unit | £129
 | Repair callout | £95 for the first hour including travel, then £45 an hour
 
@@ -7638,7 +7638,9 @@ An annual service is usually a condition of keeping the manufacturer's warranty,
 
 How much does commercial air conditioning cost?
 
-| | System | Installed price
+Commercial prices are shown plus VAT, which a VAT registered business normally reclaims.
+
+| | System | Installed price, plus VAT
 | Wall unit, 5 kW, small shop or office | £2,280
 | Single ceiling cassette, 3.5 kW | £2,450
 | Two cassettes on one outdoor unit | £4,400
@@ -7679,7 +7681,7 @@ No. The guide prices are a realistic starting point for a straightforward job. T
 
 How much does commercial air conditioning cost?
 
-A single 5kW wall unit in a small shop or office starts at £2,280 installed, a four cassette system for an office floor is around £8,500, and a six unit VRF system around £14,000. Commercial work carries VAT at the standard rate, which a VAT registered business can normally reclaim.
+A single 5kW wall unit in a small shop or office starts at £2,280 installed plus VAT, a four cassette system for an office floor is around £8,500, and a six unit VRF system around £14,000. Commercial work carries VAT at the standard rate, which a VAT registered business can normally reclaim.
 
 Zac Hancox
 
@@ -8685,7 +8687,7 @@ Typical systems
 Wall mounted split, units with no outdoor part, slim ducted
 
 Single cabin
-From £1,650 installed
+From £1,650 installed, plus VAT
 
 Heating
 Several units of heat per unit of electricity
@@ -8782,7 +8784,7 @@ Every cabin and modular building is different: the construction, the supply, how
 
 Cabin air conditioning
 
-from £1,650
+from £1,650plus VAT
 
 Installed, for a single wall mounted unit in a straightforward cabin. Your building gets a fixed written price after a free site survey.
 

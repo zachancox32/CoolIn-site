@@ -1340,3 +1340,4 @@ ul,ol{margin:0;padding:0;list-style:none}
 .price-from__inc li::before{content:"";position:absolute;left:2px;top:6px;width:12px;height:7px;border-left:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(-45deg)}
 .price-from + .price-note{margin-top:20px}
 @media (max-width:820px){.price-from{grid-template-columns:1fr}}
+.price-from__vat{display:block;font-size:.9rem;font-weight:600;letter-spacing:0;color:var(--ice);margin-top:4px}

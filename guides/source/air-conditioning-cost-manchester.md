@@ -23,7 +23,7 @@ faqs:
   - question: Will the price go up after the survey?
     answer: No. The guide prices are a realistic starting point for a straightforward job. The survey looks at the things that move the price, such as the pipe route, access and where the outdoor unit can go, and the written price it produces is fixed once you accept it.
   - question: How much does commercial air conditioning cost?
-    answer: A single 5kW wall unit in a small shop or office starts at £2,280 installed, a four cassette system for an office floor is around £8,500, and a six unit VRF system around £14,000. Commercial work carries VAT at the standard rate, which a VAT registered business can normally reclaim.
+    answer: A single 5kW wall unit in a small shop or office starts at £2,280 installed plus VAT, a four cassette system for an office floor is around £8,500, and a six unit VRF system around £14,000. Commercial work carries VAT at the standard rate, which a VAT registered business can normally reclaim.
 ---
 These are CoolIn's own installed prices for Manchester and the North West, not national averages. Each one includes the equipment, the fitting, the electrical connection and commissioning, so you can compare them like for like with any quote you get.
 
@@ -109,7 +109,7 @@ The full working, including heating costs and the comparison with a fan heater, 
 |---|---|
 | Essential plan, one major service a year | £89 per indoor unit, per year |
 | Plus plan, with a second visit and priority callouts | £149 per indoor unit, per year |
-| Commercial plan, two major services a year | £229 per indoor unit, per year |
+| Commercial plan, two major services a year | £229 per indoor unit, per year, plus VAT |
 | One off service, single unit | £129 |
 | Repair callout | £95 for the first hour including travel, then £45 an hour |
 
@@ -117,7 +117,9 @@ An annual service is usually a condition of keeping the manufacturer's warranty,
 
 ## How much does commercial air conditioning cost?
 
-| System | Installed price |
+Commercial prices are shown plus VAT, which a VAT registered business normally reclaims.
+
+| System | Installed price, plus VAT |
 |---|---|
 | Wall unit, 5 kW, small shop or office | £2,280 |
 | Single ceiling cassette, 3.5 kW | £2,450 |

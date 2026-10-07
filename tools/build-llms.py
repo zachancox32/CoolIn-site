@@ -33,7 +33,7 @@ KEY_FACTS = [
  ("LinkedIn", "https://www.linkedin.com/company/cool-in/"),
  ("Domestic installation", "from £1,650 fitted for a 2.5kW wall mounted system"),
  ("Domestic VAT", "0% until 31 March 2027 under the energy saving materials relief"),
- ("Commercial installation", "priced per project; from £2,280 for a single 5kW wall unit"),
+ ("Commercial installation", "priced per project; from £2,280 plus VAT for a single 5kW wall unit; all commercial prices are plus VAT"),
  ("Servicing", "from £89 per indoor unit per year; one off service £129"),
  ("Repairs", "£95 for the first hour including travel, then £45 per hour"),
  ("Workmanship guarantee", "2 years, in addition to the manufacturer warranty"),
