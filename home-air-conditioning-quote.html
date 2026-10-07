@@ -20,7 +20,7 @@
 <meta property="og:image" content="https://cool-in.co.uk/assets/img/og-image.png">
 <link rel="preload" href="/assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/style.css?v=9a8f5c83">
+<link rel="stylesheet" href="/assets/css/style.css?v=f14ef55b">
 </head>
 <body id="top" class="lp">
 
@@ -42,8 +42,8 @@
 <section class="lp-hero">
   <div class="wrap lp-hero__in">
     <div class="lp-hero__copy">
-      <p class="lp-vat" data-vat><span class="lp-vat__dot" aria-hidden="true"></span><strong>0% VAT</strong> on home installations until 31 March 2027<span class="lp-vat__left" data-vat-left></span></p>
-      <h1>Sleep cool this summer. <span class="grad">Air conditioning fitted in your home.</span></h1>
+      <p class="lp-vat" data-vat><span class="lp-vat__dot" aria-hidden="true"></span><span><strong>0% VAT</strong> on home installs until 31 March 2027</span><span class="lp-vat__left" data-vat-left hidden></span></p>
+      <h1>Sleep cool this summer. <span class="grad">Air conditioning fitted in your</span><span class="sr-only"> home, office, bedroom, open plan kitchen or garden room.</span><span class="lp-tick" aria-hidden="true"><span class="lp-tick__word" data-words="home|office|bedroom|open plan kitchen|garden room">home</span><span class="typed__cursor"></span></span></h1>
       <p class="lp-lede">A quiet wall unit that cools the room in summer and heats it cheaply in winter, usually fitted in a day across <strong data-area>Manchester and the North West</strong>.</p>
       <div class="lp-offer">
         <p class="lp-offer__h">Your free survey includes</p>
@@ -253,12 +253,36 @@
   var area = AREAS[(q.get('area') || '').toLowerCase()];
   if (area) Array.prototype.forEach.call(document.querySelectorAll('[data-area]'), function (el) { el.textContent = area; });
 
+  /* The room in the headline types out, pauses, deletes and moves on, the
+     same effect as the homepage. It sits on its own line so the headline
+     does not reflow as the words change length. Reduced motion keeps "home". */
+  var tickEl = document.querySelector('.lp-tick__word');
+  if (tickEl && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    var words = tickEl.getAttribute('data-words').split('|');
+    var wi = 0, n = words[0].length, deleting = true;
+    var tick = function () {
+      if (document.hidden) { setTimeout(tick, 600); return; }
+      var w = words[wi];
+      if (deleting) {
+        n--;
+        tickEl.textContent = w.slice(0, n);
+        if (n === 0) { deleting = false; wi = (wi + 1) % words.length; return setTimeout(tick, 380); }
+        return setTimeout(tick, 42);
+      }
+      w = words[wi]; n++;
+      tickEl.textContent = w.slice(0, n);
+      if (n === w.length) { deleting = true; return setTimeout(tick, 1900); }
+      setTimeout(tick, 75);
+    };
+    setTimeout(tick, 2200);
+  }
+
   /* The VAT deadline, counted down live: honest urgency, and it hides
      itself once the date has passed. */
   var end = new Date('2027-04-01T00:00:00');
   var days = Math.ceil((end - new Date()) / 86400000);
   Array.prototype.forEach.call(document.querySelectorAll('[data-vat-left]'), function (el) {
-    if (days > 0) el.textContent = ': ' + days + (days === 1 ? ' day left' : ' days left');
+    if (days > 0) { el.textContent = days + (days === 1 ? ' day left' : ' days left'); el.hidden = false; }
   });
   Array.prototype.forEach.call(document.querySelectorAll('[data-vat-left-end]'), function (el) {
     if (days > 0) el.textContent = ', ' + days + ' days from now';
