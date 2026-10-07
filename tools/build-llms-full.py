@@ -28,7 +28,7 @@ ORDER = ['index.html','domestic.html','commercial.html',
 
 # Pages with no place in a text dump for answer engines: legal boilerplate, the
 # error page, the thank you page and the blog index, whose content is the posts.
-SKIP = {'404.html', 'thanks.html', 'privacy.html', 'terms.html', 'cookies.html',
+SKIP = {'404.html', 'thanks.html', 'home-air-conditioning-quote.html', 'privacy.html', 'terms.html', 'cookies.html',
         'blog.html', 'case-studies.html', 'guides.html'}
 
 # Anything published since this list was last touched. Without it a new page is

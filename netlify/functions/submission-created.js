@@ -62,6 +62,8 @@ const LABELS = {
   name: 'Name', company: 'Company', phone: 'Phone', email: 'Email', postcode: 'Postcode',
   project: 'Project', tender: 'Tender return', drawings: 'Drawings',
   type: 'Property', rooms: 'Rooms', message: 'Message',
+  // filled in by the paid search landing page, so a lead says which ad it came from
+  utm_source: 'Source', utm_campaign: 'Campaign', utm_term: 'Keyword', gclid: 'Google click ID',
 };
 
 const isContractor = (payload) => payload.form_name === 'contractor';
