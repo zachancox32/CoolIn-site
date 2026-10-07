@@ -1129,7 +1129,7 @@ SECTORS = [
             'huts and garden offices across Manchester and the North West, for hire '
             'fleets, contractors, schools and owners.',
  'kf': [('Typical systems', 'Wall mounted split, units with no outdoor part, slim ducted'),
-        ('Single cabin', 'From £2,280 installed for a 5kW wall unit'),
+        ('Single cabin', 'From £2,280 installed'),
         ('Heating', 'Several units of heat per unit of electricity'),
         ('Power', 'Checked against the cabin supply or generator'),
         ('Relocation', 'Systems laid out so they can be moved'),
@@ -1194,27 +1194,24 @@ SECTORS = [
      ('It is a garden office or annex at home',
       'Wall mounted split', 'Quiet enough to work beside, and heats it all winter.')]},
  'co_h2': 'What cabin air conditioning costs',
- 'co_sub': 'Installed prices covering equipment, labour, commissioning and handover, '
-           'for a straightforward building with a suitable supply. The fixing method, '
-           'the supply and access to the roof are what move the figure.',
- 'prices': [
-   ('Single cabins', 'Site office, welfare unit, security hut', [
-     ('Wall unit, 5kW', '£2,280'),
-     ('Unit with no outdoor part', 'per project'),
-     ('Relocation of an existing system', 'per project')]),
-   ('Larger modular buildings', 'Offices, classrooms, accommodation', [
-     ('Two units, one outdoor unit', '£4,400'),
-     ('Slim ducted, two zones', '£3,500'),
-     ('Ceiling cassette, 3.5kW', '£2,450')]),
-   ('Fleets and sites', 'Hire fleets, contractors, schools', [
-     ('Several cabins on one site', 'per project'),
-     ('Annual servicing', 'per unit, by schedule'),
-     ('Repairs and callouts', '£95 first hour')])],
- 'price_note': '<strong>These are guide prices, not quotations.</strong> Commercial '
-               'installations are standard rated for VAT, which a VAT registered '
-               'business normally reclaims. A garden room or annex at a home may be '
-               'priced as a home installation; we confirm which applies at survey and '
-               'put it in the written price.',
+ 'co_sub': 'Every cabin and modular building is different: the construction, the '
+           'supply, how it is fixed and whether it moves all change the job. So we '
+           'survey it for free and give you one fixed written price.',
+ 'prices': [],
+ 'price_from': {
+   'label': 'Cabin air conditioning',
+   'figure': '£2,280',
+   'sub': 'Installed, for a single wall mounted unit in a straightforward cabin. Your '
+          'building gets a fixed written price after a free site survey.',
+   'includes': ['The indoor and outdoor units',
+                'Fixings into the frame, and a stand or roof frame outside',
+                'The electrical connection, on a supply checked at survey',
+                'Condensate routed safely outside',
+                'Commissioning, controls set up and a handover']},
+ 'price_note': 'Commercial installations are standard rated for VAT, which a VAT '
+               'registered business normally reclaims. A garden room or annex at a '
+               'home may be priced as a home installation; we confirm which applies at '
+               'survey and put it in the written price.',
  'du_nav': 'Practicalities',
  'du_eyebrow': 'Before we fit',
  'du_h2': 'Power, drainage, moving and refrigerant',

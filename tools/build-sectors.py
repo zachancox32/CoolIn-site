@@ -155,6 +155,29 @@ def build(s, others):
             f'          <li><span>{a}</span><strong>{b}</strong></li>' for a, b in rows))
         for h, sub, rows in s['prices'])
 
+    # A page can show one "from" price instead of the per unit grid, for
+    # buyers where the number of variables makes a list misleading.
+    pf = s.get('price_from')
+    if pf:
+        incl = ''.join(f'<li>{x}</li>' for x in pf['includes'])
+        price_block = f'''    <div class="price-from js-up">
+      <div class="price-from__fig">
+        <p class="price-from__label">{pf['label']}</p>
+        <p class="price-from__n">from {pf['figure']}</p>
+        <p class="price-from__sub">{pf['sub']}</p>
+        <a class="btn btn--primary" href="#quote">Get a fixed price for your building</a>
+      </div>
+      <div class="price-from__inc">
+        <p class="price-from__h">Every fixed price includes</p>
+        <ul>{incl}</ul>
+      </div>
+    </div>'''
+    else:
+        price_block = f'''    <p class="price-caption js-up">Guide prices, installed. Confirmed at site survey.</p>
+    <div class="price-grid">
+{prices}
+    </div>'''
+
     duties = '\n'.join('''      <article class="comp js-up">
         <h3>{h}</h3>
 {body}
@@ -209,7 +232,7 @@ def build(s, others):
       <p class="lede js-hero">{s['lede']}</p>
       <div class="hero__btns js-hero">
         <a class="btn btn--primary btn--lg" href="#quote">Book a site survey</a>
-        <a class="btn btn--line btn--lg" href="#costs">See guide prices</a>
+        <a class="btn btn--line btn--lg" href="#costs">{'See the starting price' if s.get('price_from') else 'See guide prices'}</a>
       </div>
       <ul class="hero__trust js-hero">{trust}</ul>
     </div>
@@ -282,10 +305,7 @@ def build(s, others):
       <p class="sec-head__sub js-up">{s['co_sub']}</p>
     </header>
 
-    <p class="price-caption js-up">Guide prices, installed. Confirmed at site survey.</p>
-    <div class="price-grid">
-{prices}
-    </div>
+{price_block}
 
     <p class="price-note js-up">{s['price_note']}</p>
   </div>
