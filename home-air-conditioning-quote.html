@@ -6,7 +6,7 @@
 <!-- Paid search landing page for home installations. One goal, the enquiry,
      so there is no main navigation. Kept out of organic results with noindex
      so it never competes with the domestic page; ads can still use it. -->
-<title>Home Air Conditioning Fitted from £1,650 | CoolIn</title>
+<title>Home Air Conditioning Fitted from £1,650 | 0% VAT | CoolIn</title>
 <meta name="robots" content="noindex, follow">
 <meta name="description" content="Air conditioning fitted in your home across Manchester and the North West from £1,650. Free survey, fixed written price, no VAT to add until 31 March 2027.">
 <link rel="canonical" href="https://cool-in.co.uk/home-air-conditioning-quote">
@@ -20,7 +20,7 @@
 <meta property="og:image" content="https://cool-in.co.uk/assets/img/og-image.png">
 <link rel="preload" href="/assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/style.css?v=c2a796f2">
+<link rel="stylesheet" href="/assets/css/style.css?v=37a09356">
 </head>
 <body id="top" class="lp">
 
@@ -42,26 +42,17 @@
 <section class="lp-hero">
   <div class="wrap lp-hero__in">
     <div class="lp-hero__copy">
-      <p class="lp-eyebrow">Home air conditioning</p>
-      <h1>Air conditioning fitted in your home <span class="grad">from £1,650</span></h1>
-      <p class="lp-lede">Free survey and a fixed written price across <strong data-area>Manchester and the North West</strong>. Cool bedrooms in summer, cheap heating in winter.</p>
-    </div>
-    <div class="lp-hero__more">
-      <ul class="lp-ticks">
-        <li><strong>No VAT to add</strong> on home installations until 31 March 2027</li>
-        <li><strong>Usually fitted in one day</strong>, quiet indoor units from around 19 dB(A)</li>
-        <li><strong>Fixed written quote</strong> within 48 hours of your free survey</li>
-        <li><strong>Daikin, Mitsubishi Electric and Samsung</strong>, with a two year workmanship guarantee</li>
-      </ul>
-      <p class="lp-callback">Prefer to talk? Ring <a href="tel:+447391523255">07391 523255</a> and you get a person, not a machine.</p>
+      <p class="lp-vat" data-vat><span class="lp-vat__dot" aria-hidden="true"></span><strong>0% VAT</strong> on home installations until 31 March 2027<span class="lp-vat__left" data-vat-left></span></p>
+      <h1>Sleep cool this summer. <span class="grad">Air conditioning fitted from £1,650.</span></h1>
+      <p class="lp-lede">A quiet wall unit that cools the room in summer and heats it cheaply in winter. Free survey, a fixed written price, and usually fitted in a day across <strong data-area>Manchester and the North West</strong>.</p>
     </div>
 
     <form class="form lp-form" id="quoteForm" name="home-quote" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="home-quote">
       <p class="hide-always"><label>Leave this empty <input name="bot-field"></label></p>
       <input type="hidden" name="utm_source"><input type="hidden" name="utm_campaign"><input type="hidden" name="utm_term"><input type="hidden" name="gclid">
-      <p class="lp-form__title">Get your free survey</p>
-      <p class="lp-form__sub">Takes 30 seconds. We call you back the same working day.</p>
+      <p class="lp-form__title">Get your fixed price</p>
+      <p class="lp-form__sub">Free survey, no obligation. We call you back the same working day.</p>
       <label class="field"><span>Your name</span><input type="text" name="name" required autocomplete="name" placeholder="First and last name"></label>
       <div class="form__row">
         <label class="field"><span>Phone</span><input type="tel" name="phone" required autocomplete="tel" placeholder="07700 900000"></label>
@@ -76,61 +67,131 @@
         </label>
       </div>
       <label class="field"><span>Email <em>(optional, for a copy)</em></span><input type="email" name="email" autocomplete="email" placeholder="you@example.co.uk"></label>
-      <button class="btn btn--primary btn--lg btn--full" type="submit">Get my free quote</button>
-      <p class="form__small">No obligation and no sales visit. We use your details for this quote only.</p>
+      <button class="btn btn--primary btn--lg btn--full" type="submit">Book my free survey</button>
+      <ul class="lp-form__trust"><li>Fixed price, no surprises</li><li>No hard sell</li><li>2 year guarantee</li></ul>
     </form>
+
+    <div class="lp-hero__more">
+      <ul class="lp-ticks">
+        <li><strong>Quiet enough to sleep with it on.</strong> The noisy part sits outside; indoor units from around 19 dB(A), about a whisper.</li>
+        <li><strong>About 8p an hour</strong> to keep a bedroom cool, at the October 2026 price cap.</li>
+        <li><strong>Heats in winter too</strong>, far more cheaply than a plug in heater.</li>
+        <li><strong>Daikin, Mitsubishi Electric and Samsung</strong>, the brands we fit most.</li>
+      </ul>
+      <p class="lp-callback">Rather talk? Ring <a href="tel:+447391523255">07391 523255</a> and you get a person, not a machine.</p>
+    </div>
   </div>
 </section>
 
-<!-- ============ PRICES ============ -->
+<!-- ============ PROMISES ============ -->
+<section class="lp-promise">
+  <div class="wrap lp-promise__in">
+    <div><strong>Fixed written price</strong><span>It does not change once you accept it</span></div>
+    <div><strong>Prices on the page</strong><span>No call needed to find out what it costs</span></div>
+    <div><strong>Two year guarantee</strong><span>On our workmanship, on top of the manufacturer warranty</span></div>
+    <div><strong>No chasing</strong><span>No follow up calls unless you ask for them</span></div>
+  </div>
+</section>
+
+<!-- ============ WHY GET IT ============ -->
+<section class="lp-sec" id="why">
+  <div class="wrap">
+    <h2>Why people fit air conditioning at home</h2>
+    <p class="lp-sec__sub">It is not just for heatwaves. A fitted system earns its keep all year.</p>
+    <div class="lp-why">
+      <article><h3>Sleep properly on hot nights</h3><p>It holds the bedroom at the temperature you set, all night, quietly. No fan blowing in your face, no window open to the street.</p></article>
+      <article><h3>Summers are getting hotter</h3><p>Summer 2026 was the hottest on record for the UK and for North West England, with 55 days above 28°C. Seven of the North West's ten warmest summers have come in 2003 or later.</p></article>
+      <article><h3>Cheaper heating in winter</h3><p>It moves heat in from outside, giving several units of heat for each unit of electricity. That makes it far cheaper than a plug in heater, and handy in spring and autumn without firing up the boiler.</p></article>
+      <article><h3>Work from home in comfort</h3><p>A home office in a loft or a south facing room is the first to overheat. Cool, quiet air means you can actually work in it on a July afternoon.</p></article>
+      <article><h3>Drier, cleaner air</h3><p>It takes moisture out of the air as it cools, so the room feels fresher, and its filters catch dust before the air comes back into the room.</p></article>
+      <article><h3>Windows shut, house secure</h3><p>Keep the windows closed on hot nights: no traffic noise, no insects, and nothing left open while you sleep.</p></article>
+    </div>
+    <p class="lp-why__src">Temperature figures from the Met Office, in our <a href="/air-conditioning-statistics-2027">UK air conditioning statistics</a>.</p>
+  </div>
+</section>
+
+<!-- ============ WHY NOW ============ -->
+<section class="lp-now">
+  <div class="wrap lp-now__in">
+    <div>
+      <h2>Why book now, not next June</h2>
+      <p>When the first hot week arrives, everyone rings at once and diaries fill. Book over winter and you choose the date, it heats your home until summer, and you pay no VAT: <strong>5% returns on 1 April 2027</strong>, adding £82.50 to a single room and £172.50 to two.</p>
+    </div>
+    <a class="btn btn--primary btn--lg" href="#quoteForm">Book my free survey</a>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
 <section class="lp-sec" id="prices">
   <div class="wrap">
-    <h2>Prices, fitted</h2>
-    <p class="lp-sec__sub">Guide prices for a straightforward job, installed. The survey turns this into a fixed price that does not change once you accept it.</p>
-    <div class="lp-prices">
-      <div class="lp-price lp-price--hi"><p class="lp-price__n">£1,650</p><p class="lp-price__t">One room, 2.0 or 2.5kW</p><p class="lp-price__d">A bedroom, study or nursery up to about 15m²</p></div>
-      <div class="lp-price"><p class="lp-price__n">£1,850</p><p class="lp-price__t">One room, 3.5kW</p><p class="lp-price__d">A larger bedroom or a lounge</p></div>
-      <div class="lp-price"><p class="lp-price__n">£2,150</p><p class="lp-price__t">One room, 5.0kW</p><p class="lp-price__d">An open plan room or a loft conversion</p></div>
-      <div class="lp-price"><p class="lp-price__n">£3,450</p><p class="lp-price__t">Two to five rooms</p><p class="lp-price__d">Several rooms on one outdoor unit, each with its own control</p></div>
+    <h2>What most homes choose</h2>
+    <p class="lp-sec__sub">Guide prices, fitted, for a straightforward job. Your free survey turns this into a fixed price.</p>
+    <div class="lp-packs">
+      <article class="lp-pack lp-pack--hi">
+        <p class="lp-pack__tag">Most popular</p>
+        <h3>A bedroom</h3>
+        <p class="lp-pack__n">£1,650</p>
+        <ul><li>2.5kW wall unit, rooms up to about 15m²</li><li>Usually fitted in one day</li><li>About 8p an hour to run</li><li>Saves £82.50 against 5% VAT</li></ul>
+        <a class="btn btn--primary btn--full" href="#quoteForm" data-pick="1 room">Price my bedroom</a>
+      </article>
+      <article class="lp-pack">
+        <p class="lp-pack__tag">Larger room</p>
+        <h3>A lounge or big bedroom</h3>
+        <p class="lp-pack__n">£1,850</p>
+        <ul><li>3.5kW wall unit</li><li>For bigger rooms and sunny glass</li><li>Heats the room in winter</li><li>Fixed price after the survey</li></ul>
+        <a class="btn btn--ghost btn--full" href="#quoteForm" data-pick="1 room">Price my room</a>
+      </article>
+      <article class="lp-pack">
+        <p class="lp-pack__tag">Two to five rooms</p>
+        <h3>Bedrooms and a home office</h3>
+        <p class="lp-pack__n">from £3,450</p>
+        <ul><li>One outdoor unit, a unit in each room</li><li>Every room sets its own temperature</li><li>One box outside, not several</li><li>Saves £172.50 against 5% VAT</li></ul>
+        <a class="btn btn--ghost btn--full" href="#quoteForm" data-pick="2 rooms">Price my rooms</a>
+      </article>
     </div>
-    <p class="lp-included"><strong>Every price includes</strong> the indoor and outdoor units, brackets, up to five metres of pipe, the electrical connection, commissioning and the handover. No VAT to add on home installations until 31 March 2027.</p>
+    <p class="lp-included"><strong>Every price includes</strong> the indoor and outdoor units, brackets, up to five metres of pipe, the electrical connection, commissioning and the handover. Bigger single rooms: 5.0kW £2,150, 6.0kW £2,450, 7.1kW £2,750.</p>
+  </div>
+</section>
+
+<!-- ============ WHAT GETS FITTED ============ -->
+<section class="lp-sec lp-sec--tint">
+  <div class="wrap lp-fit">
+    <figure class="lp-fit__dia sys__dia"><svg viewBox="0 0 240 136" role="img" aria-label="One indoor unit, one outdoor unit, surface trunking"><path class="d-ground" d="M4 128h232"/><path class="d-shell" d="M90 14 20 54v74h140V54z"/><path class="d-floor" d="M20 90h140"/><rect class="d-room" x="32" y="60" width="52" height="26" rx="2"/><rect class="d-unit" x="38" y="64" width="26" height="9" rx="3"/><path class="d-pipe" d="M64 69h76v42h40"/><g class="d-out"><rect x="180" y="98" width="34" height="26" rx="4"/><circle cx="197" cy="111" r="7"/><circle class="d-hub" cx="197" cy="111" r="1.8"/></g><path class="d-air" d="M42 76q6 7 -1 12"/><path class="d-air" d="M50 76q6 7 -1 12"/><path class="d-air" d="M58 76q6 7 -1 12"/></svg></figure>
+    <div>
+      <h2>What gets fitted</h2>
+      <ul class="lp-ticks lp-ticks--dark">
+        <li><strong>A slim unit high on the wall</strong> inside, about the size of a soundbar.</li>
+        <li><strong>A small unit outside</strong>, on a bracket, a flat roof or a stand, placed for noise and looks.</li>
+        <li><strong>One neat hole</strong> through the wall for the pipes, about the size of a drinks can, sealed inside and out.</li>
+        <li><strong>A remote control</strong>, and app control on most current models.</li>
+      </ul>
+      <p>Not sure your home suits it? Most do. Flats usually need the freeholder's consent, and terraces have rules about where the outdoor unit can go. We check all of it at the free survey.</p>
+    </div>
   </div>
 </section>
 
 <!-- ============ HOW IT WORKS ============ -->
-<section class="lp-sec lp-sec--tint">
-  <div class="wrap">
-    <h2>How it works</h2>
-    <ol class="lp-steps">
-      <li><span class="lp-steps__n">1</span><h3>We call you back</h3><p>The same working day, to understand the rooms and book a survey at a time that suits you.</p></li>
-      <li><span class="lp-steps__n">2</span><h3>Free survey</h3><p>Under an hour at your home: the right size, where the units go and the pipe route.</p></li>
-      <li><span class="lp-steps__n">3</span><h3>Fixed written price</h3><p>Itemised and valid for 60 days, within 48 hours. No pressure and no chasing.</p></li>
-      <li><span class="lp-steps__n">4</span><h3>Fitted, usually in a day</h3><p>Installed, tested and handed over, with the controls explained before we leave.</p></li>
-    </ol>
-  </div>
-</section>
-
-<!-- ============ WHY FITTED ============ -->
 <section class="lp-sec">
   <div class="wrap">
-    <h2>Why fitted air conditioning, not a portable</h2>
-    <div class="lp-why">
-      <div><h3>Actually cools the room</h3><p>A portable pulls warm air back in as it works. A fitted unit holds the room at the temperature you set, even on the hottest afternoon.</p></div>
-      <div><h3>Quiet enough to sleep</h3><p>The noisy part sits outside. Quiet indoor units start around 19 dB(A), about a whisper.</p></div>
-      <div><h3>Pennies to run</h3><p>About 8p an hour holding a bedroom cool, against about 26p for a portable, at the October 2026 price cap.</p></div>
-      <div><h3>Heats in winter too</h3><p>It moves heat in from outside, so it warms a room far more cheaply than a plug in heater.</p></div>
-    </div>
+    <h2>From enquiry to a cool room</h2>
+    <ol class="lp-steps">
+      <li><span class="lp-steps__n">1</span><h3>We call you back</h3><p>The same working day, to understand the rooms and book your survey.</p></li>
+      <li><span class="lp-steps__n">2</span><h3>Free survey</h3><p>Under an hour at your home: the right size, where the units go and the pipe route.</p></li>
+      <li><span class="lp-steps__n">3</span><h3>Fixed written price</h3><p>Itemised and valid for 60 days, within 48 hours. No pressure.</p></li>
+      <li><span class="lp-steps__n">4</span><h3>Fitted, usually in a day</h3><p>Installed, tested and handed over, with the controls explained before we leave.</p></li>
+    </ol>
   </div>
 </section>
 
 <!-- ============ FAQ ============ -->
 <section class="lp-sec lp-sec--tint">
   <div class="wrap lp-faq">
-    <h2>Common questions</h2>
+    <h2>What people ask before booking</h2>
     <div class="acc">
+      <details class="acc__item"><summary>Will it be noisy?</summary><div class="acc__body"><p>Not inside. The compressor, the noisy part, sits in the outdoor unit. Quiet indoor units start around 19 dB(A) on their lowest setting, about a whisper, and the outdoor unit is placed to stay within the noise limit at your neighbours' windows.</p></div></details>
+      <details class="acc__item"><summary>How much will it cost to run?</summary><div class="acc__body"><p>About 8p an hour to keep a bedroom cool once it is down to temperature, and about 17p an hour while it cools a hot room down, at the October 2026 price cap of 26.32p per kWh.</p></div></details>
       <details class="acc__item"><summary>Do I need planning permission?</summary><div class="acc__body"><p>Usually not for a house in England. One outdoor unit is normally allowed under permitted development if it meets the noise and position rules. Flats, listed buildings and conservation areas have extra steps, which we check at the survey.</p></div></details>
       <details class="acc__item"><summary>How long does it take to fit?</summary><div class="acc__body"><p>A single room is usually fitted in one day. Several rooms take longer, and the survey gives you the exact time before you commit.</p></div></details>
-      <details class="acc__item"><summary>Will it make a mess or damage my wall?</summary><div class="acc__body"><p>It needs one neat hole through the outside wall, usually about the size of a drinks can, sealed inside and out. Dust sheets go down and we clean up before we leave.</p></div></details>
       <details class="acc__item"><summary>I live in a flat. Can I still have it?</summary><div class="acc__body"><p>Usually, yes. The lease decides more often than planning does, and the freeholder's consent is normally needed for the outdoor unit. A balcony is often the easiest position. We put together what the freeholder needs at the survey.</p></div></details>
       <details class="acc__item"><summary>Is the price really fixed?</summary><div class="acc__body"><p>Yes. The survey produces an itemised written price, valid for 60 days, that does not change once you accept it. The prices on this page are guides for a straightforward job.</p></div></details>
     </div>
@@ -141,11 +202,11 @@
 <section class="lp-end">
   <div class="wrap lp-end__in">
     <div>
-      <h2>Ready for a cool bedroom next summer?</h2>
-      <p>Book a free survey now and get it fitted before the rush, with no VAT to add until 31 March 2027.</p>
+      <h2>Book now, fit before the summer rush</h2>
+      <p>Winter diaries have space, and home installations carry no VAT until 31 March 2027<span data-vat-left-end></span>.</p>
     </div>
     <div class="lp-end__act">
-      <a class="btn btn--primary btn--lg" href="#quoteForm">Get my free quote</a>
+      <a class="btn btn--primary btn--lg" href="#quoteForm">Book my free survey</a>
       <a class="btn btn--line btn--lg" href="tel:+447391523255">Call 07391 523255</a>
     </div>
   </div>
@@ -182,6 +243,25 @@
   };
   var area = AREAS[(q.get('area') || '').toLowerCase()];
   if (area) Array.prototype.forEach.call(document.querySelectorAll('[data-area]'), function (el) { el.textContent = area; });
+
+  /* The VAT deadline, counted down live: honest urgency, and it hides
+     itself once the date has passed. */
+  var end = new Date('2027-04-01T00:00:00');
+  var days = Math.ceil((end - new Date()) / 86400000);
+  Array.prototype.forEach.call(document.querySelectorAll('[data-vat-left]'), function (el) {
+    if (days > 0) el.textContent = ': ' + days + (days === 1 ? ' day left' : ' days left');
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-vat-left-end]'), function (el) {
+    if (days > 0) el.textContent = ', ' + days + ' days from now';
+  });
+  if (days <= 0) Array.prototype.forEach.call(document.querySelectorAll('[data-vat]'), function (el) { el.hidden = true; });
+
+  /* A package button chooses the rooms in the form before scrolling to it. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('[data-pick]');
+    var sel = document.querySelector('#quoteForm select[name="rooms"]');
+    if (a && sel) sel.value = a.getAttribute('data-pick');
+  });
 
   /* Which ad brought the enquiry: the campaign, keyword and click ID ride
      along in hidden fields, so each lead arrives saying where it came from. */
