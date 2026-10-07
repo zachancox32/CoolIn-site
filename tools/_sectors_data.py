@@ -1105,4 +1105,178 @@ SECTORS = [
             'Manchester and across the North West.',
 },
 
+# ----------------------------------------------------- modular and cabins
+{
+ 'slug': 'modular-building-air-conditioning',
+ 'photo': {'name': 'modular-cabins', 'widths': (900, 1400, 2000), 'position': 'center 55%'},
+ 'crumb': 'Modular buildings and cabins',
+ 'eyebrow': 'Modular buildings, cabins and site units',
+ 'h1a': 'Modular building and cabin',
+ 'h1b': 'air conditioning',
+ 'title': 'Cabin & Modular Building Air Conditioning | CoolIn',
+ 'desc': 'Air conditioning for portable cabins, site offices, welfare units, modular '
+         'classrooms and accommodation units across Manchester and the North West. '
+         'Cools in summer, heats in winter.',
+ 'lede': 'Cabins and modular buildings get hotter in summer and colder in winter '
+         'than almost any other building, because the walls are thin and the roof '
+         'takes the sun all day. A properly fitted system makes them usable all year, '
+         'and it heats far more cheaply than the panel heaters most of them rely on.',
+ 'trust': [('Cools and heats', 'one system, all year'),
+           ('Cabin aware', 'fixings, power and drainage planned for the unit'),
+           ('Moves with you', 'designed for buildings that relocate')],
+ 'kf_lead': 'CoolIn fits air conditioning in portable cabins, site offices and welfare '
+            'units, modular offices and classrooms, accommodation units, security '
+            'huts and garden offices across Manchester and the North West, for hire '
+            'fleets, contractors, schools and owners.',
+ 'kf': [('Typical systems', 'Wall mounted split, units with no outdoor part, slim ducted'),
+        ('Single cabin', 'From £2,280 installed for a 5kW wall unit'),
+        ('Heating', 'Several units of heat per unit of electricity'),
+        ('Power', 'Checked against the cabin supply or generator'),
+        ('Relocation', 'Systems laid out so they can be moved'),
+        ('VAT', 'Standard rated for business premises')],
+ 'ch_eyebrow': 'What makes cabins different',
+ 'ch_h2': 'Why a cabin is harder to keep comfortable than it looks',
+ 'ch_sub': 'A modular building is a small space with a big problem: very little between '
+           'the people inside and the weather outside. Four things shape every job.',
+ 'challenges': [
+   ('Thin walls and a roof in full sun',
+    'Steel and composite panel buildings have far less insulation and thermal mass '
+    'than a brick building. The roof heats up quickly on a sunny day and the inside '
+    'follows within the hour, then loses that heat just as fast on a cold night.',
+    'Sized for the panel construction, not the floor area alone'),
+   ('Walls that will not take a heavy bracket',
+    'A cladding panel is not a cavity wall. The indoor unit needs fixing into the frame '
+    'or onto battens, and the outdoor unit usually goes on a ground stand or a frame on '
+    'the roof rather than on wall brackets.',
+    'Fixings planned around the frame'),
+   ('A limited power supply',
+    'Site cabins often run from a single 16A or 32A supply, or from a generator that is '
+    'already carrying heaters, kettles and chargers. Air conditioning has to fit inside '
+    'what the supply can actually deliver.',
+    'Supply and generator load checked at survey'),
+   ('Buildings that move',
+    'Hire cabins and site welfare units get lifted onto a lorry and set down somewhere '
+    'else. A system that is laid out for that, with the pipe route and isolation planned '
+    'from the start, can be taken down and refitted rather than written off.',
+    'Relocation planned before installation')],
+ 'sy_h2': 'What works in a modular building',
+ 'sy_sub': 'Three options cover almost every cabin, classroom and accommodation unit. '
+           'The right one depends on how big the building is, whether it moves, and '
+           'what the supply will take.',
+ 'systems': [
+   ('Wall mounted split',
+    'A slim indoor unit high on the wall and a small outdoor unit on a stand or roof '
+    'frame. The most efficient option and the quietest inside, so it suits offices, '
+    'classrooms and anywhere people sleep. Heats as well as cools.'),
+   ('Units with no outdoor part',
+    'The whole unit sits inside on an outside wall and breathes through two small '
+    'grilles. Less efficient and louder than a split, but nothing outside to damage, '
+    'steal or move, which suits cabins that relocate often or sit on busy sites.'),
+   ('Slim ducted and multi room',
+    'For larger modular buildings, such as classroom blocks, offices and accommodation '
+    'with several rooms. One outdoor unit serves several rooms, each with its own '
+    'control, and ducted units hide above a suspended ceiling.')],
+ 'chooser': {
+   'h2': 'Which option suits your building?',
+   'sub': 'Find the line that sounds like your cabin or modular building. The survey '
+          'confirms it, but this is where most jobs land.',
+   'rows': [
+     ('It stays where it is, and people work or sleep in it',
+      'Wall mounted split', 'The most efficient option, and the quietest inside.'),
+     ('It gets moved several times a year',
+      'A unit with no outdoor part', 'No refrigerant circuit to break each time it is lifted.'),
+     ('It sits on a busy or unsecured site',
+      'A unit with no outdoor part', 'Nothing outside to knock, damage or steal.'),
+     ('It has several rooms, like classrooms or accommodation',
+      'Multi room or slim ducted', 'One outdoor unit, with a control in each room.'),
+     ('It runs from a generator',
+      'An inverter split, sized to the supply', 'Starts gently and throttles back, so it is easier on the generator.'),
+     ('It is a garden office or annex at home',
+      'Wall mounted split', 'Quiet enough to work beside, and heats it all winter.')]},
+ 'co_h2': 'What cabin air conditioning costs',
+ 'co_sub': 'Installed prices covering equipment, labour, commissioning and handover, '
+           'for a straightforward building with a suitable supply. The fixing method, '
+           'the supply and access to the roof are what move the figure.',
+ 'prices': [
+   ('Single cabins', 'Site office, welfare unit, security hut', [
+     ('Wall unit, 5kW', '£2,280'),
+     ('Unit with no outdoor part', 'per project'),
+     ('Relocation of an existing system', 'per project')]),
+   ('Larger modular buildings', 'Offices, classrooms, accommodation', [
+     ('Two units, one outdoor unit', '£4,400'),
+     ('Slim ducted, two zones', '£3,500'),
+     ('Ceiling cassette, 3.5kW', '£2,450')]),
+   ('Fleets and sites', 'Hire fleets, contractors, schools', [
+     ('Several cabins on one site', 'per project'),
+     ('Annual servicing', 'per unit, by schedule'),
+     ('Repairs and callouts', '£95 first hour')])],
+ 'price_note': '<strong>These are guide prices, not quotations.</strong> Commercial '
+               'installations are standard rated for VAT, which a VAT registered '
+               'business normally reclaims. A garden room or annex at a home may be '
+               'priced as a home installation; we confirm which applies at survey and '
+               'put it in the written price.',
+ 'du_nav': 'Practicalities',
+ 'du_eyebrow': 'Before we fit',
+ 'du_h2': 'Power, drainage, moving and refrigerant',
+ 'du_sub': 'The things that catch people out on a cabin, and how they are dealt with '
+           'before anything is drilled.',
+ 'duties': [
+   ('Power supply and generators',
+    ['Every cabin is checked against what its supply can carry: the main incoming '
+     'supply, the circuit the unit will use, and on a generator site, the load already '
+     'on the generator. An undersized supply trips, and a generator running close to '
+     'its limit struggles every time the unit starts.',
+     'A modern inverter unit starts gently and then throttles back, which helps, but '
+     'it still has to be on a circuit that suits it.'],
+    'We tell you at survey whether the supply is fine as it is, needs a dedicated '
+    'circuit, or needs a word with the generator supplier.'),
+   ('Condensate in a building with no drains',
+    ['Every indoor unit takes water out of the air as it cools, and most cabins have '
+     'no internal waste to join. The condensate is piped outside through the wall, '
+     'away from doors and walkways, and run so it cannot freeze back into the unit in '
+     'winter.',
+     'Where gravity will not work, a small pump lifts it to a point where it can.'],
+    'The drain route is planned at survey, so nothing drips onto steps or a path.'),
+   ('Moving a cabin with air conditioning',
+    ['Opening the refrigerant circuit to disconnect a split system must be done by an '
+     'F-Gas certified technician, who recovers the refrigerant, caps the pipework and '
+     'recommissions the system once the cabin is set down again.',
+     'If a cabin moves every few months, a unit with no outdoor part can be the better '
+     'choice, because there is no refrigerant circuit to break.'],
+    'Tell us how often the building moves and we will recommend the option that costs '
+    'least over its life, not just on day one.')],
+ 'faqs': [
+   ('Can you put air conditioning in a portable cabin?',
+    'Yes. Most portable cabins and site offices take a wall mounted split system, with '
+    'the indoor unit fixed into the frame and the outdoor unit on a ground stand or a '
+    'roof frame. Where nothing can go outside, a unit with no outdoor part fits '
+    'through the wall instead.'),
+   ('Will air conditioning heat a cabin in winter?',
+    'Yes. It works as a heat pump, giving several units of heat for each unit of '
+    'electricity, so it heats a cabin far more cheaply than the electric panel heaters '
+    'most cabins use, from the same unit that cools it in summer.'),
+   ('Will it run on my site cabin power supply?',
+    'Usually, once the supply has been checked. A single wall unit for a site office is '
+    'a modest load, but it has to sit on a suitable circuit, and on a generator site the '
+    'generator needs the headroom. We check both at survey.'),
+   ('What happens when the cabin is moved?',
+    'A split system is disconnected by an F-Gas certified technician, who recovers the '
+    'refrigerant, and reconnected and recommissioned at the new location. If the cabin '
+    'moves often, a unit with no outdoor part avoids that step altogether.'),
+   ('Can you fit air conditioning in a shipping container office?',
+    'Yes. A steel container heats up quickly in sun, so it needs sizing for that, and '
+    'the fixings go into a lined wall or frame rather than bare steel. Insulating the '
+    'container properly first makes a big difference to the size of unit needed.'),
+   ('Do you service air conditioning in hire fleets and site cabins?',
+    'Yes. We service and repair units in cabins and modular buildings on a schedule set '
+    'by how dusty the site is, and can work through a fleet on one visit where the '
+    'cabins are together.')],
+ 'areas_line': 'We fit and service cabins and modular buildings on sites across '
+               'Manchester, Salford, Trafford, Warrington, Bolton and the wider North West',
+ 'service_type': 'Modular building and portable cabin air conditioning',
+ 'ld_desc': 'Air conditioning and heating for portable cabins, site offices, welfare '
+            'units, modular classrooms, accommodation units and garden offices in '
+            'Manchester and across the North West.',
+},
+
 ]

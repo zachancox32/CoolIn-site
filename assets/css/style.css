@@ -1307,3 +1307,22 @@ ul,ol{margin:0;padding:0;list-style:none}
 @media (max-width:980px){.lp-hero{background:
   linear-gradient(180deg,rgba(13,43,56,.25) 0,rgba(13,43,56,.8) 230px,#0D2B38 430px),
   url(/assets/img/photos/home-wall-unit-900.jpg) 78% 0/auto 440px no-repeat,var(--navy)}}
+
+/* "Which option suits your building" guide on sector pages: each row reads
+   as a situation on the left and the recommendation on the right. */
+.chooser{background:var(--paper-2)}
+.chooser__list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chooser__row{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;transition:border-color .3s var(--ease),box-shadow .3s var(--ease)}
+.chooser__row:hover{border-color:#CBDDE6;box-shadow:var(--shadow)}
+.chooser__if{margin:0;padding:20px 22px;font-size:.98rem;line-height:1.5;color:var(--ink);font-weight:500}
+.chooser__if span{display:block;font-family:var(--head);font-weight:700;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);margin-bottom:6px}
+.chooser__pick{position:relative;margin:0;padding:20px 22px 20px 30px;background:var(--ice-soft);display:flex;flex-direction:column;gap:4px;justify-content:center}
+.chooser__pick::before{content:"";position:absolute;left:-9px;top:50%;width:18px;height:18px;background:var(--ice-soft);transform:translateY(-50%) rotate(45deg);border-radius:3px}
+.chooser__pick strong{font-family:var(--head);color:var(--blue-d);font-size:1rem;line-height:1.3}
+.chooser__pick span{font-size:.88rem;color:var(--body);line-height:1.45}
+@media (max-width:900px){.chooser__list{grid-template-columns:1fr}}
+@media (max-width:520px){.chooser__row{grid-template-columns:1fr}.chooser__pick{padding-left:22px}.chooser__pick::before{left:22px;top:-9px;transform:rotate(45deg)}}
+/* A last sector card left alone on its row spans the row instead of
+   leaving two empty slots beside it. */
+.sectors .sector:last-child:nth-child(3n+1){grid-column:1/-1}
+@media (max-width:980px){.sectors .sector:last-child:nth-child(3n+1){grid-column:auto}.sectors .sector:last-child:nth-child(2n+1){grid-column:1/-1}}

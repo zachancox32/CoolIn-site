@@ -121,6 +121,30 @@ def build(s, others):
                         f'''<h3>{h}</h3><p>{p}</p></article>'''
                         for i, (h, p) in enumerate(s['systems'], 1))
 
+    # Optional "which suits your building" guide: situation, the recommended
+    # system, and why. Plain HTML so it reads without script and can be quoted.
+    chooser = ''
+    if s.get('chooser'):
+        rows = '\n'.join(f'''      <li class="chooser__row js-card">
+        <p class="chooser__if"><span>If</span>{a}</p>
+        <p class="chooser__pick"><strong>{b}</strong><span>{c}</span></p>
+      </li>''' for a, b, c in s['chooser']['rows'])
+        chooser = f'''
+<!-- ============ CHOOSER ============ -->
+<section class="section chooser" id="chooser">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow js-up"><span class="eyebrow__mark"></span>Which suits you</p>
+      <h2 class="js-up">{s['chooser']['h2']}</h2>
+      <p class="sec-head__sub js-up">{s['chooser']['sub']}</p>
+    </header>
+    <ul class="chooser__list">
+{rows}
+    </ul>
+  </div>
+</section>
+'''
+
     prices = '\n'.join('''      <div class="price-card js-card">
         <h3>{h}</h3>
         <p class="price-card__sub">{sub}. Installed prices</p>
@@ -248,7 +272,7 @@ def build(s, others):
     </div>
   </div>
 </section>
-
+{chooser}
 <!-- ============ COSTS ============ -->
 <section class="section" id="costs">
   <div class="wrap">
@@ -347,7 +371,8 @@ NAV = {'office-air-conditioning':    'Office air conditioning',
        'restaurant-air-conditioning': 'Restaurants, bars and kitchens',
        'gym-air-conditioning':       'Gyms and studios',
        'server-room-cooling':        'Server and comms rooms',
-       'warehouse-air-conditioning': 'Warehouse and industrial'}
+       'warehouse-air-conditioning': 'Warehouse and industrial',
+       'modular-building-air-conditioning': 'Modular buildings and cabins'}
 
 if __name__ == '__main__':
     for s in SECTORS:

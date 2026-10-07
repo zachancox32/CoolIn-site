@@ -69,7 +69,8 @@ ORDER = ['index.html','domestic.html','air-conditioning-size-calculator.html','a
 # an answer engine can see they are siblings rather than unrelated pages.
 SECTORS = ['office-air-conditioning.html','retail-air-conditioning.html',
            'restaurant-air-conditioning.html','gym-air-conditioning.html',
-           'server-room-cooling.html','warehouse-air-conditioning.html']
+           'server-room-cooling.html','warehouse-air-conditioning.html',
+           'modular-building-air-conditioning.html']
 LEGAL  = ['privacy.html','terms.html','cookies.html']
 
 def meta(f):

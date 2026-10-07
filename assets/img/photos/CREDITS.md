@@ -16,3 +16,4 @@ https://unsplash.com/license
 | manchester-skyline-*.jpg | /air-conditioning-manchester hero | Jonny Gios | https://unsplash.com/photos/city-skyline-with-illuminated-buildings-at-night-yyypijweyAQ |
 | home-bedroom-*.jpg | /home-air-conditioning-quote hero | Pexels photo 6316054 | https://www.pexels.com/photo/made-bed-in-spacious-bedroom-with-air-conditioner-6316054/ |
 | home-wall-unit-*.jpg | /home-air-conditioning-quote hero | Pexels photo 38788452 | https://www.pexels.com/photo/38788452/ |
+| modular-cabins-*.jpg | /modular-building-air-conditioning hero | Pexels photo 12444957 | https://www.pexels.com/photo/12444957/ |

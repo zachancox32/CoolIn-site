@@ -35,6 +35,7 @@ CURRENT = {
     'server-room-cooling.html': 'commercial',
     'hvac-contractors.html': 'commercial',
     'warehouse-air-conditioning.html': 'commercial',
+    'modular-building-air-conditioning.html': 'commercial',
 }
 
 BLOCKS = ['UTILITY', 'HEADER', 'FOOTER']
