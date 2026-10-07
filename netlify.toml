@@ -45,6 +45,15 @@
 # /assets, which put X-Robots-Tag: noindex on the favicon, so Google refused to
 # show it and every result carried a generic globe instead. It also suppressed
 # the og-image and the logos, which are worth having in image search.
+# The paid search landing page is for ads only. Its meta tag already says
+# noindex; the header repeats it so the page stays out of organic results
+# even if the markup changes. "follow" keeps its links counting normally.
+# Google's ad crawler (AdsBot) ignores noindex, so ads still work.
+[[headers]]
+  for = "/home-air-conditioning-quote"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
+
 [[headers]]
   for = "/assets/css/*"
   [headers.values]
