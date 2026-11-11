@@ -38,7 +38,7 @@ A single wall mounted split, with one indoor unit and one outdoor unit, is the m
 | 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,150 |
 | 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,750 |
 
-South facing glass, a room in the roof or a high ceiling can push a room up a size. The [size calculator](/air-conditioning-size-calculator) works out a starting figure for any room in under a minute.
+South facing glass, a room in the roof or a high ceiling can push a room up a size, which is why [loft conversions](/guides/loft-conversion-air-conditioning) and [conservatories](/guides/conservatory-air-conditioning) often need a bigger unit than the floor area suggests. If you're weighing up a portable unit instead, the guide to [portable or fitted air conditioning](/guides/portable-air-conditioner-vs-fitted) compares the two. The [size calculator](/air-conditioning-size-calculator) works out a starting figure for any room in under a minute.
 
 ## How much does it cost to air condition a whole house?
 
@@ -61,7 +61,7 @@ A multi split is often the only option on a terraced house, because permitted de
 | Ceiling cassette, 3.5 kW | £2,450 |
 | Ducted, two rooms | £3,500 |
 
-A floor console suits a room with no space high on the wall, such as a loft conversion. A ducted system hides the indoor unit in a loft or ceiling void, so the only thing on show in each room is a grille.
+A floor console suits a room with no space high on the wall, such as a loft conversion. A [ducted system](/guides/ducted-air-conditioning) hides the indoor unit in a loft or ceiling void, so the only thing on show in each room is a grille.
 
 ## What is included in the price?
 

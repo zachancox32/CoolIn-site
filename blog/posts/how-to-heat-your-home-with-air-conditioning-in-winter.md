@@ -22,7 +22,7 @@ Per unit of heat, at this winter's prices, yes. At the Ofgem price cap for Octob
 | Gas boiler, 88% efficient | About 9.1p |
 | Plug in electric heater | 26.3p |
 
-Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move; the [running costs article](/blog/air-conditioning-running-costs) shows the working so you can put your own tariff in.
+Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move. The [running costs article](/blog/air-conditioning-running-costs) shows the working so you can put your own tariff in, and the [statistics page](/air-conditioning-statistics-2027#running-costs) is updated each time the cap changes.
 
 The real saving usually comes from heating only the rooms you're using. The [comparison with a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating) goes through where each one wins.
 

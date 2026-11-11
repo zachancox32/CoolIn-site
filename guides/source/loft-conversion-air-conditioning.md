@@ -47,7 +47,7 @@ Sloping ceilings limit where a wall unit can sit, so there are three usual optio
 
 - **A wall mounted unit** on the gable end wall or the front wall of a dormer, wherever there's enough straight wall high up. The most common and the most efficient.
 - **A low level floor console** under the eaves, on the short knee wall. Ideal when there isn't enough straight wall for a high unit, and good at heating because it blows warm air in at floor level.
-- **A ducted unit hidden in the eaves**, behind the knee wall, with only small grilles showing. The neatest finish, and one ducted unit can serve two rooms.
+- **A [ducted unit](/guides/ducted-air-conditioning) hidden in the eaves**, behind the knee wall, with only small grilles showing. The neatest finish, and one ducted unit can serve two rooms.
 
 ## Where does the outdoor unit go?
 

@@ -3285,7 +3285,7 @@ Loft conversions and extensions the existing heating never reached
 
 Home offices, where the running hours are long and the room is small
 
-Conservatories and garden rooms, which need cooling as much as heating
+Conservatories and garden rooms , which need cooling as much as heating
 
 Flats on electric only heating, where the saving against panel heaters is enormous
 
@@ -6646,7 +6646,7 @@ There's a fuller treatment in air conditioning against a gas boiler . On our own
 
 What changes these numbers
 
-Your tariff. Everything above assumes 25p per kWh for electricity and 6.5p for gas. Both move, and the ratio between them is what matters, not the pennies.
+Your tariff. Everything above assumes 25p per kWh for electricity and 6.5p for gas. The UK air conditioning statistics page keeps the costs at the current price cap, including what a portable unit costs to run. Both move, and the ratio between them is what matters, not the pennies.
 How well the room holds heat. A solid wall Victorian room loses heat far faster than a modern insulated one, so the unit runs longer.
 What size unit you have. An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
 Whether it has been serviced. A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you'll ever buy back, and it's why annual servicing pays for itself.
@@ -6947,7 +6947,7 @@ Per unit of heat, at this winter's prices, yes. At the Ofgem price cap for Octob
 | Gas boiler, 88% efficient | About 9.1p
 | Plug in electric heater | 26.3p
 
-Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move; the running costs article shows the working so you can put your own tariff in.
+Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move. The running costs article shows the working so you can put your own tariff in, and the statistics page is updated each time the cap changes.
 
 The real saving usually comes from heating only the rooms you're using. The comparison with a gas boiler goes through where each one wins.
 
@@ -7365,7 +7365,7 @@ Loft conversions and rooms in the roof, which take heat from above all day
 
 Ceilings over 2.4m, because you're cooling volume rather than floor
 
-Conservatories and garden rooms, which are effectively greenhouses
+Conservatories and garden rooms , which are effectively greenhouses
 
 Kitchens, server cabinets, gym kit, and rooms full of people
 
@@ -7805,7 +7805,7 @@ A single wall mounted split, with one indoor unit and one outdoor unit, is the m
 | 5.0 kW | Rooms up to about 32m², such as a large lounge or kitchen diner | £2,150
 | 7.1 kW | Rooms up to about 45m², such as an open plan ground floor | £2,750
 
-South facing glass, a room in the roof or a high ceiling can push a room up a size. The size calculator works out a starting figure for any room in under a minute.
+South facing glass, a room in the roof or a high ceiling can push a room up a size, which is why loft conversions and conservatories often need a bigger unit than the floor area suggests. If you're weighing up a portable unit instead, the guide to portable or fitted air conditioning compares the two. The size calculator works out a starting figure for any room in under a minute.
 
 How much does it cost to air condition a whole house?
 

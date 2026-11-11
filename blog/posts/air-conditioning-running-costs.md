@@ -49,7 +49,7 @@ There's a fuller treatment in [air conditioning against a gas boiler](/blog/air-
 
 ## What changes these numbers
 
-- **Your tariff.** Everything above assumes 25p per kWh for electricity and 6.5p for gas. Both move, and the ratio between them is what matters, not the pennies.
+- **Your tariff.** Everything above assumes 25p per kWh for electricity and 6.5p for gas. The [UK air conditioning statistics](/air-conditioning-statistics-2027#running-costs) page keeps the costs at the current price cap, including what a portable unit costs to run. Both move, and the ratio between them is what matters, not the pennies.
 - **How well the room holds heat.** A solid wall Victorian room loses heat far faster than a modern insulated one, so the unit runs longer.
 - **What size unit you have.** An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
 - **Whether it has been serviced.** A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you'll ever buy back, and it's why [annual servicing](/servicing) pays for itself.
