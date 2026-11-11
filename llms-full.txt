@@ -444,7 +444,7 @@ One indoor unit, one outdoor unit, surface trunking
 The standard domestic unit and the one most people picture. A slim indoor unit high on the wall, a condenser outside, and two copper pipes plus a drain between them.
 
 Best for
-Bedrooms, lounges, home offices, loft conversions, conservatories
+Bedrooms, lounges, home offices, loft conversions , conservatories
 
 Sizes
 2.0kW to 7.1kW, covering roughly 12m² to 45m²
@@ -566,7 +566,7 @@ Loft conversions and rooms in the roof, which take heat from above all day
 
 Ceilings over 2.4m, because you're cooling volume rather than floor
 
-Conservatories and garden rooms, which are effectively greenhouses
+Conservatories and garden rooms , which are effectively greenhouses
 
 Kitchens, server cabinets, gym kit, and rooms full of people
 
@@ -868,6 +868,8 @@ Questions answered in full
 
 Can I install air conditioning in a terraced house?
 Can you fit air conditioning in a flat or apartment?
+Can you put air conditioning in a conservatory?
+Can you put air conditioning in a garden room or garden office?
 Can you put air conditioning in a loft conversion?
 How much does air conditioning cost in Manchester?
 Portable air conditioner or fitted air conditioning: which is better?
@@ -7957,9 +7959,9 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
@@ -8113,16 +8115,16 @@ Yes. Most terraced houses can have air conditioning, and in England it's usually
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a garden room or garden office?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and in an insulated garden room it works very well. A wall mounted unit goes inside, a small outdoor unit stands beside or behind the building.
 
 Read the answer
 
@@ -8250,16 +8252,16 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a garden room or garden office?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and in an insulated garden room it works very well. A wall mounted unit goes inside, a small outdoor unit stands beside or behind the building.
 
 Read the answer
 
@@ -8440,9 +8442,155 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
+
+Read the answer
+
+
+================================================================================
+URL: https://cool-in.co.uk/guides/conservatory-air-conditioning
+TITLE: Conservatory air conditioning
+DESCRIPTION: Air conditioning for a conservatory: why they overheat, what size you need, where the units go, heating in winter, what helps it work better, and the cost.
+================================================================================
+
+CoolIn / Guides / Can you put air conditioning in a conservatory?
+
+Home air conditioning
+
+Can you put air conditioning in a conservatory?
+
+Reviewed November 2026 by Zac Hancox, Founder of CoolIn
+
+The short answer
+
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it in summer and heats it in winter. Conservatories need a bigger unit than the floor area suggests, because of all the glass, and blinds help it work far better.
+
+Glass and polycarbonate let in heat in summer and lose it fast in winter
+
+Usually needs a bigger unit than a room of the same size, often 3.5kW or more
+
+The indoor unit goes on the old house wall, or as a low console on the dwarf wall
+
+It heats in winter too, far more cheaply than a plug in heater
+
+Roof blinds or solar film cut the heat coming in and make the unit work less
+
+From £1,650 fitted, and most conservatories need 3.5kW at £1,850, with no VAT to add until 31 March 2027
+
+Most conservatories are lovely for a few weeks in spring and autumn and unusable the rest of the year: an oven in July, a fridge in January. Air conditioning fixes both ends, because the same unit cools in summer and heats in winter.
+
+Why do conservatories get so hot and so cold?
+
+Glass and polycarbonate let the sun's heat straight in, and there's very little to stop it. On a sunny afternoon a conservatory can be far hotter than the garden outside. At night and in winter, the same glass lets the heat straight back out again, so the room goes cold quickly once the sun's gone.
+
+That's why a conservatory needs more cooling and more heating than a room of the same size in the house.
+
+What size air conditioning does a conservatory need?
+
+Usually a size or two up from what the floor area alone suggests. As a rough guide:
+
+A small conservatory , out of direct sun: 2.5kW can be enough
+A small to medium conservatory in the sun: often 3.5kW
+A large or south facing conservatory , or one with a glass roof: often 5kW
+
+The roof makes the biggest difference. A glass or polycarbonate roof gains far more heat than a solid one. The size calculator has a conservatory option and gives a starting figure, and the survey confirms it.
+
+Where does the indoor unit go?
+
+Conservatories have very little solid wall, so there are two usual places:
+
+On the house wall. The wall the conservatory was built against is usually the only full height solid wall, and a wall mounted unit sits high on it, blowing out across the room.
+A low level floor console on the dwarf wall. If the conservatory has a low brick wall under the windows, a console sits on it, much like a radiator. It's especially good at heating, because it puts warm air in at floor level.
+
+Where does the outdoor unit go?
+
+Usually on the house wall beside the conservatory or on the ground nearby, so the pipe run is short. It has to meet the same rules as any outdoor unit: the noise limit at the neighbour's window, and not on a wall above ground floor level that faces a road. The planning permission article sets out every condition.
+
+What makes air conditioning work better in a conservatory?
+
+Roof blinds or solar film. Cutting the sun before it gets in is the cheapest improvement you can make. The unit works less and the room stays more even.
+Closing the doors to the house , so you're only cooling or heating the conservatory.
+Leaving it running at a steady temperature rather than switching it on when the room's already hot.
+
+Some people replace the conservatory roof with a solid, insulated one. It makes a big difference to how stable the room feels, and it can mean a smaller unit, but on its own it won't make the room cool on a hot day.
+
+Will it heat the conservatory in winter?
+
+Yes. It works as an air to air heat pump, giving several units of heat for each unit of electricity, so it heats far more cheaply than an electric heater. A conservatory still loses heat faster than a room in the house, so it will cost more to keep warm than a bedroom, but it turns it into a room you can use in winter. The article on heating with air conditioning covers the settings.
+
+Is a portable air conditioner enough?
+
+Rarely. A sunny conservatory gains more heat than a portable unit can remove, and its hose has to go out through an open window or door, which lets warm air back in. The guide to portable or fitted air conditioning explains why.
+
+What does air conditioning in a conservatory cost?
+
+| | What you need | Guide price, fitted
+| Small conservatory, 2.0 or 2.5kW wall unit | £1,650
+| Small to medium conservatory, 3.5kW wall unit | £1,850
+| Large or south facing conservatory, 5.0kW wall unit | £2,150
+| Low level floor console on the dwarf wall, 2.5kW | £2,150
+
+All prices are fitted, with no VAT to add on home installations until 31 March 2027. The survey turns this into a fixed written price, and the price guide has every size. Glass extensions and orangeries behave the same way, and they're common across Altrincham, Hale and south Manchester.
+
+Questions people ask next
+
+What size air conditioner does a conservatory need?
+
+Usually bigger than a room of the same floor area, because of the glass. A small to medium conservatory often needs 3.5kW, and a large or south facing one 5kW. The size calculator gives a starting figure and the survey confirms it.
+
+Can air conditioning heat a conservatory in winter?
+
+Yes. It works as an air to air heat pump, so it heats far more cheaply than a plug in heater. A conservatory still loses heat quickly through the glass, so keep the doors to the house closed and expect it to cost more to heat than a room in the house.
+
+Is a portable air conditioner enough for a conservatory?
+
+Rarely. A conservatory in summer sun gains more heat than a portable unit can remove, and the hose has to go through an open window or door, letting warm air back in. A fitted system cools it properly and heats it in winter too.
+
+Should I replace the conservatory roof instead?
+
+A solid, insulated roof cuts the heat coming in and makes the room much more stable, and it can be worth doing if the roof needs replacing anyway. It won't make the room cool on a hot day by itself, and many people still add air conditioning afterwards, often a smaller unit.
+
+Do I need planning permission?
+
+Usually not. The outdoor unit is normally covered by permitted development, as long as it meets the size, position and noise rules. Conservation areas and listed buildings add restrictions, and we check the position at survey.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it's usually permitted development, so there's no planning application. The.
+
+Read the answer
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+Can you put air conditioning in a garden room or garden office?
+
+Yes, and in an insulated garden room it works very well. A wall mounted unit goes inside, a small outdoor unit stands beside or behind the building.
 
 Read the answer
 
@@ -8587,9 +8735,149 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
+
+Read the answer
+
+
+================================================================================
+URL: https://cool-in.co.uk/guides/garden-room-air-conditioning
+TITLE: Garden room and garden office air conditioning
+DESCRIPTION: Air conditioning for a garden room or garden office: why they overheat, what size you need, power, where the outdoor unit goes, heating in winter and the cost.
+================================================================================
+
+CoolIn / Guides / Can you put air conditioning in a garden room or garden office?
+
+Home air conditioning
+
+Can you put air conditioning in a garden room or garden office?
+
+Reviewed November 2026 by Zac Hancox, Founder of CoolIn
+
+The short answer
+
+Yes, and in an insulated garden room it works very well. A wall mounted unit goes inside, a small outdoor unit stands beside or behind the building, and the pipe run is usually short. It cools the room in summer and heats it far more cheaply than a panel heater in winter, which makes a garden office usable all year.
+
+Garden rooms overheat fast, because of the glass front and a roof in full sun
+
+The same unit heats it in winter, far more cheaply than an electric panel heater
+
+The outdoor unit usually stands on the ground beside the building, close to the room
+
+The power supply from the house has to have room for it, which we check at survey
+
+Plan it before the garden room is built if you can, so the power and pipes are ready
+
+One room from £1,650 fitted
+
+A garden office is a brilliant place to work for most of the year. Then the first warm week arrives, the sun hits the glass doors, and by lunchtime it's too hot to think. In January it's the opposite, and an electric heater struggles to keep up. Fitted air conditioning deals with both.
+
+Why do garden rooms get so hot?
+
+A wall of glass. Most garden rooms have glazed doors or a glass front facing the garden, and often the sun.
+A small space. There isn't much air to absorb the heat, so the temperature climbs quickly.
+A roof in full sun all day , usually with less height and insulation above you than a room in the house.
+Computers and screens add their own heat, all day.
+
+The same small, glazed building loses heat fast in winter, which is why so many garden offices end up with an electric heater running for hours.
+
+What size unit does a garden room need?
+
+Most garden rooms take a 2.0 or 2.5kW wall unit. A larger room, or one with a lot of south or west facing glass, can need 3.5kW . The size calculator has an option for bifolds and large glazing, and gives a starting figure in under a minute.
+
+Where do the units go?
+
+Inside: a wall mounted unit high on the back or side wall, away from where you sit, so the air doesn't blow straight at you. It's fixed into the frame of the building.
+Outside: the outdoor unit usually stands on the ground beside or behind the garden room, on a level base or a small stand, or on a bracket fixed into the frame. Either way the pipe run is short.
+
+Garden rooms often sit close to a fence or a neighbour's garden, so we place the outdoor unit for noise as well as access.
+
+What about the power supply?
+
+Most garden rooms are fed by an armoured cable from the house to a small board inside the garden room. A single wall unit is a modest load, but the cable and the board need room for it. We check both at survey and tell you whether anything needs upgrading.
+
+If your garden room isn't built yet , mention air conditioning to the builder now. A suitable power supply, a sleeve through the wall for the pipes and a spot for the outdoor unit cost very little at the build stage, and save work later.
+
+Will it heat the garden room in winter?
+
+Yes. It works as an air to air heat pump, giving several units of heat for each unit of electricity, so it heats far more cheaply than a panel heater or a fan heater, which only ever give one. For a garden office used every day through the winter, that's where most of the saving is. The article on heating with air conditioning covers the best settings.
+
+Do you need planning permission?
+
+Usually not. The garden room itself is normally an outbuilding under permitted development, and an outdoor unit beside it is normally covered by the same rules as one on the house, including the noise limit of 42 dB(A) at the nearest neighbour's window. Conservation areas and listed buildings add restrictions. The planning permission article sets out the rules, and we check the position at survey.
+
+Does it work in a shed or summer house?
+
+Only if it's insulated. In an uninsulated timber building, the heat pours back in through the walls and roof as fast as the unit takes it out. Insulate it first, and a small unit will keep it comfortable.
+
+What does air conditioning in a garden room cost?
+
+| | What you need | Guide price, fitted
+| Garden room or office, 2.0 or 2.5kW | £1,650
+| Larger or very glazed garden room, 3.5kW | £1,850
+| Big garden room, 5.0kW | £2,150
+
+Home installations carry no VAT until 31 March 2027. A garden building used only as a business office may be treated differently, and the written quote shows which applies. If it's a larger building, such as a site office or a modular office, the page on modular buildings and cabins covers those. The price guide has every size.
+
+Questions people ask next
+
+Will air conditioning work in an uninsulated shed or summer house?
+
+Not well. Without insulation the heat pours straight back in through the walls and roof, so the unit runs flat out and the room never gets comfortable. Insulate it first, and then a small unit works well.
+
+Do I need planning permission for air conditioning on a garden room?
+
+Usually not. An outdoor unit in the garden or on the garden room is normally covered by the same permitted development rules as one on the house, including the noise limit at the nearest neighbour's window. Garden rooms often sit near a boundary, so the position matters, and we check it at survey.
+
+Can the air conditioning run from my garden room's existing power supply?
+
+Often, yes. Most garden rooms are fed by an armoured cable from the house. A single wall unit is a modest load, but the cable and the board in the garden room need the capacity, and we check that at survey.
+
+Is a garden office air conditioning installation zero rated for VAT?
+
+Home installations are zero rated until 31 March 2027, but a garden building used purely as a business office may not count as part of the home. We confirm which applies at survey and show it in the written price.
+
+How long does it take to fit?
+
+Usually one day. The pipe run from the outdoor unit is short, and the walls of a timber garden room are quick to drill and seal.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it's usually permitted development, so there's no planning application. The.
+
+Read the answer
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+Can you put air conditioning in a conservatory?
+
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
@@ -8737,9 +9025,9 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a conservatory?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
@@ -8924,9 +9212,9 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Can you put air conditioning in a loft conversion?
+Can you put air conditioning in a conservatory?
 
-Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+Yes, and it's one of the best ways to make a conservatory usable all year. A wall unit on the house wall or a low console on the dwarf wall cools it.
 
 Read the answer
 
