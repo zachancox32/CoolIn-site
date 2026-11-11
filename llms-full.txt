@@ -5,7 +5,7 @@ Manchester. Phone 07391 523255.
 
 This file is the readable text of every page on cool-in.co.uk, concatenated in
 order, for answer engines and language models. Structured summary: /llms.txt
-Generated 7 October 2026.
+Generated 11 November 2026.
 
 
 
@@ -868,6 +868,7 @@ Questions answered in full
 
 Can I install air conditioning in a terraced house?
 Can you fit air conditioning in a flat or apartment?
+Can you put air conditioning in a loft conversion?
 How much does air conditioning cost in Manchester?
 Portable air conditioner or fitted air conditioning: which is better?
 Which air conditioning brand is best? 10 brands compared
@@ -4025,7 +4026,7 @@ Stockport and Greater Manchester
 Air conditioning installation
 in Stockport
 
-Big Victorian and Edwardian semis in Heaton Moor, Davenport and Bramhall, most with a loft conversion that bakes from May onwards. Stockport is loft conversion country and that's the job we do most of here.
+Big Victorian and Edwardian semis in Heaton Moor, Davenport and Bramhall, most with a loft conversion that bakes from May onwards. Stockport is loft conversion country, and the loft is the room that overheats first.
 
 Book a free survey
 See prices
@@ -4066,7 +4067,7 @@ Housing stock and building type change what a good installation looks like far m
 
 Loft conversions and rooms in the roof
 
-A converted loft takes sun on the roof all day and sits above the warmest air in the house. They need roughly 20% more capacity than the floor area alone suggests, and the condenser usually goes at ground level with the pipe run through the eaves.
+A converted loft takes sun on the roof all day and sits above the warmest air in the house. They need roughly 20% more capacity than the floor area alone suggests, and the condenser usually goes at ground level with the pipe run through the eaves. The loft conversion guide covers where the units go and the planning rules.
 
 Large Victorian semis
 
@@ -6555,6 +6556,16 @@ All articles
 
 Keep reading
 
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6571,16 +6582,6 @@ Is winter a good time to install air conditioning?
 Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
 
 20 September 2026
-· 3 min read
-
-Read it
-
-Running costs
-What does air conditioning actually cost to run?
-
-Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
-
-16 September 2026
 · 3 min read
 
 Read it
@@ -6630,7 +6631,7 @@ That gives you heat at roughly 5.6p per kWh , against:
 7.4p per kWh from a gas boiler running at 88% efficiency, with gas at 6.5p
 25p per kWh from any plug in electric heater, because they're all exactly 100% efficient and no better
 
-A fan heater and an oil filled radiator cost the same to run as each other. Neither can beat a heat pump, because they can only ever give you one unit of heat per unit of electricity.
+A fan heater and an oil filled radiator cost the same to run as each other. Neither can beat a heat pump, because they can only ever give you one unit of heat per unit of electricity. For the settings that get the most heat for the least money, see how to heat your home with air conditioning .
 
 The number that actually matters
 
@@ -6670,6 +6671,16 @@ All articles
 
 Keep reading
 
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6686,16 +6697,6 @@ Is winter a good time to install air conditioning?
 Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
 
 20 September 2026
-· 3 min read
-
-Read it
-
-Regulations
-Do you need planning permission for air conditioning?
-
-The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
-
-12 September 2026
 · 3 min read
 
 Read it
@@ -6769,6 +6770,16 @@ All articles
 
 Keep reading
 
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6789,12 +6800,125 @@ Yes. You avoid the summer rush, choose the day, and the unit heats the room unti
 
 Read it
 
+
+================================================================================
+URL: https://cool-in.co.uk/blog/how-to-heat-your-home-with-air-conditioning-in-winter
+TITLE: Heating with air conditioning in winter
+DESCRIPTION: Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+================================================================================
+
+CoolIn / Blog / How to heat your home with air conditioning this winter
+
+Running costs
+
+How to heat your home with air conditioning this winter
+
+11 November 2026
+· 4 min read · By Zac Hancox, Founder of CoolIn
+
+If you've got air conditioning fitted, you've also got a heater, and this winter it's one of the cheapest ways to warm a room. A wall mounted unit in heat mode works as an air to air heat pump: it moves warmth from the air outside into the room, even on a cold day. Plenty of people only ever press the snowflake. Here's how to get the most from the other half of what you paid for.
+
+Does air conditioning really heat a room?
+
+Yes. Set the remote to heat mode , usually shown as a sun symbol, and the system runs in reverse. The outdoor unit collects heat from the outside air and the indoor unit blows it into the room. It works well into the winter, and a current unit keeps heating at temperatures well below freezing, with less output as it gets colder.
+
+Is it cheaper than gas?
+
+Per unit of heat, at this winter's prices, yes. At the Ofgem price cap for October to December 2026, electricity is 26.32p per kWh, with no VAT on electricity until 31 March 2027, and gas is 7.97p per kWh. A current air conditioner gives around four and a half units of heat for every unit of electricity it uses over a season.
+
+| | How the heat is made | Cost per kWh of heat
+| Air conditioning in heat mode | About 5.8p
+| Gas boiler, 88% efficient | About 9.1p
+| Plug in electric heater | 26.3p
+
+Two honest caveats. Efficiency falls on the coldest days, so in a hard frost the gap narrows and a boiler can come out ahead. And the price cap changes on 1 January, so the figures will move; the running costs article shows the working so you can put your own tariff in.
+
+The real saving usually comes from heating only the rooms you're using. The comparison with a gas boiler goes through where each one wins.
+
+The best settings for heating
+
+Use heat mode, not auto. Auto can switch to cooling on a sunny afternoon and back again, which wastes energy.
+Set 19 to 21°C and leave it. A modern unit is most efficient when it's holding a steady temperature. Turning it off and on means it has to work flat out every time to catch up.
+Don't set it to 30°C to warm up faster. It won't heat any quicker. It'll just overshoot and cost more.
+Point the louvres down. Warm air rises, and a wall unit sits high, so aim the airflow at the floor.
+Leave the fan on auto , or low in a bedroom if you'd rather it was quieter.
+Use the timer. Start it half an hour before you need the room, so it's warm when you walk in.
+Close the door. Heating one room is cheap. Heating the landing as well isn't.
+
+Why does it stop blowing warm air for a few minutes?
+
+That's the defrost cycle , and it's normal. In cold, damp weather, which is most of a Manchester winter, frost builds up on the outdoor unit. Every so often the system pauses heating for a few minutes to melt it off. You might see steam rising from the outdoor unit, and the indoor fan may stop. Then it carries on as before.
+
+If it happens constantly, or ice keeps building up on the outdoor unit, ring us, because something isn't right.
+
+Look after the outdoor unit
+
+Keep it clear. Leaves, snow and anything stored against it cut the airflow and make it work harder.
+Never cover it. A tarpaulin over the top stops it working altogether.
+Watch the ground underneath. Defrost water drips from the unit and can freeze on a path, so keep it clear or grit it.
+
+Clean the filters
+
+Behind the front panel of the indoor unit are two mesh filters. In a winter of heavy use, rinse them every few weeks under the tap, let them dry and slide them back. Dusty filters cut the heat output noticeably. Everything else, including the coils and the refrigerant checks, is part of an annual service .
+
+Using it alongside your boiler
+
+You don't have to choose. Many people use the air conditioning for the rooms they're in most, a home office in the day or the lounge in the evening, and turn the radiator down in that room. The boiler still does the whole house in a proper cold snap and makes the hot water.
+
+When should you call us?
+
+No warm air in heat mode after fifteen minutes, and it isn't defrosting
+Water dripping from the indoor unit
+An error code or flashing light on the indoor unit
+Ice that stays on the outdoor unit
+
+The repairs page covers the common faults and what they mean.
+
+If you haven't got air conditioning yet, winter is a good time to have it fitted: no summer rush, and home installations carry no VAT until 31 March 2027. The winter installation article explains why.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Thinking about it for your own place?
+
+Free survey, a written price within 48 hours, and no sales visit. Tell us the rooms and we will do the rest.
+
+Book a free survey
+or call 07391 523255
+
+All articles
+
+Keep reading
+
 Running costs
 What does air conditioning actually cost to run?
 
 Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
 
 16 September 2026
+· 3 min read
+
+Read it
+
+Commercial
+Does air conditioning make an office more productive?
+
+Yes, once an office gets warm. Office work peaks at around 22°C and falls away above 24°C. What overheats an office, what fixes it, and what it costs.
+
+21 September 2026
+· 4 min read
+
+Read it
+
+Installation
+Is winter a good time to install air conditioning?
+
+Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+
+20 September 2026
 · 3 min read
 
 Read it
@@ -6877,6 +7001,16 @@ All articles
 
 Keep reading
 
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Installation
 Is winter a good time to install air conditioning?
 
@@ -6893,16 +7027,6 @@ What does air conditioning actually cost to run?
 Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
 
 16 September 2026
-· 3 min read
-
-Read it
-
-Regulations
-Do you need planning permission for air conditioning?
-
-The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
-
-12 September 2026
 · 3 min read
 
 Read it
@@ -6943,6 +7067,8 @@ Yes. A modern air conditioning system is an air to air heat pump, so it heats as
 
 It does give less output as the weather gets colder, so it's worth sizing with heating in mind if you plan to rely on it. The running costs article has the figures, and if you're wondering whether it could replace your radiators, this comparison with a gas boiler sets out where each one wins.
 
+Once it's in, the guide to heating with air conditioning covers the settings that keep it cheap to run.
+
 Why does the VAT deadline matter?
 
 Domestic air conditioning installations are zero rated for VAT until 31 March 2027, because HMRC treats air conditioning that heats as well as cools as an energy saving material. From 1 April 2027 the rate is set to return to 5%.
@@ -6976,6 +7102,16 @@ All articles
 
 Keep reading
 
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6992,16 +7128,6 @@ What does air conditioning actually cost to run?
 Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
 
 16 September 2026
-· 3 min read
-
-Read it
-
-Regulations
-Do you need planning permission for air conditioning?
-
-The permitted development rules changed on 29 May 2025 and now cover cooling as well as heating. What the limits are and what still needs consent.
-
-12 September 2026
 · 3 min read
 
 Read it
@@ -7715,9 +7841,9 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-Portable air conditioner or fitted air conditioning: which is better?
+Can you put air conditioning in a loft conversion?
 
-Fitted air conditioning cools a room properly, quietly and for around a third of the running cost, and it heats in winter too. A portable unit costs.
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
 
 Read the answer
 
@@ -7871,16 +7997,16 @@ Yes. Most terraced houses can have air conditioning, and in England it's usually
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a loft conversion?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
 
 Read the answer
 
 Home air conditioning
-Portable air conditioner or fitted air conditioning: which is better?
+How much does air conditioning cost in Manchester?
 
-Fitted air conditioning cools a room properly, quietly and for around a third of the running cost, and it heats in winter too. A portable unit costs.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 
@@ -8008,16 +8134,16 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a loft conversion?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
 
 Read the answer
 
 Home air conditioning
-Portable air conditioner or fitted air conditioning: which is better?
+How much does air conditioning cost in Manchester?
 
-Fitted air conditioning cools a room properly, quietly and for around a third of the running cost, and it heats in winter too. A portable unit costs.
+A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
 
 Read the answer
 
@@ -8165,6 +8291,156 @@ Some do, but parts and support are where budget brands tend to fall short. If a 
 Can I choose which brand is fitted?
 
 Yes. Tell us at survey if you have a preference and we'll quote for it. If you have no preference, we recommend a unit for the room, and the quote names the exact make and model so you know what you're getting.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it's usually permitted development, so there's no planning application. The.
+
+Read the answer
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+Can you put air conditioning in a loft conversion?
+
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+
+Read the answer
+
+
+================================================================================
+URL: https://cool-in.co.uk/guides/loft-conversion-air-conditioning
+TITLE: Loft conversion air conditioning
+DESCRIPTION: Yes, you can put air conditioning in a loft conversion. Why lofts overheat, what size you need, where the units go, the planning rules and what it costs.
+================================================================================
+
+CoolIn / Guides / Can you put air conditioning in a loft conversion?
+
+Home air conditioning
+
+Can you put air conditioning in a loft conversion?
+
+Reviewed November 2026 by Zac Hancox, Founder of CoolIn
+
+The short answer
+
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit sits on a flat dormer roof, a rear wall or the ground. Lofts often need a slightly bigger unit than the floor area suggests, because of the heat coming through the roof.
+
+Lofts overheat first, because heat rises and the roof takes the sun all day
+
+Often sized one step up from the floor area, because of the roof and roof windows
+
+A flat dormer roof can usually take the outdoor unit, at least a metre from the edge
+
+The outdoor unit can't go on a pitched roof under permitted development
+
+Usually fitted in one day, with the pipes run down the outside in a slim white cover
+
+One room from £1,650 fitted, with no VAT to add until 31 March 2027
+
+A loft conversion is usually the best room in the house for nine months of the year and the worst for three. Come June, the room you spent money converting is too hot to sleep in by mid evening. Fitted air conditioning fixes that, and it heats the room in winter too.
+
+Why do loft conversions get so hot?
+
+Three things work against a loft at once:
+
+Heat rises. Warm air from every room below collects at the top of the house.
+The roof is in the sun all day. A slate or tile roof heats up fast, and that heat comes straight through the sloping ceiling.
+Roof windows and dormers let the sun in. A south or west facing roof window puts a lot of heat into a small room.
+
+Insulation slows the heat coming in during the day, but it also holds it in at night, which is why lofts stay hot long after the sun has gone down. Older conversions, with thinner insulation, are the worst.
+
+What size air conditioning does a loft need?
+
+Often one step up from what the floor area alone suggests, because of the roof and the glass. A loft bedroom that would take a 2.5kW unit downstairs might need 3.5kW, especially with a south facing roof window. The size calculator gives you a starting figure in under a minute, and the survey confirms it.
+
+Where does the indoor unit go?
+
+Sloping ceilings limit where a wall unit can sit, so there are three usual options:
+
+A wall mounted unit on the gable end wall or the front wall of a dormer, wherever there's enough straight wall high up. The most common and the most efficient.
+A low level floor console under the eaves, on the short knee wall. Ideal when there isn't enough straight wall for a high unit, and good at heating because it blows warm air in at floor level.
+A ducted unit hidden in the eaves , behind the knee wall, with only small grilles showing. The neatest finish, and one ducted unit can serve two rooms.
+
+Where does the outdoor unit go?
+
+The rules are the same as for any house, with one point that matters more in a loft:
+
+A flat dormer roof can usually take the outdoor unit, as long as it's at least a metre from the edge. It keeps the pipe run short.
+The rear wall , on brackets, or on the ground at the back, with the pipes run down the wall.
+Not on a pitched roof. Permitted development doesn't cover a unit on a pitched roof, so that would need a planning application.
+
+On a house, one outdoor unit is normally allowed under permitted development if it meets the size, position and noise rules. Conservation areas and listed buildings add restrictions. The planning permission article sets out every condition.
+
+How do the pipes get from the loft to the outdoor unit?
+
+Through one neat hole in the gable or rear wall, then down the outside in a slim white cover to the outdoor unit. Where there's a void behind the knee wall, the pipes can often run through the eaves instead, out of sight. The drain for the condensate runs to a gutter or drain outside, or a small pump lifts it where gravity won't work.
+
+Our installed prices include up to five metres of pipe, which covers most lofts with the outdoor unit on a dormer roof. A unit on the ground two floors down can need a longer run, which we price at the survey.
+
+Will it heat the loft in winter too?
+
+Yes. Lofts get cold in winter for the same reasons they get hot in summer, and the same unit heats the room as an air to air heat pump. It gives several units of heat for each unit of electricity, so it's far cheaper to run than a plug in heater. The article on heating with air conditioning covers the best settings.
+
+What does air conditioning in a loft cost?
+
+All prices are fitted, with no VAT to add on home installations until 31 March 2027:
+
+| | What you need | Guide price, fitted
+| One loft room, 2.0 or 2.5kW wall unit | £1,650
+| A bigger loft room, 3.5kW wall unit | £1,850
+| Low level floor console, 2.5kW | £2,150
+| Ducted unit in the eaves, two rooms | £3,500
+| Loft plus other rooms, one outdoor unit | from £3,450
+
+The survey turns this into a fixed written price. The price guide has every size.
+
+If your loft is in a top floor flat rather than a house, the flats and apartments guide covers the lease and freeholder side. Loft conversions are common across the Heatons, Bramhall and the rest of Stockport , and all over Greater Manchester.
+
+Questions people ask next
+
+Can the outdoor unit go on the roof?
+
+Not on a pitched roof under permitted development. On a flat roof, such as the top of a dormer, it can, as long as it sits at least a metre from the edge and meets the noise limit. If the only workable position is a pitched roof, it needs a planning application.
+
+Will air conditioning heat my loft in winter?
+
+Yes. Lofts get cold in winter for the same reason they get hot in summer, and the same unit heats the room as an air to air heat pump, far more cheaply than a plug in heater.
+
+Is it quiet enough for a bedroom?
+
+Yes. The noisy part sits outside. Quiet indoor units start around 19 dB(A) on their lowest setting, about the level of a whisper, and most have a night mode that turns the fan down further.
+
+Can one outdoor unit cool the loft and other rooms?
+
+Yes. A multi split system runs two to five indoor units from one outdoor unit, so the loft and the bedrooms below can each have their own unit and their own control, from £3,450 fitted.
+
+How long does it take to fit?
+
+A single room is usually fitted in one day. Longer pipe runs down from the loft, or a ducted system hidden in the eaves, can take a little longer, and the survey tells you the exact time.
 
 Zac Hancox
 
@@ -8385,9 +8661,9 @@ Usually, yes. Most flats and apartments can have air conditioning, but the lease
 Read the answer
 
 Home air conditioning
-How much does air conditioning cost in Manchester?
+Can you put air conditioning in a loft conversion?
 
-A single room costs from £1,650 fitted for a 2.5kW wall unit, and two rooms on one outdoor unit from £3,450. Domestic installations carry no VAT.
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
 
 Read the answer
 

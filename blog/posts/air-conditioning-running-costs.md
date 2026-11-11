@@ -37,7 +37,7 @@ That gives you heat at roughly **5.6p per kWh**, against:
 - **7.4p per kWh** from a gas boiler running at 88% efficiency, with gas at 6.5p
 - **25p per kWh** from any plug in electric heater, because they're all exactly 100% efficient and no better
 
-A fan heater and an oil filled radiator cost the same to run as each other. Neither can beat a heat pump, because they can only ever give you one unit of heat per unit of electricity.
+A fan heater and an oil filled radiator cost the same to run as each other. Neither can beat a heat pump, because they can only ever give you one unit of heat per unit of electricity. For the settings that get the most heat for the least money, see [how to heat your home with air conditioning](/blog/how-to-heat-your-home-with-air-conditioning-in-winter).
 
 ## The number that actually matters
 

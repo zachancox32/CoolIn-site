@@ -27,6 +27,8 @@ Yes. A modern air conditioning system is an air to air heat pump, so it heats as
 
 It does give less output as the weather gets colder, so it's worth sizing with heating in mind if you plan to rely on it. The [running costs article](/blog/air-conditioning-running-costs) has the figures, and if you're wondering whether it could replace your radiators, [this comparison with a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating) sets out where each one wins.
 
+Once it's in, the guide to [heating with air conditioning](/blog/how-to-heat-your-home-with-air-conditioning-in-winter) covers the settings that keep it cheap to run.
+
 ## Why does the VAT deadline matter?
 
 Domestic air conditioning installations are zero rated for VAT until 31 March 2027, because HMRC treats air conditioning that heats as well as cools as an energy saving material. From 1 April 2027 the rate is set to return to 5%.
