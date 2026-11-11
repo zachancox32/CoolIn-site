@@ -233,7 +233,7 @@ def build_hub(guides):
       </nav>
       <p class="eyebrow js-hero"><span class="eyebrow__mark"></span>Guides</p>
       <h1 class="js-hero">Air conditioning questions,<br><span class="grad">answered straight</span></h1>
-      <p class="lede js-hero">The questions people ask before they get in touch, each answered on its own page: the short answer first, then the detail, the rules and the figures.</p>
+      <p class="lede js-hero">The questions people ask before they get in touch, each answered on its own page: the answer first, then the detail, the rules and the figures.</p>
     </div>
   </div>
 </section>

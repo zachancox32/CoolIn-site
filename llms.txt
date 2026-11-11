@@ -44,7 +44,7 @@ rather than a measurement, the page says so and gives the assumptions.
 ## Main pages
 
 - [Air Conditioning Manchester & the North West](https://cool-in.co.uk/): Air conditioning installation across Manchester and the North West. Homes from £1,650 with 0% VAT, commercial systems fitted around your hours. Free survey.
-- [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,650 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
+- [Home Air Conditioning North West | 0% VAT](https://cool-in.co.uk/domestic): Home air conditioning from £1,650 fitted with no VAT. Sizing guide, fitted prices, running costs and how it compares to heating with a gas boiler.
 - [Air Conditioning Size Calculator (kW and BTU)](https://cool-in.co.uk/air-conditioning-size-calculator): Work out what size air conditioning unit a room needs, in kW and BTU, with every step of the working shown. Typical sizes for UK rooms, plus guide prices.
 - [UK & Manchester Air Conditioning Statistics 2027](https://cool-in.co.uk/air-conditioning-statistics-2027): How many UK homes have air conditioning, how Manchester and the North West compare, who overheats, running costs and what changes in 2027. Sourced, with free charts.
 - [Commercial Air Conditioning Manchester](https://cool-in.co.uk/commercial): Commercial air conditioning for offices, shops, kitchens, gyms and server rooms across the North West. Out of hours fitting, with your F-Gas and TM44 duties set out.
@@ -98,7 +98,7 @@ BlogPosting structured data with a named author and a publication date.
 - [Does air conditioning help with damp?](https://cool-in.co.uk/blog/does-air-conditioning-help-with-damp-and-humidity): Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
 - [Heating with air conditioning in winter](https://cool-in.co.uk/blog/how-to-heat-your-home-with-air-conditioning-in-winter): Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
 - [Air conditioning and office productivity](https://cool-in.co.uk/blog/what-are-the-productivity-benefits-of-effective-temperature-control-for-businesses): Yes, once an office gets warm. Office work peaks at around 22°C and falls away above 24°C. What overheats an office, what fixes it, and what it costs.
-- [Installing air conditioning in winter](https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter): Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+- [Installing air conditioning in winter](https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter): Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus a VAT deadline at the end of March.
 
 ## Town pages
 

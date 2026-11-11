@@ -1091,7 +1091,7 @@ SECTORS = [
     'Those sit under a separate regime from comfort cooling and are a different '
     'trade, so we quote and maintain them separately rather than folding them into '
     'a comfort cooling package. Tell us what you need at survey and we\'ll be '
-    'straight with you about scope.'),
+    'clear about what is and isn\'t in scope.'),
    ('Will the dust wreck the units?',
     'It will shorten their life if the plant was specified for an office. Filter '
     'grade, coil protection and where the unit draws its air from all need choosing '

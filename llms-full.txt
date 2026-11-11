@@ -47,7 +47,7 @@ Postcode
 Phone
 Get in touch
 
-CoolIn in short
+CoolIn at a glance
 
 CoolIn installs, services and repairs air conditioning for homes and businesses across the North West of England, from a base in Manchester. Domestic installations start at £1,650 fitted and are zero rated for VAT until 31 March 2027. Commercial systems are priced per project after a site survey.
 
@@ -195,7 +195,7 @@ Why CoolIn
 
 Why people hand us the job
 
-Most complaints in this trade aren't about the equipment. They're about a system sized on a guess, a price that moves once the pipework is halfway up the wall, or a company that answers the phone in June and not in January. We put every detail in writing before you commit, turn up when we say, and stand behind the work afterwards. Here's what that means on the day, and more about how we work .
+Most complaints in this trade aren't about the equipment. They're about a system sized on a guess, a price that moves once the pipework is halfway up the wall, or a company that answers the phone in June and not in January. We put every detail in writing before you commit, turn up when we say, and stand behind the work afterwards. What that means on the day is below, and more about how we work .
 
 01 One company accountable, start to finish
 We survey it, we specify it, we install it and we come back to service it. One contract, one number to ring, and one company carrying the risk if something needs putting right.
@@ -392,7 +392,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/domestic
 TITLE: Home Air Conditioning North West | 0% VAT
-DESCRIPTION: Home air conditioning from £1,650 fitted with no VAT. Sizing guide, honest prices, running costs and how it compares to heating with a gas boiler.
+DESCRIPTION: Home air conditioning from £1,650 fitted with no VAT. Sizing guide, fitted prices, running costs and how it compares to heating with a gas boiler.
 ================================================================================
 
 CoolIn / For your home
@@ -517,7 +517,7 @@ Keep furniture clear of the front and top. Blocking it costs you more output tha
 
 Get a price for this
 
-Home air conditioning in short
+Home air conditioning at a glance
 
 A domestic air conditioning system is an air to air heat pump : it cools a room in summer and heats it in winter from the same unit. A single wall mounted system fitted in one room costs from £1,650 with no VAT to add, takes one day to install, and delivers around 4.5kWh of heat for every 1kWh of electricity it uses.
 
@@ -1163,7 +1163,7 @@ Heat recovery units pull warmth out of the air leaving the building and put it i
 
 Get a price for this
 
-Commercial air conditioning in short
+Commercial air conditioning at a glance
 
 Commercial air conditioning is priced per project because two identical floor areas can need very different systems. CoolIn designs against a measured heat load, installs outside trading hours at standard labour rates, and hands over the F-Gas records, commissioning sheets and certificates that a building file needs. Systems over 12kW carry a legal TM44 inspection duty.
 
@@ -2853,7 +2853,7 @@ Yes, and that's normally the right approach. Spot and zone cooling delivers capa
 
 Do you do cold stores and process refrigeration?
 
-Those sit under a separate regime from comfort cooling and are a different trade, so we quote and maintain them separately rather than folding them into a comfort cooling package. Tell us what you need at survey and we'll be straight with you about scope.
+Those sit under a separate regime from comfort cooling and are a different trade, so we quote and maintain them separately rather than folding them into a comfort cooling package. Tell us what you need at survey and we'll be clear about what is and isn't in scope.
 
 Will the dust wreck the units?
 
@@ -3154,7 +3154,7 @@ Capacitors, fan motors, condensate pumps, control boards for the major brands, a
 05
 We will tell you when to stop spending
 
-If the repair is close to the cost of replacing, you get both numbers and an honest opinion about how much life is left in the rest of the system.
+If the repair is close to the cost of replacing, you get both numbers and our view on how much life is left in the rest of the system.
 
 06
 Leaks get found, not topped up
@@ -3169,7 +3169,7 @@ Before you ring us
 
 My unit is blowing warm air. Is it broken?
 
-Check the mode first. It's genuinely the most common callout we get, and it's usually a remote that has been nudged from cooling into heating or fan only. The snowflake symbol is cooling, the sun is heating.
+Check the mode first. The most common cause is a remote that has been nudged from cooling into heating or fan only. The snowflake symbol is cooling, the sun is heating.
 
 If the mode is right and it's still warm, the likely causes are a blocked filter, a dirty outdoor coil, or low refrigerant from a leak. The first two you can look at yourself. The third needs an F-Gas engineer, because topping up a leaking system without finding the leak is both illegal and pointless.
 
@@ -3218,7 +3218,7 @@ Compare it to gas
 
 1 day to fit a single room
 
-Air source heat pumps in short
+Air source heat pumps at a glance
 
 An air to air heat pump is an air conditioning unit run in reverse: it moves heat from outside into a room rather than making heat by burning fuel. It heats and cools from the same box, costs roughly a quarter of what an air to water system costs to install, and doesn't qualify for the Boiler Upgrade Scheme because that scheme only covers air to water and ground source systems.
 
@@ -3269,7 +3269,7 @@ Air to air compared with air to water heat pumps
 
 | Best for | Rooms you use, cheap heat, summer comfort | Replacing a boiler entirely
 
-If your goal is to take the gas boiler out, air to water is the honest answer and we'll tell you so. If your goal is a house that's comfortable in February and July without a five figure bill, air to air does that today.
+If your goal is to take the gas boiler out, air to water is the right answer and we'll tell you so. If your goal is a house that's comfortable in February and July without a five figure bill, air to air does that today.
 
 Is your home suited?
 
@@ -3372,7 +3372,7 @@ Make up air for kitchen canopies
 
 HEPA where it's genuinely needed
 
-Ventilation in short
+Ventilation at a glance
 
 Ventilation and air conditioning solve different problems. Air conditioning changes the temperature of air already inside the building. Ventilation replaces that air with fresh air from outside. A room can be perfectly cool and still feel stale, because carbon dioxide, humidity and smells build up regardless of temperature. The article on air conditioning, damp and humidity explains where each one helps.
 
@@ -3501,7 +3501,7 @@ We work across Greater Manchester, Cheshire, Merseyside and Lancashire from a si
 Check your postcode
 Call 07391 523255
 
-Our coverage in short
+Our coverage at a glance
 
 CoolIn covers the North West of England from a base in Manchester, working within roughly one hour of the city. That includes Greater Manchester, Cheshire, Merseyside and southern Lancashire. Surveys are free anywhere in the area and there's no travel charge inside it.
 
@@ -3521,7 +3521,7 @@ Breakdown response
 Next working day on a service plan
 
 Outside the area
-Ring us, and we'll say honestly whether we can look after you
+Ring us, and we'll tell you straight away whether we can look after you
 
 Main towns
 
@@ -3636,7 +3636,7 @@ CoolIn design, install and look after air conditioning across the North West. Ev
 Book a free survey
 See how we work
 
-CoolIn in short
+CoolIn at a glance
 
 CoolIn Air Conditioning Specialists is an air conditioning installer based in Manchester, working across Greater Manchester, Cheshire, Merseyside and Lancashire. Every quote is fixed in writing before anything is ordered, the survey costs nothing, and our own workmanship is guaranteed for two years.
 
@@ -3794,7 +3794,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Manchester, in short
+Air conditioning in Manchester at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Manchester and the wider Greater Manchester area, covering M1 to M35, plus the city centre M1 to M4. We're based in Manchester, about 20 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -3917,7 +3917,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Liverpool, in short
+Air conditioning in Liverpool at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Liverpool and the wider Merseyside area, covering L1 to L25, plus the Wirral by arrangement. We're based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -4040,7 +4040,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Stockport, in short
+Air conditioning in Stockport at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Stockport and the wider Greater Manchester area, covering SK1 to SK8, and into the Cheshire SK postcodes. We're based in Manchester, about 25 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -4163,7 +4163,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Chester, in short
+Air conditioning in Chester at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Chester and the wider Cheshire area, covering CH1 to CH4, and the surrounding Cheshire villages. We're based in Manchester, about 50 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -4286,7 +4286,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Preston, in short
+Air conditioning in Preston at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Preston and the wider Lancashire area, covering PR1 to PR5, and across central Lancashire. We're based in Manchester, about 45 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -4409,7 +4409,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Bolton, in short
+Air conditioning in Bolton at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Bolton and the wider Greater Manchester area, covering BL1 to BL7. We're based in Manchester, about 30 minutes away, which is close enough to attend breakdowns in the same week rather than the same month.
 
@@ -4532,7 +4532,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Altrincham, in short
+Air conditioning in Altrincham at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Altrincham and the wider Trafford, Greater Manchester area, covering WA14 and WA15, taking in Hale, Bowdon, Timperley and Dunham. We're about 15 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4655,7 +4655,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Wilmslow, in short
+Air conditioning in Wilmslow at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Wilmslow and the wider Cheshire East area, covering SK9, including Alderley Edge, Handforth and Styal. We're about 25 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4778,7 +4778,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Warrington, in short
+Air conditioning in Warrington at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Warrington and the wider Cheshire area, covering WA1 to WA5, including Birchwood, Stockton Heath and Lymm. We're about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -4901,7 +4901,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Salford, in short
+Air conditioning in Salford at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Salford and the wider Greater Manchester area, covering M3, M5, M6, M7 and M50, including Salford Quays and MediaCity. We're about 15 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5024,7 +5024,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Oldham, in short
+Air conditioning in Oldham at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Oldham and the wider Greater Manchester area, covering OL1 to OL9, including Saddleworth, Chadderton and Royton. We're about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5147,7 +5147,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Rochdale, in short
+Air conditioning in Rochdale at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Rochdale and the wider Greater Manchester area, covering OL11 to OL16, including Heywood, Milnrow and Littleborough. We're about 35 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5270,7 +5270,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Bury, in short
+Air conditioning in Bury at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Bury and the wider Greater Manchester area, covering BL8, BL9, and into Ramsbottom, Prestwich and Whitefield. We're about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5393,7 +5393,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Macclesfield, in short
+Air conditioning in Macclesfield at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Macclesfield and the wider Cheshire East area, covering SK10 and SK11, including Bollington, Prestbury and Poynton. We're about 45 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5431,7 +5431,7 @@ Whole house systems where the priority is keeping the number of visible outdoor 
 
 Rising ground to the east
 
-Bollington and the lanes climbing towards the moors sit noticeably higher and colder than the town centre. Heating performance needs explaining honestly at those addresses.
+Bollington and the lanes climbing towards the moors sit noticeably higher and colder than the town centre. Heating performance at those addresses needs explaining carefully.
 
 Town centre offices and clinics
 
@@ -5516,7 +5516,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Wigan, in short
+Air conditioning in Wigan at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Wigan and the wider Greater Manchester area, covering WN1 to WN6, including Standish, Orrell and Ashton in Makerfield. We're about 35 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5639,7 +5639,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Southport, in short
+Air conditioning in Southport at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Southport and the wider Merseyside area, covering PR8 and PR9, including Birkdale, Ainsdale and Formby. We're about 60 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5733,7 +5733,7 @@ Yes, and it's the single most important specification decision in Southport. Sal
 
 Are you not a long way from Southport for a breakdown?
 
-It's about an hour from us, which is the outer edge of our normal area. We're honest about what that means: service plan customers still get next working day attendance, but without a plan, in the middle of a July heatwave, you'll wait longer than someone in Salford. If that matters to you, the service plan is doing real work rather than being an upsell.
+It's about an hour from us, which is the outer edge of our normal area. In practice, service plan customers still get next working day attendance, but without a plan, in the middle of a July heatwave, you'll wait longer than someone in Salford. If that matters to you, the service plan is doing real work rather than being an upsell.
 
 Free survey
 
@@ -5762,7 +5762,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Blackburn, in short
+Air conditioning in Blackburn at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Blackburn and the wider Lancashire area, covering BB1 and BB2, including Darwen, Great Harwood and Mellor. We're about 50 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -5804,7 +5804,7 @@ Where cooling protects equipment or a process rather than people, the tolerance 
 
 Darwen and the higher ground
 
-Climbing towards the moors, colder and more exposed, with the same honest conversation about heat pump output on the coldest weeks that we have in Saddleworth.
+Climbing towards the moors, colder and more exposed, with the same conversation about heat pump output on the coldest weeks that we have in Saddleworth.
 
 What we do in Blackburn
 
@@ -5885,7 +5885,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Crewe, in short
+Air conditioning in Crewe at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Crewe and the wider Cheshire East area, covering CW1 and CW2, including Nantwich, Sandbach and Alsager. We're about 50 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -6008,7 +6008,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Northwich, in short
+Air conditioning in Northwich at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Northwich and the wider Cheshire West and Chester area, covering CW8 and CW9, including Winsford, Middlewich and Knutsford. We're about 40 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -6131,7 +6131,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Leigh, in short
+Air conditioning in Leigh at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Leigh and the wider Greater Manchester area, covering WN7, and into Atherton, Tyldesley and Astley. We're about 30 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -6254,7 +6254,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Ashton under Lyne, in short
+Air conditioning in Ashton under Lyne at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Ashton under Lyne and the wider Tameside, Greater Manchester area, covering OL6 and OL7, including Droylsden, Stalybridge and Hyde. We're about 25 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -6377,7 +6377,7 @@ See prices
 
 0% VAT on domestic work
 
-Air conditioning in Lancaster, in short
+Air conditioning in Lancaster at a glance
 
 CoolIn installs, services and repairs air conditioning throughout Lancaster and the wider Lancashire area, covering LA1, and into Morecambe, Heysham and Carnforth. We're about 75 minutes away, which is close enough to attend a breakdown in the same week rather than the same month.
 
@@ -6417,7 +6417,7 @@ Coastal exposure at Morecambe
 
 Same salt corrosion issue as Southport. Within about a mile of open water we specify coated coil units as standard rather than as an upgrade.
 
-Distance, stated honestly
+How far away we are
 
 At 75 minutes this is beyond our usual hour. Installation is straightforward to programme. Emergency callouts are not, and a service plan is the only thing that makes the response time reliable.
 
@@ -6467,7 +6467,7 @@ Asked most often in Lancaster
 
 Are you too far away to look after a system in Lancaster?
 
-For installation, no. It's a planned visit and 75 minutes each way is easily programmed. For an emergency callout in the middle of a heatwave, it's honestly the weakest part of our offer, and we would rather say that now than after you have paid. Service plan customers get next working day attendance, which we hold to. Without a plan, at that distance, you may wait. If reliable same week response matters more than anything, a Lancaster based installer may serve you better and we'll say so.
+For installation, no. It's a planned visit and 75 minutes each way is easily programmed. For an emergency callout in the middle of a heatwave, it's the weakest part of our offer, and we would rather say that now than after you have paid. Service plan customers get next working day attendance, which we hold to. Without a plan, at that distance, you may wait. If reliable same week response matters more than anything, a Lancaster based installer may serve you better and we'll say so.
 
 Does Morecambe need the coastal specification too?
 
@@ -6605,7 +6605,7 @@ What does air conditioning actually cost to run?
 16 September 2026
 · 3 min read · By Zac Hancox, Founder of CoolIn
 
-Everyone asks this second, right after the installed price. The honest answer is that it costs less than most people expect to cool a room, and considerably less than most people expect to heat one.
+Everyone asks this second, right after the installed price. It costs less than most people expect to cool a room, and considerably less than most people expect to heat one.
 
 Here are the actual figures, with the arithmetic shown so you can put your own tariff in.
 
@@ -6651,7 +6651,7 @@ How well the room holds heat. A solid wall Victorian room loses heat far faster 
 What size unit you have. An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
 Whether it has been serviced. A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you'll ever buy back, and it's why annual servicing pays for itself.
 
-The short version
+So what does it cost?
 
 Cooling costs pennies an hour. Heating one room costs less than any other electric option and usually beats running the whole central heating system to warm the same room.
 
@@ -6720,9 +6720,7 @@ Should you heat with air conditioning instead of the gas boiler?
 8 September 2026
 · 3 min read · By Zac Hancox, Founder of CoolIn
 
-Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That's true, and it's also the part of the sales pitch that gets oversold.
-
-Here's the version with the caveats left in.
+Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That's true, and it's also the part of the sales pitch that gets oversold, so this article puts the caveats back in.
 
 Where it wins clearly
 
@@ -6750,7 +6748,7 @@ Heat rises, so tall rooms are slow. In a vaulted lounge the warm air collects ab
 
 So what should you actually do
 
-For most houses the honest answer isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
+For most houses it isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
 
 That's the combination that works, and it's what we fit most often.
 
@@ -6819,7 +6817,7 @@ Does air conditioning help with damp and humidity?
 11 November 2026
 · 4 min read · By Zac Hancox, Founder of CoolIn
 
-Partly. Air conditioning takes moisture out of the air every time it cools, so on a close, muggy summer day it makes a room feel far fresher, and its dry mode can lower humidity without much cooling. But winter damp, the condensation on the windows and the black mould in the corners, is a different problem, and air conditioning in heat mode doesn't fix it. Here's how to tell which you've got and what actually helps.
+Partly. Air conditioning takes moisture out of the air every time it cools, so on a close, muggy summer day it makes a room feel far fresher, and its dry mode can lower humidity without much cooling. But winter damp, the condensation on the windows and the black mould in the corners, is a different problem, and air conditioning in heat mode doesn't fix it. The two need different fixes, and they're easy to tell apart.
 
 How does air conditioning remove moisture?
 
@@ -6863,7 +6861,7 @@ Can air conditioning itself cause damp or mould?
 
 Only if it isn't looked after. The condensate has to drain away freely, and the filters and coil need keeping clean, or the inside of the unit can get dusty and smell musty. Rinse the filters every few weeks when it's in heavy use and have it serviced once a year , which includes cleaning the coil and checking the drain.
 
-The short version
+Which fix for which problem
 
 Muggy summer rooms: air conditioning helps a lot, and dry mode helps when it's warm and wet rather than hot.
 Winter condensation and mould: ventilation, steady heating and a dehumidifier, not air conditioning on its own.
@@ -6911,7 +6909,7 @@ Read it
 Installation
 Is winter a good time to install air conditioning?
 
-Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus a VAT deadline at the end of March.
 
 20 September 2026
 · 3 min read
@@ -6934,7 +6932,7 @@ How to heat your home with air conditioning this winter
 11 November 2026
 · 4 min read · By Zac Hancox, Founder of CoolIn
 
-If you've got air conditioning fitted, you've also got a heater, and this winter it's one of the cheapest ways to warm a room. A wall mounted unit in heat mode works as an air to air heat pump: it moves warmth from the air outside into the room, even on a cold day. Plenty of people only ever press the snowflake. Here's how to get the most from the other half of what you paid for.
+If you've got air conditioning fitted, you've also got a heater, and this winter it's one of the cheapest ways to warm a room. A wall mounted unit in heat mode works as an air to air heat pump: it moves warmth from the air outside into the room, even on a cold day. Plenty of people only ever press the snowflake, which leaves half of what they paid for unused.
 
 Does air conditioning really heat a room?
 
@@ -6949,7 +6947,7 @@ Per unit of heat, at this winter's prices, yes. At the Ofgem price cap for Octob
 | Gas boiler, 88% efficient | About 9.1p
 | Plug in electric heater | 26.3p
 
-Two honest caveats. Efficiency falls on the coldest days, so in a hard frost the gap narrows and a boiler can come out ahead. And the price cap changes on 1 January, so the figures will move; the running costs article shows the working so you can put your own tariff in.
+Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move; the running costs article shows the working so you can put your own tariff in.
 
 The real saving usually comes from heating only the rooms you're using. The comparison with a gas boiler goes through where each one wins.
 
@@ -7142,7 +7140,7 @@ Read it
 Installation
 Is winter a good time to install air conditioning?
 
-Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus a VAT deadline at the end of March.
 
 20 September 2026
 · 3 min read
@@ -7153,7 +7151,7 @@ Read it
 ================================================================================
 URL: https://cool-in.co.uk/blog/why-should-you-install-air-conditioning-in-manchester-during-winter
 TITLE: Installing air conditioning in winter
-DESCRIPTION: Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+DESCRIPTION: Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus a VAT deadline at the end of March.
 ================================================================================
 
 CoolIn / Blog / Is winter a good time to install air conditioning?
@@ -9241,7 +9239,7 @@ From drawings priced with the builder’s work listed
 Your programme first fix to handover
 Out of hours at standard labour rates
 
-In short
+At a glance
 
 Who we work with
 
@@ -9255,7 +9253,7 @@ FAQs
 
 Send a tender
 
-HVAC packages for contractors, in short
+HVAC packages for contractors at a glance
 
 CoolIn takes on the air conditioning and ventilation package, including heat pump heating, on commercial fit-outs, refurbishments and new builds across Manchester and the North West. We work for fit-out contractors, main contractors, M&E contractors and facilities management companies, from a single meeting room to VRF across several floors.
 

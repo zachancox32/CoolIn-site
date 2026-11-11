@@ -6,9 +6,7 @@ date: 2026-09-08
 category: Heating
 author: zac-hancox
 ---
-Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That's true, and it's also the part of the sales pitch that gets oversold.
-
-Here's the version with the caveats left in.
+Air conditioning heats as well as it cools, and for a lot of the year it heats more cheaply than a gas boiler. That's true, and it's also the part of the sales pitch that gets oversold, so this article puts the caveats back in.
 
 ## Where it wins clearly
 
@@ -36,7 +34,7 @@ Here's the version with the caveats left in.
 
 ## So what should you actually do
 
-For most houses the honest answer isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
+For most houses it isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
 
 That's the combination that works, and it's what we fit most often.
 

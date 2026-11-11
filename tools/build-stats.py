@@ -899,7 +899,7 @@ def write_csv():
 if __name__ == '__main__':
     write_csv()
     out = page()
-    for bad in ('–', '—'):
+    for bad in ('\u2013', '\u2014'):
         if bad in out:
             sys.exit(f'  build-stats: the page contains a {"en" if bad == chr(0x2013) else "em"} dash, which the house style doesn\'t use')
     open(f'{SLUG}.html', 'w', encoding='utf-8').write(out)

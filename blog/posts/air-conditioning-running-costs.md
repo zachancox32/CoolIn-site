@@ -7,7 +7,7 @@ category: Running costs
 author: zac-hancox
 ---
 
-Everyone asks this second, right after the installed price. The honest answer is that it costs less than most people expect to cool a room, and considerably less than most people expect to heat one.
+Everyone asks this second, right after the installed price. It costs less than most people expect to cool a room, and considerably less than most people expect to heat one.
 
 Here are the actual figures, with the arithmetic shown so you can put your own tariff in.
 
@@ -54,7 +54,7 @@ There's a fuller treatment in [air conditioning against a gas boiler](/blog/air-
 - **What size unit you have.** An undersized system runs flat out and never gets there, which costs more than a correctly sized one that cycles.
 - **Whether it has been serviced.** A blocked filter and a dirty coil can add up to a quarter to the running cost. This is the cheapest efficiency you'll ever buy back, and it's why [annual servicing](/servicing) pays for itself.
 
-## The short version
+## So what does it cost?
 
 Cooling costs pennies an hour. Heating one room costs less than any other electric option and usually beats running the whole central heating system to warm the same room.
 

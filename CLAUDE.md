@@ -24,6 +24,13 @@ commit, but don't push or deploy unless asked.
 - Body copy uses natural contractions (it's, don't, you're, can't). Headings, page
   titles, meta descriptions, FAQ questions and legal pages stay uncontracted. Never
   contract at the end of a clause.
+- Write like a person, not a machine. Before committing any copy, run
+  `python3 tools/check-copy.py` and rewrite every hit. It flags announcing your own
+  honesty ("two honest caveats", "the honest answer"), set ups ("here's how", "here's
+  why"), labels instead of answers ("the short version", "in short", "one catch"),
+  "it's not just X, it's Y", filler ("it's worth noting", "ultimately") and words that
+  generated text overuses (delve, seamless, robust, journey, ensure, enhance). Fix by
+  rewriting the sentence, not swapping a synonym. Dashes fail the Netlify build.
 - Plain language for homeowners: "fitted" or "wall mounted" air conditioning, not
   "split system" (explain the trade term once if needed).
 - Don't name competitors on the site.

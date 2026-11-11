@@ -6,7 +6,7 @@ date: 2026-11-11
 category: Running costs
 author: zac-hancox
 ---
-If you've got air conditioning fitted, you've also got a heater, and this winter it's one of the cheapest ways to warm a room. A wall mounted unit in heat mode works as an air to air heat pump: it moves warmth from the air outside into the room, even on a cold day. Plenty of people only ever press the snowflake. Here's how to get the most from the other half of what you paid for.
+If you've got air conditioning fitted, you've also got a heater, and this winter it's one of the cheapest ways to warm a room. A wall mounted unit in heat mode works as an air to air heat pump: it moves warmth from the air outside into the room, even on a cold day. Plenty of people only ever press the snowflake, which leaves half of what they paid for unused.
 
 ## Does air conditioning really heat a room?
 
@@ -22,7 +22,7 @@ Per unit of heat, at this winter's prices, yes. At the Ofgem price cap for Octob
 | Gas boiler, 88% efficient | About 9.1p |
 | Plug in electric heater | 26.3p |
 
-Two honest caveats. Efficiency falls on the coldest days, so in a hard frost the gap narrows and a boiler can come out ahead. And the price cap changes on 1 January, so the figures will move; the [running costs article](/blog/air-conditioning-running-costs) shows the working so you can put your own tariff in.
+Efficiency falls on the coldest days, though, so in a hard frost the gap narrows and a boiler can come out ahead. The price cap also changes on 1 January, so the figures will move; the [running costs article](/blog/air-conditioning-running-costs) shows the working so you can put your own tariff in.
 
 The real saving usually comes from heating only the rooms you're using. The [comparison with a gas boiler](/blog/air-conditioning-vs-gas-boiler-heating) goes through where each one wins.
 

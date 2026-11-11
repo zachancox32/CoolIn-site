@@ -143,7 +143,7 @@ def build(t, neighbours):
   <div class="wrap">
     <div class="kf">
       <div class="kf__lead">
-        <h2 id="kf-title">Air conditioning in {town}, in short</h2>
+        <h2 id="kf-title">Air conditioning in {town} at a glance</h2>
         <p>CoolIn installs, services and repairs air conditioning throughout {town} and the wider {county} area, covering {t['postcodes']}. We're about {t['drive']} away, which is close enough to attend a breakdown in the same week rather than the same month.</p>
       </div>
       <dl class="kf__grid">

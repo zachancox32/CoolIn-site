@@ -1,7 +1,7 @@
 ---
 title: Is winter a good time to install air conditioning?
 seo_title: Installing air conditioning in winter
-description: Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
+description: Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus a VAT deadline at the end of March.
 date: 2026-09-20
 updated: 2026-10-04
 category: Installation

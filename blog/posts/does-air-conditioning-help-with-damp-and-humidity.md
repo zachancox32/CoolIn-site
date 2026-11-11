@@ -6,7 +6,7 @@ date: 2026-11-11
 category: Home comfort
 author: zac-hancox
 ---
-Partly. Air conditioning takes moisture out of the air every time it cools, so on a close, muggy summer day it makes a room feel far fresher, and its dry mode can lower humidity without much cooling. But winter damp, the condensation on the windows and the black mould in the corners, is a different problem, and air conditioning in heat mode doesn't fix it. Here's how to tell which you've got and what actually helps.
+Partly. Air conditioning takes moisture out of the air every time it cools, so on a close, muggy summer day it makes a room feel far fresher, and its dry mode can lower humidity without much cooling. But winter damp, the condensation on the windows and the black mould in the corners, is a different problem, and air conditioning in heat mode doesn't fix it. The two need different fixes, and they're easy to tell apart.
 
 ## How does air conditioning remove moisture?
 
@@ -51,7 +51,7 @@ They do different jobs. Air conditioning is the answer for summer comfort and ch
 
 Only if it isn't looked after. The condensate has to drain away freely, and the filters and coil need keeping clean, or the inside of the unit can get dusty and smell musty. Rinse the filters every few weeks when it's in heavy use and have it [serviced once a year](/servicing), which includes cleaning the coil and checking the drain.
 
-## The short version
+## Which fix for which problem
 
 - **Muggy summer rooms:** air conditioning helps a lot, and dry mode helps when it's warm and wet rather than hot.
 - **Winter condensation and mould:** ventilation, steady heating and a dehumidifier, not air conditioning on its own.
