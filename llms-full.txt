@@ -492,7 +492,7 @@ Sizes
 3.5kW upwards, often serving two or three rooms from one unit
 
 Worth knowing
-Far easier during building work than afterwards. It can also be paired with a fresh air supply , which wall units can't do.
+Far easier during building work than afterwards. It can also be paired with a fresh air supply , which wall units can't do. The guide to ducted air conditioning explains zoning and the space it needs.
 
 Get a price for this
 
@@ -871,6 +871,7 @@ Can you fit air conditioning in a flat or apartment?
 Can you put air conditioning in a loft conversion?
 How much does air conditioning cost in Manchester?
 Portable air conditioner or fitted air conditioning: which is better?
+What is ducted air conditioning, and is it worth it for a home?
 Which air conditioning brand is best? 10 brands compared
 
 Common questions
@@ -3371,7 +3372,7 @@ HEPA where it's genuinely needed
 
 Ventilation in short
 
-Ventilation and air conditioning solve different problems. Air conditioning changes the temperature of air already inside the building. Ventilation replaces that air with fresh air from outside. A room can be perfectly cool and still feel stale, because carbon dioxide, humidity and smells build up regardless of temperature.
+Ventilation and air conditioning solve different problems. Air conditioning changes the temperature of air already inside the building. Ventilation replaces that air with fresh air from outside. A room can be perfectly cool and still feel stale, because carbon dioxide, humidity and smells build up regardless of temperature. The article on air conditioning, damp and humidity explains where each one helps.
 
 Air conditioning does
 Recirculate, cool, heat, dehumidify slightly, filter dust
@@ -6556,6 +6557,16 @@ All articles
 
 Keep reading
 
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Running costs
 How to heat your home with air conditioning this winter
 
@@ -6573,16 +6584,6 @@ Yes, once an office gets warm. Office work peaks at around 22°C and falls away 
 
 21 September 2026
 · 4 min read
-
-Read it
-
-Installation
-Is winter a good time to install air conditioning?
-
-Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
-
-20 September 2026
-· 3 min read
 
 Read it
 
@@ -6681,6 +6682,16 @@ Your air conditioner heats as well as cools, and this winter it's cheaper per un
 
 Read it
 
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6688,16 +6699,6 @@ Yes, once an office gets warm. Office work peaks at around 22°C and falls away 
 
 21 September 2026
 · 4 min read
-
-Read it
-
-Installation
-Is winter a good time to install air conditioning?
-
-Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
-
-20 September 2026
-· 3 min read
 
 Read it
 
@@ -6752,6 +6753,121 @@ For most houses the honest answer isn't either/or. Keep the boiler. Put air cond
 That's the combination that works, and it's what we fit most often.
 
 If you want to see the numbers for your own room and your own tariff, the gas boiler comparison does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Thinking about it for your own place?
+
+Free survey, a written price within 48 hours, and no sales visit. Tell us the rooms and we will do the rest.
+
+Book a free survey
+or call 07391 523255
+
+All articles
+
+Keep reading
+
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
+Running costs
+How to heat your home with air conditioning this winter
+
+Your air conditioner heats as well as cools, and this winter it's cheaper per unit of heat than gas. The settings that keep it efficient, defrosting, and what it costs.
+
+11 November 2026
+· 4 min read
+
+Read it
+
+Commercial
+Does air conditioning make an office more productive?
+
+Yes, once an office gets warm. Office work peaks at around 22°C and falls away above 24°C. What overheats an office, what fixes it, and what it costs.
+
+21 September 2026
+· 4 min read
+
+Read it
+
+
+================================================================================
+URL: https://cool-in.co.uk/blog/does-air-conditioning-help-with-damp-and-humidity
+TITLE: Does air conditioning help with damp?
+DESCRIPTION: Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+================================================================================
+
+CoolIn / Blog / Does air conditioning help with damp and humidity?
+
+Home comfort
+
+Does air conditioning help with damp and humidity?
+
+11 November 2026
+· 4 min read · By Zac Hancox, Founder of CoolIn
+
+Partly. Air conditioning takes moisture out of the air every time it cools, so on a close, muggy summer day it makes a room feel far fresher, and its dry mode can lower humidity without much cooling. But winter damp, the condensation on the windows and the black mould in the corners, is a different problem, and air conditioning in heat mode doesn't fix it. Here's how to tell which you've got and what actually helps.
+
+How does air conditioning remove moisture?
+
+When warm, humid air passes over the cold coil inside the indoor unit, the moisture in it condenses into water, the same way a cold drink gets wet on the outside. That water drips into a tray and runs away through the condensate pipe to the outside. On a humid day a single unit can take out a surprising amount of water.
+
+Drier air feels cooler and fresher at the same temperature, which is why a room with air conditioning feels so much better on a muggy Manchester afternoon than one with a fan.
+
+What is dry mode?
+
+Most remotes have a dry mode , usually shown as a water droplet. It runs the unit gently, with the fan on low, so it keeps taking moisture out of the air while doing as little cooling as possible. It's useful on warm, wet days in spring and autumn, when the room feels clammy but you don't want it cold.
+
+Does air conditioning help with damp in winter?
+
+Not much, and it's worth being straight about why. Moisture only comes out of the air when it passes over a cold coil. In heat mode the indoor coil is warm, so it doesn't take moisture out. Dry mode cools the room slightly, which is the last thing you want in January.
+
+Winter damp in most homes is condensation . Cooking, showers, drying washing and simply breathing put a lot of water into the air, and it settles wherever it meets a cold surface: windows, outside walls, the corners behind wardrobes. Left alone, that's where mould grows.
+
+The things that actually fix condensation are:
+
+Ventilation , to get the moist air out at the source. Extractor fans in the kitchen and bathroom that are used properly, or a continuous system such as heat recovery ventilation , which swaps stale moist air for fresh air while keeping most of the heat.
+Steady heating , so walls and windows aren't left cold enough for water to settle on them. Air conditioning in heat mode helps here, because it warms the room cheaply and evenly.
+A dehumidifier where washing gets dried indoors, because that's one of the biggest sources of moisture in winter.
+
+What about damp that isn't condensation?
+
+If the damp is in one spot that doesn't move, a tide mark low on a wall, a patch under a window that's wet even in summer, or staining after rain, it's probably water getting in: rising damp, a leaking gutter, failed pointing or a roof problem. No air conditioner or dehumidifier will fix that. It needs a builder or a surveyor to find where the water's coming from.
+
+Air conditioning or a dehumidifier?
+
+| | | Air conditioning | Dehumidifier
+| Removes moisture in summer | Yes, while cooling | Yes
+| Removes moisture in winter | No, not in heat mode | Yes
+| Cools the room | Yes | No, it adds a little heat
+| Heats the room | Yes, cheaply | No
+| Where the water goes | Piped outside | A tank you empty, or a hose
+| Moves between rooms | No | Yes
+
+They do different jobs. Air conditioning is the answer for summer comfort and cheap heating, and it happens to dry the air while it cools. A dehumidifier is the answer for drying washing and winter damp in one room.
+
+Can air conditioning itself cause damp or mould?
+
+Only if it isn't looked after. The condensate has to drain away freely, and the filters and coil need keeping clean, or the inside of the unit can get dusty and smell musty. Rinse the filters every few weeks when it's in heavy use and have it serviced once a year , which includes cleaning the coil and checking the drain.
+
+The short version
+
+Muggy summer rooms: air conditioning helps a lot, and dry mode helps when it's warm and wet rather than hot.
+Winter condensation and mould: ventilation, steady heating and a dehumidifier, not air conditioning on its own.
+Damp in one fixed spot: find the leak first.
+
+If your home gets close and stuffy in summer and cold in winter, a fitted system handles both. The ventilation page covers fresh air and condensation, and the article on heating with air conditioning covers the winter side.
 
 Zac Hancox
 
@@ -6903,6 +7019,16 @@ Real running costs for UK air conditioning, in pence per hour, with the sums sho
 
 Read it
 
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Commercial
 Does air conditioning make an office more productive?
 
@@ -6910,16 +7036,6 @@ Yes, once an office gets warm. Office work peaks at around 22°C and falls away 
 
 21 September 2026
 · 4 min read
-
-Read it
-
-Installation
-Is winter a good time to install air conditioning?
-
-Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
-
-20 September 2026
-· 3 min read
 
 Read it
 
@@ -7001,6 +7117,16 @@ All articles
 
 Keep reading
 
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Running costs
 How to heat your home with air conditioning this winter
 
@@ -7017,16 +7143,6 @@ Is winter a good time to install air conditioning?
 Yes. You avoid the summer rush, choose the day, and the unit heats the room until summer arrives. Plus the VAT deadline that makes this winter worth noting.
 
 20 September 2026
-· 3 min read
-
-Read it
-
-Running costs
-What does air conditioning actually cost to run?
-
-Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
-
-16 September 2026
 · 3 min read
 
 Read it
@@ -7102,6 +7218,16 @@ All articles
 
 Keep reading
 
+Home comfort
+Does air conditioning help with damp and humidity?
+
+Air conditioning takes moisture out of the air as it cools, so it helps on muggy summer days. Winter condensation and mould need a different fix. Here's which is which.
+
+11 November 2026
+· 4 min read
+
+Read it
+
 Running costs
 How to heat your home with air conditioning this winter
 
@@ -7119,16 +7245,6 @@ Yes, once an office gets warm. Office work peaks at around 22°C and falls away 
 
 21 September 2026
 · 4 min read
-
-Read it
-
-Running costs
-What does air conditioning actually cost to run?
-
-Real running costs for UK air conditioning, in pence per hour, with the sums shown. Cooling a bedroom, heating a room, and how it compares to a fan heater.
-
-16 September 2026
-· 3 min read
 
 Read it
 
@@ -8291,6 +8407,153 @@ Some do, but parts and support are where budget brands tend to fall short. If a 
 Can I choose which brand is fitted?
 
 Yes. Tell us at survey if you have a preference and we'll quote for it. If you have no preference, we recommend a unit for the room, and the quote names the exact make and model so you know what you're getting.
+
+Zac Hancox
+
+Founder of CoolIn
+
+CoolIn fits, services and repairs air conditioning for homes and businesses across Greater Manchester, Cheshire, Merseyside and Lancashire. Everything written here is what we would tell you on the phone.
+
+Want it answered for your own place?
+
+A free survey settles it: where the units can go, what size, and a fixed written price within 48 hours.
+
+Book a free survey
+See home air conditioning
+
+All guides
+
+More questions answered
+
+Home air conditioning
+Can I install air conditioning in a terraced house?
+
+Yes. Most terraced houses can have air conditioning, and in England it's usually permitted development, so there's no planning application. The.
+
+Read the answer
+
+Home air conditioning
+Can you fit air conditioning in a flat or apartment?
+
+Usually, yes. Most flats and apartments can have air conditioning, but the lease decides it more often than planning does. The outdoor unit normally.
+
+Read the answer
+
+Home air conditioning
+Can you put air conditioning in a loft conversion?
+
+Yes, and a loft conversion is often the room that needs it most. A wall mounted unit or a low level console goes in the room, and the outdoor unit.
+
+Read the answer
+
+
+================================================================================
+URL: https://cool-in.co.uk/guides/ducted-air-conditioning
+TITLE: Ducted air conditioning for homes
+DESCRIPTION: What ducted air conditioning is, how zoning lets each room set its own temperature, what space it needs, the pros and cons against wall units, and what it costs.
+================================================================================
+
+CoolIn / Guides / What is ducted air conditioning, and is it worth it for a home?
+
+Home air conditioning
+
+What is ducted air conditioning, and is it worth it for a home?
+
+Reviewed November 2026 by Zac Hancox, Founder of CoolIn
+
+The short answer
+
+Ducted air conditioning hides the indoor unit in a loft, ceiling void or bulkhead and sends cool or warm air to each room through ducts, so all you see is a slim grille. Add zoning and every room sets its own temperature. It costs more than wall units and suits a renovation or new build best, from £3,500 fitted for two rooms.
+
+Nothing on the walls, just a slim grille in the ceiling of each room
+
+One hidden unit can serve two or three rooms, and larger homes use more than one
+
+Zoning gives each room its own thermostat, using motorised dampers in the ducts
+
+It needs a loft, ceiling void or bulkhead deep enough for the unit
+
+Easiest during building work; retrofitting into finished ceilings is more disruptive
+
+From £3,500 fitted for two rooms, with no VAT to add until 31 March 2027
+
+Ducted air conditioning is the option for people who want cooling and heating in every room without a single unit on the walls. It's the hardest kind to retrofit and the easiest to live with, which is why it's most popular in new builds, big renovations and period homes where a wall unit would look wrong.
+
+How does ducted air conditioning work?
+
+The indoor unit sits out of sight, usually in the loft, a ceiling void or a boxed in bulkhead. It draws air from the house through a return grille, cools or heats it, and pushes it through insulated ducts to a slim grille in the ceiling of each room. The outdoor unit sits outside, as with any fitted system, joined to the indoor unit by two copper pipes.
+
+All you see in each room is a narrow slot or a square grille, plus a controller on the wall.
+
+What is zoning?
+
+Zoning lets each room set its own temperature from one ducted unit. Motorised dampers in the ducts open and close to send more or less air to each room, and each room gets its own thermostat. A bedroom can sit at 19°C while the study runs at 22°C.
+
+Without zoning, every room on the same unit shares one setting, which is fine for open plan spaces but frustrating for bedrooms. For a whole house, zoning is usually worth it.
+
+Ducted, wall units or a multi split?
+
+| | | Ducted | Wall units | Multi split
+| What you see | A grille in the ceiling | A unit high on the wall | A unit on the wall in each room
+| Each room its own temperature | With zoning | Yes | Yes
+| Disruption to fit | Highest, ceilings opened | Low | Low
+| Best time to fit | Renovation or new build | Any time | Any time
+| Fresh air option | Can be paired with ventilation | No | No
+| Guide price | From £3,500 for two rooms | From £1,650 for one room | From £3,450 for two to five rooms
+
+If you're not renovating, a multi split with a wall unit in each room usually gives the same room by room control for less money and almost no disruption.
+
+What does a ducted system need?
+
+Somewhere to hide the unit. A loft above the rooms is easiest. A ceiling void or a bulkhead works too, if it's deep enough for the unit, the ducts and the drain.
+A route for the ducts to each room, through the loft or between joists.
+A drain for the condensate, run to the outside or into a waste pipe, with a small pump where gravity won't work.
+Access for servicing. The filters need cleaning, usually from behind the return grille, and the unit needs an access hatch.
+
+We check all four at the survey and show you where the grilles would go.
+
+Is it worth it?
+
+It's worth it if:
+
+you're renovating, extending or building, so the ceilings are open anyway
+you want nothing on the walls, for looks or because the house is a period property
+you want to cool or heat several rooms evenly, with zoning
+you'd like to add fresh air later, through a heat recovery system
+
+It's usually not the best choice if the rooms are finished and you don't want ceilings opening up, or if you only need one or two rooms done. Wall units are cheaper, quicker and just as efficient there.
+
+Does ducted air conditioning heat the house too?
+
+Yes. Like any fitted system, it works as an air to air heat pump, giving several units of heat for each unit of electricity. Because the grilles are in the ceiling and warm air rises, it heats best with the airflow set low and the fan on a steady speed. The guide to heating with air conditioning covers the settings.
+
+What does ducted air conditioning cost?
+
+A ducted system serving two rooms starts at £3,500 fitted , with no VAT to add on home installations until 31 March 2027. Whole house systems, zoning and fresh air are priced at the survey, because the layout of the loft and the number of rooms make the biggest difference. The price guide has every system side by side.
+
+Ducted systems fit naturally into a loft conversion , where the unit can hide in the eaves, and into the large period homes of Altrincham, Wilmslow and south Manchester, where nothing should show on the walls.
+
+Questions people ask next
+
+Can each room have its own temperature with ducted air conditioning?
+
+Yes, with a zoning system. Motorised dampers in the ducts open and close to send more or less air to each room, and each room gets its own thermostat. Without zoning, every room the unit serves shares one setting.
+
+How much space does a ducted unit need?
+
+Slim ducted units are designed for ceiling voids and are only a few hundred millimetres deep, but they also need room for the ducts, the drain and access for servicing. A loft above the rooms is the easiest place. We measure the void at the survey.
+
+Is ducted air conditioning noisy?
+
+It's usually quieter in the room than a wall unit, because the fan sits away from the room in the void and the air comes in through a grille. The ductwork has to be sized properly so the air doesn't whistle at the grilles.
+
+Can ducted air conditioning heat my home?
+
+Yes. It works as an air to air heat pump, the same as a wall unit. Ceiling grilles put warm air in high up, so it heats best with the airflow set low and the fan on a steady speed.
+
+Can ducted air conditioning bring in fresh air?
+
+It can be paired with a fresh air supply, such as a heat recovery ventilation system, which wall units can't do. That suits new builds and airtight homes where stale air is part of the problem.
 
 Zac Hancox
 
