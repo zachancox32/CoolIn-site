@@ -29,7 +29,10 @@ UTILITY = shell('UTILITY')
 HEADER  = (shell('HEADER')
            .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
            .replace(' class="is-current" aria-current="page"', '')
-           .replace('<a href="blog">', '<a href="blog" class="is-current" aria-current="page">'))
+           .replace('<a href="blog">', '<a href="blog" class="is-current" aria-current="page">')
+           # articles have no enquiry form of their own, so the header button
+           # goes to the one on the contact page
+           .replace('href="#quote">Free survey', 'href="/contact#quote">Free survey'))
 FOOTER  = shell('FOOTER') + '\n</body>\n</html>\n'
 
 MONTHS = ['January','February','March','April','May','June','July','August',
@@ -291,6 +294,7 @@ def build_index(posts):
                'Straight answers on air conditioning: running costs, planning permission, heating with a heat pump, and what the equipment actually does.',
                f'{BASE}/blog', jsonld)
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + quote + '\n</main>\n\n' + FOOTER
+    out = out.replace('href="/contact#quote">Free survey', 'href="#quote">Free survey')  # this page has its own form
     open('blog.html', 'w').write(out)
 
 # Guarded so build-guides.py can import head, rootify and author_block from

@@ -43,7 +43,8 @@ BASE, CRYSTAL, head, rootify, author_block = blog.BASE, blog.CRYSTAL, blog.head,
 UTILITY, FOOTER = blog.UTILITY, blog.FOOTER
 HEADER = (blog.shell('HEADER')
           .replace('<a class="logo" href="#top"', '<a class="logo" href="/"')
-          .replace(' class="is-current" aria-current="page"', ''))
+          .replace(' class="is-current" aria-current="page"', '')
+          .replace('href="#quote">Free survey', 'href="/contact#quote">Free survey'))
 
 SRC = 'guides/source'
 SERVICES = {                      # CMS value -> (page, how the page is named)
@@ -264,6 +265,7 @@ def build_hub(guides):
                f'{BASE}/guides', jsonld)
     out = out.replace('<meta property="og:type" content="article">', '<meta property="og:type" content="website">')
     out += UTILITY + HEADER + '\n<main id="main">\n\n' + body + QUOTE + '\n</main>\n\n' + FOOTER
+    out = out.replace('href="/contact#quote">Free survey', 'href="#quote">Free survey')  # this page has its own form
     open('guides.html', 'w', encoding='utf-8').write(out)
 
 

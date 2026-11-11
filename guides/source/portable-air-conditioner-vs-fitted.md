@@ -119,7 +119,7 @@ If you're ready to move on from the portable, [get a price for fitted air condit
 ## Where these figures come from
 
 - **Electricity price:** 26.32p per kWh, the [Ofgem energy price cap](https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges) for October to December 2026, paying by direct debit. Running costs are power drawn multiplied by that rate.
-- **Portable power and noise:** typical 9,000 BTU portables draw about 0.9 to 1kW and are rated at roughly 47 to 63 dB(A), from manufacturer specifications such as the [De'Longhi Pinguino PAC EM93K](https://www.airconcentre.co.uk/products/delonghi-pinguino-pac-em93k-silent-portable-air-conditioner-0151457006) and [PAC N82 Eco](https://aircareappliances.co.uk/products/delonghi-pinguino-pac-n82-eco-9000-btu-portable-air-conditioner). Check the label on your own unit.
+- **Portable power and noise:** typical 9,000 BTU portables draw about 0.9 to 1kW and are rated at roughly 47 to 63 dB(A), from manufacturer specifications such as the [De'Longhi Pinguino PAC EM93K](https://www.airconcentre.co.uk/products/delonghi-pinguino-pac-em93k-silent-portable-air-conditioner-0151457006). Check the label on your own unit.
 - **Fitted power and noise:** about 0.3kW holding a room and 0.65kW bringing it down for a 2.5kW wall unit, and quiet indoor units from around 19 dB(A) on their lowest setting, from current manufacturer ranges. The [running costs article](/blog/air-conditioning-running-costs) shows the working.
 - **How many homes have air conditioning, and running costs over time:** the [UK air conditioning statistics](/air-conditioning-statistics-2027) page, updated each time the price cap changes.
 

@@ -72,6 +72,11 @@ file; submission happens in `netlify/functions/deploy-succeeded.js` after a live
 - Analytics: GA4 G-4MGYWZ7WMD in `assets/js/analytics.js`, loaded only after cookie
   consent. Leads are counted as `generate_lead` when /thanks loads after a real submit.
 
+When you add a page, link to it from two or three existing pages where it genuinely
+fits (not just from a hub), then run `python3 tools/audit-site.py` (add `--external` to
+test outside links too). It fails on broken links, anchors or missing files and reports
+weakly linked pages and click depth; the Netlify build runs it too.
+
 Run the whole build locally before committing a content change:
 
 ```
