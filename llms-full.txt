@@ -392,7 +392,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/domestic
 TITLE: Home Air Conditioning Manchester | 0% VAT
-DESCRIPTION: Home air conditioning in Manchester and the North West from £1,650 fitted with no VAT. Sizing guide, fitted prices, running costs and how it compares to heating with a gas boiler.
+DESCRIPTION: Home air conditioning in Manchester and the North West from £1,650 fitted with no VAT. Sizing, fitted prices, running costs and gas boiler comparison.
 ================================================================================
 
 CoolIn / For your home
@@ -2866,7 +2866,7 @@ Free survey
 ================================================================================
 URL: https://cool-in.co.uk/servicing
 TITLE: Air Conditioning Servicing Manchester & North West
-DESCRIPTION: Air conditioning servicing in Manchester and the North West from £89 per unit a year. Annual servicing keeps your manufacturer warranty valid. All makes, F-Gas checks included.
+DESCRIPTION: Air conditioning servicing in Manchester and the North West from £89 per unit a year. Keeps your manufacturer warranty valid. All makes, F-Gas checks included.
 ================================================================================
 
 CoolIn / Servicing and maintenance
@@ -3076,7 +3076,7 @@ No charge on service plans
 
 What goes wrong
 
-Six faults that account for most of our callouts
+Six faults behind most air conditioning breakdowns
 
 We attend breakdowns across the North West . Two of these you can check yourself in five minutes. We would rather tell you that than charge you to come out and press a button on a remote.
 
@@ -3184,7 +3184,7 @@ How much is a callout?
 
 Do you repair systems you did not install?
 
-Yes, and most of our repair work is exactly that. Daikin, Mitsubishi Electric, Panasonic, Toshiba, Samsung, LG, Fujitsu, Hitachi and Midea are all familiar. If a system is beyond economic repair we'll say so and show you the figures rather than replacing parts on something that's going to fail again.
+Yes. Daikin, Mitsubishi Electric, Panasonic, Toshiba, Samsung, LG, Fujitsu, Hitachi and Midea are all familiar. If a system is beyond economic repair we'll say so and show you the figures rather than replacing parts on something that's going to fail again.
 
 The system is 12 years old. Repair or replace?
 
@@ -4012,7 +4012,7 @@ On exposed waterfront and coastal sites, yes. Salt in the air attacks the alumin
 
 Can you work around restaurant opening hours in Liverpool?
 
-Yes, and it's most of our hospitality work. Installations run overnight or between lunch and evening service, the area is sheeted and cleared before you open, and there's no premium on the labour rate for evening or weekend work.
+Yes. Installations run overnight or between lunch and evening service, the area is sheeted and cleared before you open, and there's no premium on the labour rate for evening or weekend work.
 
 Free survey
 
@@ -4567,7 +4567,7 @@ Substantial detached houses with high ceilings, meaning you're cooling volume ra
 
 Glass extensions and orangeries
 
-The most common call we get here. A south facing rear extension with bifolds and a lantern roof gains heat faster than almost any other room in a house, and needs sizing on glazing area rather than floor size.
+A south facing rear extension with bifolds and a lantern roof gains heat faster than almost any other room in a house, and needs sizing on glazing area rather than floor size.
 
 Bowdon conservation area
 
@@ -6751,7 +6751,7 @@ So what should you actually do
 
 For most houses it isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
 
-That's the combination that works, and it's what we fit most often.
+That's the combination that works for most homes.
 
 If you want to see the numbers for your own room and your own tariff, the gas boiler comparison does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.
 
@@ -7968,7 +7968,7 @@ Read the answer
 ================================================================================
 URL: https://cool-in.co.uk/guides/air-conditioning-cost-uk
 TITLE: Air conditioning cost UK (2026 prices)
-DESCRIPTION: How much air conditioning costs in the UK in 2026. Installed prices for one room and whole houses, what's included, VAT, running costs and how to compare quotes.
+DESCRIPTION: What air conditioning costs in the UK in 2026. Installed prices for one room and whole houses, what is included, VAT, running costs and comparing quotes.
 ================================================================================
 
 CoolIn / Guides / How much does air conditioning cost in the UK?

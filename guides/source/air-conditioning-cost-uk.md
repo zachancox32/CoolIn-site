@@ -10,7 +10,7 @@ key_facts:
   - Servicing from £89 per indoor unit per year
 service: domestic
 seo_title: Air conditioning cost UK (2026 prices)
-description: How much air conditioning costs in the UK in 2026. Installed prices for one room and whole houses, what's included, VAT, running costs and how to compare quotes.
+description: What air conditioning costs in the UK in 2026. Installed prices for one room and whole houses, what is included, VAT, running costs and comparing quotes.
 author: zac-hancox
 updated: 2026-11-18
 faqs:

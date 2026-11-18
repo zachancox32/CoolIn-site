@@ -36,6 +36,6 @@ Air conditioning heats as well as it cools, and for a lot of the year it heats m
 
 For most houses it isn't either/or. Keep the boiler. Put air conditioning in the two or three rooms you actually spend time in. Use it for heating from September through to the cold snap and again in spring, use the boiler when it's genuinely freezing, and get cooling in July as the part you didn't have before.
 
-That's the combination that works, and it's what we fit most often.
+That's the combination that works for most homes.
 
 If you want to see the numbers for your own room and your own tariff, the [gas boiler comparison](/domestic#vs-gas) does the sums as you type. And if you would rather have the figures for your actual property, the survey is free.

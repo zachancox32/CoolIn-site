@@ -11,7 +11,7 @@ dict(slug='air-conditioning-altrincham', town='Altrincham', county='Trafford, Gr
  intro='Our closest town, and the one we know best. Large Edwardian villas in Bowdon and Hale, glass extensions that turn into greenhouses by May, and a town centre of independent bars and restaurants that can\'t shut for a fit out.',
  stock='Altrincham splits neatly into three jobs: big period houses, modern rear extensions bolted onto them, and a food and drink scene squeezed into small units.',
  local=[('Bowdon and Hale villas','Substantial detached houses with high ceilings, meaning you\'re cooling volume rather than floor area. Multi split systems running four or five rooms from one condenser keep a single unit on the elevation rather than a row of them.'),
-        ('Glass extensions and orangeries','The most common call we get here. A south facing rear extension with bifolds and a lantern roof gains heat faster than almost any other room in a house, and needs sizing on glazing area rather than floor size.'),
+        ('Glass extensions and orangeries','A south facing rear extension with bifolds and a lantern roof gains heat faster than almost any other room in a house, and needs sizing on glazing area rather than floor size.'),
         ('Bowdon conservation area','Restricts where the outdoor unit can sit: it must not be nearer a bounding highway than the house itself. That usually means a rear or side position, agreed at survey before anything is quoted.'),
         ('Town centre hospitality','Altrincham Market and the bars around it run small kitchens in tight spaces. Extract with matched make up air, fitted overnight, so the doors open as normal the next day.')],
  faqs=[('Do I need permission for air conditioning in the Bowdon conservation area?',

@@ -95,8 +95,6 @@ Google Business Profile CID 14475175223730434639.
 
 - No reviews or real job photos yet; add a reviews strip and real photos when they exist.
 - Case studies are built but hidden until there are real jobs.
-- Some lines imply a track record (Altrincham, Liverpool and Rochdale town pages, repairs
-  page, gas boiler article) and should be reworded as general facts.
 - Parked: glossary page, press page for heatwave PR (before May 2027), a time limited
   offer on the landing page, home servicing and repair prices once VAT registered.
 - Update the statistics page at each Ofgem price cap change (Jan, Apr, Jul, Oct).
