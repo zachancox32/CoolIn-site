@@ -136,6 +136,27 @@ def related(me, all_posts, n=3):
     return (same + rest)[:n]
 
 
+def faq_items(body_html):
+    """Question headings in a post, each with the text under it, so posts that
+    answer questions carry FAQPage markup without the writer doing anything.
+    Needs at least two questions."""
+    def text(x):
+        t = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', x))).strip()
+        return re.sub(r' ([,.;:!?)])', r'\1', t)
+    heads = list(re.finditer(r'<h([2-4])[^>]*>(.*?)</h\1>', body_html, re.S))
+    qa = []
+    for i, m in enumerate(heads):
+        q = text(m.group(2))
+        if not q.endswith('?'):
+            continue
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(body_html)
+        a = text(body_html[m.end():end])
+        if a:
+            qa.append({"@type": "Question", "name": q,
+                       "acceptedAnswer": {"@type": "Answer", "text": a}})
+    return qa if len(qa) >= 2 else []
+
+
 def build_post(path, siblings=()):
     fm, body = frontmatter(open(path).read())
     slug = fm.get('slug') or os.path.basename(path)[:-3]
@@ -153,6 +174,7 @@ def build_post(path, siblings=()):
          "datePublished": date, "dateModified": fm.get('updated', date),
          "author": aschema,
          "publisher": {"@id": f"{BASE}/#business"},
+         "url": url,
          "mainEntityOfPage": {"@type": "WebPage", "@id": url},
          "image": f"{BASE}/assets/img/og-image.png",
          "inLanguage": "en-GB"},
@@ -160,6 +182,9 @@ def build_post(path, siblings=()):
             {"@type": "ListItem", "position": 1, "name": "CoolIn", "item": f"{BASE}/"},
             {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog"},
             {"@type": "ListItem", "position": 3, "name": title, "item": url}]}]}
+    qa = faq_items(render(body))
+    if qa:
+        ld["@graph"].insert(1, {"@type": "FAQPage", "mainEntity": qa})
     jsonld = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=2) + '\n</script>'
 
     me = dict(slug=slug, title=title, category=fm.get('category') or 'Advice')

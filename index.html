@@ -36,6 +36,9 @@
     {
       "@type": "HVACBusiness",
       "@id": "https://cool-in.co.uk/#business",
+      "parentOrganization": {
+        "@id": "https://cool-in.co.uk/#organization"
+      },
       "name": "CoolIn",
       "legalName": "CoolIn Limited",
       "alternateName": "CoolIn Air Conditioning Specialists",
@@ -242,6 +245,63 @@
             }
           }
         ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cool-in.co.uk/#organization",
+      "name": "CoolIn",
+      "legalName": "CoolIn Limited",
+      "alternateName": "CoolIn Air Conditioning Specialists",
+      "url": "https://cool-in.co.uk/",
+      "description": "Air conditioning design, installation, servicing and repair for homes and businesses across the North West of England.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://cool-in.co.uk/#logo",
+        "url": "https://cool-in.co.uk/assets/img/logo-email.png",
+        "contentUrl": "https://cool-in.co.uk/assets/img/logo-email.png",
+        "width": 520,
+        "height": 188,
+        "caption": "CoolIn"
+      },
+      "image": "https://cool-in.co.uk/assets/img/og-image.png",
+      "telephone": "+447391523255",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lloyds House, 18-22 Lloyd Street",
+        "addressLocality": "Manchester",
+        "addressRegion": "Greater Manchester",
+        "postalCode": "M2 5WA",
+        "addressCountry": "GB"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Companies House company number",
+        "value": "17501944"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+447391523255",
+          "areaServed": "GB",
+          "availableLanguage": "en-GB",
+          "url": "https://cool-in.co.uk/contact",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "07:00",
+            "closes": "19:00"
+          }
+        }
+      ],
+      "sameAs": [
+        "https://maps.google.com/?cid=14475175223730434639",
+        "https://www.facebook.com/coolinMCR",
+        "https://www.linkedin.com/company/cool-in/"
+      ],
+      "subOrganization": {
+        "@id": "https://cool-in.co.uk/#business"
       }
     },
     {
