@@ -56,6 +56,6 @@ There's a fuller treatment in [air conditioning against a gas boiler](/blog/air-
 
 ## So what does it cost?
 
-Cooling costs pennies an hour. Heating one room costs less than any other electric option and usually beats running the whole central heating system to warm the same room.
+Cooling costs pennies an hour. Heating one room costs less than any other electric option and usually beats running the whole central heating system to warm the same room. For what it costs to have it fitted in the first place, see [how much air conditioning costs in the UK](/guides/air-conditioning-cost-uk).
 
 If you want the figures for your specific rooms rather than a worked example, the survey is free and we'll put the running costs in the quote.

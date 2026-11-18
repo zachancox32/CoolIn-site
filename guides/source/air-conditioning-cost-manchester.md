@@ -135,7 +135,7 @@ Commercial work is priced per project, because ceiling voids, riser routes and a
 
 National price guides average across the whole country and every type of installer, and they don't all include the same things. Some quote the equipment alone, some leave out the electrical connection or the pipe run, and some show prices before VAT.
 
-To compare quotes fairly, check that each one includes the same unit size and brand, the pipe run length, the electrical connection, commissioning, warranty registration and the VAT position. A cheaper quote that leaves one of those out isn't cheaper.
+To compare quotes fairly, check that each one includes the same unit size and brand, the pipe run length, the electrical connection, commissioning, warranty registration and the VAT position. A cheaper quote that leaves one of those out isn't cheaper. The [UK air conditioning cost guide](/guides/air-conditioning-cost-uk) goes through what each part of a quote covers and why prices differ between installers.
 
 ## How do you get an exact price?
 
