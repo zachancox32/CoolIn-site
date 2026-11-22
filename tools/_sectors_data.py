@@ -43,9 +43,9 @@ SECTORS = [
         ('Servicing', 'From £89 per indoor unit per year, plus VAT')],
  'ch_eyebrow': 'What makes offices difficult',
  'ch_h2': 'Why an office is harder to cool than the floor area suggests',
- 'ch_sub': 'Nearly every office we\'re called back to was sized off a square metre '
-           'rule of thumb. Four things break that rule, and all four are visible '
-           'on a survey if anyone bothers to look.',
+ 'ch_sub': 'Most offices that run too warm were sized off a square metre rule '
+           'of thumb. Four things break that rule, and all four are visible on a '
+           'survey if anyone bothers to look.',
  'challenges': [
    ('The glass side and the cold side',
     'A south or west facing elevation can take a room several degrees above the one '
@@ -83,8 +83,8 @@ SECTORS = [
     'plan. Needs around 300mm of void.'),
    ('Slim ducted',
     'The unit hides in the void and feeds linear grilles, so the ceiling stays '
-    'clean. The usual choice on a designed fit out, or where a landlord or a '
-    'listed frontage won\'t accept visible plant.'),
+    'clean. The usual choice on a designed <a href="guides/office-fit-out-air-conditioning">office '
+    'fit out</a>, or where a landlord or a listed frontage won\'t accept visible plant.'),
    ('VRF and VRV',
     'One outdoor unit serving many indoor ones, with heat recovery moving heat '
     'from the sunny side to the shaded side rather than dumping it outside. Worth '
